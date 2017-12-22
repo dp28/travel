@@ -8,8 +8,21 @@ AllCops:
 Metrics/LineLength:
   Max: 100
 
+Metrics/BlockLength:
+  Exclude:
+    - 'spec/**/*'
+
 Style/Documentation:
   Enabled: false
 
 Style/FrozenStringLiteralComment:
   Enabled: false
+
+Layout/EmptyLinesAroundClassBody:
+  EnforcedStyle: empty_lines
+
+Layout/EmptyLinesAroundModuleBody:
+  EnforcedStyle: empty_lines
+
+Layout/AccessModifierIndentation:
+  EnforcedStyle: outdent
