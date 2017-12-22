@@ -35,6 +35,8 @@ module Travel
       g.factory_bot dir: 'spec/support/factories', suffix: 'factory'
     end
 
+    config.autoload_paths << Rails.root.join('app', 'repositories')
+
   end
 
 end

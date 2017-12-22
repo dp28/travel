@@ -1,14 +1,17 @@
 require 'rails_helper'
 
 RSpec.describe ReleaseRepository do
+  let(:mock_directories_path) do
+    Rails.root.join 'spec/support/mock_data/releases'
+  end
+
   before do
     stub_const(
-      'ReleaseRepository::RELEASE_DIRECTORIES_PATH',
-      Rails.root.join('spec/support/mock_data/releases/*')
+      'ReleaseRepository::ROOT_RELEASE_DIRECTORY_PATH', mock_directories_path
     )
   end
 
-  describe 'search' do
+  describe '#search' do
     it 'should return a result for each release in the releases directory' do
       expect(ReleaseRepository.search.size).to eq 1
     end
@@ -47,6 +50,50 @@ RSpec.describe ReleaseRepository do
       ReleaseRepository.search
       ReleaseRepository.search
       ReleaseRepository.clear_cache
+    end
+  end
+
+  describe '#store' do
+    subject(:store) { ReleaseRepository.store release }
+
+    let(:release) do
+      Release.new(
+        version: '2017-12-20-12-30-35',
+        description: 'A descriptipn',
+        javascript: '/a/link.js',
+        css: '/a/link.css'
+      )
+    end
+
+    let(:release_directory_path) do
+      "#{mock_directories_path}/#{release.version}"
+    end
+
+    before do
+      allow(Dir).to receive(:mkdir)
+      allow(File).to receive(:write)
+    end
+
+    it 'should create a release directory with the version as its name' do
+      expect(Dir).to receive(:mkdir).with(release_directory_path)
+      store
+    end
+
+    it 'should write the description to a description.md file' do
+      expected_file = "#{release_directory_path}/description.md"
+      expect(File).to receive(:write).with(expected_file, release.description)
+      store
+    end
+
+    it 'should write the metadata to a metadata.yml file' do
+      expected_file = "#{release_directory_path}/metadata.yml"
+      expected_content = "---\n" \
+        "version: #{release.version}\n" \
+        "links:\n" \
+        "  javascript: \"#{release.links.javascript}\"\n" \
+        "  css: \"#{release.links.css}\"\n"
+      expect(File).to receive(:write).with(expected_file, expected_content)
+      store
     end
   end
 end
