@@ -63,6 +63,8 @@ GEM
     formatador (0.2.5)
     globalid (0.4.1)
       activesupport (>= 4.2.0)
+    graphiql-rails (1.4.8)
+      rails
     graphql (1.7.7)
     guard (2.14.1)
       formatador (>= 0.2.4)
@@ -238,6 +240,7 @@ DEPENDENCIES
   bootsnap (>= 1.1.0)
   byebug
   factory_bot_rails
+  graphiql-rails
   graphql
   guard
   guard-rspec
