@@ -12,6 +12,9 @@ Rails.application.config.content_security_policy do |p|
 
   # Specify URI for violation reports
   # p.report_uri "/csp-violation-report-endpoint"
+  if Rails.env.development?
+    p.connect_src :self, :https, 'http://localhost:3035', 'ws://localhost:3035'
+  end
 end
 
 # Report CSP violations to a specified URI
