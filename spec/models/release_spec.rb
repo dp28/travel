@@ -3,8 +3,6 @@ require 'rails_helper'
 RSpec.describe Release do
   def build_release(**params)
     params[:description] ||= 'test'
-    params[:javascript] ||= 'test'
-    params[:css] ||= 'test'
     Release.new(params)
   end
 
@@ -51,15 +49,18 @@ RSpec.describe Release do
   end
 
   describe 'links' do
+    subject(:links) { build_release(version: version).links }
+    let(:version) { '2017-12-25-00-01-59' }
+
     describe 'javascript' do
-      it 'should be settable from the constructor' do
-        expect(build_release(javascript: 'js').links.javascript).to eq('js')
+      it 'should be generated from the version' do
+        expect(links.javascript).to eq("/releases/#{version}/travel.js")
       end
     end
 
     describe 'css' do
-      it 'should be settable from the constructor' do
-        expect(build_release(css: 'css').links.css).to eq('css')
+      it 'should be generated from the version' do
+        expect(links.css).to eq("/releases/#{version}/travel.css")
       end
     end
   end

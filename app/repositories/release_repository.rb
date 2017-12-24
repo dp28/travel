@@ -2,7 +2,7 @@ class ReleaseRepository
 
   ROOT_RELEASE_DIRECTORY_PATH = Rails.root.join('releases').freeze
   DESCRIPTION_FILE_NAME = 'description.md'.freeze
-  METADATA_FILE_NAME = 'metadata.yml'.freeze
+  VERSION_REGEX = /(\d{4}-\d{2}-\d{2}-\d{2}-\d{2}-\d{2})/
 
   class << self
 
@@ -23,11 +23,11 @@ class ReleaseRepository
   def store(release)
     release_directory_path = create_release_directory release
     save_description release_directory_path, release
-    save_metadata release_directory_path, release
   end
 
   def clear_cache
     @release_cache = {}
+    @release_directories = nil
   end
 
 private
@@ -43,14 +43,9 @@ private
   end
 
   def parse_single_release_directory(release_directory_path)
-    metadata = YAML.load_file join(release_directory_path, METADATA_FILE_NAME)
+    version = VERSION_REGEX.match(release_directory_path)[1]
     description = File.read join(release_directory_path, DESCRIPTION_FILE_NAME)
-    Release.new(
-      version: metadata['version'],
-      description: description,
-      javascript: metadata['links']['javascript'],
-      css: metadata['links']['css']
-    )
+    Release.new version: version, description: description
   end
 
   def release_cache
@@ -70,23 +65,6 @@ private
   def save_description(release_directory_path, release)
     description_file_path = join release_directory_path, DESCRIPTION_FILE_NAME
     File.write description_file_path, release.description
-  end
-
-  def save_metadata(release_directory_path, release)
-    metadata_file_path = join release_directory_path, METADATA_FILE_NAME
-    metadata_hash = map_release_to_metadata_hash release
-    metadata_yaml = YAML.dump metadata_hash
-    File.write metadata_file_path, metadata_yaml
-  end
-
-  def map_release_to_metadata_hash(release)
-    {
-      'version' => release.version,
-      'links' => {
-        'javascript' => release.links.javascript,
-        'css' => release.links.css
-      }
-    }
   end
 
 end

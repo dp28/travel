@@ -18,17 +18,18 @@ RSpec.describe ReleaseRepository do
 
     describe 'each returned Release' do
       subject(:release) { ReleaseRepository.search.first }
+      let(:asset) { '/releases/2017-12-22-11-52-34/travel' }
 
       it 'should have the version defined in the directory name' do
         expect(release.version).to eq '2017-12-22-11-52-34'
       end
 
-      it 'should have the javascript link defined in the metadata file' do
-        expect(release.links.javascript).to eq '/assets/js/something.js'
+      it 'should have the javascript link defined from the version' do
+        expect(release.links.javascript).to eq "#{asset}.js"
       end
 
       it 'should have the css link defined in the metadata file' do
-        expect(release.links.css).to eq '/assets/css/something.css'
+        expect(release.links.css).to eq "#{asset}.css"
       end
 
       it 'should have the content of the description file as its description' do
@@ -38,14 +39,7 @@ RSpec.describe ReleaseRepository do
     end
 
     it 'should be cached' do
-      mock_metadata = {
-        'version' => 'a',
-        'links' => {
-          'javascript' => 'b',
-          'css' => 'c'
-        }
-      }
-      expect(YAML).to receive(:load_file).once.and_return(mock_metadata)
+      expect(File).to receive(:read).once.and_return('A description')
       ReleaseRepository.clear_cache
       ReleaseRepository.search
       ReleaseRepository.search
@@ -57,12 +51,7 @@ RSpec.describe ReleaseRepository do
     subject(:store) { ReleaseRepository.store release }
 
     let(:release) do
-      Release.new(
-        version: '2017-12-20-12-30-35',
-        description: 'A descriptipn',
-        javascript: '/a/link.js',
-        css: '/a/link.css'
-      )
+      Release.new version: '2017-12-20-12-30-35', description: 'A descriptipn'
     end
 
     let(:release_directory_path) do
@@ -82,17 +71,6 @@ RSpec.describe ReleaseRepository do
     it 'should write the description to a description.md file' do
       expected_file = "#{release_directory_path}/description.md"
       expect(File).to receive(:write).with(expected_file, release.description)
-      store
-    end
-
-    it 'should write the metadata to a metadata.yml file' do
-      expected_file = "#{release_directory_path}/metadata.yml"
-      expected_content = "---\n" \
-        "version: #{release.version}\n" \
-        "links:\n" \
-        "  javascript: \"#{release.links.javascript}\"\n" \
-        "  css: \"#{release.links.css}\"\n"
-      expect(File).to receive(:write).with(expected_file, expected_content)
       store
     end
   end
