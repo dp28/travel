@@ -1,6 +1,6 @@
 class ReleaseRepository
 
-  ROOT_RELEASE_DIRECTORY_PATH = Rails.root.join('releases').freeze
+  ROOT_RELEASE_DIRECTORY_PATH = Rails.root.join('public', 'releases').freeze
   DESCRIPTION_FILE_NAME = 'description.md'.freeze
   VERSION_REGEX = /(\d{4}-\d{2}-\d{2}-\d{2}-\d{2}-\d{2})/
 
@@ -58,7 +58,7 @@ private
 
   def create_release_directory(release)
     join(ROOT_RELEASE_DIRECTORY_PATH, release.version).tap do |path|
-      Dir.mkdir(path)
+      Dir.mkdir(path) unless Dir.exist?(path)
     end
   end
 
