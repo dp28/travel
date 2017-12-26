@@ -36,6 +36,7 @@ module Travel
     end
 
     config.autoload_paths << Rails.root.join('app', 'repositories')
+    config.autoload_paths << Rails.root.join('app', 'graph')
 
   end
 
