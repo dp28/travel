@@ -5,7 +5,7 @@ import PropTypes from 'prop-types'
 import './styles.sass'
 
 const Hello = () => (
-  <div>Hello world travel!</div>
+  <div>Check out the <a href="/graphiql">API</a></div>
 )
 
 document.addEventListener('DOMContentLoaded', () => {
