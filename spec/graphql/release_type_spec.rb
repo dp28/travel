@@ -11,6 +11,7 @@ RSpec.describe 'releases', type: :request do
       releases {
         edges {
           node {
+            id
             version
             description
             time
@@ -57,6 +58,20 @@ RSpec.describe 'releases', type: :request do
 
       it 'should have a string representation of the release time' do
         expect(json_release[:time]).to eq(release.time.to_s)
+      end
+
+      describe 'the (decoded) id field' do
+        subject(:decoded_id) do
+          GraphQL::Schema::UniqueWithinType.decode(json_release[:id])
+        end
+
+        it 'should include "Release"' do
+          expect(decoded_id[0]).to eq 'Release'
+        end
+
+        it 'should include the version' do
+          expect(decoded_id[1]).to eq release.version
+        end
       end
     end
   end
