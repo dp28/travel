@@ -15,6 +15,10 @@ RSpec.describe 'releases', type: :request do
             version
             description
             time
+            links {
+              javascript
+              css
+            }
           }
         }
       }
@@ -48,11 +52,11 @@ RSpec.describe 'releases', type: :request do
     describe 'the returned ReleaseType' do
       subject(:json_release) { releases.first }
 
-      it 'should have the same version as the stored release' do
+      it 'should have the same version as the stored Release' do
         expect(json_release[:version]).to eq(release.version)
       end
 
-      it 'should have the same description as the stored release' do
+      it 'should have the same description as the stored Release' do
         expect(json_release[:description]).to eq(release.description)
       end
 
@@ -71,6 +75,19 @@ RSpec.describe 'releases', type: :request do
 
         it 'should include the version' do
           expect(decoded_id[1]).to eq release.version
+        end
+      end
+
+      describe 'the links field' do
+        subject(:json_links) { json_release[:links] }
+        let(:links) { release.links }
+
+        it 'should have the same javascript link as the stored Release' do
+          expect(json_links[:javascript]).to eq(links.javascript)
+        end
+
+        it 'should have the same css link as the stored Release' do
+          expect(json_links[:css]).to eq(links.css)
         end
       end
     end

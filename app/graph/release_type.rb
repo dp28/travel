@@ -1,3 +1,9 @@
+ReleaseLinksType = GraphQL::ObjectType.define do
+  name 'ReleaseLinks'
+  field :javascript, types.String
+  field :css, types.String
+end
+
 ReleaseType = GraphQL::ObjectType.define do
   name 'Release'
   description 'A release of the site'
@@ -14,4 +20,10 @@ ReleaseType = GraphQL::ObjectType.define do
   field :version, types.String
   field :description, types.String
   field :time, types.String
+
+  field :links do
+    type ReleaseLinksType
+
+    resolve ->(release, _, _) { release.links }
+  end
 end
