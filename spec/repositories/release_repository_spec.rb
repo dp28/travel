@@ -13,11 +13,18 @@ RSpec.describe ReleaseRepository do
 
   describe '#search' do
     it 'should return a result for each release in the releases directory' do
-      expect(ReleaseRepository.search.size).to eq 1
+      expect(ReleaseRepository.search.size).to eq 2
+    end
+
+    it 'should be ordered by release time, descending' do
+      releases = ReleaseRepository.search
+      expect(releases.map(&:version)).to eq [
+        '2017-12-26-12-53-35', '2017-12-22-11-52-34'
+      ]
     end
 
     describe 'each returned Release' do
-      subject(:release) { ReleaseRepository.search.first }
+      subject(:release) { ReleaseRepository.search.last }
       let(:asset) { '/releases/2017-12-22-11-52-34/travel' }
 
       it 'should have the version defined in the directory name' do
@@ -39,7 +46,7 @@ RSpec.describe ReleaseRepository do
     end
 
     it 'should be cached' do
-      expect(File).to receive(:read).once.and_return('A description')
+      expect(File).to receive(:read).twice.and_return('A description')
       ReleaseRepository.clear_cache
       ReleaseRepository.search
       ReleaseRepository.search

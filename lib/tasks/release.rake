@@ -41,5 +41,5 @@ def store_release(release)
 end
 
 def load_most_recent_release
-  ReleaseRepository.search.last
+  ReleaseRepository.search.first
 end
