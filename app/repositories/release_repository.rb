@@ -6,7 +6,7 @@ class ReleaseRepository
 
   class << self
 
-    delegate :search, :clear_cache, :store, to: :instance
+    delegate :search, :clear_cache, :store, :find_by_version, to: :instance
 
   private
 
@@ -28,6 +28,10 @@ class ReleaseRepository
   def clear_cache
     @release_cache = {}
     @release_directories = nil
+  end
+
+  def find_by_version(version)
+    search.detect { |release| release.version == version }
   end
 
 private

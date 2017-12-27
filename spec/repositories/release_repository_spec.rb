@@ -81,4 +81,17 @@ RSpec.describe ReleaseRepository do
       store
     end
   end
+
+  describe '#find_by_version' do
+    it 'should return nil if no Release exists with that version' do
+      expect(ReleaseRepository.find_by_version('a')).to be_nil
+    end
+
+    it 'should return a Release with the version if it exists' do
+      version = ReleaseRepository.search.first.version
+      expect(
+        ReleaseRepository.find_by_version(version).version
+      ).to eq version
+    end
+  end
 end
