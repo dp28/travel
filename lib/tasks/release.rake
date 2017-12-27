@@ -18,7 +18,7 @@ namespace :release do
   end
 
   task push: :commit do
-    `git push heroku master && git push origin master`
+    `git push heroku master && git push origin master --follow-tags`
   end
 end
 
