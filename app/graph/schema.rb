@@ -9,6 +9,8 @@ Schema = GraphQL::Schema.define do
     case object
     when Release
       ReleaseType
+    when Post
+      PostType
     else
       raise("Unexpected object: #{obj}")
     end

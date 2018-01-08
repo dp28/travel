@@ -9,4 +9,12 @@ QueryType = GraphQL::ObjectType.define do
       ReleaseRepository.search
     }
   end
+
+  connection :posts, PostType.connection_type do
+    description 'All content of the site so far'
+
+    resolve lambda { |_object, _args, _context|
+      PostRepository.new.search
+    }
+  end
 end
