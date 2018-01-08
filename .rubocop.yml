@@ -3,6 +3,7 @@ AllCops:
   Exclude:
     - 'db/migrate/*'
     - 'db/schema.rb'
+    - 'db/data/**/*'
     - 'node_modules/**/*'
 
 Metrics/LineLength:
