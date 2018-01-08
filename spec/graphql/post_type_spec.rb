@@ -15,6 +15,7 @@ RSpec.describe 'posts', type: :request do
             title
             content
             published_at
+            written_at
           }
         }
       }
@@ -51,8 +52,10 @@ RSpec.describe 'posts', type: :request do
         end
       end
 
-      it 'should have a string representation of the published_at time' do
-        expect(json_post[:published_at]).to eq(db_post.published_at.to_s)
+      %i[published_at written_at].each do |field|
+        it "should have a string representation of the #{field} time" do
+          expect(json_post[field]).to eq(db_post.send(field).to_s)
+        end
       end
 
       describe 'the (decoded) id field' do

@@ -14,4 +14,5 @@ PostType = GraphQL::ObjectType.define do
   field :title, types.String
   field :content, types.String
   field :published_at, types.String
+  field :written_at, types.String
 end
