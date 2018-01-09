@@ -14,8 +14,8 @@ RSpec.describe 'posts', type: :request do
             id
             title
             content
-            published_at
-            written_at
+            publishedAt
+            writtenAt
           }
         }
       }
@@ -53,8 +53,9 @@ RSpec.describe 'posts', type: :request do
       end
 
       %i[published_at written_at].each do |field|
-        it "should have a string representation of the #{field} time" do
-          expect(json_post[field]).to eq(db_post.send(field).to_s)
+        it "should have a camelCase string representation of the #{field}" do
+          json_field_name = field.to_s.camelize(:lower)
+          expect(json_post[json_field_name]).to eq(db_post.send(field).to_s)
         end
       end
 
