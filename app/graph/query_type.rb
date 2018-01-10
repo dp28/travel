@@ -17,4 +17,12 @@ QueryType = GraphQL::ObjectType.define do
       PostRepository.new.search
     }
   end
+
+  connection :days, DayType.connection_type do
+    description 'All days of the trip so far'
+
+    resolve lambda { |_object, _args, _context|
+      Day.all
+    }
+  end
 end
