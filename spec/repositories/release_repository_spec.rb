@@ -9,6 +9,7 @@ RSpec.describe ReleaseRepository do
     stub_const(
       'ReleaseRepository::ROOT_RELEASE_DIRECTORY_PATH', mock_directories_path
     )
+    ReleaseRepository.clear_cache
   end
 
   describe '#search' do
@@ -47,10 +48,8 @@ RSpec.describe ReleaseRepository do
 
     it 'should be cached' do
       expect(File).to receive(:read).twice.and_return('A description')
-      ReleaseRepository.clear_cache
       ReleaseRepository.search
       ReleaseRepository.search
-      ReleaseRepository.clear_cache
     end
   end
 
