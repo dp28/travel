@@ -5,6 +5,7 @@ AllCops:
     - 'db/schema.rb'
     - 'db/data/**/*'
     - 'node_modules/**/*'
+    - 'tmp/**/*'
 
 Metrics/LineLength:
   Max: 100

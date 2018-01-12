@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2018_01_10_141826) do
+ActiveRecord::Schema.define(version: 2018_01_12_131243) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -20,6 +20,17 @@ ActiveRecord::Schema.define(version: 2018_01_10_141826) do
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
     t.index ["number"], name: "index_days_on_number", unique: true
+  end
+
+  create_table "expenses", force: :cascade do |t|
+    t.float "amount", null: false
+    t.string "currency_code", null: false
+    t.string "category", null: false
+    t.bigint "day_id", null: false
+    t.text "description"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.index ["day_id"], name: "index_expenses_on_day_id"
   end
 
   create_table "posts", force: :cascade do |t|

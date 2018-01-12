@@ -39,6 +39,7 @@ class Currency
   )
 
   ALL = [USD, GBP, THB, VND].freeze
+  DEFAULT = USD
 
   def self.find_by_code(code)
     code_sym = code.to_sym
