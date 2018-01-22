@@ -8,7 +8,6 @@ class Expense < ApplicationRecord
     SHORT_TRAVEL = 'SHORT_TRAVEL'.freeze
     ACTIVITIES = 'ACTIVITIES'.freeze
     OTHER = 'OTHER'.freeze
-    COMBINED = 'COMBINED'.freeze
 
     ALL = [
       FOOD,
@@ -16,8 +15,7 @@ class Expense < ApplicationRecord
       LONG_DISTANCE_TRAVEL,
       SHORT_TRAVEL,
       ACTIVITIES,
-      OTHER,
-      COMBINED
+      OTHER
     ].freeze
 
   end

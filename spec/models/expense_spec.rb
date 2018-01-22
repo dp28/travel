@@ -18,7 +18,6 @@ RSpec.describe Expense, type: :model do
         SHORT_TRAVEL
         ACTIVITIES
         OTHER
-        COMBINED
       ]
     )
   end
