@@ -22,6 +22,12 @@ RSpec.describe Expense, type: :model do
     )
   end
 
+  it do
+    should validate_inclusion_of(:currency_code).in_array(
+      Currency::ALL.map(&:code)
+    )
+  end
+
   it { should have_db_column(:description) }
 
   it { should belong_to :day }

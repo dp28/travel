@@ -38,7 +38,14 @@ class Currency
     exchange_rate_to_dollars: 0.0000440622
   )
 
-  ALL = [USD, GBP, THB, VND].freeze
+  LAK = Currency.new(
+    code: :LAK,
+    name: 'kip',
+    symbol: '₭',
+    exchange_rate_to_dollars: 0.00012
+  )
+
+  ALL = [USD, GBP, THB, VND, LAK].freeze
   DEFAULT = USD
 
   def self.find_by_code(code)

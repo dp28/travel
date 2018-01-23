@@ -24,6 +24,7 @@ class Expense < ApplicationRecord
 
   validates :amount, :currency_code, :category, :day_id, presence: true
   validates :category, inclusion: { in: Category::ALL }
+  validates :currency_code, inclusion: { in: Currency::ALL.map(&:code).map(&:to_s) }
 
   def price
     return @price if defined? @price
