@@ -9,6 +9,8 @@ AllCops:
 
 Metrics/LineLength:
   Max: 100
+  Exclude:
+    - 'db/seeds.rb'
 
 Metrics/BlockLength:
   Exclude:
