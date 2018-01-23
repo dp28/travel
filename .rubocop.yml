@@ -15,6 +15,7 @@ Metrics/LineLength:
 Metrics/BlockLength:
   Exclude:
     - 'spec/**/*'
+    - 'app/graph/**/*'
 
 Style/Documentation:
   Enabled: false

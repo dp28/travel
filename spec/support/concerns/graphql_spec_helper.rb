@@ -3,13 +3,13 @@ module GraphqlSpecHelper
   extend ActiveSupport::Concern
 
   included do
+    subject(:result) do
+      post '/graphql', params: { query: query }
+      JSON.parse(response.body).with_indifferent_access
+    end
+
     shared_examples_for 'a graphql query for' do |config|
       model_name = config[:model_class].name
-
-      subject(:result) do
-        post '/graphql', params: { query: query }
-        JSON.parse(response.body).with_indifferent_access
-      end
 
       let(:query) do
         %({

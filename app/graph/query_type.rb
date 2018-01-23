@@ -25,4 +25,14 @@ QueryType = GraphQL::ObjectType.define do
       Day.all
     }
   end
+
+  field :totalExpense do
+    type TotalExpenseType
+    argument :days, types.Int.to_list_type, default_value: nil
+    argument :categories, types.String.to_list_type, default_value: nil
+
+    resolve lambda { |_object, args, _context|
+      TotalExpense.calculate(days: args[:days], categories: args[:categories])
+    }
+  end
 end
