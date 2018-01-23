@@ -1,5 +1,5 @@
 # Not persisted, so doesn't inherit from Application model
-class TotalPrice
+class TotalExpense
 
   class Category
 
@@ -11,7 +11,7 @@ class TotalPrice
     expenses = Expense.all
     expenses = expenses.joins(:day).where(days: { number: days }) if days
     expenses = expenses.where(category: categories) if categories
-    TotalPrice.new expenses: expenses
+    TotalExpense.new expenses: expenses
   end
 
   attr_reader :expenses
@@ -36,10 +36,12 @@ class TotalPrice
     @category ||= if_same_for_all_expenses fallback_to: Category::COMBINED, &:category
   end
 
-  def currency
-    @currency ||= if_same_for_all_expenses(fallback_to: Currency::DEFAULT) do |expense|
-      expense.price.currency
-    end
+  def currency_code
+    @currency_code ||= if_same_for_all_expenses fallback_to: Currency::DEFAULT.code, &:currency_code
+  end
+
+  def price
+    @price ||= CurrencyAmount.new currency: currency, amount: amount
   end
 
 private
@@ -50,6 +52,10 @@ private
     else
       fallback_to
     end
+  end
+
+  def currency
+    @currency ||= Currency.find_by_code currency_code
   end
 
   def all_expenses_have_same?(&get_property)

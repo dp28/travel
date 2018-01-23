@@ -1,23 +1,23 @@
 require 'rails_helper'
 
-RSpec.describe TotalPrice do
-  subject(:price) { TotalPrice.new(expenses: expenses) }
+RSpec.describe TotalExpense do
+  subject(:total) { TotalExpense.new(expenses: expenses) }
 
   context 'when created without any expenses' do
     let(:expenses) { [] }
     describe '#amount' do
-      subject { price.amount }
+      subject { total.amount }
       it { should be 0 }
     end
 
     describe '#category' do
-      subject { price.category }
-      it { should be TotalPrice::Category::COMBINED }
+      subject { total.category }
+      it { should be TotalExpense::Category::COMBINED }
     end
 
-    describe '#currency' do
-      it 'should be the default currency' do
-        expect(price.currency).to be Currency::DEFAULT
+    describe '#currency_code' do
+      it 'should be the default currency code' do
+        expect(total.currency_code).to be Currency::DEFAULT.code
       end
     end
   end
@@ -33,13 +33,20 @@ RSpec.describe TotalPrice do
 
       describe '#amount' do
         it 'should be a sum of all the amounts of the expenses' do
-          expect(price.amount).to eq(300)
+          expect(total.amount).to eq(300)
         end
       end
 
-      describe '#currency' do
-        it 'should be the same currency as the on the expenses' do
-          expect(price.currency).to eq(expenses.first.price.currency)
+      describe '#currency_code' do
+        it 'should be the same currency code as the on the expenses' do
+          expect(total.currency_code).to eq(expenses.first.currency_code)
+        end
+      end
+
+      describe '#price' do
+        it 'is a CurrencyAmount built from the currency_code and amount' do
+          expect(total.price.currency.code.to_s).to eq(total.currency_code)
+          expect(total.price.amount).to eq(total.amount)
         end
       end
     end
@@ -54,7 +61,7 @@ RSpec.describe TotalPrice do
 
       describe '#amount' do
         it 'should be a sum of all the amounts of the expenses converted to the default currency' do
-          expect(price.amount).to eq(
+          expect(total.amount).to eq(
             expenses
               .map(&:price)
               .map { |p| p.convert_to Currency::DEFAULT }
@@ -63,9 +70,9 @@ RSpec.describe TotalPrice do
         end
       end
 
-      describe '#currency' do
+      describe '#currency_code' do
         it 'should be the default currency' do
-          expect(price.currency).to eq(Currency::DEFAULT)
+          expect(total.currency_code).to eq(Currency::DEFAULT.code)
         end
       end
     end
@@ -80,7 +87,7 @@ RSpec.describe TotalPrice do
 
       describe '#category' do
         it 'be the same category as on the expenses' do
-          expect(price.category).to eq(Expense::Category::FOOD)
+          expect(total.category).to eq(Expense::Category::FOOD)
         end
       end
     end
@@ -95,21 +102,21 @@ RSpec.describe TotalPrice do
 
       describe '#category' do
         it 'be the COMBINED category' do
-          expect(price.category).to eq(TotalPrice::Category::COMBINED)
+          expect(total.category).to eq(TotalExpense::Category::COMBINED)
         end
       end
     end
   end
 
   describe '.calculate' do
-    it 'should return a TotalPrice' do
-      expect(TotalPrice.calculate(days: [1])).to be_a TotalPrice
+    it 'should return a TotalExpense' do
+      expect(TotalExpense.calculate(days: [1])).to be_a TotalExpense
     end
 
     it 'should include all expenses' do
       FactoryBot.create :expense
       FactoryBot.create :expense
-      expect(TotalPrice.calculate.expenses).to eq Expense.all
+      expect(TotalExpense.calculate.expenses).to eq Expense.all
     end
 
     context 'if categories are passed' do
@@ -117,10 +124,11 @@ RSpec.describe TotalPrice do
         FactoryBot.create :expense, category: Expense::Category::ACCOMMODATION
         food = FactoryBot.create :expense, category: Expense::Category::FOOD
         other = FactoryBot.create :expense, category: Expense::Category::OTHER
+        categories = [Expense::Category::FOOD, Expense::Category::OTHER]
 
-        price = TotalPrice.calculate categories: [Expense::Category::FOOD, Expense::Category::OTHER]
+        total = TotalExpense.calculate categories: categories
 
-        expect(price.expenses).to eq [food, other]
+        expect(total.expenses).to eq [food, other]
       end
     end
 
@@ -129,7 +137,7 @@ RSpec.describe TotalPrice do
         day_1_expense = FactoryBot.create :expense
         day_2_expense = FactoryBot.create :expense
         FactoryBot.create :expense
-        total_excluding_last = TotalPrice.calculate(
+        total_excluding_last = TotalExpense.calculate(
           days: [
             day_1_expense.day.number,
             day_2_expense.day.number
@@ -143,7 +151,7 @@ RSpec.describe TotalPrice do
           day_1_expense = FactoryBot.create :expense, category: Expense::Category::FOOD
           day_2_expense = FactoryBot.create :expense, category: Expense::Category::OTHER
           FactoryBot.create :expense
-          total_food_excluding_last = TotalPrice.calculate(
+          total_food_excluding_last = TotalExpense.calculate(
             days: [
               day_1_expense.day.number,
               day_2_expense.day.number
