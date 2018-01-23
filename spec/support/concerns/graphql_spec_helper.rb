@@ -16,12 +16,14 @@ module GraphqlSpecHelper
           #{config[:graphql_name]} {
             edges {
               node {
-                #{config[:properties].join("\n")}
+                #{node_query}
               }
             }
           }
         })
       end
+
+      let(:node_query) { config[:properties].join("\n") }
 
       let(:nodes) do
         result[:data][config[:graphql_name]][:edges].map { |edge| edge[:node] }
