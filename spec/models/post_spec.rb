@@ -6,6 +6,8 @@ RSpec.describe Post, type: :model do
   it { should have_db_column(:title).with_options(null: true) }
   it { should_not validate_presence_of(:title) }
 
+  it { should belong_to :day }
+
   %i[content written_at].each do |column|
     it { should have_db_column(column).with_options(null: false) }
     it { should validate_presence_of column }

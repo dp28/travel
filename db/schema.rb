@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2018_01_23_041811) do
+ActiveRecord::Schema.define(version: 2018_01_23_042339) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -40,6 +40,8 @@ ActiveRecord::Schema.define(version: 2018_01_23_041811) do
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
     t.datetime "written_at", null: false
+    t.integer "day_id", null: false
+    t.index ["day_id"], name: "index_posts_on_day_id"
   end
 
 end

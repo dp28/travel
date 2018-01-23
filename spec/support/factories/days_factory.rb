@@ -3,5 +3,6 @@ FactoryBot.define do
 
   factory :day do
     number { generate :day_number }
+    date Date.today
   end
 end
