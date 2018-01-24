@@ -2,6 +2,8 @@ QueryType = GraphQL::ObjectType.define do
   name 'Query'
   description 'The query root of this schema'
 
+  field :node, GraphQL::Relay::Node.field
+
   connection :releases, ReleaseType.connection_type do
     description 'All Releases of the site so far'
 
