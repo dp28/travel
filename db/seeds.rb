@@ -750,7 +750,7 @@ It was another bumpy drive back to the main road, where we stopped for lunch. We
 couple of other people from our treehouse were also headed to Luang Prabang by overnight bus.
 They'd already taken the bus once and were full of stories about how awful it was. Windy roads,
 a cramped bed shared with another passenger, frequent stops, jammed full with people sleeping in the
-aisle ... but ift hey were getting it again, it can't have been _that_ bad, can it?
+aisle ... but if they were getting it again, it can't have been _that_ bad, can it?
 
 Back in Huay Xai at the main office, we killed a couple of hours showering, repacking and reading by
 the side of the Mekong river. At 5pm, slightly apprehensive about the night ahead, we got in a
@@ -987,102 +987,151 @@ likely to give us food poisoning. That, and it's incredibly good with the variet
 sauces here.
 )
   },
-#     {
-#       date: '2018-01-22',
-#       number: 19
-#       written: '2018-01-22 ?',
-#       expenses: {
-#         FOOD: { breakfast: { baht: 140 }, lunch: { baht: 180 }, dinner: { baht: 1000 } },
-#         ACCOMMODATION: { baht: 800 },
-#         LONG_DISTANCE_TRAVEL: { boat: { baht: 900 } },
-#         SHORT_TRAVEL: { tuk_tuk: { baht: 200 } },
-#         ACTIVITIES: {},
-#         OTHER: {}
-#       },
-#       stats: {
-#         walked: 5,
-#         temperature: 30,
-#         altitude: 1,
-#       },
-#       books: {
-#         reading: {
-#           started: {
-#             title: 'The Goal',
-#             author: 'Eliyahu M. Goldratt'
-#           }
-#         }
-#       },
-#       food: [
-#         'banana crepe with honey',
-#         'pork fried rice',
-#         'chicken satay, chicken massaman curry, banana milkshake'
-#       ],
-#       entry: %(
-#   * post office
-#   * boat
-#   * rain
-#   * swim
-#   * program on the beach
-#   ),
-#     {
-#       date: '2018-01-23',
-#       number: 20
-#       written: '2018-01-24 16:10',
-#       expenses: {
-#         FOOD: { breakfast: { baht: 340 }, lunch: { baht: 525 }, dinner: { baht: 690 }, cocktails: { baht: 220 }, water: { baht: 20 } },
-#         ACCOMMODATION: { baht: 800 },
-#         LONG_DISTANCE_TRAVEL: {},
-#         SHORT_TRAVEL: {},
-#         ACTIVITIES: {},
-#         OTHER: {}
-#       },
-#       stats: {
-#         walked: 8.1,
-#         temperature: 30,
-#         altitude: 1,
-#       },
-#       food: [
+  {
+    date: '2018-01-22',
+    number: 19,
+    written: '2018-01-22 ?',
+    expenses: {
+      FOOD: { breakfast: { baht: 140 }, lunch: { baht: 180 }, dinner: { baht: 1000 } },
+      ACCOMMODATION: { baht: 800 },
+      LONG_DISTANCE_TRAVEL: { boat: { baht: 900 } },
+      SHORT_TRAVEL: { tuk_tuk: { baht: 200 } },
+      ACTIVITIES: {},
+      OTHER: {}
+    },
+    stats: {
+      walked: 5,
+      temperature: 30,
+      altitude: 1
+    },
+    books: {
+      reading: {
+        started: {
+          title: 'The Goal',
+          author: 'Eliyahu M. Goldratt'
+        }
+      }
+    },
+    food: [
+      'banana crepe with honey',
+      'pork fried rice',
+      'chicken satay, chicken massaman curry, banana milkshake'
+    ],
+    entry: %(
+_(Today's post has a guest author: Rosie. Daniel cannot be held responsible for the accuracy of the
+information provided, and would actively question some of the opinions presented)_
 
-#       ],
-#       entry: %(
-# This was a pretty chilled, lazy day for a number of reasons. Primarily, most weather forecasts said
-# it was going to rain (it didn't). Secondly, we spent a bit of time working out how much we'd been
-# spending, which has a tendency to make both of want to spend less. Thirdly, Rosie's cold isn't
-# completely gone, so snorkelling isn't really that appealing. Finally, I wanted to get a bit of
-# programming done - writing these posts is a bit more useful if I've got a site to put them on.
+Today was to be an exciting day, we were heading off to the thai island Koh Mak but first we needed
+to rectify a small issue of the day before, the fact that we still had the key to our hotel room in
+Luang Prabang, and for that we needed a post office. So we sent off into the town of Trat; before
+tea, before breakfast and accompanied by my ever present sniffles. I was what you might call grumpy,
+if you were brave enough. After finding the post office I left Daniel in search of the supermarket
+that maps.me (great app)  informed me was right around the corner in an attempt to buy some tissues
+that didn't feel like sand paper. After wandering aimlessly through aisle filled with 97 different
+brands and varieties of washing powder (who needs that much choice) I found the single package of
+tissues and had to rush to pay for them before I sneezed again. I found Daniel back at the post
+office and wandered back to the hotel where I had breakfast and a cup of tea and thus
+felt like a new woman.
 
-# We spent the day by the beach, reading, programming, swimming and going for a bit of a walk to find
-# lunch. There are quite a few swings hung from the palm trees, so we had a bit of a play on them,
-# too. We spent quite a while looking for a good place for dinner, then headed back to our beach for
-# a game of cards (beanie) which Rosie won (in suspicious circumstances - she dealt half of the hands,
-# after all).
-#
-# PS. Shock of the day: Rosie got sunburnt and I didn't!
-#   ),
-#     {
-#       date: '2018-01-24',
-#       number: 21
-#       written: '2018-01-24 ?',
-#       expenses: {
-#         FOOD: { drinks: { baht: 160 }, lunch: { baht: 410 }, water: { baht: 30 } },
-#         ACCOMMODATION: { baht: 800 },
-#         LONG_DISTANCE_TRAVEL: {},
-#         SHORT_TRAVEL: {},
-#         ACTIVITIES: { stand_up_paddle_board: { baht: 100 }},
-#         OTHER: {}
-#       },
-#       stats: {
-#         walked: ?,
-#         temperature: 27,
-#         altitude: 1,
-#       },
-#       food: [
+The songathew picked us up at the hotel and took us to the port where we learned that among other
+fellow riders we would be sharing the boat with a live chicken. Which was fortunately confined to a
+box but occasionally left out a squawk of disapproval of such confinement. The first 50 minutes of
+the boat trip was relatively uneventful however the last 5 were wet, very wet. As we pulled into the
+harbour the heavens opened and as we got out, we and our stuff got very wet indeed. However by the
+time the songathew had dropped us off at our hotel it has stopped raining all together. I believe
+these downpours are reasonably common here but my goodness was it a lot of water!
 
-#       ],
-#       entry: %(
-#   )
-#     }
-    # * boat: 900
+After a brief lunch where Dan ordered much better than me (annoying) we decided to go for a swim in
+the sea. We donned swim suits and Daniel then announced as much to his own surprise as mine that he
+didn't think he needed any sunscreen. This was in contrast to every day of the trip thus far where
+sunscreen has been liberally applied with a paint roller that he brought expressly for the purpose
+and which I am forbidden to touch (This is potentially a very slight exaggeration).
+
+The sea was lovely and warm and surprisingly salty (I know, I know, but you forget these things)
+however the shower afterward was fresh and surprisingly cold so maybe things are different here.
+After showers we sat on the beach for an hour or two reading (and programming) and trying to
+convince the puppies that live at this hotel to play with me, there are four and they are adorable!!
+After a time it became happy hour however upon approaching the bar we were informed that the man who
+made the cocktails was out fishing so we would have to wait. He came in later with one very small
+fish but he looked very proud of himself and thus my mojito was not missed in vain.  By the time he
+got back however it was time to search for dinner and so we headed off towards the major town to a
+restaurant called Table Tales.
+
+The food was great, and I got a mojito 😊. We started with chicken satay and then I had scallops
+which were perfectly done and covered in garlic butter and Dan had a masaman curry which
+unfortunately was a little bit sweet, even for Dan (I know) but the roti that came with it was
+great. We headed back to the hotel, opting for roads this time rather than the jungle trails were
+had used to get to dinner. After admiring the moon over the water (and reading/programming) for an
+hour or so we headed to bed
+)
+  },
+  {
+    date: '2018-01-23',
+    number: 20,
+    written: '2018-01-24 16:10',
+    expenses: {
+      FOOD: { breakfast: { baht: 340 }, lunch: { baht: 525 }, dinner: { baht: 690 }, cocktails: { baht: 220 }, water: { baht: 20 } },
+      ACCOMMODATION: { baht: 800 },
+      LONG_DISTANCE_TRAVEL: {},
+      SHORT_TRAVEL: {},
+      ACTIVITIES: {},
+      OTHER: {}
+    },
+    stats: {
+      walked: 8.1,
+      temperature: 30,
+      altitude: 1
+    },
+    food: [
+      'banana milkshake, blueberry cake',
+      'panang curry, banana milkshake',
+      'pina colada',
+      'pineapple and bacon pizza'
+    ],
+    entry: %(
+This was a pretty chilled, lazy day for a number of reasons. Primarily, most weather forecasts said
+it was going to rain (it didn't). Secondly, we spent a bit of time working out how much we'd been
+spending, which has a tendency to make both of want to spend less. Thirdly, Rosie's cold isn't
+completely gone, so snorkelling isn't really that appealing. Finally, I wanted to get a bit of
+programming done - writing these posts is a bit more useful if I've got a site to put them on.
+
+We spent the day by the beach, reading, programming, swimming and going for a bit of a walk to find
+lunch. There are quite a few swings hung from the palm trees, so we had a bit of a play on them,
+too. We spent quite a while looking for a good place for dinner, then headed back to our beach for
+a game of cards (beanie) which Rosie won (in suspicious circumstances - she dealt half of the hands,
+after all).
+
+PS. Shock of the day: Rosie got sunburnt and I didn't!
+)
+  }
+  # ,
+  #   {
+  #     date: '2018-01-24',
+  #     number: 21,
+  #     written: '2018-01-24 ?',
+  #     expenses: {
+  #       FOOD: { drinks: { baht: 160 }, lunch: { baht: 410 }, water: { baht: 30 }, cocktails: { baht: 220 } },
+  #       ACCOMMODATION: { baht: 800 },
+  #       LONG_DISTANCE_TRAVEL: {},
+  #       SHORT_TRAVEL: {},
+  #       ACTIVITIES: { stand_up_paddle_board: { baht: 100 }},
+  #       OTHER: {}
+  #     },
+  #     stats: {
+  #       walked: ?,
+  #       temperature: 27,
+  #       altitude: 1
+  #     },
+  #     food: [
+  #       'pineapple and bacon pizza'
+  #     ],
+  #     entry: %(
+  # * leftover breakfast
+  # * standup paddle
+  # * program
+  # )
+  #   },
+  # * boat: 900
 ].freeze
 
 def create_day(config)
@@ -1128,5 +1177,7 @@ def create_expense(day:, description:, price:, category:)
     category: category
   )
 end
+
+Day.all.destroy_all # Makes it easier to correct mistakes - will remove eventually
 
 DAYS.each { |day_config| create_day day_config }
