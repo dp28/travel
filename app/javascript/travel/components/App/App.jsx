@@ -1,5 +1,10 @@
 import React from 'react'
 
+import { ConnectedReleases } from '../Releases/Releases'
+
 export const App = () => (
-  <div>Check out the <a href="/graphiql">API</a></div>
+  <div>
+    <div>Check out the <a href="/graphiql">API</a></div>
+    <ConnectedReleases />
+  </div>
 )
