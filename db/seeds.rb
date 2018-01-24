@@ -987,44 +987,102 @@ likely to give us food poisoning. That, and it's incredibly good with the variet
 sauces here.
 )
   },
-  #   {
-  #     date: '2018-01-22',
-  #     number: 19
-  #     written: '2018-01-22 ?',
-  #     expenses: {
-  #       FOOD: { breakfast: { baht: 140 }, lunch: { baht: 180 }, dinner: { baht: 1000 } },
-  #       ACCOMMODATION: { baht: 800 },
-  #       LONG_DISTANCE_TRAVEL: { boat: { baht: 900 } },
-  #       SHORT_TRAVEL: { tuk_tuk: { baht: 200 } },
-  #       ACTIVITIES: {},
-  #       OTHER: {}
-  #     },
-  #     stats: {
-  #       walked: 4.8,
-  #       temperature: 29,
-  #       altitude: 1,
-  #     },
-  #     books: {
-  #       reading: {
-  #         finished: {
-  #           title: 'The Goal',
-  #           author: 'Eliyahu M. Goldratt'
-  #         }
-  #       }
-  #     },
-  #     food: [
-  #       'banana crepe with honey',
-  #       'pork fried rice',
-  #       'chicken satay, chicken massaman curry, banana milkshake'
-  #     ],
-  #     entry: %(
-  # * post office
-  # * boat
-  # * rain
-  # * swim
-  # * program on the beach
-  # )
-  #   }
+#     {
+#       date: '2018-01-22',
+#       number: 19
+#       written: '2018-01-22 ?',
+#       expenses: {
+#         FOOD: { breakfast: { baht: 140 }, lunch: { baht: 180 }, dinner: { baht: 1000 } },
+#         ACCOMMODATION: { baht: 800 },
+#         LONG_DISTANCE_TRAVEL: { boat: { baht: 900 } },
+#         SHORT_TRAVEL: { tuk_tuk: { baht: 200 } },
+#         ACTIVITIES: {},
+#         OTHER: {}
+#       },
+#       stats: {
+#         walked: 5,
+#         temperature: 30,
+#         altitude: 1,
+#       },
+#       books: {
+#         reading: {
+#           started: {
+#             title: 'The Goal',
+#             author: 'Eliyahu M. Goldratt'
+#           }
+#         }
+#       },
+#       food: [
+#         'banana crepe with honey',
+#         'pork fried rice',
+#         'chicken satay, chicken massaman curry, banana milkshake'
+#       ],
+#       entry: %(
+#   * post office
+#   * boat
+#   * rain
+#   * swim
+#   * program on the beach
+#   ),
+#     {
+#       date: '2018-01-23',
+#       number: 20
+#       written: '2018-01-24 16:10',
+#       expenses: {
+#         FOOD: { breakfast: { baht: 340 }, lunch: { baht: 525 }, dinner: { baht: 690 }, cocktails: { baht: 220 }, water: { baht: 20 } },
+#         ACCOMMODATION: { baht: 800 },
+#         LONG_DISTANCE_TRAVEL: {},
+#         SHORT_TRAVEL: {},
+#         ACTIVITIES: {},
+#         OTHER: {}
+#       },
+#       stats: {
+#         walked: 8.1,
+#         temperature: 30,
+#         altitude: 1,
+#       },
+#       food: [
+
+#       ],
+#       entry: %(
+# This was a pretty chilled, lazy day for a number of reasons. Primarily, most weather forecasts said
+# it was going to rain (it didn't). Secondly, we spent a bit of time working out how much we'd been
+# spending, which has a tendency to make both of want to spend less. Thirdly, Rosie's cold isn't
+# completely gone, so snorkelling isn't really that appealing. Finally, I wanted to get a bit of
+# programming done - writing these posts is a bit more useful if I've got a site to put them on.
+
+# We spent the day by the beach, reading, programming, swimming and going for a bit of a walk to find
+# lunch. There are quite a few swings hung from the palm trees, so we had a bit of a play on them,
+# too. We spent quite a while looking for a good place for dinner, then headed back to our beach for
+# a game of cards (beanie) which Rosie won (in suspicious circumstances - she dealt half of the hands,
+# after all).
+#
+# PS. Shock of the day: Rosie got sunburnt and I didn't!
+#   ),
+#     {
+#       date: '2018-01-24',
+#       number: 21
+#       written: '2018-01-24 ?',
+#       expenses: {
+#         FOOD: { drinks: { baht: 160 }, lunch: { baht: 410 }, water: { baht: 30 } },
+#         ACCOMMODATION: { baht: 800 },
+#         LONG_DISTANCE_TRAVEL: {},
+#         SHORT_TRAVEL: {},
+#         ACTIVITIES: { stand_up_paddle_board: { baht: 100 }},
+#         OTHER: {}
+#       },
+#       stats: {
+#         walked: ?,
+#         temperature: 27,
+#         altitude: 1,
+#       },
+#       food: [
+
+#       ],
+#       entry: %(
+#   )
+#     }
+    # * boat: 900
 ].freeze
 
 def create_day(config)
