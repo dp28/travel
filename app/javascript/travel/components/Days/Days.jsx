@@ -8,14 +8,18 @@ export const Days = ({ days, loading }) => {
   }
   else {
     return (
-      <ul className="Days">
-          {days.map(day => (
-            <li key={day.number}>
-              <h2 className="Day--title">Day {day.number}</h2>
-              <div className="content" dangerouslySetInnerHTML={{__html: day.post.content}} />
-            </li>
-          ))}
-      </ul>
+      <div className="Days">
+        <h1>Diary</h1>
+        <ul>
+            {days.map(day => (
+              <li key={day.number}>
+                <h2 className="Day--title">Day {day.number} - {day.date}</h2>
+                <div>Written: {day.writtenAt}</div>
+                <div className="content" dangerouslySetInnerHTML={{__html: day.post}} />
+              </li>
+            ))}
+        </ul>
+      </div>
     )
   }
 }
@@ -24,10 +28,12 @@ export const ConnectedDays = graphql(gql`
   query {
     days {
       edges {
-        node {
+        day: node {
           number
+          date
           post {
             content
+            writtenAt
           }
         }
       }
@@ -36,7 +42,12 @@ export const ConnectedDays = graphql(gql`
 `, {
   props: ({ data: { days, loading } }) => ({
     loading,
-    days: loading ? [] : days.edges.map(edge => edge.node)
+    days: loading ? [] : days.edges.map(({ day }) => ({
+      number: day.number,
+      date: new Date(day.date).toString().substring(0, 15),
+      post: day.post.content,
+      writtenAt: new Date(day.post.writtenAt).toString().substring(0, 21)
+    }))
   })
 })(Days)
 
