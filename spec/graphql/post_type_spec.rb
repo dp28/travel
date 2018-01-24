@@ -37,7 +37,7 @@ RSpec.describe 'posts', type: :request do
   end
 
   context 'with a single post' do
-    let!(:db_post) { FactoryBot.create :post }
+    let!(:db_post) { FactoryBot.create :post, content: "# Title\nIt was good" }
 
     it 'should return an array with one element' do
       expect(posts.size).to eq 1
@@ -46,10 +46,12 @@ RSpec.describe 'posts', type: :request do
     describe 'the returned PostType' do
       subject(:json_post) { posts.first }
 
-      %i[title content].each do |field|
-        it "should have the same #{field} as the stored Post" do
-          expect(json_post[field]).to eq db_post.send(field)
-        end
+      it 'should have the same title as the stored Post' do
+        expect(json_post[:title]).to eq db_post.title
+      end
+
+      it 'have the content of the Post rendered as HTML, not Markdown' do
+        expect(json_post[:content]).to eq("<h1>Title</h1>\n\n<p>It was good</p>\n")
       end
 
       %i[published_at written_at].each do |field|

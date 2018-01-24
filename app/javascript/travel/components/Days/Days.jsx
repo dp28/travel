@@ -12,7 +12,7 @@ export const Days = ({ days, loading }) => {
           {days.map(day => (
             <li key={day.number}>
               <h2 className="Day--title">Day {day.number}</h2>
-              {day.post.content}
+              <div className="content" dangerouslySetInnerHTML={{__html: day.post.content}} />
             </li>
           ))}
       </ul>
