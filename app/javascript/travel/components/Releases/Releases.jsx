@@ -8,18 +8,18 @@ export const Releases = ({ releases, loading }) => {
   }
   else {
     return (
-      <table className="Releases">
-        <tbody>
-          <tr>
-            <th>Version</th>
-          </tr>
+      <div>
+        See what the site looked like at:
+        <ul>
           {releases.map(release => (
-            <tr key={release.version}>
-              <td>{release.version}</td>
-            </tr>
+            <li key={release.version}>
+              <a href={'/versions/' + release.version}>
+                {new Date(release.time).toString().substring(0, 21)}
+              </a>
+            </li>
           ))}
-        </tbody>
-      </table>
+        </ul>
+      </div>
     )
   }
 }
@@ -30,6 +30,7 @@ export const ConnectedReleases = graphql(gql`
       edges {
         node {
           version
+          time
         }
       }
     }
