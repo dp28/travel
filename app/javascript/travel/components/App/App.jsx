@@ -2,10 +2,11 @@ import React from 'react'
 
 import { ConnectedReleases } from '../Releases/Releases'
 import { ConnectedDays } from '../Days/Days'
+import { About } from '../About/About'
 
 export const App = () => (
   <div>
-    <div>Check out the <a href="/graphiql">API</a></div>
+    <About />
     <ConnectedReleases />
     <ConnectedDays />
   </div>
