@@ -24,7 +24,7 @@ end
 
 def compile_frontend(release)
   puts 'Compiling frontend files ...'
-  `RELEASE_VERSION=#{release.version} ./bin/webpack`
+  puts `RELEASE_VERSION=#{release.version} ./bin/webpack`
   puts "  - ./public#{release.links.javascript}"
   puts "  - ./public#{release.links.css}"
 end
