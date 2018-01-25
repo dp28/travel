@@ -17,7 +17,10 @@ class ReleaseRepository
   end
 
   def search
-    release_directories.map(&method(:load_single_release))
+    release_directories
+      .map(&method(:load_single_release))
+      .sort_by(&:version)
+      .reverse
   end
 
   def store(release)
