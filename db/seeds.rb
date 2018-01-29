@@ -419,7 +419,7 @@ headed back to the kitchen.
 It was fun, informative and the food was informative. Rosie and I made
 completely different recipes, so we got the opportunity to taste plenty of new
 things. Rosie learnt how to make a delicious northern Thai curry she'd had the
-day before, Khaw Soi, and I got quite a bit of two deserts, deep fried banana
+day before, Khaw Soi, and I got quite a bit of two desserts, deep fried banana
 and blue sticky rice with mango. I really enjoy making curry, so it was great to
 get to make and try several curry pastes. Best of all, I'm pretty sure most of
 the ingredients will be available in Edinburgh (somewhere) - I want to learn
@@ -1103,35 +1103,331 @@ after all).
 
 PS. Shock of the day: Rosie got sunburnt and I didn't!
 )
+  },
+  {
+    date: '2018-01-24',
+    number: 21,
+    written: '2018-01-28 16:30',
+    expenses: {
+      FOOD: { drinks: { baht: 160 }, lunch: { baht: 410 }, water: { baht: 30 }, cocktails: { baht: 220 }, dinner: { baht: 610 } },
+      ACCOMMODATION: { baht: 800 },
+      LONG_DISTANCE_TRAVEL: {},
+      SHORT_TRAVEL: {},
+      ACTIVITIES: { stand_up_paddle_board: { baht: 100 } },
+      OTHER: {}
+    },
+    stats: {
+      walked: 8.4,
+      temperature: 27,
+      altitude: 1
+    },
+    food: [
+      'pineapple and bacon pizza, banana and chocolate shake',
+      'pork red curry, rice, banana shake',
+      'Laap-style dish with strips of grilled pork'
+    ],
+    entry: %(
+Somewhat like the day before, according to most weather forecasts it was supposed to rain quite a
+bit, but didn't. We took advantage of this in the morning by renting a stand up paddle board and
+paddling out to (& around) a small island nearby. It wasn't exactly an island - the water between
+the shore and the island wasn't deep enough to paddle through, so we had to get off for a while. At
+low tide it may be dry land, not that there's much tidal variation.
+
+On the way back we were able to see plenty of leathal-looking, spiky sea urchins and fish, including
+little shoals that would repeatedly jump out of the water. We then went for a swim in the still,
+clear water. The threatened rain never materialised - much to Rosie's disappointment. She was
+looking forward to being in the water while it poured down on us.
+
+We spent the afternoon reading & programming again - I managed to get the site to the point that it
+could display basic posts and load in all of the ones I had written so far. We then walked back to
+close to where we'd been for dinner the previous day to a Swiss restaurant we'd booked for dinner.'
+)
+  },
+  {
+    date: '2018-01-25',
+    number: 22,
+    written: '2018-01-28 16:50',
+    expenses: {
+      FOOD: { breakfast_snacks: { baht: 55 }, breakfast_drinks: { baht: 120 }, lunch: { baht: 500 }, dinner: { baht: 550 } },
+      ACCOMMODATION: { baht: 800 },
+      LONG_DISTANCE_TRAVEL: {},
+      SHORT_TRAVEL: {},
+      ACTIVITIES: { kayak: { baht: 300 }, snorkels: { baht: 200 } },
+      OTHER: {}
+    },
+    stats: {
+      walked: 4.5,
+      temperature: 27,
+      altitude: 1
+    },
+    food: [
+      'biscuits, peanut brittle, banana shake',
+      'cashews, ham and pineapple fried rice, banana shake',
+      'shrimp spring rolls, sweet chilli sauce, dry red curry, rice, avocado & banana smoothie'
+    ],
+    entry: %(
+This was supposed to be the day with the best weather, but was much the same as the previous few
+days - some cloud, some sun. We walked south to the beach we'd arrived at and rented a sit on top
+kayak and snorkel gear. There were a pair of small islands a couple of kilometres from the hotel we
+rented the kayak from which were supposed to be good for snorkelling.
+
+We headed out towards the islands with small waves slightly against us and to the side - just enough
+to cause us to have to fight a bit to maintain our course, but not too strong. The water remained
+pretty clear and shallow enough to see the bottom for quite a long way, but the waves meant the
+surface wasn't still enough to see much.
+
+We knew that one of the islands was privately owned and had a fee of 100 baht ($3/£2.50) for landing
+on it, but we didn't know which one. We landed briefly on the first island, on a tiny beach with
+forest right up against it. The broken bits of coral there were incredibly intricate, but it didn't
+look like the best place to snorkel. We kayaked out around the second island, avoiding a beach with
+a crane and people building something, landing on a beach at the back. At no point on either island
+did anyone appear to demand 100 baht - I'm not sure if there even were people on the first island.
+
+The beach on the second island was stunning - a small band of white sand squeezed between the forest
+to one side and cliffs on the other, with forest covering the steep hill behind the beach. Not far
+from the beach was a tiny cove cut into the cliff with just enough of a sand bar for a single tree.
+
+We went snorkelling between the beach and the cove and saw loads of life. In addition to the spiky
+black sea urchins, there were plenty of small fish of a variety of colours and some larger, more
+impressive ones - a delicate golden fish that we both initially mistook for a big leaf and a
+leopard-spotted fish (which I think was the same type as was caught by our host a few days before,
+robbing Rosie of the chance for a mojito). The most impressive sights, though were the openings into
+the giant clams. These were bright blues or deep reds, often sunken into the sand or something that
+looked like a rock so that all I could see was a wavy coloured line, opening and closing.
+
+After snorkelling for a while, we got back on the kayak and headed back to shore. We were able to
+use the hotel's outdoor shower and were sorely tempted by it's pool, which we probably weren't
+allowed. We finished off the day at a bakery and art hut, which had some pretty decent food and
+several cats. After we ordered, someone was immediately dispatched to buy the ingredients (bananas)
+that they'd run out of. I tried another avocado & banana shake, unfortunately not as smooth as in
+Luang Prabang.
+)
+  },
+  {
+    date: '2018-01-26',
+    number: 23,
+    written: '2018-01-28 20:40',
+    expenses: {
+      FOOD: { snacks: { baht: 125 }, lunch: { baht: 50 }, dinner: { baht: 585 } },
+      ACCOMMODATION: { dollars: 21 },
+      LONG_DISTANCE_TRAVEL: { boat: { baht: 900 }, bus: { baht: 460 } },
+      SHORT_TRAVEL: { songthaew: { baht: 300 } },
+      ACTIVITIES: {},
+      OTHER: {}
+    },
+    stats: {
+      walked: 1.9,
+      temperature: 29,
+      altitude: 1
+    },
+    food: [
+      'biscuits, peanut brittle',
+      'peanut m&ms, crisps, rice cakes, banana shake',
+      'chocolate-filled wafer sticks',
+      'duck red curry, thai dessert balls, strawberry shake'
+    ],
+    entry: %(
+We left Koh Mak at 9am from the pier just outside our resort. It was a loud, if uneventful journey.
+The speedboads they use have three pretty huge outboard motors, so it's not that easy to listen to
+anything else. I got a decent way through my book, though.
+
+Once we got back to the mainland we got a songthaew (with a very low roof - ouch) to the bus station
+and caught the 11am bus to Bangkok. Six hours of the Wheel of Time later, we arrived at a large bus
+station, refusing offers of tuk tuk rides because we knew that the trains in Bangkok were great.
+
+We were wrong. Travelling on Bangkok's public transport at rush hour is nothing like during the day.
+We needed travel two or three miles as the crow flies, which without rucksacks we would have walked.
+There wasn't a direct link, so we needed to go three sides of a square to get there - a skytrain, a
+subway and another skytrain, only a stop or two on each. Each train and station was increasingly
+packed full of people. In the second train, there was no room to move. We had to wait in line for
+about half an hour before enough people got off the skytrain for us to (just) fit on.
+
+After close to an hour and a half, we got to our hotel, which was surprisingly nice. Unlike our
+previous hotel in Bangkok, the windows actually opened to the _outside_, not just a fake hedge. We
+found an islamic Thai restaurant & bakery and had some decent food, interesting (really sweet) Thai
+sweets and a fantastic strawberry shake - probably just ice blended with loads of fresh strawberries
+and a bit of sugar syrup. After the frustrating journey through Bangkok, the meal was just what we
+needed.
+)
+  },
+  {
+    date: '2018-01-27',
+    number: 24,
+    written: '2018-01-28 21:30',
+    expenses: {
+      FOOD: { snacks: { dollars: 2 }, lunch: { dollars: 7 }, dinner: { dollars: 12 } },
+      ACCOMMODATION: { dollars: 6 },
+      LONG_DISTANCE_TRAVEL: { flight: { pounds: 161 }, bus: { dollars: 20 } },
+      SHORT_TRAVEL: { tuk_tuk: { dollars: 3 }, skytrain: { baht: 60 } },
+      ACTIVITIES: {},
+      OTHER: {}
+    },
+    stats: {
+      walked: 3.2,
+      temperature: 28,
+      altitude: 1
+    },
+    food: [
+      'rice crackers, popcorn, almond buns, curry ham sandwiches',
+      'fried rice and chicken, yoghurt, papaya, melon',
+      'mac and cheese',
+      'croissants, chocolate covered ice cream',
+      'Beef luk luc with rice, lucky chicken on french fries'
+    ],
+    entry: %(
+Another travelling day - up at 6am, at Bangkok airport for 7am, flight to Phnom Penh at 9am, arrive
+at 11.30am, bus to Kampot at 1.30pm for 3 hours. All in all, a good opportunity to make it
+significantly further through our books and audiobook.
+
+Arriving a Bangkok airport two hours before was a good idea. The place is _huge_ and there were a
+lot of lines we needed to stand in. In addition, the airline we were flying with (Bangkok Airways,
+"Asias Boutique Airline", apparently) has a private lounge for all its customers. Rosie got her free
+tea and we both got our fill of free popcorn, pastry, buns and (bizarrely good) curry ham
+sandwiches. They also included a free meal on our one hour flight. Not bad for $80.
+
+We had to get visas on arrval in Phnom Penh, which was probably easier & cheaper than e-visas. We
+caught the public bus from outside the airport for $1 (Cambodia uses its own currency, the riel,
+interchangeably with dollars). Getting off relatively centrally, we made our way to one of the many
+small private bus stations to find a bus (in this case minibus) to Kampot.
+
+While waiting for the bus and on the bus itself we learnt that Cambodian roads are not like Thai
+roads and definitely not like British roads. In Thailand, there's a pavement and you can maybe walk
+on it about half of it, the rest of it being covered with street food carts, someone's moped or a
+sleeping dog. If you want to cross a road, you walk slowly but deliberately across, maintaining a
+constant speed, but still checking that cars or motorbikes will stop. In Cambodia, however, at least
+in the bit of Phnom Penh we were in, there _may_ be pavement, but it doesn't have space for you.
+Neither does the road beside the pavement - it's full of cars parked perpendicular to the pavement
+even though the painted lines are diagonal. You end up walking in the road, into the oncoming sea
+of motorbikes - many of the tuk-tuk-like vehicles here aren't actually a single piece, they're
+just a motorbikes with a detachable trailer. If you want to cross the road you follow the same
+procedure as Thailand, although seemingly fewer people are likely to stop for you.
+
+Driving on larger roads seems to be different, too. Many of the larger roads in Thailand had
+completely separate roads going either direction. Not so in Cambodia. There, it's completely normal
+to overtake into oncoming traffic (as long as you sound your horn), meanwhile there's a good chance
+that someone on a motorbike is undertaking the same vehicle you're overtaking.
+
+After that somewhat exciting bus journey, we were taken by an old, dying tuk tuk to our booked
+accommodation. It's a slightly bigger box than we've had so far, this time on stilts. The roof may
+or may not be waterproof and the walls do not meet the roof - making it somewhat less private than
+Rosie would like while changing. It does have a decent sized mosquito net, however, but with a fair
+few holes. It's even got its own large gecko, patrolling parts of the ceiling.
+)
+  },
+  {
+    date: '2018-01-28',
+    number: 25,
+    written: '2018-01-28 21:50',
+    expenses: {
+      FOOD: { breakfast: { dollars: 4.25 }, lunch: { dollars: 2.75 }, dinner: { dollars: 18.75 } },
+      ACCOMMODATION: { dollars: 6 },
+      LONG_DISTANCE_TRAVEL: {},
+      SHORT_TRAVEL: {},
+      ACTIVITIES: { kayak: { dollars: 10 } },
+      OTHER: {}
+    },
+    stats: {
+      walked: 10,
+      temperature: 28,
+      altitude: 1
+    },
+    food: [
+      'banana and nutella pancake',
+      'pineapple pie and kiwi ice cream',
+      'hummus & flatbread, salad, falafel, pickle, beef kebab, french fries, onion, mozzarella',
+      'banana & nutella milkshake'
+    ],
+    entry: %(
+The combination of only partial walls in our room, nearby people's fondness for techno music and
+a persistent car alarm meant that we lay in until about 9am. I had a massive banana pancake with a
+generous helping of nutella before heading off towards the main own of Kampot.
+
+We're staying across the river from the centre, so crossed back across the railway bridge. The
+bridge itself does have a footpath across it as well as rails, but we needed to walk along a few
+hundred metres of train track before and after. There were plenty of people doing the same thing, we
+even saw a few motorbikes by the tracks the previous day. We learnt later in the day that there are
+trains but rarely and fairly slow moving.
+
+We wandered about Kampot, seeing the river and some of the odder Roundabout statues (eg, a giant
+durian). We found a bookshop / cafe, which bought some of our finished books off of us. We had
+pineapple pie and kiwi ice cream (the ice cream was better) at one of several "Kampot Pie & Ice
+Cream Palaces" and listened to expats grumble. There seem to be a lot around . Most of the places
+we've been so far have been filled with travellers around our own age, but Kampot (particularly our
+accommodation) seems to have a lot of older single men living here long term.
+
+We rented a kayak from our guest house, paddling up the river a bit, looking at birds and trying
+(with little success) to pass an under-ripe mango between our paddles. After a cold shower, I tried
+to catch up with this diary, then had a delicious dinner at a Lebanese restaurant. I know we're in
+Cambdodia, but it was highly rated, it's still exploring different tastes, and they both have some
+French influence. Plus I got a banana & nutella shake later (which definitely counts as Cambodian
+fusion cuisine).
+
+I finally caught up with the diary after dinner. It takes a surprisingly large amount of time and I
+was 5 days behind ...
+)
+  },
+  {
+    date: '2018-01-29',
+    number: 26,
+    written: '2018-01-29 21:50',
+    expenses: {
+      FOOD: { breakfast: { dollars: 12.25 }, lunch: { dollars: 6 }, cocktails: { dollars: 5 }, dinner: { dollars: 27 } },
+      ACCOMMODATION: { dollars: 4 },
+      LONG_DISTANCE_TRAVEL: { tuk_tuk: { dollars: 20 } },
+      SHORT_TRAVEL: {},
+      ACTIVITIES: {},
+      OTHER: { pepper: { dollars: 16.50 } }
+    },
+    stats: {
+      walked: 4.8,
+      temperature: 27,
+      altitude: 1
+    },
+    food: [
+      'french toast with sugar cane caramelized banana, breakfast shake (banana, peanut butter, honey, cinnamon, oats)',
+      'banana shake and Kampot pepper ice cream',
+      'salt and pepper popcorn, sunset cocktail',
+      'tapas: lomos de orvo (pork), squid, tomato salad, bread, croquetes, sangria'
+    ],
+    entry: %(
+It turns out our room did have a waterproof roof - at least, this morning's downpour didn't soak us.
+We got up after it finished, paid and left, walking a mile or two into town with our rucksacks.
+Rosie had found us an excellent breakfast restaurant and I had a fantastic meal of French toast and
+bananas covered in sugar cane caramel. The breakfast shake (banana, peanut butter, honey, cinnamon,
+oats) may have been a bit much, but was interesting.
+
+Our main activity for the day was getting to Kep, another coastal town 15 - 20 miles away. We hopped
+into a (remarkably comfy) tuk tuk and asked to stop at La Plantation, a pepper farm on the way. At
+least, it wasn't particularly near by either Kampot or Kep, but close enough. We turned off the
+tarmac road onto smaller, bumpier dirt tracks through currently empty rice paddies with the
+occasional cow, pig or chicken and chicks.
+
+Our driver stopped at a large building on the edge of a farm where we were able to get a (free!)
+tour. La Plantation is run by a French and Belgian couple, growing primarily Kampot pepper, which
+is one of the main products of the region. We saw plenty of it growing, along with specimens of
+bananas, pineapples, papayas, passion fruit, turmeric and bird chillis. We also learnt the
+differences between different pepper types and got to taste them all. We even tried Kamport pepper
+ice cream, which, surprisingly, wasn't bad (at least in small amounts).
+
+Afterwards, we went the rest of the way to Kep in our tuk tuk and checked in at our (nicer) hotel.
+We wandered into town and had a cocktail at the local sailing club while watching the sunset. We had
+dinner at a Spanish restaurant and probably witnessed a typical scene for a European expat living
+out their dream of opening a small restaurant in South East Asia - everything a little bit too
+hectic for him and the single other member of staff to handle, even with only three or four tables.
+The water hadn't been working for the previous two days, but was now fixed, and half the food on the
+menu wasn't actually available. The food itself was ok, not great, but it was fun to see and
+slightly reminiscent of Fawlty Towers. We also got chatting to an Austrian couple who'd been
+travelling a lot.
+
+## Pepper types
+
+* *Red*: ripe pepper picked, boiled & sundried
+* *White*: peeled red pepper
+* *Black*: not as ripe pepper picked when green, boiled & sundried
+* *Long*: a different type of pepper, originally from Java rather than India. Shaped like a bumpy chilli (I prefer this one).
+* *Pearl*: the seeds within the long pepper
+)
   }
-  # ,
-  #   {
-  #     date: '2018-01-24',
-  #     number: 21,
-  #     written: '2018-01-24 ?',
-  #     expenses: {
-  #       FOOD: { drinks: { baht: 160 }, lunch: { baht: 410 }, water: { baht: 30 }, cocktails: { baht: 220 } },
-  #       ACCOMMODATION: { baht: 800 },
-  #       LONG_DISTANCE_TRAVEL: {},
-  #       SHORT_TRAVEL: {},
-  #       ACTIVITIES: { stand_up_paddle_board: { baht: 100 }},
-  #       OTHER: {}
-  #     },
-  #     stats: {
-  #       walked: ?,
-  #       temperature: 27,
-  #       altitude: 1
-  #     },
-  #     food: [
-  #       'pineapple and bacon pizza'
-  #     ],
-  #     entry: %(
-  # * leftover breakfast
-  # * standup paddle
-  # * program
-  # )
-  #   },
-  # * boat: 900
 ].freeze
 
 def create_day(config)
