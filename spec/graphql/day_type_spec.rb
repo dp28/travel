@@ -24,7 +24,7 @@ RSpec.describe 'days', type: :request do
       let(:node_query) { 'post { content }' }
       it 'should be the Post associated with the Day' do
         FactoryBot.create :post, day: day, content: 'It was good'
-        expect(json_day[:post][:content]).to eq('It was good')
+        expect(json_day[:post][:content]).to include('It was good')
       end
     end
 

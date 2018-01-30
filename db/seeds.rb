@@ -1018,8 +1018,10 @@ sauces here.
       'chicken satay, chicken massaman curry, banana milkshake'
     ],
     entry: %(
-_(Today's post has a guest author: Rosie. Daniel cannot be held responsible for the accuracy of the
-information provided, and would actively question some of the opinions presented)_
+(Today's post has a guest author: Rosie. Daniel cannot be held responsible for the accuracy of the
+information provided, and would actively question some of the opinions presented)
+
+<R>
 
 Today was to be an exciting day, we were heading off to the thai island Koh Mak but first we needed
 to rectify a small issue of the day before, the fact that we still had the key to our hotel room in
@@ -1062,7 +1064,9 @@ which were perfectly done and covered in garlic butter and Dan had a masaman cur
 unfortunately was a little bit sweet, even for Dan (I know) but the roti that came with it was
 great. We headed back to the hotel, opting for roads this time rather than the jungle trails were
 had used to get to dinner. After admiring the moon over the water (and reading/programming) for an
-hour or so we headed to bed
+hour or so we headed to bed.
+
+</R>
 )
   },
   {
@@ -1140,7 +1144,7 @@ looking forward to being in the water while it poured down on us.
 
 We spent the afternoon reading & programming again - I managed to get the site to the point that it
 could display basic posts and load in all of the ones I had written so far. We then walked back to
-close to where we'd been for dinner the previous day to a Swiss restaurant we'd booked for dinner.'
+close to where we'd been for dinner the previous day to a Swiss restaurant we'd booked for dinner.
 )
   },
   {
@@ -1311,7 +1315,8 @@ After that somewhat exciting bus journey, we were taken by an old, dying tuk tuk
 accommodation. It's a slightly bigger box than we've had so far, this time on stilts. The roof may
 or may not be waterproof and the walls do not meet the roof - making it somewhat less private than
 Rosie would like while changing. It does have a decent sized mosquito net, however, but with a fair
-few holes. It's even got its own large gecko, patrolling parts of the ceiling.
+few holes. It's even got its own large gecko, patrolling parts of the ceiling. <R> I named him
+Bertram.</R>
 )
   },
   {
@@ -1402,7 +1407,10 @@ Our main activity for the day was getting to Kep, another coastal town 15 - 20 m
 into a (remarkably comfy) tuk tuk and asked to stop at La Plantation, a pepper farm on the way. At
 least, it wasn't particularly near by either Kampot or Kep, but close enough. We turned off the
 tarmac road onto smaller, bumpier dirt tracks through currently empty rice paddies with the
-occasional cow, pig or chicken and chicks.
+occasional cow, pig or chicken and chicks. <R> I am not sure that Daniel is acuratly describing
+the feeling of being bounced along in the back of trailer concerned that at any moment the whole thing
+could just collapse around you... but hey there were puppies everywhere so I was happy. </R>
+
 
 Our driver stopped at a large building on the edge of a farm where we were able to get a (free!)
 tour. La Plantation is run by a French and Belgian couple, growing primarily Kampot pepper, which
@@ -1454,9 +1462,9 @@ travelling a lot.
       'fried peanuts, deep water cocktail, crab nachos, olives, shrimp wantons, fritatta, spicy green mango, crab cakes, lime cheese cake, caramelized pineapple, lime sorbet'
     ],
     entry: %(
-This morning we got up late (9.30am) and walked a mile or two into Kep, which seems to have two
-centres. We had a breakfast of pastries at a French bakery and picked up food for lunch. The main
-activity for the day was to be a walk, so we needed a bit of a picnic.
+This morning we got up late (9.30am) and walked a mile or two into Kep, <R> (it was definetly two) </R>
+which seems to have two centres. We had a breakfast of pastries at a French bakery and picked up food
+for lunch. The main activity for the day was to be a walk, so we needed a bit of a picnic.
 
 The walk was around Kep National Park - a small area of jungle-covered hillside just beside the sea.
 We were given a map and quite a bit of useful advice at a cafe at the entrance to the park, then
@@ -1476,10 +1484,11 @@ Seeing the snake did leave us a little on edge for the rest of the time in the n
 for in the butterfly garden. That was relaxing and tranquil (at least, once the loud group of
 school boys left). There were loads of butterflies of plenty of different colours - bright blues and
 oranges with speckles of red and brown. We spent a while taking photos, then left and had some cool
-drinks in the shade.
+drinks in the shade. <R> it was just soooo hot </R>
 
 The place where we had drinks had quite a few dogs, several of which followed / led us as we
-continued our walk around the park. We turned off the main path onto a very steep and overgrown
+continued our walk around the park. <R> I named them Blackie and Blondie and they were great
+guides. </R> We turned off the main path onto a very steep and overgrown
 trail through the jungle recommended by people from the cafe at the entrance. The dogs had far less
 trouble than us and were somewhat reassuring company - they'd probably be much better at noticing
 any other snakes. We ended up at a spectacular view point looking onto the two sea front centres of
@@ -1488,10 +1497,11 @@ make for a zipline.
 
 Like yesterday, we finished with some cocktails watching the sunset, this time having tapas at the
 same place (much better). The crab was particularly good and is what Kep is known for. I'm not
-normally that into it, but here it was excellent.
+normally that into it, but here it was excellent. <R> Guys Daniel ate seafood three times in
+one meal!!</R>
 )
   }
-# * bus: 12
+  # * bus: 12
 ].freeze
 
 def create_day(config)

@@ -37,7 +37,8 @@ RSpec.describe 'posts', type: :request do
   end
 
   context 'with a single post' do
-    let!(:db_post) { FactoryBot.create :post, content: "# Title\nIt was good" }
+    let!(:db_post) { FactoryBot.create :post, content: content_text }
+    let(:content_text) { 'It was good' }
 
     it 'should return an array with one element' do
       expect(posts.size).to eq 1
@@ -50,14 +51,44 @@ RSpec.describe 'posts', type: :request do
         expect(json_post[:title]).to eq db_post.title
       end
 
-      it 'have the content of the Post rendered as HTML, not Markdown' do
-        expect(json_post[:content]).to eq("<h1>Title</h1>\n\n<p>It was good</p>\n")
-      end
-
       %i[published_at written_at].each do |field|
         it "should have a camelCase string representation of the #{field}" do
           json_field_name = field.to_s.camelize(:lower)
           expect(json_post[json_field_name]).to eq(db_post.send(field).to_s)
+        end
+      end
+
+      describe 'the content field' do
+        subject(:returned_content) { json_post[:content] }
+        let(:content_text) { "# Title\nIt was good" }
+
+        it 'have the content of the Post rendered as HTML, not Markdown' do
+          expect(returned_content).to eq("<h1>Title</h1>\n\n<p>It was good</p>\n")
+        end
+
+        context 'if there is content tagged as written by Rosie' do
+          let(:content_text) do
+            %(
+Written by _Daniel_
+
+<R>
+Written by _Rosie_
+</R>
+            )
+          end
+
+          let(:expected_html) do
+            %(<p>Written by <em>Daniel</em></p>
+
+<p><div class="Rosie">
+Written by <em>Rosie</em>
+</div></p>
+)
+          end
+
+          it 'should replace the tags with divs with a special class' do
+            expect(returned_content).to eq(expected_html)
+          end
         end
       end
 

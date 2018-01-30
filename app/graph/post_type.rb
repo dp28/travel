@@ -13,6 +13,27 @@ module MarkdownRenderer
 
 end
 
+module RosieTagRenderer
+
+  ROSIE_CLASS_NAME = 'Rosie'.freeze
+
+  CUSTOM_TO_HTML = {
+    ' <R>' => "<span  class=\"#{ROSIE_CLASS_NAME}\">",
+    ' </R>' => '</span>',
+    '<R>' => "<div class=\"#{ROSIE_CLASS_NAME}\">",
+    '</R>' => '</div>'
+  }.freeze
+
+  def self.render(text)
+    CUSTOM_TO_HTML.reduce(text) do |accumulator, (custom, html)|
+      accumulator.gsub custom, html
+    end
+  end
+
+end
+
+CONTENT_RENDERERS = [MarkdownRenderer, RosieTagRenderer].freeze
+
 PostType = GraphQL::ObjectType.define do
   name 'Post'
   description 'Some content describing part of the trip'
@@ -30,7 +51,9 @@ PostType = GraphQL::ObjectType.define do
 
   field :content do
     type !types.String
-    resolve ->(post, _, _) { MarkdownRenderer.render post.content }
+    resolve lambda { |post, _, _|
+      CONTENT_RENDERERS.reduce(post.content) { |content, renderer| renderer.render content }
+    }
   end
 
   field :publishedAt do

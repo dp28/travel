@@ -24,7 +24,7 @@ export const About = () => (
       write more diary entries and add more functionality.
     </p>
 
-    <div className="Rosie" style={{'font-style': 'italic'}}>
+    <div className="Rosie">
       <h2>From Rosie</h2>
       <p>
         Hi, I'm Rosie and I approve this message.
