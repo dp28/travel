@@ -1329,7 +1329,8 @@ few holes. It's even got its own large gecko, patrolling parts of the ceiling.
     stats: {
       walked: 10,
       temperature: 28,
-      altitude: 1
+      altitude: 1,
+      laundry: 4.5
     },
     food: [
       'banana and nutella pancake',
@@ -1379,7 +1380,7 @@ was 5 days behind ...
       OTHER: { pepper: { dollars: 16.50 } }
     },
     stats: {
-      walked: 4.8,
+      walked: 5.3,
       temperature: 27,
       altitude: 1
     },
@@ -1393,8 +1394,9 @@ was 5 days behind ...
 It turns out our room did have a waterproof roof - at least, this morning's downpour didn't soak us.
 We got up after it finished, paid and left, walking a mile or two into town with our rucksacks.
 Rosie had found us an excellent breakfast restaurant and I had a fantastic meal of French toast and
-bananas covered in sugar cane caramel. The breakfast shake (banana, peanut butter, honey, cinnamon,
-oats) may have been a bit much, but was interesting.
+bananas covered in sugar cane caramel. The baguettes they do here have much softer crusts than a
+French baguette at home and lend themselves really well to French toast. The breakfast shake
+(banana, peanut butter, honey, cinnamon, oats) may have been a bit much, but was interesting.
 
 Our main activity for the day was getting to Kep, another coastal town 15 - 20 miles away. We hopped
 into a (remarkably comfy) tuk tuk and asked to stop at La Plantation, a pepper farm on the way. At
@@ -1427,7 +1429,69 @@ travelling a lot.
 * *Long*: a different type of pepper, originally from Java rather than India. Shaped like a bumpy chilli (I prefer this one).
 * *Pearl*: the seeds within the long pepper
 )
+  },
+  {
+    date: '2018-01-30',
+    number: 27,
+    written: '2018-01-30 22:10',
+    expenses: {
+      FOOD: { breakfast_and_lunch: { dollars: 14 }, drinks: { dollars: 4.5 }, cocktails_and_dinner: { dollars: 30.5 } },
+      ACCOMMODATION: { dollars: 4 },
+      LONG_DISTANCE_TRAVEL: {},
+      SHORT_TRAVEL: {},
+      ACTIVITIES: { national_park: { dollars: 2 } },
+      OTHER: { map: { dollars: 1.5 } }
+    },
+    stats: {
+      walked: 13.2,
+      temperature: 29,
+      altitude: 207
+    },
+    food: [
+      'mini croissants, mini pan au raisins, banana lassi, apricot tart, diplomat pastry',
+      'watermelon juice',
+      'cheese & chorizo baguette, bruschetta',
+      'fried peanuts, deep water cocktail, crab nachos, olives, shrimp wantons, fritatta, spicy green mango, crab cakes, lime cheese cake, caramelized pineapple, lime sorbet'
+    ],
+    entry: %(
+This morning we got up late (9.30am) and walked a mile or two into Kep, which seems to have two
+centres. We had a breakfast of pastries at a French bakery and picked up food for lunch. The main
+activity for the day was to be a walk, so we needed a bit of a picnic.
+
+The walk was around Kep National Park - a small area of jungle-covered hillside just beside the sea.
+We were given a map and quite a bit of useful advice at a cafe at the entrance to the park, then
+made our way to a butterfly garden on the other side of the park.
+
+We slowly walked up the wide path in the swelteringly hot and sticky mid day sun, enjoying the view
+and the sight of the occasional bird or squirrel. After about twenty minutes, I heard a movement on
+the edge of the path and turned to see a metre-long hooded snake lying motionless, watching us. I
+quickly pointed it out to Rosie and we all paused for a second to work out how we can get away as
+quickly and safely as possible. A tiny part of me was also trying to work out whether or when to
+stop and take a photo. As I write this I've just looked up snakes in Cambodia and apparently a lot
+of the hooded ones here are cobras, all of which can kill with a bite and some of which can spit
+venom. So I'm fairly glad that we didn't stop to take a photo. It would have made it easier to
+identify, though.
+
+Seeing the snake did leave us a little on edge for the rest of the time in the national park, except
+for in the butterfly garden. That was relaxing and tranquil (at least, once the loud group of
+school boys left). There were loads of butterflies of plenty of different colours - bright blues and
+oranges with speckles of red and brown. We spent a while taking photos, then left and had some cool
+drinks in the shade.
+
+The place where we had drinks had quite a few dogs, several of which followed / led us as we
+continued our walk around the park. We turned off the main path onto a very steep and overgrown
+trail through the jungle recommended by people from the cafe at the entrance. The dogs had far less
+trouble than us and were somewhat reassuring company - they'd probably be much better at noticing
+any other snakes. We ended up at a spectacular view point looking onto the two sea front centres of
+Kep, separated by another jungle-covered hill, contemplating how great a starting point it would
+make for a zipline.
+
+Like yesterday, we finished with some cocktails watching the sunset, this time having tapas at the
+same place (much better). The crab was particularly good and is what Kep is known for. I'm not
+normally that into it, but here it was excellent.
+)
   }
+# * bus: 12
 ].freeze
 
 def create_day(config)
