@@ -1,8 +1,121 @@
+Day.all.destroy_all # Makes it easier to correct mistakes - will remove eventually
+
+COUNTRIES = {
+  Scotland: {
+    name: 'Scotland',
+    currency_code: Currency::GBP.code
+  },
+  Thailand: {
+    name: 'Thailand',
+    currency_code: Currency::THB.code
+  },
+  Laos: {
+    name: 'Laos',
+    currency_code: Currency::LAK.code
+  },
+  Cambodia: {
+    name: 'Cambodia',
+    currency_code: Currency::KHR.code
+  },
+  Vietnam: {
+    name: 'Vietnam',
+    currency_code: Currency::VND.code
+  }
+}.freeze
+
+LOCATIONS = {
+  Edinburgh: {
+    place_name: 'Edinburgh',
+    accommodation: 'Our previous flat',
+    latitude: 55.939031,
+    longitude: -3.185759,
+    country: COUNTRIES[:Scotland]
+  },
+  BangkokFirst: {
+    place_name: 'Bangkok',
+    accommodation: 'Hotel Royal Bangkok',
+    latitude: 13.740658,
+    longitude: 100.509889,
+    country: COUNTRIES[:Thailand]
+  },
+  ChiangMai: {
+    place_name: 'Chiang Mai',
+    accommodation: 'Boutique House Nipha',
+    latitude: 18.776539,
+    longitude: 98.992413,
+    country: COUNTRIES[:Thailand]
+  },
+  HuayXay: {
+    place_name: 'Huay Xay',
+    accommodation: 'Oudomsin Hotel',
+    latitude: 20.275935,
+    longitude: 100.413607,
+    country: COUNTRIES[:Laos]
+  },
+  Gibbons: {
+    place_name: 'The Gibbon Experience',
+    accommodation: 'Treehouse 7',
+    latitude: 20.410698,
+    longitude: 100.699334,
+    country: COUNTRIES[:Laos]
+  },
+  LuangPrabang: {
+    place_name: 'Luang Prabang',
+    accommodation: 'SySomPhoNe Guest House',
+    latitude: 19.887109,
+    longitude: 102.140528,
+    country: COUNTRIES[:Laos]
+  },
+  Trat: {
+    place_name: 'Trat',
+    accommodation: 'Baan Jaidee Guesthouse',
+    latitude: 12.242794,
+    longitude: 102.513379,
+    country: COUNTRIES[:Thailand]
+  },
+  KohMak: {
+    place_name: 'Koh Mak',
+    accommodation: 'Prompakdee Koh Mak Resort',
+    latitude: 11.825,
+    longitude: 102.470107,
+    country: COUNTRIES[:Thailand]
+  },
+  BangkokSecond: {
+    place_name: 'Bangkok',
+    accommodation: 'BBHouse Khlongtan',
+    latitude: 13.741263,
+    longitude: 100.600572,
+    country: COUNTRIES[:Thailand]
+  },
+  Kampot: {
+    place_name: 'Kampot',
+    accommodation: 'Kampot River Bungalow',
+    latitude: 10.625282,
+    longitude: 104.164843,
+    country: COUNTRIES[:Cambodia]
+  },
+  Kep: {
+    place_name: 'Kep',
+    accommodation: 'Visal Sak Guesthouse',
+    latitude: 10.497838,
+    longitude: 104.29005,
+    country: COUNTRIES[:Cambodia]
+  },
+  PhnomPenh: {
+    place_name: 'Phnom Penh',
+    accommodation: '19 Happy House Backpacker',
+    latitude: 11.569528,
+    longitude: 104.92832,
+    country: COUNTRIES[:Cambodia]
+  }
+}.freeze
+
 DAYS = [
   {
     date: '2018-01-04',
     number: 1,
     written: '2018-01-08 20:00',
+    locations: [LOCATIONS[:Edinburgh]],
     expenses: {
       FOOD: {},
       ACCOMMODATION: {},
@@ -70,6 +183,7 @@ system failed and I managed to get some sleep (thank you, travel pillow).
     date: '2018-01-05',
     number: 2,
     written: '2018-01-08 20:00',
+    locations: [LOCATIONS[:BangkokFirst]],
     expenses: {
       FOOD: { bananas: { baht: 50 } },
       ACCOMMODATION: { baht: 1888 },
@@ -120,6 +234,7 @@ sleep.
     date: '2018-01-06',
     number: 3,
     written: '2018-01-08 20:00',
+    locations: [LOCATIONS[:BangkokFirst]],
     expenses: {
       FOOD: { lollies: { baht: 100 }, dinner: { baht: 195 }, cocktails: { baht: 240 } },
       ACCOMMODATION: { baht: 1888 },
@@ -187,6 +302,7 @@ and the blaring music. The night skyline of Bangkok, however, was spectacular.
     date: '2018-01-07',
     number: 4,
     written: '2018-01-08 20:00',
+    locations: [LOCATIONS[:BangkokFirst]],
     expenses: {
       FOOD: { water: { baht: 34 }, dinner: { baht: 200 } },
       ACCOMMODATION: { baht: 1888 },
@@ -242,6 +358,7 @@ off the night with street food and chilling in the rooftop bar.
     date: '2018-01-08',
     number: 5,
     written: '2018-01-08 20:00',
+    locations: [LOCATIONS[:BangkokFirst]],
     expenses: {
       FOOD: { lunch: { baht: 290 }, snacks: { baht: 70 + 40 + 112 } },
       ACCOMMODATION: {},
@@ -290,6 +407,7 @@ conditioning is so strongs I'm cold for the first time since I arrived.
     date: '2018-01-09',
     number: 6,
     written: '2018-01-09 21:40',
+    locations: [LOCATIONS[:ChiangMai]],
     expenses: {
       FOOD: { breakfast: { baht: 190 }, lunch: { baht: 190 }, street_food_dinner: { baht: 185 } },
       ACCOMMODATION: { baht: 700 },
@@ -342,6 +460,7 @@ powder). Definitely something I'll have a go at making!
     date: '2018-01-10',
     number: 7,
     written: '2018-01-10 20:20',
+    locations: [LOCATIONS[:ChiangMai]],
     expenses: {
       FOOD: { lunch: { baht: 100 }, street_food_dinner: { baht: 110 } },
       ACCOMMODATION: { baht: 700 },
@@ -385,6 +504,7 @@ them, other than in honour of the king and queen's birthdays.
     date: '2018-01-11',
     number: 8,
     written: '2018-01-12 17:50',
+    locations: [LOCATIONS[:ChiangMai]],
     expenses: {
       FOOD: {},
       ACCOMMODATION: { baht: 700 },
@@ -435,6 +555,7 @@ stall keepers to put out shelters, then the rain promptly stopped.
     date: '2018-01-12',
     number: 9,
     written: '2018-01-12 17:50',
+    locations: [LOCATIONS[:ChiangMai]],
     expenses: {
       FOOD: { tea_and_fruit_shake: { baht: 155 } },
       ACCOMMODATION: { baht: 700 },
@@ -472,6 +593,7 @@ more normal temperatures of 25-35 degrees.
     date: '2018-01-13',
     number: 10,
     written: '2018-01-14 21:00',
+    locations: [LOCATIONS[:ChiangMai]],
     expenses: {
       FOOD: { pastry: { baht: 35 + 18 }, tea: { baht: 40 }, beer: { baht: 70 }, shake: { baht: 75 }, pizza: { baht: 720 }, ice_cream: { baht: 30 } },
       ACCOMMODATION: { baht: 700 },
@@ -526,6 +648,7 @@ pack up, ready for our bus in the morning.
     date: '2018-01-14',
     number: 11,
     written: '2018-01-14 21:00',
+    locations: [LOCATIONS[:ChiangMai], LOCATIONS[:HuayXay]],
     expenses: {
       FOOD: { tea: { baht: 35 }, dinner: { kip: 100_000 } },
       ACCOMMODATION: { kip: 110_000 },
@@ -570,6 +693,7 @@ river.
     date: '2018-01-15',
     number: 12,
     written: '2018-01-18 16:40',
+    locations: [LOCATIONS[:HuayXay], LOCATIONS[:Gibbons]],
     expenses: {
       FOOD: { tea: { kip: 5_000 }, cheese_sandwich: { kip: 10_000 }, banana_pancake_and_honey: { kip: 25_000 } },
       ACCOMMODATION: {},
@@ -666,6 +790,7 @@ scared away any interesting animals. I learnt a new game, called "game".
     date: '2018-01-16',
     number: 13,
     written: '2018-01-19 21:20',
+    locations: [LOCATIONS[:Gibbons]],
     expenses: {
       FOOD: {},
       ACCOMMODATION: {},
@@ -709,6 +834,7 @@ think they should be used in more places ...
     date: '2018-01-17',
     number: 14,
     written: '2018-01-19 21:40',
+    locations: [LOCATIONS[:Gibbons], LOCATIONS[:HuayXay]],
     expenses: {
       FOOD: { pringles: { kip: 20_000 }, drinks: { kip: 28_000 } },
       ACCOMMODATION: {},
@@ -769,6 +895,7 @@ last Wheel of Time book. Only about 80 hours to go!
     date: '2018-01-18',
     number: 15,
     written: '2018-01-19 22:00',
+    locations: [LOCATIONS[:LuangPrabang]],
     expenses: {
       FOOD: { street_food_dinner: { kip: 20_000 + 20_000 + 10_000 + 5_000 }, breakfast: { kip: 40_000 }, lunch: { kip: 120_000 } },
       ACCOMMODATION: { dollars: 18 },
@@ -821,6 +948,7 @@ dulcet tones of a guitar-playing fellow guest.
     date: '2018-01-19',
     number: 16,
     written: '2018-01-19 22:20',
+    locations: [LOCATIONS[:LuangPrabang]],
     expenses: {
       FOOD: { drinks: { kip: 66_000 }, coconut_pancake: { kip: 10_000 } },
       ACCOMMODATION: { dollars: 18 },
@@ -881,6 +1009,7 @@ definitely need to replicate that if possible.
     date: '2018-01-20',
     number: 17,
     written: '2018-01-20 20:20',
+    locations: [LOCATIONS[:LuangPrabang]],
     expenses: {
       FOOD: { dinner: { kip: 165_000 }, coconut_pancake: { kip: 5_000 }, lunch: { kip: 35_000 } },
       ACCOMMODATION: { dollars: 18 },
@@ -946,6 +1075,7 @@ flavours we've been having in local food and cooking with was amazing.
     date: '2018-01-21',
     number: 18,
     written: '2018-01-21 20:40',
+    locations: [LOCATIONS[:LuangPrabang], LOCATIONS[:Trat]],
     expenses: {
       FOOD: { breakfast: { kip: 24_000 }, nuts: { baht: 150 }, street_food_dinner: { baht: 150 } },
       ACCOMMODATION: { baht: 300 },
@@ -990,7 +1120,8 @@ sauces here.
   {
     date: '2018-01-22',
     number: 19,
-    written: '2018-01-22 ?',
+    written: '2018-01-24 16:00',
+    locations: [LOCATIONS[:Trat], LOCATIONS[:KohMak]],
     expenses: {
       FOOD: { breakfast: { baht: 140 }, lunch: { baht: 180 }, dinner: { baht: 1000 } },
       ACCOMMODATION: { baht: 800 },
@@ -1073,6 +1204,7 @@ hour or so we headed to bed.
     date: '2018-01-23',
     number: 20,
     written: '2018-01-24 16:10',
+    locations: [LOCATIONS[:KohMak]],
     expenses: {
       FOOD: { breakfast: { baht: 340 }, lunch: { baht: 525 }, dinner: { baht: 690 }, cocktails: { baht: 220 }, water: { baht: 20 } },
       ACCOMMODATION: { baht: 800 },
@@ -1112,6 +1244,7 @@ PS. Shock of the day: Rosie got sunburnt and I didn't!
     date: '2018-01-24',
     number: 21,
     written: '2018-01-28 16:30',
+    locations: [LOCATIONS[:KohMak]],
     expenses: {
       FOOD: { drinks: { baht: 160 }, lunch: { baht: 410 }, water: { baht: 30 }, cocktails: { baht: 220 }, dinner: { baht: 610 } },
       ACCOMMODATION: { baht: 800 },
@@ -1151,6 +1284,7 @@ close to where we'd been for dinner the previous day to a Swiss restaurant we'd 
     date: '2018-01-25',
     number: 22,
     written: '2018-01-28 16:50',
+    locations: [LOCATIONS[:KohMak]],
     expenses: {
       FOOD: { breakfast_snacks: { baht: 55 }, breakfast_drinks: { baht: 120 }, lunch: { baht: 500 }, dinner: { baht: 550 } },
       ACCOMMODATION: { baht: 800 },
@@ -1211,6 +1345,7 @@ Luang Prabang.
     date: '2018-01-26',
     number: 23,
     written: '2018-01-28 20:40',
+    locations: [LOCATIONS[:KohMak], LOCATIONS[:BangkokSecond]],
     expenses: {
       FOOD: { snacks: { baht: 125 }, lunch: { baht: 50 }, dinner: { baht: 585 } },
       ACCOMMODATION: { dollars: 21 },
@@ -1258,6 +1393,7 @@ needed.
     date: '2018-01-27',
     number: 24,
     written: '2018-01-28 21:30',
+    locations: [LOCATIONS[:BangkokSecond], LOCATIONS[:Kampot]],
     expenses: {
       FOOD: { snacks: { dollars: 2 }, lunch: { dollars: 7 }, dinner: { dollars: 12 } },
       ACCOMMODATION: { dollars: 6 },
@@ -1323,6 +1459,7 @@ Bertram.</R>
     date: '2018-01-28',
     number: 25,
     written: '2018-01-28 21:50',
+    locations: [LOCATIONS[:Kampot]],
     expenses: {
       FOOD: { breakfast: { dollars: 4.25 }, lunch: { dollars: 2.75 }, dinner: { dollars: 18.75 } },
       ACCOMMODATION: { dollars: 6 },
@@ -1376,6 +1513,7 @@ was 5 days behind ...
     date: '2018-01-29',
     number: 26,
     written: '2018-01-29 21:50',
+    locations: [LOCATIONS[:Kampot], LOCATIONS[:Kep]],
     expenses: {
       FOOD: { breakfast: { dollars: 12.25 }, lunch: { dollars: 6 }, cocktails: { dollars: 5 }, dinner: { dollars: 27 } },
       ACCOMMODATION: { dollars: 6 },
@@ -1442,6 +1580,7 @@ travelling a lot.
     date: '2018-01-30',
     number: 27,
     written: '2018-01-30 22:10',
+    locations: [LOCATIONS[:Kep]],
     expenses: {
       FOOD: { breakfast_and_lunch: { dollars: 14 }, drinks: { dollars: 4.5 }, cocktails_and_dinner: { dollars: 30.5 } },
       ACCOMMODATION: { dollars: 6 },
@@ -1505,6 +1644,7 @@ one meal!!</R>
     date: '2018-01-31',
     number: 28,
     written: '2018-01-31 20:55',
+    locations: [LOCATIONS[:Kep]. LOCATIONS[:PhnomPenh]],
     expenses: {
       FOOD: { lunch: { dollars: 12 }, dinner: { dollars: 5 }, pudding_and_drinks: { dollars: 6.75 } },
       ACCOMMODATION: { dollars: 9 },
@@ -1590,7 +1730,5 @@ def create_expense(day:, description:, price:, category:)
     category: category
   )
 end
-
-Day.all.destroy_all # Makes it easier to correct mistakes - will remove eventually
 
 DAYS.each { |day_config| create_day day_config }

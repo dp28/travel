@@ -75,7 +75,7 @@ RSpec.describe Currency do
     end
   end
 
-  describe 'Currency::KIP' do
+  describe 'Currency::LAK' do
     subject(:currency) { Currency::LAK }
 
     it_should_behave_like 'a currency' do
@@ -83,6 +83,17 @@ RSpec.describe Currency do
       let(:name) { 'kip' }
       let(:symbol) { '₭' }
       let(:exchange_rate_to_dollars) { 0.00012 }
+    end
+  end
+
+  describe 'Currency::KHR' do
+    subject(:currency) { Currency::KHR }
+
+    it_should_behave_like 'a currency' do
+      let(:code) { :KHR }
+      let(:name) { 'riel' }
+      let(:symbol) { '៛' }
+      let(:exchange_rate_to_dollars) { 0.00025 }
     end
   end
 end

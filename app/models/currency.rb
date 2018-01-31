@@ -45,7 +45,14 @@ class Currency
     exchange_rate_to_dollars: 0.00012
   )
 
-  ALL = [USD, GBP, THB, VND, LAK].freeze
+  KHR = Currency.new(
+    code: :KHR,
+    name: 'riel',
+    symbol: '៛',
+    exchange_rate_to_dollars: 0.00025
+  )
+
+  ALL = [USD, GBP, THB, VND, LAK, KHR].freeze
   DEFAULT = USD
 
   def self.find_by_code(code)
