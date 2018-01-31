@@ -10,4 +10,5 @@ RSpec.describe Country, type: :model do
   end
 
   it { should have_db_index(:name).unique }
+  it { should have_many :locations }
 end
