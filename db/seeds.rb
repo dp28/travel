@@ -1,113 +1,115 @@
 Day.all.destroy_all # Makes it easier to correct mistakes - will remove eventually
+Country.all.destroy_all
+Location.all.destroy_all
 
 COUNTRIES = {
-  Scotland: {
+  Scotland: Country.create!(
     name: 'Scotland',
     currency_code: Currency::GBP.code
-  },
-  Thailand: {
+  ),
+  Thailand: Country.create!(
     name: 'Thailand',
     currency_code: Currency::THB.code
-  },
-  Laos: {
+  ),
+  Laos: Country.create!(
     name: 'Laos',
     currency_code: Currency::LAK.code
-  },
-  Cambodia: {
+  ),
+  Cambodia: Country.create!(
     name: 'Cambodia',
     currency_code: Currency::KHR.code
-  },
-  Vietnam: {
+  ),
+  Vietnam: Country.create!(
     name: 'Vietnam',
     currency_code: Currency::VND.code
-  }
+  )
 }.freeze
 
 LOCATIONS = {
-  Edinburgh: {
+  Edinburgh: Location.create!(
     place_name: 'Edinburgh',
     accommodation: 'Our previous flat',
     latitude: 55.939031,
     longitude: -3.185759,
     country: COUNTRIES[:Scotland]
-  },
-  BangkokFirst: {
+  ),
+  BangkokFirst: Location.create!(
     place_name: 'Bangkok',
     accommodation: 'Hotel Royal Bangkok',
     latitude: 13.740658,
     longitude: 100.509889,
     country: COUNTRIES[:Thailand]
-  },
-  ChiangMai: {
+  ),
+  ChiangMai: Location.create!(
     place_name: 'Chiang Mai',
     accommodation: 'Boutique House Nipha',
     latitude: 18.776539,
     longitude: 98.992413,
     country: COUNTRIES[:Thailand]
-  },
-  HuayXay: {
+  ),
+  HuayXay: Location.create!(
     place_name: 'Huay Xay',
     accommodation: 'Oudomsin Hotel',
     latitude: 20.275935,
     longitude: 100.413607,
     country: COUNTRIES[:Laos]
-  },
-  Gibbons: {
+  ),
+  Gibbons: Location.create!(
     place_name: 'The Gibbon Experience',
     accommodation: 'Treehouse 7',
     latitude: 20.410698,
     longitude: 100.699334,
     country: COUNTRIES[:Laos]
-  },
-  LuangPrabang: {
+  ),
+  LuangPrabang: Location.create!(
     place_name: 'Luang Prabang',
     accommodation: 'SySomPhoNe Guest House',
     latitude: 19.887109,
     longitude: 102.140528,
     country: COUNTRIES[:Laos]
-  },
-  Trat: {
+  ),
+  Trat: Location.create!(
     place_name: 'Trat',
     accommodation: 'Baan Jaidee Guesthouse',
     latitude: 12.242794,
     longitude: 102.513379,
     country: COUNTRIES[:Thailand]
-  },
-  KohMak: {
+  ),
+  KohMak: Location.create!(
     place_name: 'Koh Mak',
     accommodation: 'Prompakdee Koh Mak Resort',
     latitude: 11.825,
     longitude: 102.470107,
     country: COUNTRIES[:Thailand]
-  },
-  BangkokSecond: {
+  ),
+  BangkokSecond: Location.create!(
     place_name: 'Bangkok',
     accommodation: 'BBHouse Khlongtan',
     latitude: 13.741263,
     longitude: 100.600572,
     country: COUNTRIES[:Thailand]
-  },
-  Kampot: {
+  ),
+  Kampot: Location.create!(
     place_name: 'Kampot',
     accommodation: 'Kampot River Bungalow',
     latitude: 10.625282,
     longitude: 104.164843,
     country: COUNTRIES[:Cambodia]
-  },
-  Kep: {
+  ),
+  Kep: Location.create!(
     place_name: 'Kep',
     accommodation: 'Visal Sak Guesthouse',
     latitude: 10.497838,
     longitude: 104.29005,
     country: COUNTRIES[:Cambodia]
-  },
-  PhnomPenh: {
+  ),
+  PhnomPenh: Location.create!(
     place_name: 'Phnom Penh',
     accommodation: '19 Happy House Backpacker',
     latitude: 11.569528,
     longitude: 104.92832,
     country: COUNTRIES[:Cambodia]
-  }
+  )
 }.freeze
 
 DAYS = [
@@ -1644,7 +1646,7 @@ one meal!!</R>
     date: '2018-01-31',
     number: 28,
     written: '2018-01-31 20:55',
-    locations: [LOCATIONS[:Kep]. LOCATIONS[:PhnomPenh]],
+    locations: [LOCATIONS[:Kep], LOCATIONS[:PhnomPenh]],
     expenses: {
       FOOD: { lunch: { dollars: 12 }, dinner: { dollars: 5 }, pudding_and_drinks: { dollars: 6.75 } },
       ACCOMMODATION: { dollars: 9 },
@@ -1691,6 +1693,7 @@ def create_day(config)
   day = Day.find_or_create_by!(number: config[:number], date: config[:date])
   create_post(day, config[:entry], config[:written])
   create_expenses(day, config[:expenses])
+  link_locations(day, config[:locations])
 end
 
 def create_post(day, content, written_at)
@@ -1729,6 +1732,10 @@ def create_expense(day:, description:, price:, category:)
     currency_code: CURRENCY_NAMES_TO_CODES[price.keys.first],
     category: category
   )
+end
+
+def link_locations(day, locations)
+  day.locations << locations
 end
 
 DAYS.each { |day_config| create_day day_config }
