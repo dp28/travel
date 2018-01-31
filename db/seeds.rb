@@ -156,7 +156,7 @@ Rosie arrived in the early afternoon, dumped her stuff, showered, and we headed
 out into Bangkok.
 
 To get a bit of background on Thailand, we went to the guidebook-recommended
-Museum of Siam. The museum was primarily focussed on trying to determine "What
+Museum of Siam. The museum was primarily focused on trying to determine "What
 is Thainess", highlighting the importance of the nation, religion and monarchy
 to its people. The exhibits in each of the 17 rooms were different in style,
 quite interactive and (mostly) in English. For me, the best and strangest room
@@ -325,7 +325,7 @@ several groups of topiary animals.
 
 Everything was cheaper in Chiang Mai, too - from the taxi to the food. The city
 clearly depends on tourism and the museum explaining the history of the area was
-very well done. A lot of it focussed on the founding of the city, whereas the
+very well done. A lot of it focused on the founding of the city, whereas the
 annexation of the former kingdom of Lanna by Siam was stated briefly towards the
 end.
 
@@ -1329,7 +1329,7 @@ Bertram.</R>
       LONG_DISTANCE_TRAVEL: {},
       SHORT_TRAVEL: {},
       ACTIVITIES: { kayak: { dollars: 10 } },
-      OTHER: {}
+      OTHER: { laundry: { dollars: 5 } }
     },
     stats: {
       walked: 10,
@@ -1378,7 +1378,7 @@ was 5 days behind ...
     written: '2018-01-29 21:50',
     expenses: {
       FOOD: { breakfast: { dollars: 12.25 }, lunch: { dollars: 6 }, cocktails: { dollars: 5 }, dinner: { dollars: 27 } },
-      ACCOMMODATION: { dollars: 4 },
+      ACCOMMODATION: { dollars: 6 },
       LONG_DISTANCE_TRAVEL: { tuk_tuk: { dollars: 20 } },
       SHORT_TRAVEL: {},
       ACTIVITIES: {},
@@ -1444,7 +1444,7 @@ travelling a lot.
     written: '2018-01-30 22:10',
     expenses: {
       FOOD: { breakfast_and_lunch: { dollars: 14 }, drinks: { dollars: 4.5 }, cocktails_and_dinner: { dollars: 30.5 } },
-      ACCOMMODATION: { dollars: 4 },
+      ACCOMMODATION: { dollars: 6 },
       LONG_DISTANCE_TRAVEL: {},
       SHORT_TRAVEL: {},
       ACTIVITIES: { national_park: { dollars: 2 } },
@@ -1500,8 +1500,51 @@ same place (much better). The crab was particularly good and is what Kep is know
 normally that into it, but here it was excellent. <R> Guys Daniel ate seafood three times in
 one meal!!</R>
 )
+  },
+  {
+    date: '2018-01-31',
+    number: 28,
+    written: '2018-01-31 20:55',
+    expenses: {
+      FOOD: { lunch: { dollars: 12 }, dinner: { dollars: 5 }, pudding_and_drinks: { dollars: 6.75 } },
+      ACCOMMODATION: { dollars: 9 },
+      LONG_DISTANCE_TRAVEL: { bus: { dollars: 12 } },
+      SHORT_TRAVEL: {},
+      ACTIVITIES: {},
+      OTHER: { toiletries: { dollars: 5 } }
+    },
+    stats: {
+      walked: 5.8,
+      temperature: 31,
+      altitude: 10
+    },
+    food: [
+      'cookies',
+      'nut brittle',
+      'chicken fried rice, beef lok lak, banana shake',
+      'mixed meat and seafood fried rice',
+      'avocado shake, vanilla ice cream'
+    ],
+    entry: %(
+The day started with a four or five hour bus journey from the peaceful emptiness of Kep to the hive
+of activity that is Phnom Penh. It wasn't bad, pretty similar to our other daytime bus trips,
+unfortunately without free water or snacks.
+
+We arrived around 2pm, hungry and quickly very hot. We found our hostel, climbed the steep steps to
+our top floor room to stow our bags, then headed out to find lunch. Afterwards, we focused on
+finding a really nice restaurant for tomorrow's dinner - hopefully that will work out tomorrow.
+Along the way, we saw the outside of the royal palace and monuments erected to the previous king and
+independence from France. We also sat on the banks of the Mekong along with crowds of locals
+(it's currently a public holiday), hoping to see the full moon (apparently a supermoon) rise, but
+were thwarted by clouds.
+
+We ate dinner at a little street food place - fried rice and seafood. It was a bit disappointing,
+though - the smells outside the little foodstalls and tables were much better than the food tasted
+and both dishes (surprisingly) contained baby octopus, which neither of us particularly like. We
+made up for it with pudding and drinks down the road. The avocado milkshake was deliciously smooth,
+with a subtle flavour, almost like drinking cream (not like I'd ever do _that_).
+)
   }
-  # * bus: 12
 ].freeze
 
 def create_day(config)
