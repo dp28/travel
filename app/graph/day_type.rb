@@ -13,14 +13,8 @@ DayType = GraphQL::ObjectType.define do
 
   field :number, types.Int
   field :date, types.String
+  field :post, !PostType
 
-  field :post do
-    type !PostType
-    resolve ->(day, _, _) { day.post }
-  end
-
-  connection :expenses, ExpenseType.connection_type do
-    description 'Things bought on or for this Day'
-    resolve ->(day, _, _) { day.expenses }
-  end
+  connection :locations, LocationType.connection_type
+  connection :expenses, ExpenseType.connection_type
 end

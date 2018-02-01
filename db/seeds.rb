@@ -1685,7 +1685,8 @@ though - the smells outside the little foodstalls and tables were much better th
 and both dishes (surprisingly) contained baby octopus, which neither of us particularly like. We
 made up for it with pudding and drinks down the road. The avocado milkshake was deliciously smooth,
 with a subtle flavour, almost like drinking cream (not like I'd ever do _that_).
-),
+)
+  },
   {
     date: '2018-02-01',
     number: 29,
@@ -1708,7 +1709,7 @@ with a subtle flavour, almost like drinking cream (not like I'd ever do _that_).
       'baked goods, banana shake',
       'beef lok lak, carmelized pear and blue cheese salad, banana shake',
       'vanilla milkshake',
-      '65 degree egg & chorizo mayo, beef bourginon, chocolate & caramel lava pot',
+      '65 degree egg & chorizo mayo, beef bourginon, chocolate & caramel lava pot'
     ],
     entry: %(
 The main event for today was to visit the harrowing Choeung Ek Genocidal Centre

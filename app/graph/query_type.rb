@@ -28,6 +28,22 @@ QueryType = GraphQL::ObjectType.define do
     }
   end
 
+  connection :countries, CountryType.connection_type do
+    description 'All countries visited during the trip'
+
+    resolve lambda { |_object, _args, _context|
+      Country.all
+    }
+  end
+
+  connection :locations, LocationType.connection_type do
+    description 'All locations visited during the trip'
+
+    resolve lambda { |_object, _args, _context|
+      Location.all
+    }
+  end
+
   field :totalExpense do
     type TotalExpenseType
     argument :days, types.Int.to_list_type, default_value: nil
