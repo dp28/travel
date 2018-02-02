@@ -1543,11 +1543,13 @@ bananas covered in sugar cane caramel. The baguettes they do here have much soft
 French baguette at home and lend themselves really well to French toast. The breakfast shake
 (banana, peanut butter, honey, cinnamon, oats) may have been a bit much, but was interesting.
 
+![Excellent French toast with caremalized banana](https://lh3.googleusercontent.com/Hce6Xt88CNTfMMpo5l_Ggr9ooSX6UuyMTdXd9okfWccYpUBbGtMKGv8jISgu-0rzaoNi5yKrRV4ER3Ul9CHX5pVWMcCL_7auK8IpKXgeWSYKWeg-IK1LjBSLbEOGJpF4_3o_tzIZTw)
+
 Our main activity for the day was getting to Kep, another coastal town 15 - 20 miles away. We hopped
 into a (remarkably comfy) tuk tuk and asked to stop at La Plantation, a pepper farm on the way. At
 least, it wasn't particularly near by either Kampot or Kep, but close enough. We turned off the
 tarmac road onto smaller, bumpier dirt tracks through currently empty rice paddies with the
-occasional cow, pig or chicken and chicks. <R> I am not sure that Daniel is acuratly describing
+occasional cow, pig or chicken and chicks. <R> I am not sure that Daniel is accurately describing
 the feeling of being bounced along in the back of trailer concerned that at any moment the whole thing
 could just collapse around you... but hey there were puppies everywhere so I was happy. </R>
 
@@ -1568,6 +1570,8 @@ The water hadn't been working for the previous two days, but was now fixed, and 
 menu wasn't actually available. The food itself was ok, not great, but it was fun to see and
 slightly reminiscent of Fawlty Towers. We also got chatting to an Austrian couple who'd been
 travelling a lot.
+
+![Kep sunset cocktails](https://lh3.googleusercontent.com/F_X8iypM5NUhAtBabvkeeficq3mDcoJULuXd7SezhiDQFLbw11rvB8xvpuQ)
 
 ## Pepper types
 
