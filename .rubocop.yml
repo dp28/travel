@@ -16,6 +16,7 @@ Metrics/BlockLength:
   Exclude:
     - 'spec/**/*'
     - 'app/graph/**/*'
+    - 'lib/tasks/**/*'
 
 Style/Documentation:
   Enabled: false

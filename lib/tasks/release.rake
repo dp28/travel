@@ -5,6 +5,18 @@ namespace :release do
     store_release release
   end
 
+  task edit_doc: :environment do
+    release = load_most_recent_release
+    file_path = [
+      ReleaseRepository::ROOT_RELEASE_DIRECTORY_PATH,
+      release.version,
+      ReleaseRepository::DESCRIPTION_FILE_NAME
+    ].join '/'
+
+    puts "Please describe the new release in #{file_path}"
+    `subl -w #{file_path}`
+  end
+
   task commit: :environment do
     release = load_most_recent_release
     message = "Release #{release.version}"
@@ -30,7 +42,15 @@ namespace :release do
     `heroku run rake db:seed`
   end
 
-  task full: %i[commit push migrate seed] do
+  task frontend: %i[generate_files edit_doc commit push] do
+    puts 'Finished'
+  end
+
+  task api: %i[push migrate seed] do
+    puts 'Finished'
+  end
+
+  task full: %i[generate_files edit_doc commit push migrate seed] do
     puts 'Finished'
   end
 end
