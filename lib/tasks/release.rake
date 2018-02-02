@@ -17,8 +17,21 @@ namespace :release do
     end
   end
 
-  task push: :commit do
+  task :push do
+    puts 'Pushing to Heroku and GitHub'
     `git push heroku master && git push origin master --follow-tags`
+  end
+
+  task :migrate do
+    `heroku run rake db:migrate`
+  end
+
+  task :seed do
+    `heroku run rake db:seed`
+  end
+
+  task full: %i[commit push migrate seed] do
+    puts 'Finished'
   end
 end
 
