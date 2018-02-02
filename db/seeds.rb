@@ -109,6 +109,13 @@ LOCATIONS = {
     latitude: 11.569528,
     longitude: 104.92832,
     country: COUNTRIES[:Cambodia]
+  ),
+  Kratie: Location.create!(
+    place_name: 'Kratie',
+    accommodation: 'Star Backpackers Guesthouse',
+    latitude: 12.484089,
+    longitude: 106.017836,
+    country: COUNTRIES[:Cambodia]
   )
 }.freeze
 
@@ -1734,8 +1741,51 @@ to try somewhere upmarket and highly rated and hopefully have a fantastic meal.
 The food was good, but not as good as we were hoping. It was about as good as a
 decent restaurant in Edinburgh at almost the same price.
 )
+  },
+  {
+    date: '2018-02-02',
+    number: 30,
+    written: '2018-02-02 20:20',
+    locations: [LOCATIONS[:Kratie]],
+    expenses: {
+      FOOD: { breakfast: { dollars: 13 }, dinner: { dollars: 47.5 }, drinks: { dollars: 3.75 }, lunch: { dollars: 21 } },
+      ACCOMMODATION: { dollars: 6 },
+      LONG_DISTANCE_TRAVEL: { bus: { dollars: 16 } },
+      SHORT_TRAVEL: {},
+      ACTIVITIES: {},
+      OTHER: {}
+    },
+    stats: {
+      walked: 7.9,
+      temperature: 35,
+      altitude: 10
+    },
+    food: [
+      'donut',
+      'strawberry yoghurt drink',
+      'banana shake, carrot, pineapple, tomato & rice',
+      'chicken bolognese crepe, creme caramel, mango shake'
+    ],
+    entry: %(
+Another bus day. We were up early to get our 7.45am bus to Kratie.
+Unfortunately, Rosie wasn't feeling so well, something a bus journey was
+unlikely to help. Luckily, it didn't seem to make things much worse.
+
+We arrived in Kratie six or seven hours later. It's a relatively small town, so
+we were close to our guest house for the next two nights. We had a cheap lunch
+at the guest house, then booked tomorrow's activity and the bus for the next
+day. Then we planned a little bit of what we'll do in Chile and I caught up with
+work emails again.
+
+Rosie, despite not having much of an appetite, found an excellent place for
+dinner. I had a surprisingly good main - chicken bolognese crepe. I saw it on
+the menus of at least a couple of the restaurants here and it was intriguing.
+Currently, I'm trying to set things up so that Rosie can add photos to this
+site, which, like most programming tasks, is taking a little longer than
+expected.
+)
   }
-  # bus: 16
+  # bus: 20
 ].freeze
 
 def create_day(config)
