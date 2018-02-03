@@ -5,6 +5,7 @@ import { ApolloProvider } from 'react-apollo'
 
 import { App } from './components/App/App'
 import { Client } from './apolloClient'
+import 'bootstrap/dist/css/bootstrap.min.css';
 import './styles.sass'
 
 document.addEventListener('DOMContentLoaded', () => {
