@@ -340,6 +340,8 @@ tasty asparagus.
 We finished the day with a cocktail each in the rooftop bar of our hotel.
 Apparently it was a pool party but everyone seemed to be ignoring both the pool
 and the blaring music. The night skyline of Bangkok, however, was spectacular.
+
+![Day 1 in Bangkok](https://lh3.googleusercontent.com/IkR8dNFlOT49EitQNCDEBvRwHx3YI-0w3uSBxfXeGYnFxkZZNIHq5l7iDKBPnMFSe9qX7PagBjowisXrzbWCn0ykT1a0LMjgNsQbU7G6s-g3ipEgUFJzDHdkk1BaGh2N3Z8HHFjjYn8)
 )
   },
   {
@@ -398,6 +400,8 @@ park to relax for a bit. We were fascinated and somewhat revolted by the size of
 the catfish which fought over the food being thrown into the lake by people near
 by. <R> There was also a turtle </R> After a while, we made our way back to the
 hotel on the subway. We finished off the night with street food and chilling in the rooftop bar.
+
+![Bangkok Day 2](https://lh3.googleusercontent.com/0yfzNcsYf1vmCSsG2syPeEmcEo-9cewTl3KxX1indKozkgmdZD_Q2bn-VCsJnn8FpCvJ9lR5Y_ZbwTTi1eO_UqWtUtiyrWwXSbShnATVQVpkykWua3kY3XGRCI8v1eUo9P7C1VTnDJo)
 )
   },
   {
@@ -450,6 +454,8 @@ We finished the day by picking up our bags and catching the sleeper train to
 Chiang Mai. As I finish writing this, we've just had our curtained-off semi
 compartment changed from two seats and a table into bunk beds and the air
 conditioning is so strong I'm cold for the first time since I arrived.
+
+![Bangkok Day 3](https://lh3.googleusercontent.com/MATo5E-vXbbBH2evGoCgKmL65DgdDMgjWyJXSaoLnEbdKSKq0xXnA0Jp0Y0wtYeEi-NPyt3jFrL6nqd_000W9ncekYZuCPXeifbeimIfbqNHzjcossPdNoJFE8TMMUx-IQ45ekxhcG8)
 )
   },
   {
@@ -503,6 +509,8 @@ great-tasting food. I love banana pancakes, so had to try the "banana roti with
 Milo" - an interpretation of the Indian flatbread roti filled with banana and
 fried, then layered with condensed milk and Milo (a malted chocolate drink
 powder). Definitely something I'll have a go at making!
+
+![Day 1 Chiang Mai](https://lh3.googleusercontent.com/QxuT6USFHBaQXId0LIxGCr_0w-tRDidHh6otrBZ_tdawvjApakHraoBmtlhAGtacNPFXI8mNfedYPYTmZr0pG_Ag6z9Jd5viSYjOo0tOr6U7hsnvAYEeT3BPa_c0PNs7RX4HcDjzleU)
 )
   },
   {
@@ -547,6 +555,8 @@ Some of the sights were impressive, though, particularly the view from the
 chedis (or pagodas). It was interesting to learn that they had been constructed
 by the Thai Air Force, but we were unable to learn why particularly they built
 them, other than in honour of the king and queen's birthdays.
+
+![Day 2 Chiang Mai](https://lh3.googleusercontent.com/L3phJsAEboP0jJE8sU1Tya3nmrERJH5ZYn8w7M63Xm5K0_v-LbkjcepuHYsULiiPQ-FKPofW0bO7Wa93pLh3A5XPNiM7eODRsF9CDVyrAD7VjT6mlLmgoPSHG-GntB-JZUZ6Z3UBvXI)
 )
   },
   {
