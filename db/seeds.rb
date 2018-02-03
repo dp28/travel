@@ -187,29 +187,29 @@ the last to get on the plane and my heart rate returned to normal. I sat back,
 relaxed, watched some crappy superhero movie until the in-air entertainment
 system failed and I managed to get some sleep (thank you, travel pillow).
 
-<R> Meanwhile in California I received a rather panicked phone call from Daniel 
+<R> Meanwhile in California I received a rather panicked phone call from Daniel
 informing me that he needed to prove onward travel from Thailand or they wouldn't
-let him on the plane! I quickly tried to book the flight that Dan had told me to 
-first trying the airline website only to be told that was only one seat, well that 
-was no good, we needed two... I tried a booking site for the same flight and it went 
-through or at least they sent us a confirmation email, Dan made it on the plane. 
+let him on the plane! I quickly tried to book the flight that Dan had told me to
+first trying the airline website only to be told that was only one seat, well that
+was no good, we needed two... I tried a booking site for the same flight and it went
+through or at least they sent us a confirmation email, Dan made it on the plane.
 
-Panic over, crisis averted... not so fast. I logged into the booking site in the car 
+Panic over, crisis averted... not so fast. I logged into the booking site in the car
 on the way to LA and found that the tickets hadn't been issued there was in fact only
 one seat, I was unimpressed. This now left me stuck I didn't have any proof of onwards
-travel and besides we were going to be flying back into Thailand from Laos, would we 
+travel and besides we were going to be flying back into Thailand from Laos, would we
 need to prove onward travel then, would one ticket do both jobs. I hoped so and booked
 a flight from Thailand to Cambodia from Bangkok air, or at least I thought I did, the
-credit card didn't go through. So I called them, they don't accept card payments over 
-the phone, I would need to fax them my credit card (what?!) I tried another booking site, 
-although I will admit I was skeptical of them at this point, and this one worked. Or at 
+credit card didn't go through. So I called them, they don't accept card payments over
+the phone, I would need to fax them my credit card (what?!) I tried another booking site,
+although I will admit I was skeptical of them at this point, and this one worked. Or at
 least I was issued both a ticket and they charged my card. I then proceeded to have a
-lovely lunch in LA followed by a visit to the very cool Getty art gallery and then 
+lovely lunch in LA followed by a visit to the very cool Getty art gallery and then
 an equally lovely dinner before heading to LAX.
 
-At LAX they didn't seem fussed about onward travel although they only issued my 
+At LAX they didn't seem fussed about onward travel although they only issued my
 ticket as far as China which I will admit concerned me. After standing in 4 very long queues
-I made it onto the plane, watched Goodbye Christopher Robin and fell asleep for 
+I made it onto the plane, watched Goodbye Christopher Robin and fell asleep for
 most of the remaining 10 hours. I was a little bit fed up with airline booking
 sites at this point. </R>
 )
@@ -264,12 +264,12 @@ rip-off fare because I really just wanted to get some decent sleep. I got to the
 hotel, checked in, messaged home and Rosie to say I'd made it, then went to
 sleep.
 
-<R> Meanwhile in China, I landed, stood in a queue to be allowed into the terminal, 
+<R> Meanwhile in China, I landed, stood in a queue to be allowed into the terminal,
 and then stood in a immigration queue followed by a customs queue. I then tried to
-figure out how to get from arrivals to departures (there is one lift that makes the 
-journey), stood in a queue to get my ticket issued, proved onward travel and was 
+figure out how to get from arrivals to departures (there is one lift that makes the
+journey), stood in a queue to get my ticket issued, proved onward travel and was
 handed a ticket to Thailand (yes!). I then stood in a queue to leave through immigration
-and another to get through security and finally one to get on the plane. China seems 
+and another to get through security and finally one to get on the plane. China seems
 to really like getting people to queue up. </R>
 
 )
@@ -380,8 +380,8 @@ palace complex is huge and the buildings are incredibly ornate and covered in
 gold. For me, the most interesting (and least crowded) parts were Chakri
 Mahaprasat - a Western-style building with a Thai roof - and a smaller museum of
 items donated to the Buddha, which includes models of what the complex looked
-like when it was built in 1782 and what it is like now. <R> They seem to really 
-really like gold and they cover **everything** in it, you would need sunglasses 
+like when it was built in 1782 and what it is like now. <R> They seem to really
+really like gold and they cover **everything** in it, you would need sunglasses
 even on a shady day, </R>
 
 We then went to Wat Pho, a temple with a huge reclining Buddha, more intricate
@@ -438,8 +438,8 @@ the boats has a member of staff at the rear with a whistle to communicate with
 the driver. They produced a whole raft of different noises for various different
 situations, all of which easily cut through the low-pitched engine noises. (I'm
 aware that "driver"and "rear" are unlikely to be the correct terms when on a
-boat, but I find them clearer because they're more general). <R> I found the whistles  
-incredibly cool and not dissimilar to the way that a shepherd communicates with 
+boat, but I find them clearer because they're more general). <R> I found the whistles
+incredibly cool and not dissimilar to the way that a shepherd communicates with
 a sheepdog... does that make us the sheep? </R>
 
 
@@ -645,7 +645,7 @@ our $20 a night place) offer afternoon tea, complete with an "artistic tower of
 sweet and savoury temptations". We ended up at 2pm on the riverside balcony of
 the Anantara hotel with tea, scones, about fifteen different snacks and a
 milkshake each. Admittedly, the milkshake probably works a lot better at the
-more normal temperatures of 25-35 degrees. <R> Afternoon tea was amazing and 
+more normal temperatures of 25-35 degrees. <R> Afternoon tea was amazing and
 is something I've always wanted to do! </R>
 )
   },
@@ -732,7 +732,7 @@ I wasn't particularly looking forward to this morning. There's something about a
 journey in the immediate future that just hints that it's not going to be a great day. However, the
 bus was actually pretty decent - a reclining seat (including leg rest), free snack & water, and an
 on-board toilet. We also spent the journey listening to a fairly intense part of the Wheel of Time
-series, which made the time fly. <R> Note: You can convince Daniel to do just about anything if 
+series, which made the time fly. <R> Note: You can convince Daniel to do just about anything if
 you allow him to listen to the Wheel of Time at the same time. </R>
 
 Up next was the Laos border crossing, 4km from the bus stop. That required a tuk tuk ride, a $35
@@ -980,8 +980,8 @@ last Wheel of Time book. Only about 80 hours to go!
     entry: %(
 We woke up (if you can call the brief spells of unconsciousness the night before "sleep") at 5.30am
 as the bus arrived. We shared a songthaew into town, dropped off our bags at our guest house, then
-walked into the centre. <R> My bad night was made even worse by the fact that I had picked up a cold 
-the day before which had steadily developed over the course of the night to be a full blown case of 
+walked into the centre. <R> My bad night was made even worse by the fact that I had picked up a cold
+the day before which had steadily developed over the course of the night to be a full blown case of
 the sniffles. </R>
 
 One of the main things to do in Luang Prabang, apparently, is to watch the alms giving at dawn. As I
@@ -991,7 +991,7 @@ as described - lines of monks walking the main street, being given food by other
 by tourists. <R> It was **very** early in the morning. </R>
 
 We managed to find somewhere opening for breakfast, then went to the UXO information centre. "UXO"
-is short for UneXploded Ordinance - a problem that Laos, the most heavily bombed country per capita 
+is short for UneXploded Ordinance - a problem that Laos, the most heavily bombed country per capita
 in the world, suffers from daily. It was a fascinating, if harrowing, exhibition.
 
 We were then able to check in to our guest house and use the wifi to decide on what to do for the
@@ -1801,9 +1801,9 @@ decent restaurant in Edinburgh at almost the same price.
     date: '2018-02-02',
     number: 30,
     written: '2018-02-02 20:20',
-    locations: [LOCATIONS[:Kratie]],
+    locations: [LOCATIONS[:PhnomPenh], LOCATIONS[:Kratie]],
     expenses: {
-      FOOD: { breakfast: { dollars: 13 }, dinner: { dollars: 47.5 }, drinks: { dollars: 3.75 }, lunch: { dollars: 21 } },
+      FOOD: { breakfast: { riel: 7_500 }, dinner: { dollars: 18.75 }, lunch: { dollars: 8.75 } },
       ACCOMMODATION: { dollars: 6 },
       LONG_DISTANCE_TRAVEL: { bus: { dollars: 16 } },
       SHORT_TRAVEL: {},
@@ -1811,7 +1811,7 @@ decent restaurant in Edinburgh at almost the same price.
       OTHER: {}
     },
     stats: {
-      walked: 7.9,
+      walked: 3.5,
       temperature: 35,
       altitude: 10
     },
@@ -1838,6 +1838,86 @@ the menus of at least a couple of the restaurants here and it was intriguing.
 Currently, I'm trying to set things up so that Rosie can add photos to this
 site, which, like most programming tasks, is taking a little longer than
 expected.
+)
+  },
+  {
+    date: '2018-02-03',
+    number: 31,
+    written: '2018-02-03 20:50',
+    locations: [LOCATIONS[:Kratie]],
+    expenses: {
+      FOOD: { lunch: { dollars: 10 }, dinner: { dollars: 17.5 } },
+      ACCOMMODATION: { dollars: 6 },
+      LONG_DISTANCE_TRAVEL: {},
+      SHORT_TRAVEL: {},
+      ACTIVITIES: { kayak: { dollars: 16 } },
+      OTHER: {}
+    },
+    stats: {
+      walked: 3.1,
+      temperature: 34,
+      altitude: 10
+    },
+    food: [
+      'pumpkin bread',
+      'bamboo sticky rice, tiny oranges',
+      'banana shake, four cheese pasta, margherita pizza',
+      'vegetable spring rolls, honey sesame pork and rice, banana spring rolls'
+    ],
+    entry: %(
+Our reason for coming to Kratie was to see the rare Irrawaddy dolphins. They're
+an endangered species of river dolphin found only in the Mekong, with only 80 to
+90 left. The largest group (about 20) are found near Kratie.
+
+Down here, the Mekong is pretty massive. It's about 2km wide and must be wider
+at times - apparently the water level rises by up to 15 metres during the rainy
+season.
+
+We started at a restaurant near our guest house at 7am with six other tourists
+and two guides, then were driven 20km up river and got into our kayaks. They
+weren't sit on tops this time, which was lucky because (a) it was hard work for
+parts, so having something to push my knees against was good, and (b) getting in
+the river was pretty rushed, so I didn't have time to sun cream my legs (my
+lower inner thighs are burnt, however).
+
+We paddled across the river, then down between lots of small sandy islands
+covered in bushes, all of which must be submerged for months. We stopped on one
+of these to go for a swim (the current was good fun to play in) and have a
+snack. The guides gave us bamboo sticky rice - sticky rice cooked with soya
+beans, coconut milk and a little sugar inside young bamboo. You peel the bamboo
+off, leaving the rice covered in a bamboo paper that is edible.
+
+While on the island, one of our guides told us of many of the tensions
+surrounding the dolphins and their history. He said that before Pol Pot there
+were around 3,000 of them, but afterwards many people fished the river and had
+relatively easy access to explosives and electrocution equipment. This made
+fishing easier, but killed dolphins, too. Now, there is foreign money invested
+to protect the dolphins, which works, but has its own set of problems. People
+on the west of the river resent that the money is spent on the east, where the
+tourists go. People on the east are wary of corruption eats away some money
+they would otherwise have access to.7cd
+
+Next, we kayaked through a flooded forest. This was spectacular - large trees
+dotted sparsely through the river, sometimes close enough together to cause the
+water around them to speed up. A large amount of their root systems were
+visible, making the whole place seem overgrown.
+
+We emerged into a flat expanse with the occasional sand bank and struggled our
+way back to the eastern side against the wind. We got a sense for just how
+strong the wind and currents were. We saw a few local boats with small groups
+of tourists on them, meaning we had arrived at the dolphin pool. Apparently the
+dolphins prefer deep-water fish in that area of the Mekong, which is about 60m
+deep, rather than the rest, which is mainly 10-15m (at the moment).
+
+We spent a while paddling up stream, then floating down stream looking out for
+dolphins. We saw quite a few, particularly towards the end. We saw the same pod
+of four or five surface quite a few times, sometimes as close as about ten
+metres.
+
+We kayaked a bit further down river, then hauled the kayaks up the bank and
+into the truck. We drove back, had a lacklustre lunch, but a decent dinner.
+In between, we updated the site (taking advantage of reliable internet) and
+watched the sunset.
 )
   }
   # bus: 20
