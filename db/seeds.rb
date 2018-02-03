@@ -186,6 +186,32 @@ Thankfully, the airline officials accepted the proof of purchase email. I was
 the last to get on the plane and my heart rate returned to normal. I sat back,
 relaxed, watched some crappy superhero movie until the in-air entertainment
 system failed and I managed to get some sleep (thank you, travel pillow).
+
+<R> Meanwhile in California I received a rather panicked phone call from Daniel 
+informing me that he needed to prove onward travel from Thailand or they wouldn't
+let him on the plane! I quickly tried to book the flight that Dan had told me to 
+first trying the airline website only to be told that was only one seat, well that 
+was no good, we needed two... I tried a booking site for the same flight and it went 
+through or at least they sent us a confirmation email, Dan made it on the plane. 
+
+Panic over, crisis averted... not so fast. I logged into the booking site in the car 
+on the way to LA and found that the tickets hadn't been issued there was in fact only
+one seat, I was unimpressed. This now left me stuck I didn't have any proof of onwards
+travel and besides we were going to be flying back into Thailand from Laos, would we 
+need to prove onward travel then, would one ticket do both jobs. I hoped so and booked
+a flight from Thailand to Cambodia from Bangkok air, or at least I thought I did, the
+credit card didn't go through. So I called them, they don't accept card payments over 
+the phone, I would need to fax them my credit card (what?!) I tried another booking site, 
+although I will admit I was skeptical of them at this point, and this one worked. Or at 
+least I was issued both a ticket and they charged my card. I then proceeded to have a
+lovely lunch in LA followed by a visit to the very cool Getty art gallery and then 
+an equally lovely dinner before heading to LAX.
+
+At LAX they didn't seem fussed about onward travel although they only issued my 
+ticket as far as China which I will admit concerned me. After standing in 4 very long queues
+I made it onto the plane, watched Goodbye Christopher Robin and fell asleep for 
+most of the remaining 10 hours. I was a little bit fed up with airline booking
+sites at this point. </R>
 )
   },
   {
@@ -215,7 +241,7 @@ plane sleep. Once I'm off the plane I connected to the wifi to check that
 nothing else had gone wrong. Getting stuck in Manchester would have been
 frustrating, but in Abu Dhabi it'd have been down right awkward. Once connected,
 a stream of messages popped up. Uh oh. The last-minute flight was never booked,
-there weren't enough places, so it was cancelled. Didn't they know that
+there weren't enough places, so it was canceled. Didn't they know that
 when we booked? Terrible user experience. Bad software design was quite possibly
 the cause. But most importantly, it once again left me without a ticket out of
 Thailand.
@@ -237,6 +263,15 @@ roads. When a taxi stopped, I told him where I was going and accepted the
 rip-off fare because I really just wanted to get some decent sleep. I got to the
 hotel, checked in, messaged home and Rosie to say I'd made it, then went to
 sleep.
+
+<R> Meanwhile in China, I landed, stood in a queue to be allowed into the terminal, 
+and then stood in a immigration queue followed by a customs queue. I then tried to
+figure out how to get from arrivals to departures (there is one lift that makes the 
+journey), stood in a queue to get my ticket issued, proved onward travel and was 
+handed a ticket to Thailand (yes!). I then stood in a queue to leave through immigration
+and another to get through security and finally one to get on the plane. China seems 
+to really like getting people to queue up. </R>
+
 )
   },
   {
@@ -277,7 +312,7 @@ _possibly_ intended to be used for take away tea & coffee).
 I spent the next couple of hours reading the Bangkok section of our guidebook
 and a bit of the cookery-slanted South East Asia travel book I was reading.
 Rosie arrived in the early afternoon, dumped her stuff, showered, and we headed
-out into Bangkok.
+out into Bangkok. <R> My stuff was delicately placed not dumped. </R>
 
 To get a bit of background on Thailand, we went to the guidebook-recommended
 Museum of Siam. The museum was primarily focused on trying to determine "What
@@ -343,7 +378,9 @@ palace complex is huge and the buildings are incredibly ornate and covered in
 gold. For me, the most interesting (and least crowded) parts were Chakri
 Mahaprasat - a Western-style building with a Thai roof - and a smaller museum of
 items donated to the Buddha, which includes models of what the complex looked
-like when it was built in 1782 and what it is like now.
+like when it was built in 1782 and what it is like now. <R> They seem to really 
+really like gold and they cover **everything** in it, you would need sunglasses 
+even on a shady day, </R>
 
 We then went to Wat Pho, a temple with a huge reclining Buddha, more intricate
 decorations and a functioning primary school. It was recommended more than the
@@ -357,10 +394,10 @@ market. The market was _huge_, a maze of stalls selling anything and
 everything, from a plethora of tourist tat to pet cats.
 
 Somewhat overwhelmed and overheated, we settled down by a lake in an adjacent
-park to relax for a bit. We were facinated and somewhat revolted by the size of
+park to relax for a bit. We were fascinated and somewhat revolted by the size of
 the catfish which fought over the food being thrown into the lake by people near
-by. After a while, we made our way back to the hotel on the subway. We finished
-off the night with street food and chilling in the rooftop bar.
+by. <R> There was also a turtle </R> After a while, we made our way back to the
+hotel on the subway. We finished off the night with street food and chilling in the rooftop bar.
 )
   },
   {
@@ -397,19 +434,22 @@ the boats has a member of staff at the rear with a whistle to communicate with
 the driver. They produced a whole raft of different noises for various different
 situations, all of which easily cut through the low-pitched engine noises. (I'm
 aware that "driver"and "rear" are unlikely to be the correct terms when on a
-boat, but I find them clearer because they're more general).
+boat, but I find them clearer because they're more general). <R> I found the whistles  
+incredibly cool and not dissimilar to the way that a shepherd communicates with 
+a sheepdog... does that make us the sheep? </R>
+
 
 We then briefly went to see a reasonably low-key buddhist shrine, at least, in
 comparison to the temples the day before. We had lunch in an enormous food court
 and tried to make our way to Jim Thompson's house. Jim Thompson was an American
 architect turned soldier posted to Thailand at the end of WWII who became a silk
-trader and possibly CIA agent. His house was an iteresting mix of Thai and
+trader and possibly CIA agent. His house was an interesting mix of Thai and
 european architecture and art.
 
 We finished the day by picking up our bags and catching the sleeper train to
 Chiang Mai. As I finish writing this, we've just had our curtained-off semi
 compartment changed from two seats and a table into bunk beds and the air
-conditioning is so strongs I'm cold for the first time since I arrived.
+conditioning is so strong I'm cold for the first time since I arrived.
 )
   },
   {
@@ -595,7 +635,8 @@ our $20 a night place) offer afternoon tea, complete with an "artistic tower of
 sweet and savoury temptations". We ended up at 2pm on the riverside balcony of
 the Anantara hotel with tea, scones, about fifteen different snacks and a
 milkshake each. Admittedly, the milkshake probably works a lot better at the
-more normal temperatures of 25-35 degrees.
+more normal temperatures of 25-35 degrees. <R> Afternoon tea was amazing and 
+is something I've always wanted to do! </R>
 )
   },
   {
@@ -639,7 +680,8 @@ impressive. We fed them sugar cane which allowed them to show their ingeniuity -
 stuffed a bit of sugar cane behind his tusk to maximise the amount he could get while storing some
 for later. We then walked for about ten to twenty minutes to a river where we (mainly Rosie) gave
 the elephants a mud bath, covering them in mud, then throwing water at them when they went into the
-river.
+river. <R> They were just such massive animals that it was hilarious to see Jimmy wander into the river
+and roll around like a dog </R>
 
 We were pretty tired once we got back to Chiang Mai. We had thought about going to a temple out of
 town that supposedly was a great viewpoint, but it was still very cloudy so we opted for a walk
@@ -680,10 +722,11 @@ I wasn't particularly looking forward to this morning. There's something about a
 journey in the immediate future that just hints that it's not going to be a great day. However, the
 bus was actually pretty decent - a reclining seat (including leg rest), free snack & water, and an
 on-board toilet. We also spent the journey listening to a fairly intense part of the Wheel of Time
-series, which made the time fly.
+series, which made the time fly. <R> Note: You can convince Daniel to do just about anything if 
+you allow him to listen to the Wheel of Time at the same time. </R>
 
 Up next was the Laos border crossing, 4km from the bus stop. That required a tuk tuk ride, a $35
-dollar fee & passport photo for a visa, an extra $1 becausse it's the weekend and a songthaew 10km
+dollar fee & passport photo for a visa, an extra $1 because it's the weekend and a songthaew 10km
 to the town we're staying in (Huay Xai).
 
 Negotiating the songthaew took quite a long time because we had to do it with the four other
@@ -695,7 +738,7 @@ way - on the *right* side of the road. In Thailand, they drive on the left.
 We found our hotel, dumped our stuff, got money, booked our bus away in three days and checked in
 with our reason for being here - the Gibbon Experience, which we start tomorrow. Finished
 organising, we found a riverside restaurant to eat, read, and enjoy the sunset over the Mekong
-river.
+river, <R> which was gorgeous </R>.
 )
   },
   {
@@ -927,17 +970,19 @@ last Wheel of Time book. Only about 80 hours to go!
     entry: %(
 We woke up (if you can call the brief spells of unconsciousness the night before "sleep") at 5.30am
 as the bus arrived. We shared a songthaew into town, dropped off our bags at our guest house, then
-walked into the centre.
+walked into the centre. <R> My bad night was made even worse by the fact that I had picked up a cold 
+the day before which had steadily developed over the course of the night to be a full blown case of 
+the sniffles. </R>
 
 One of the main things to do in Luang Prabang, apparently, is to watch the alms giving at dawn. As I
 was told by culturally insensitive American who wishes to remain nameless, alms giving is distinct
 from thanksgiving by the lack of turkey. It also involves considerably more Buddhist monks. It was
 as described - lines of monks walking the main street, being given food by others and photographed
-by tourists.
+by tourists. <R> It was **very** early in the morning. </R>
 
 We managed to find somewhere opening for breakfast, then went to the UXO information centre. "UXO"
-is short for UneXploded Ordinance - a problem that Laos, the most heavily bombed country in the
-world, suffers from daily. It was a fascinating, if harrowing, exhibition.
+is short for UneXploded Ordinance - a problem that Laos, the most heavily bombed country per capita 
+in the world, suffers from daily. It was a fascinating, if harrowing, exhibition.
 
 We were then able to check in to our guest house and use the wifi to decide on what to do for the
 rest of the day. We found somewhere with a great sounding lunch that didn't disappoint, then caught
@@ -950,7 +995,7 @@ some small coconut pancakes / dumplings made in large dishes with ladle-sized in
 Dutch pancakes but far more moist.
 
 Returning early to our room, we caught up with home, work and sleep, despite thin walls and the
-dulcet tones of a guitar-playing fellow guest.
+dulcet tones of a guitar-playing fellow guest. <R> Literally every other note was wrong. </R>
 )
   },
   {
