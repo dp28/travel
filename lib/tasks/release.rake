@@ -1,5 +1,6 @@
 namespace :release do
   task generate_files: :environment do
+    raise 'Only possible with RAILS_ENV=production' unless Rails.env.production?
     release = Release.new(description: 'Some awesome new features')
     compile_frontend release
     store_release release
