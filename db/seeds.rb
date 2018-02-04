@@ -116,6 +116,13 @@ LOCATIONS = {
     latitude: 12.484089,
     longitude: 106.017836,
     country: COUNTRIES[:Cambodia]
+  ),
+  SiemReap: Location.create!(
+    place_name: 'Siem Reap',
+    accommodation: 'Angkor Sweet Home',
+    latitude: 13.353224,
+    longitude: 103.861932,
+    country: COUNTRIES[:Cambodia]
   )
 }.freeze
 
@@ -1919,8 +1926,46 @@ into the truck. We drove back, had a lacklustre lunch, but a decent dinner.
 In between, we updated the site (taking advantage of reliable internet) and
 watched the sunset.
 )
+  },
+  {
+    date: '2018-02-04',
+    number: 32,
+    written: '2018-02-04 21:00',
+    locations: [LOCATIONS[:Kratie], LOCATIONS[:SiemReap]],
+    expenses: {
+      FOOD: { breakfast: { dollars: 4.5 }, lunch: { riel: 22_000 }, dinner: { dollars: 30.25 } },
+      ACCOMMODATION: { dollars: 8 },
+      LONG_DISTANCE_TRAVEL: { bus: { dollars: 20 } },
+      SHORT_TRAVEL: {},
+      ACTIVITIES: {},
+      OTHER: {}
+    },
+    stats: {
+      walked: 4,
+      temperature: 28,
+      altitude: 20,
+      laundry: 6.1
+    },
+    food: [
+      'banana and nutella crepe, banana shake',
+      'banana bread, pringles, ice cream, strawberry yoghurt',
+      'mango & raspberry shake, prahok and crispy rice, mushroom & brie rice balls with beetroot mayo, duck and pumpkin croquetes with hoisin sauce, mango and pineapple cheesecake with basil lemon sauce'
+    ],
+    entry: %(
+This was probably our longest bus journey yet, starting just after 7.30am and
+arriving just before 5pm with a half an hour stop for lunch. Not too much to
+report, really - just a lot of road and a few slightly hairy moments as the bus
+had to leave the tarmac every so often.
+
+We arrived in Siem Reap and walked to our hotel, pleased to discover that our
+room was bigger than our standard box and reasonably cool. We searched for
+somewhere for dinner and headed to one that Rosie found serving twists on local
+food. On the way, we saw the silhouettes of giant bats, flying foxes, in the air
+above us. The food was pretty good, especially the prahok - a fermented fish
+paste in this case used in a thick sauce with shrimp and pork, served with rice
+crackers.
+)
   }
-  # bus: 20
 ].freeze
 
 def create_day(config)

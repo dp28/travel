@@ -3,5 +3,5 @@ Rails.application.routes.draw do
   get '/versions/:version', controller: 'apps', action: 'version'
   post '/graphql', controller: 'graphql', action: 'resolve'
   mount GraphiQL::Rails::Engine, at: '/graphiql', graphql_path: '/graphql'
-  get "*path", controller: 'apps', action: 'current'
+  get '*path', controller: 'apps', action: 'current'
 end
