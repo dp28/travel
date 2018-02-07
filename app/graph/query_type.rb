@@ -53,4 +53,13 @@ QueryType = GraphQL::ObjectType.define do
       TotalExpense.calculate(days: args[:days], categories: args[:categories])
     }
   end
+
+  field :day do
+    type DayType
+    argument :number, types.Int
+
+    resolve lambda { |_object, args, _context|
+      Day.find_by(number: args[:number])
+    }
+  end
 end

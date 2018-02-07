@@ -2,7 +2,7 @@ import React from 'react'
 import { Grid } from 'react-bootstrap'
 import { BrowserRouter as Router, Route } from 'react-router-dom'
 
-import { ConnectedDays } from '../Days/Days'
+import { ConnectedDay } from '../Day/Day'
 import { About } from '../About/About'
 import { Home } from '../Home/Home'
 import { Navigation } from '../Navigation/Navigation'
@@ -17,6 +17,7 @@ export const App = () => (
       <Navigation />
       <Route exact path="/" component={InGrid(Home)}/>
       <Route path="/about" component={InGrid(About)}/>
+      <Route path="/day/:number" component={ConnectedDay}/>
     </div>
   </Router>
 )
