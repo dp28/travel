@@ -15,7 +15,6 @@ export const Days = ({ days, loading }) => {
           <Row key={day.number}>
             <Col xs={12}>
               <h2 className="Day--title">Day {day.number} - {day.date}</h2>
-              <div>Written: {day.writtenAt}</div>
               <div className="content" dangerouslySetInnerHTML={{__html: day.post}} />
             </Col>
           </Row>
@@ -34,7 +33,6 @@ export const ConnectedDays = graphql(gql`
           date
           post {
             content
-            writtenAt
           }
         }
       }
@@ -46,8 +44,7 @@ export const ConnectedDays = graphql(gql`
     days: loading ? [] : days.edges.map(({ day }) => ({
       number: day.number,
       date: new Date(day.date).toString().substring(0, 15),
-      post: day.post.content,
-      writtenAt: new Date(day.post.writtenAt).toString().substring(0, 21)
+      post: day.post.content
     }))
   })
 })(Days)
