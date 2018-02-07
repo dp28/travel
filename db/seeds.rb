@@ -1965,6 +1965,179 @@ above us. The food was pretty good, especially the prahok - a fermented fish
 paste in this case used in a thick sauce with shrimp and pork, served with rice
 crackers.
 )
+  },
+  {
+    date: '2018-02-05',
+    number: 33,
+    written: '2018-02-07 10:10',
+    locations: [LOCATIONS[:SiemReap]],
+    expenses: {
+      FOOD: { breakfast: { dollars: 13.75 }, lunch: { dollars: 7 }, dinner: { dollars: 4.25 } },
+      ACCOMMODATION: { dollars: 12 },
+      LONG_DISTANCE_TRAVEL: {},
+      SHORT_TRAVEL: {},
+      ACTIVITIES: { museum: { dollars: 24 } },
+      OTHER: {squirrel_dry_clean: { dollars: 1 }, laundry: { dollars: 6 } }
+    },
+    stats: {
+      walked: 8.5,
+      temperature: 28,
+      altitude: 20,
+      cycled: 2.4
+    },
+    food: [
+      'banana and passion fruit vegan pancake with honey, banana shake',
+      'sugar and lime crepe, banana shake',
+      'khmer barbeque and soup',
+      'cookie, banana shake'
+    ],
+    entry: %(
+Definitely the weirdest moment of our trip so far - walking into a shop, asking
+to rent their bright pink tandem bicycle for 4.30am the next day and, by the
+way, could they tumble-dry our puppet squirrel?
+
+Explaining the bike is easy enough: tomorrow we're going to cycle around Angkor,
+a large national park full of partially ruined temples. The squirrel, however
+requires a bit more explanation.
+
+About an hour after I wrote yesterday's entry, Rosie noticed a bed bug in our
+bed. We'd both heard horror stories from other travellers of incredibly itchy
+bed bug bites and how difficult they are to get rid of, so had looked them up to
+make sure we could identify them. I squashed it and, sure enough, quite a bit of
+blood seeped out. Worse, we had a look and within a minute or two had found
+another bug, which we caught as evidence.
+
+It was after 10pm, we hadn't had the best sleep for the past few nights and
+really wanted one good night's sleep before getting up early to see Angkor.
+Needless to say, this really wasn't what we wanted to deal with. What could we
+do? Try and change room? Change hotel at 10.30pm?
+
+The hotel had one room free, so we packed up our stuff and moved downstairs. We
+piled our stuff on the floor away from walls or furniture and searched the beds
+for signs of bed bugs. There were some marks and black specks that could have
+been signs of them, but we weren't sure. We decided to just go to sleep and hope
+for the best, not that we had much choice. We also weren't completely sure that
+the bugs were from this hotel - we both had found small bites on ourselves at
+the previous hotel, but dismissed them because they weren't itchy. Not everyone
+reacts to bed bugs, so maybe we were both lucky enough not to and accidentally
+brought them from the old hotel.
+
+After a not-so-restful night's sleep, we woke up without being bitten. We took
+advantage of having moved room to one with a warm shower (luxury!), then checked
+with reception. The room we'd moved to was booked for the next few days, but
+they gave us our money back for the other two nights we had planned to stay. We
+booked ourselves into a new hotel across town, left our bags behind the hotel
+desk and went out to explore Siem Reap.
+
+After breakfast and failing to find a bank, we spent part of the day in the
+national musem learning more about the Khmer Empire, Hinduism and Buddhism. We
+returned to our first hotel, picked up our rucksacks and walked a mile or so to
+our new hotel. The guy there was very friendly, but said that unfortunately the
+free bikes that came with the hotel couldn't be used at night, so if we wanted
+to get to Angkor Wat for sunrise we'd have to hire some elsewhere.
+
+We had to head out anyway - we still had to get our laundry from our first
+hotel. It was pretty lucky we'd decided to do laundry as soon as we arrived the
+day before as bed bugs apparently often stow away in your clothing, so having
+most of our clothes out of the afflicted room was great. However, a few of our
+things did remain in the room until we left - most notably Rosie's
+[world-traveling squirrel puppet](https://www.instagram.com/travelingtufty/).
+We couldn't really both wash him and take him to Angkor wet, so needed to find
+a tumble drier - one of the sure-fire ways of killing stowaway bed bugs.
+
+With our tandem hired and the squirrel cleansed, set off on the bike to pick up
+the laundry. Until now, I've found the crazy roads here to be strangely relaxing
+- you just walk at a steady pace across a busy road and assume everyone will
+stop or go around you.Of course you look to make sure you're safe, but otherwise
+pretty much relax. It's not like that on a tandem, particularly when you haven't
+ridden one in a few years. Starting a tandem is often a multi-step shaky process
+which doesn't lend itself well to stop-start traffic with lanes that are taken
+as guidelines at best rather than hard and fast rules. Add to that the fact that
+it was night and it was pretty clear pretty quickly that we were going to have
+a totally new experience of Cambodian roads.
+
+After two miles of hair-raising cycling, we'd picked up our laundry and dropped
+of our bike at our hotel. We headed out in search of dinner and ended up at a
+Khmer barbeque and soup place definitely aimed at locals. It was slightly
+bizarre, with blaring music and a Cambodian-dubbed Chinese film playing in the
+background. We were given a portable gas stove with a large dish on top filled
+with soup. The centre of the dish was a hemisphere rising out of the soup with
+small slits to let the heat out like a grill. We were given veg to put in the
+soup, fat and butter to put on the grill and meat covered in egg and sesame
+seeds to cook. It's also the first place we've been where we were given
+chopsticks and not a fork. It got better as the soup got stronger and one of
+the dipping sauces that we couldn't identify (looked like tahini, but wasn't)
+was great.
+)
+  },
+  {
+    date: '2018-02-06',
+    number: 34,
+    written: '2018-02-07 11:20',
+    locations: [LOCATIONS[:SiemReap]],
+    expenses: {
+      FOOD: { tea: { dollars: 1 }, shakes: { dollars: 4 + 2.95 }, lunch: { dollars: 9 }, dinner: { dollars: 14.5 } },
+      ACCOMMODATION: { dollars: 12 },
+      LONG_DISTANCE_TRAVEL: {},
+      SHORT_TRAVEL: { tandem: { dollars: 5 } },
+      ACTIVITIES: { angkor_park: { dollars: 37 * 2 } },
+      OTHER: { angkor_guide_book: { dollars: 12 } }
+    },
+    stats: {
+      walked: 13,
+      temperature: 28,
+      altitude: 20,
+      cycled: 40.6
+    },
+    food: [
+      'tomato and cream cheese baguette, banana',
+      'mango and banana shake',
+      'pork fried rice, fried spring rolls',
+      'banana and avocado shake',
+      'pork fried rice, beef steak, french fries, assorted khmer sweets, banana shake'
+    ],
+    entry: %(
+Today was a **long** day. We got up at 4.30am, donned helmets and head torches,
+picked up our takeaway breakfast and got on our tandem. The aim was to get to
+Angkor Wat, a huge temple and city, for sunrise. First, we needed to cycle about
+ten miles to the ticket office and the national park.
+
+The cycling was easier than the night before - much less traffic and we were
+more accustomed to the bike. We made reasonable time, primarily because we
+didn't need to stop to navigate. Rosie, on the back, could check Maps.Me on her
+phone while I did all the steering. After a few bumpy roads we made it to the
+huge moat around Angkor Wat, the largest religious monument in the world (1.5km
+by 1.3km). It was the capital city of the Khmer Empire and has a huge temple
+at the centre and is stunning at sunrise.
+
+Unfortunately, lots of other tourists also know this. We stayed for the
+spectacular sunrise, then hopped back on our bike and continued to another
+ruined city within the park, Angkor Thom, with another incredible temple at its
+centre. Bayon is possibly more impressive than Angkor Wat, with a maze-like
+interior and 37 towers all with a huge face carved onto each side. Better yet,
+as we had left so early, there weren't many other people there for most of the
+time we were there.
+
+As the sun came up more and more tourists arrived. The park is huge and there
+are so many impressive, ruined temples, almost all mobbed by crowds of tourists
+of all varieties. We saw people with cameras on tripods with the unbrella-like
+attachments to modify the camera's flash. We saw plenty of tourists with money
+belts on outside their clothing (how is that useful?) and plenty more dressed to
+the nines for all the photos they were taking. We even saw another couple on a
+bright pink tandem (theirs didn't have flowers on the front, though).
+
+The temples were incredible. We saw one which was essentially an island on a
+pond on an island in a small lake on an island in a huge resevoir only a hand
+deep, littered with half-dead trees. Several of the gigantic temple complexes
+have been reclaimed by the jungle, surrounded by trees. Some massive trees are
+actually growing out of the walls, looking like they have been poured onto the
+stone.
+
+We spent the day cycling from temple to temple, ending up with sunset at a
+temple on top of a small hill. We braved the traffic in a hectic cycle back into
+Siem Reap, dropped off the bike, had a quick dinner and fell into bed,
+shattered.
+)
   }
 ].freeze
 
