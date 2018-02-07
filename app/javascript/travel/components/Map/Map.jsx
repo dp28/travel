@@ -10,7 +10,12 @@ const DEFAULT_CENTRE = {
 
 export const Map = () => (
   <div className="Map">
-    <GoogleMap center={DEFAULT_CENTRE} zoom={5} >
+    <GoogleMap
+      center={DEFAULT_CENTRE}
+      zoom={5}
+      bootstrapURLKeys={{
+        key: 'AIzaSyDymbrPc713fzhSFmB6F2Ap99fW3y_tYos'
+      }}>
     </GoogleMap>
   </div>
 )
