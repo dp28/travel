@@ -123,6 +123,13 @@ LOCATIONS = {
     latitude: 13.353224,
     longitude: 103.861932,
     country: COUNTRIES[:Cambodia]
+  ),
+  Hanoi: Location.create!(
+    place_name: 'Hanoi',
+    accommodation: 'Hanoi Zesty',
+    latitude: 21.033917,
+    longitude: 105.848751,
+    country: COUNTRIES[:Vietnam]
   )
 }.freeze
 
@@ -1977,7 +1984,7 @@ crackers.
       LONG_DISTANCE_TRAVEL: {},
       SHORT_TRAVEL: {},
       ACTIVITIES: { museum: { dollars: 24 } },
-      OTHER: {squirrel_dry_clean: { dollars: 1 }, laundry: { dollars: 6 } }
+      OTHER: { squirrel_dry_clean: { dollars: 1 }, laundry: { dollars: 6 } }
     },
     stats: {
       walked: 8.5,
@@ -2042,19 +2049,21 @@ day before as bed bugs apparently often stow away in your clothing, so having
 most of our clothes out of the afflicted room was great. However, a few of our
 things did remain in the room until we left - most notably Rosie's
 [world-traveling squirrel puppet](https://www.instagram.com/travelingtufty/).
-We couldn't really both wash him and take him to Angkor wet, so needed to find
+We couldn't really both wash him and take him to Angkor Wat, so needed to find
 a tumble drier - one of the sure-fire ways of killing stowaway bed bugs.
 
-With our tandem hired and the squirrel cleansed, set off on the bike to pick up
+With our tandem hired and the squirrel cleansed, we set off on the bike to pick up
 the laundry. Until now, I've found the crazy roads here to be strangely relaxing
 - you just walk at a steady pace across a busy road and assume everyone will
-stop or go around you.Of course you look to make sure you're safe, but otherwise
+stop or go around you. Of course you look to make sure you're safe, but otherwise
 pretty much relax. It's not like that on a tandem, particularly when you haven't
 ridden one in a few years. Starting a tandem is often a multi-step shaky process
 which doesn't lend itself well to stop-start traffic with lanes that are taken
 as guidelines at best rather than hard and fast rules. Add to that the fact that
 it was night and it was pretty clear pretty quickly that we were going to have
-a totally new experience of Cambodian roads.
+a totally new experience of Cambodian roads. <R> This knowledge combined with the
+fact that we had just agreed to wake up at 4:30am to cycle all day in the Cambodian
+heat and I was pretty sure we were looking at the end of our relationship. </R>
 
 After two miles of hair-raising cycling, we'd picked up our laundry and dropped
 of our bike at our hotel. We headed out in search of dinner and ended up at a
@@ -2138,7 +2147,256 @@ temple on top of a small hill. We braved the traffic in a hectic cycle back into
 Siem Reap, dropped off the bike, had a quick dinner and fell into bed,
 shattered.
 )
+  },
+  {
+    date: '2018-02-07',
+    number: 35,
+    written: '2018-02-09 21:40',
+    locations: [LOCATIONS[:SiemReap], LOCATIONS[:Hanoi]],
+    expenses: {
+      FOOD: { lunch: { dollars: 7 }, dinner: { dollars: 4 }, muffins: { dong: 90_000 } },
+      ACCOMMODATION: { dollars: 14 },
+      LONG_DISTANCE_TRAVEL: { flight: { dollars: 161 } },
+      SHORT_TRAVEL: { tuk_tuk: { dollars: 4 }, taxi: { dong: 450_000 } },
+      ACTIVITIES: {},
+      OTHER: { t_shirt: { dollars: 3.5 }, salt_and_pepper_grinders: { dollars: 30 } }
+    },
+    stats: {
+      walked: 3.8,
+      temperature: 28,
+      altitude: 20
+    },
+    food: [
+      'jam baguette, banana, watermelon',
+      'stir fried cashews and pork, vegetable tempura, rice, banana, mango, banana shake',
+      'beef lok lak, french fries',
+      'banana muffin'
+    ],
+    entry: %(
+This was our last day in Cambodia. We had took the opportunity to have a proper
+lie in (8.30am - four hours on the day before!). We had breakfast, then I spent
+quite a while writing up the last couple of days as we'd been too busy and
+exhausted to write them up on the day.
+
+On the recommendation of our friendly and useful host, Han, we tried to go on a
+free tour of a silk farm in the afternoon. Unfortunately, the bus was fully
+booked, so we had a free tour of their other workshops at their Siem Reap
+premises. They had quite a few different workshops - woodwork, enamel, ceramics,
+silver-coated bronze, and stonework among others. It was impressive to see,
+especially after we were able to have a go at some of the stone carving. It was
+pretty difficult to form any sort of regular pattern, but some of what they were
+producing was incredibly intricate.
+
+As it was our last day, we spent a little while shopping for a few souvenirs.
+Neither of us are that into shopping, so that didn't last that long. We headed
+back to our hotel to do a little programming and have some dinner. We got a tuk
+tuk to the airport (which was pretty slow because it got a flat tire half way
+there).
+
+We expected the usual airport faff not to take to long - it's not that big an
+airport. However, we'd never flown with Vietjet before. They may be cheap, but
+they're strict. Vietnam has complicated visa rules and seems to make the
+airlines enforce them. You don't need a visa for the first 15 days, unless
+you've been there before. To check people in, the airline officials had to
+triple check all the stamps in their passports because apparently they'll be
+fired if they mistakenly let three people through. Needless to say, the queue
+took a **long** time.
+
+Despite the wait, everyone seemed to make it through, including both the guy
+who kept trying to cut his way into the line (and being rebuffed by everyone
+else) and the British couple just getting a transfer in Vietnam who were
+forced to buy a $400 visa online before they could check in.
+
+The flight itself was fine, but I could have lived without the same two songs
+being repeated over and over. Immigration in Vietnam was a breeze - all the hard
+work had already been done for them. We got a taxi from the airport as tuk tuks
+don't seem to be a thing here. Our hotel is fine, if noisy and a bit cold -
+Hanoi is about 15 Celsius and we're used to 25 to 35. The room may have a fan
+and air con, but they're not necessary.
+)
+  },
+  {
+    date: '2018-02-08',
+    number: 36,
+    written: '2018-02-09 22:00',
+    locations: [LOCATIONS[:Hanoi]],
+    expenses: {
+      FOOD: { banh_mi: { dong: 50_000 }, egg_chocolate_waffle_cone: { dong: 25_000 }, donut_balls: { dong: 150_000 } },
+      ACCOMMODATION: { dollars: 14 },
+      LONG_DISTANCE_TRAVEL: {},
+      SHORT_TRAVEL: {},
+      ACTIVITIES: { womens_museum: { dong: 60_000 }, temple_of_literature: { dong: 45_000 }, food_tour: { dollars: 40 } },
+      OTHER: {}
+    },
+    stats: {
+      walked: 9.5,
+      temperature: 18,
+      altitude: 20
+    },
+    food: [
+      'jam baguette, omlette, orange juice',
+      'roast pork banh mi',
+      'egg-chocolate cone',
+      'banh mi',
+      'donut balls',
+      'bun cha (grilled pork noodles)',
+      'nom ho kho (dried beef salad)',
+      'banh cuon (steamed rice pancake)',
+      'beer, do ran (fried food)',
+      'mien tron (mixed noodles)',
+      'ca phe tring (egg coffee/chocolate), banh mi',
+      'kem (dessert - sticky rice coloured green with pineapple leaf, coconut ice cream, coconut shavings, dried coconut)'
+    ],
+    entry: %(
+After our hotel breakfast of extra crumbly baguettes (made with rice flour and
+very little liquid, so they're way more crumbly than French baguettes), we spent
+a while looking up and booking most of the rest of our time in northern Vietnam.
+
+We changed our plans quite a bit due to weather and some more information. We'd
+planned to got trekking in Sapa, a mountainous area in the north, but it's going
+to be wet and almost freezing there. Instead, we're going to go to Mai Chau,
+which should also have scenic rice paddies and be good for walking, but be a bit
+warmer.
+
+Similarly, we planned to have a day trip to Halong Bay, a picturesque area full
+of vertical limestone islands. Instead, we're going to go to Cat Ba island for
+two nights. It's nearby, has similar scenery, is less touristy and has some fun
+looking activities.
+
+After our booking bonanza, we headed out into Hanoi. We're staying in the Old
+Quarter - a warren of small street packed full of scooters blaring their horns
+and driving faster than they were in the other countries we've been in. Many of
+the streets have a specialism where most of the shops sell a particular set of
+goods, eg shoe street or sweets street. Barbeque chicken street is apparently
+very popular. The streets have completely different names (and don't seem to
+have signs), but you can quickly tell what everyone is selling.
+
+One of the things we'd heard about Vietnam was that the food was great. Our
+first few forays into Vietnamese cuisine did not disappoint. Banh mi in
+particular is delicious - a crusty Vietnamese baguette filled with a pork pate,
+grilled (or better, slow cooked / roast) pork, pickle, mayo, some incredible
+sauce and maybe some chilli. We also had Vietnamese egg coffee in a waffle cone
+(although we got the chocolate version rather than coffee). Egg coffee isn't
+as weird as it sounds, it's beaten egg yolk and condensed milk, then mixed
+with coffee (or in our case, drinking chocolate). It's creamy and sweet and
+right up my street. Apparently, it was invented during the (Vietnamese/American)
+war when milk was expensive.
+
+I also had a less pleasant food experience - getting ripped off buying what
+turned out to be not very tasty doughnuts. A woman was selling sweet-looking
+pastries and I was interested, so she quickly filled a bag, putting in as many
+as she could fit. I'll freely admit that haggling isn't my strong point,
+especially when somewhat rushed by the other person and in a country I've just
+arrived in. I handed over the money, but knew almost immediately afterwards I
+should have refused and only bought the amount I wanted and for a lower price.
+Ah well, it was probably $4 - $5 more than it should have been, but it's a
+lesson learnt.
+
+We spent the afternoon at the Womens' Museum and the Confuscian Temple of
+Literature. The Womens' Museum was fascinating, giving us an insight into
+modern Vietnamese life, tribal customs, religion, the war, the rise of communism
+and independence from France. The interviews with Hanoi street vendors made me
+feel somewhat better about being ripped off and the effects of the war on
+Vietnamese life was staggering, from the tunnels built to the fact that all
+radios had to be registered with the police.
+
+By far the best bit of the day was our evening food tour. Heavily recommended on
+TripAdvisor, we decided to book one rather than a cooking class as all the
+classes sounded similar to the worse of the two we'd already done.
+
+The food was fantastic and varied. We had pork meatball soup, dried beef salad,
+steamed savoury pancackes, fried food in "Vietnamese KFC without chicken",
+noodles, more egg coffee and banh mi, and sticky rice with coconut ice cream.
+Everything was tasty and there was just enough - I wasn't hungry and wasn't
+overly full at the end. We probably ate quite a bit over the three hours.
+
+Our guide, "Potato", was enthusiastic and informative. We learnt what was in
+each dish, how they were eaten and when. She also taught us about the dangers of
+the Vietnamese language - the same word is used for watermelon, pineapple, and
+coconut, just with different tones. Worse, the same is true for "thank you" and
+"shut up" (something like "come an" vs "come on"). We were a group of ten and
+she managed to keep us together and get us all across the treacherous roads,
+throwing her hands in the air and shouting "Sticky rice!" to group us together.
+I'm amazed it worked - it's so loud on a Hanoian street and she was tiny, even
+with her arms raised we couldn't see her over other people.
+)
+  },
+  {
+    date: '2018-02-09',
+    number: 37,
+    written: '2018-02-10 07:50',
+    locations: [LOCATIONS[:Hanoi]],
+    expenses: {
+      FOOD: { banh_mi: { dong: 50_000 }, egg_coffee: { dong: 35_000 }, cream_cake: { dong: 25_000 }, cream_puffs: { dong: 91_000 }, seafood_pastry: { dong: 20_000 }, dinner: { dong: 120_000 }, banana_avocado_shake: { dong: 35_000 } },
+      ACCOMMODATION: { dollars: 14 },
+      LONG_DISTANCE_TRAVEL: {},
+      SHORT_TRAVEL: {},
+      ACTIVITIES: { water_puppets: { dong: 200_000 } },
+      OTHER: { insoles: { dong: 100_000 }, soft_shell_jacket: { dong: 350_000 }, scarves: { dong: 290_000 } }
+    },
+    stats: {
+      walked: 9.4,
+      temperature: 23,
+      altitude: 20
+    },
+    food: [
+      'jam baguette, bacon, orange juice',
+      'roast pork banh mi',
+      'egg coffee',
+      'cream puffs',
+      'cream cake',
+      'green bean sweet bar, banana',
+      'seafood pastry ball, banana',
+      'crispy noodles with beef, pho bo (beef noodle soup)',
+      'banana and avocado shake'
+    ],
+    entry: %(
+We started off this morning with a bit more booking stuff and starting to catch
+up on diary entries. We wandered around the Old Quarter, booking a water puppet
+show for the evening.
+
+We walked out of the Old Quarter to get to Ho Chi Minh's mausoleum. Almost in
+reaction to the tangle that is the Old Quarter, the streets elsewhere are really
+wide and lined with trees. According o our guide from the day before they were
+built by the French. The mausoleum was imposing, but relatively simple and
+unadorned. We sat outside and happened to see the changing of the guard,
+complete with the slightly ridiculous march that seems to be compulsory for
+guard soldiers outside large public buildings the world over.
+
+We went back to the Old Quarter for lunch (can't get enough of those roast pork
+banh mi). It was a great choice - we stumbled across a Japanese cream puff
+pastry shop with brilliant vanilla cream that they'd inject into your choice of
+pastry.
+
+The only thing we had left to book was transport to and from the few places we
+are planning on going. We walked to a couple of travel offices to do this
+(saving some money) and decided to change our self-guided trip to Mai Chau to be
+completely through a tour operator. Hopefully it'll be better than in Chiang Mai
+as the tour operator has a lot of very good reviews.
+
+We spent a while shopping in the various markets filled with silk and
+counterfeit branded clothes. After exercising my very rudimentary haggling
+skills, I ended up with a "North Face" soft shell jacketfor $15, which will be
+useful in Vietnam and South America (assuming it lasts). Unfortunately, Rosie
+didn't see anything she liked, but we'll be back.
+
+One of the main things to do in Hanoi apparently is to go to a water puppet
+show. The theatre has a large pool of water on the stage with several screens
+blocking view to the back of the stage, with musicians in the wings. Puppeteers
+control large puppets in front of the stage using large poles under the water.
+There were 14 small sketches, some impressive, some comical. One old the story
+of the tortoise lake in Hanoi, where a golden tortoise appeared to take back
+a god-given sword from an ancient Vietnamese hero. The most impressive
+performance was the dragon dance, where dragon puppets shot water and fireworks
+from their mouths as they dipped in and out of the water.
+
+We walked back to the hotel through the weekend night market. We had some
+delicious street food (deep fried noodles and beef) on the recommendation of
+tomorrow'stour operator, finished off a few diary entries and got some sleep.
+)
   }
+  # tour: $120
+  # cat ba both ways: 1_140_000
 ].freeze
 
 def create_day(config)
