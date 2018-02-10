@@ -7,7 +7,11 @@ export const Navigation = () => (
   <Navbar inverse collapseOnSelect>
   <Navbar.Header>
     <Navbar.Brand>
-      <Link to="/">Travel Diary</Link>
+      <Link to="/">
+        R
+        <span style={{fontFamily: 'cursive'}}>&nbsp;&amp;&nbsp;</span>
+        D Travels
+      </Link>
     </Navbar.Brand>
     <Navbar.Toggle />
   </Navbar.Header>
