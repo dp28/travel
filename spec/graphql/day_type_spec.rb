@@ -29,14 +29,14 @@ RSpec.describe 'days', type: :request do
     end
 
     describe 'the "locations" connection' do
-      let(:node_query) { 'locations { edges { node { placeName } } }' }
+      let(:node_query) { 'locations { edges { node { name } } }' }
       let(:locations) { FactoryBot.create_list :location, 2 }
 
       before { day.locations << locations }
 
       it 'should be the Locations for the Country' do
-        place_names = json_day[:locations][:edges].map { |e| e[:node][:placeName] }
-        expect(place_names).to eq locations.map(&:place_name)
+        place_names = json_day[:locations][:edges].map { |e| e[:node][:name] }
+        expect(place_names).to eq locations.map(&:name)
       end
     end
 

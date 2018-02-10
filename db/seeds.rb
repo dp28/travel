@@ -1,6 +1,7 @@
 Day.all.destroy_all # Makes it easier to correct mistakes - will remove eventually
 Country.all.destroy_all
 Location.all.destroy_all
+Area.all.destroy_all
 
 COUNTRIES = {
   Scotland: Country.create!(
@@ -25,111 +26,177 @@ COUNTRIES = {
   )
 }.freeze
 
-LOCATIONS = {
-  Edinburgh: Location.create!(
-    place_name: 'Edinburgh',
-    accommodation: 'Our previous flat',
-    latitude: 55.939031,
-    longitude: -3.185759,
+AREAS = {
+  Edinburgh: Area.create!(
+    name: 'Edinburgh',
     country: COUNTRIES[:Scotland]
   ),
+  Bangkok: Area.create!(
+    name: 'Bangkok',
+    country: COUNTRIES[:Thailand]
+  ),
+  ChiangMai: Area.create!(
+    name: 'Chiang Mai',
+    country: COUNTRIES[:Thailand]
+  ),
+  HuayXay: Area.create!(
+    name: 'Huay Xay',
+    country: COUNTRIES[:Laos]
+  ),
+  Gibbons: Area.create!(
+    name: 'The Gibbon Experience',
+    country: COUNTRIES[:Laos]
+  ),
+  LuangPrabang: Area.create!(
+    name: 'Luang Prabang',
+    country: COUNTRIES[:Laos]
+  ),
+  Trat: Area.create!(
+    name: 'Trat',
+    country: COUNTRIES[:Thailand]
+  ),
+  KohMak: Area.create!(
+    name: 'Koh Mak',
+    country: COUNTRIES[:Thailand]
+  ),
+  Kampot: Area.create!(
+    name: 'Kampot',
+    country: COUNTRIES[:Cambodia]
+  ),
+  Kep: Area.create!(
+    name: 'Kep',
+    country: COUNTRIES[:Cambodia]
+  ),
+  PhnomPenh: Area.create!(
+    name: 'Phnom Penh',
+    country: COUNTRIES[:Cambodia]
+  ),
+  Kratie: Area.create!(
+    name: 'Kratie',
+    country: COUNTRIES[:Cambodia]
+  ),
+  SiemReap: Area.create!(
+    name: 'Siem Reap',
+    country: COUNTRIES[:Cambodia]
+  ),
+  Hanoi: Area.create!(
+    name: 'Hanoi',
+    country: COUNTRIES[:Vietnam]
+  )
+}.freeze
+
+LOCATIONS = {
+  Edinburgh: Location.create!(
+    type: Location::Type::ACCOMMODATION,
+    name: 'Our previous flat',
+    latitude: 55.939031,
+    longitude: -3.185759,
+    area: AREAS[:Edinburgh]
+  ),
   BangkokFirst: Location.create!(
-    place_name: 'Bangkok',
-    accommodation: 'Hotel Royal Bangkok',
+    type: Location::Type::ACCOMMODATION,
+    name: 'Hotel Royal Bangkok',
     latitude: 13.740658,
     longitude: 100.509889,
-    country: COUNTRIES[:Thailand]
+    area: AREAS[:Bangkok]
   ),
   ChiangMai: Location.create!(
-    place_name: 'Chiang Mai',
-    accommodation: 'Boutique House Nipha',
+    type: Location::Type::ACCOMMODATION,
+    name: 'Boutique House Nipha',
     latitude: 18.776539,
     longitude: 98.992413,
-    country: COUNTRIES[:Thailand]
+    area: AREAS[:ChiangMai]
   ),
   HuayXay: Location.create!(
-    place_name: 'Huay Xay',
-    accommodation: 'Oudomsin Hotel',
+    type: Location::Type::ACCOMMODATION,
+    name: 'Oudomsin Hotel',
     latitude: 20.275935,
     longitude: 100.413607,
-    country: COUNTRIES[:Laos]
+    area: AREAS[:HuayXay]
   ),
   Gibbons: Location.create!(
-    place_name: 'The Gibbon Experience',
-    accommodation: 'Treehouse 7',
+    type: Location::Type::ACCOMMODATION,
+    name: 'Treehouse 7',
     latitude: 20.410698,
     longitude: 100.699334,
-    country: COUNTRIES[:Laos]
+    area: AREAS[:Gibbons]
   ),
   LuangPrabang: Location.create!(
-    place_name: 'Luang Prabang',
-    accommodation: 'SySomPhoNe Guest House',
+    type: Location::Type::ACCOMMODATION,
+    name: 'SySomPhoNe Guest House',
     latitude: 19.887109,
     longitude: 102.140528,
-    country: COUNTRIES[:Laos]
+    area: AREAS[:LuangPrabang]
   ),
   Trat: Location.create!(
-    place_name: 'Trat',
-    accommodation: 'Baan Jaidee Guesthouse',
+    type: Location::Type::ACCOMMODATION,
+    name: 'Baan Jaidee Guesthouse',
     latitude: 12.242794,
     longitude: 102.513379,
-    country: COUNTRIES[:Thailand]
+    area: AREAS[:Trat]
   ),
   KohMak: Location.create!(
-    place_name: 'Koh Mak',
-    accommodation: 'Prompakdee Koh Mak Resort',
+    type: Location::Type::ACCOMMODATION,
+    name: 'Prompakdee Koh Mak Resort',
     latitude: 11.825,
     longitude: 102.470107,
-    country: COUNTRIES[:Thailand]
+    area: AREAS[:KohMak]
   ),
   BangkokSecond: Location.create!(
-    place_name: 'Bangkok',
-    accommodation: 'BBHouse Khlongtan',
+    type: Location::Type::ACCOMMODATION,
+    name: 'BBHouse Khlongtan',
     latitude: 13.741263,
     longitude: 100.600572,
-    country: COUNTRIES[:Thailand]
+    area: AREAS[:Bangkok]
   ),
   Kampot: Location.create!(
-    place_name: 'Kampot',
-    accommodation: 'Kampot River Bungalow',
+    type: Location::Type::ACCOMMODATION,
+    name: 'Kampot River Bungalow',
     latitude: 10.625282,
     longitude: 104.164843,
-    country: COUNTRIES[:Cambodia]
+    area: AREAS[:Kampot]
   ),
   Kep: Location.create!(
-    place_name: 'Kep',
-    accommodation: 'Visal Sak Guesthouse',
+    type: Location::Type::ACCOMMODATION,
+    name: 'Visal Sak Guesthouse',
     latitude: 10.497838,
     longitude: 104.29005,
-    country: COUNTRIES[:Cambodia]
+    area: AREAS[:Kep]
   ),
   PhnomPenh: Location.create!(
-    place_name: 'Phnom Penh',
-    accommodation: '19 Happy House Backpacker',
+    type: Location::Type::ACCOMMODATION,
+    name: '19 Happy House Backpacker',
     latitude: 11.569528,
     longitude: 104.92832,
-    country: COUNTRIES[:Cambodia]
+    area: AREAS[:PhnomPenh]
   ),
   Kratie: Location.create!(
-    place_name: 'Kratie',
-    accommodation: 'Star Backpackers Guesthouse',
+    type: Location::Type::ACCOMMODATION,
+    name: 'Star Backpackers Guesthouse',
     latitude: 12.484089,
     longitude: 106.017836,
-    country: COUNTRIES[:Cambodia]
+    area: AREAS[:Kratie]
   ),
-  SiemReap: Location.create!(
-    place_name: 'Siem Reap',
-    accommodation: 'Angkor Sweet Home',
+  SiemReapFirst: Location.create!(
+    type: Location::Type::ACCOMMODATION,
+    name: 'Angkor Sweet Home',
     latitude: 13.353224,
     longitude: 103.861932,
-    country: COUNTRIES[:Cambodia]
+    area: AREAS[:SiemReap]
   ),
-  Hanoi: Location.create!(
-    place_name: 'Hanoi',
-    accommodation: 'Hanoi Zesty',
+  SiemReapSecond: Location.create!(
+    type: Location::Type::ACCOMMODATION,
+    name: 'Panda Angkor Inn',
+    latitude: 13.34802,
+    longitude: 103.845565,
+    area: AREAS[:SiemReap]
+  ),
+  HanoiFirst: Location.create!(
+    type: Location::Type::ACCOMMODATION,
+    name: 'Hanoi Zesty',
     latitude: 21.033917,
     longitude: 105.848751,
-    country: COUNTRIES[:Vietnam]
+    area: AREAS[:Hanoi]
   )
 }.freeze
 
@@ -1938,7 +2005,7 @@ watched the sunset.
     date: '2018-02-04',
     number: 32,
     written: '2018-02-04 21:00',
-    locations: [LOCATIONS[:Kratie], LOCATIONS[:SiemReap]],
+    locations: [LOCATIONS[:Kratie], LOCATIONS[:SiemReapFirst]],
     expenses: {
       FOOD: { breakfast: { dollars: 4.5 }, lunch: { riel: 22_000 }, dinner: { dollars: 30.25 } },
       ACCOMMODATION: { dollars: 8 },
@@ -1977,7 +2044,7 @@ crackers.
     date: '2018-02-05',
     number: 33,
     written: '2018-02-07 10:10',
-    locations: [LOCATIONS[:SiemReap]],
+    locations: [LOCATIONS[:SiemReapSecond]],
     expenses: {
       FOOD: { breakfast: { dollars: 13.75 }, lunch: { dollars: 7 }, dinner: { dollars: 4.25 } },
       ACCOMMODATION: { dollars: 12 },
@@ -2083,7 +2150,7 @@ was great.
     date: '2018-02-06',
     number: 34,
     written: '2018-02-07 11:20',
-    locations: [LOCATIONS[:SiemReap]],
+    locations: [LOCATIONS[:SiemReapSecond]],
     expenses: {
       FOOD: { tea: { dollars: 1 }, shakes: { dollars: 4 + 2.95 }, lunch: { dollars: 9 }, dinner: { dollars: 14.5 } },
       ACCOMMODATION: { dollars: 12 },
@@ -2152,7 +2219,7 @@ shattered.
     date: '2018-02-07',
     number: 35,
     written: '2018-02-09 21:40',
-    locations: [LOCATIONS[:SiemReap], LOCATIONS[:Hanoi]],
+    locations: [LOCATIONS[:SiemReapSecond], LOCATIONS[:HanoiFirst]],
     expenses: {
       FOOD: { lunch: { dollars: 7 }, dinner: { dollars: 4 }, muffins: { dong: 90_000 } },
       ACCOMMODATION: { dollars: 14 },
@@ -2219,7 +2286,7 @@ and air con, but they're not necessary.
     date: '2018-02-08',
     number: 36,
     written: '2018-02-09 22:00',
-    locations: [LOCATIONS[:Hanoi]],
+    locations: [LOCATIONS[:HanoiFirst]],
     expenses: {
       FOOD: { banh_mi: { dong: 50_000 }, egg_chocolate_waffle_cone: { dong: 25_000 }, donut_balls: { dong: 150_000 } },
       ACCOMMODATION: { dollars: 14 },
@@ -2325,7 +2392,7 @@ with her arms raised we couldn't see her over other people.
     date: '2018-02-09',
     number: 37,
     written: '2018-02-10 07:50',
-    locations: [LOCATIONS[:Hanoi]],
+    locations: [LOCATIONS[:HanoiFirst]],
     expenses: {
       FOOD: { banh_mi: { dong: 50_000 }, egg_coffee: { dong: 35_000 }, cream_cake: { dong: 25_000 }, cream_puffs: { dong: 91_000 }, seafood_pastry: { dong: 20_000 }, dinner: { dong: 120_000 }, banana_avocado_shake: { dong: 35_000 } },
       ACCOMMODATION: { dollars: 14 },

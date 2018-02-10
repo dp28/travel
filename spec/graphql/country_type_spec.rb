@@ -12,15 +12,27 @@ RSpec.describe 'countries', type: :request do
     let(:json_country) { nodes.first }
     let(:country) { FactoryBot.create :country }
 
-    describe 'the "locations" connection' do
-      let(:node_query) { 'locations { edges { node { placeName } } }' }
-      let(:locations) { FactoryBot.create_list :location, 2 }
+    describe 'the "areas" connection' do
+      let(:node_query) { 'areas { edges { node { name } } }' }
+      let(:areas) { FactoryBot.create_list :area, 2 }
 
-      before { country.locations << locations }
+      before { country.areas << areas }
 
-      it 'should be the Locations for the Country' do
-        place_names = json_country[:locations][:edges].map { |e| e[:node][:placeName] }
-        expect(place_names).to eq locations.map(&:place_name)
+      it 'should be the Areas for the Country' do
+        area_names = json_country[:areas][:edges].map { |e| e[:node][:name] }
+        expect(area_names).to eq areas.map(&:name)
+      end
+
+      describe 'the "locations" connection on each Area' do
+        let(:node_query) { 'areas { edges { node { locations { edges { node { name } } } } } }' }
+        let(:locations) { FactoryBot.create_list :location, 2 }
+
+        before { areas.first.locations << locations }
+
+        it 'should be the Locations for the Area' do
+          json_location_edges = json_country[:areas][:edges].first[:node][:locations][:edges]
+          expect(json_location_edges.map { |e| e[:node][:name] }).to eq locations.map(&:name)
+        end
       end
     end
   end

@@ -10,10 +10,18 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2018_01_31_154027) do
+ActiveRecord::Schema.define(version: 2018_02_10_111845) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
+
+  create_table "areas", force: :cascade do |t|
+    t.string "name", null: false
+    t.bigint "country_id", null: false
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.index ["country_id"], name: "index_areas_on_country_id"
+  end
 
   create_table "countries", force: :cascade do |t|
     t.string "name", null: false
@@ -53,14 +61,14 @@ ActiveRecord::Schema.define(version: 2018_01_31_154027) do
   end
 
   create_table "locations", force: :cascade do |t|
-    t.string "place_name", null: false
-    t.string "accommodation"
+    t.string "name", null: false
     t.float "latitude", null: false
     t.float "longitude", null: false
-    t.bigint "country_id", null: false
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
-    t.index ["country_id"], name: "index_locations_on_country_id"
+    t.bigint "area_id", null: false
+    t.string "type", null: false
+    t.index ["area_id"], name: "index_locations_on_area_id"
   end
 
   create_table "posts", force: :cascade do |t|

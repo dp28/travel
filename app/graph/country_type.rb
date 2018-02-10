@@ -11,6 +11,6 @@ CountryType = GraphQL::ObjectType.define do
     }
   end
 
-  field :name, types.String
-  connection :locations, LocationType.connection_type
+  field :name, !types.String
+  connection :areas, !AreaType.connection_type
 end

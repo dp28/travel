@@ -7,28 +7,22 @@ RSpec.describe 'locations', type: :request do
     'a graphql query for',
     graphql_name: 'locations',
     model_class: Location,
-    properties: %i[id latitude longitude accommodation]
+    properties: %i[id latitude longitude name type]
   ) do
     let(:json_location) { nodes.first }
     let(:location) { FactoryBot.create :location }
 
-    describe 'the "placeName" field' do
-      let(:node_query) { 'placeName' }
+    describe 'the "area" field' do
+      let(:node_query) { 'area { name country { name } }' }
 
       before { location }
 
-      it 'should be the place_name from the Location' do
-        expect(json_location[:placeName]).to eq location.place_name
+      it 'should have the name of the Area for the Location' do
+        expect(json_location[:area][:name]).to eq location.area.name
       end
-    end
 
-    describe 'the "country" field' do
-      let(:node_query) { 'country { name }' }
-
-      before { location }
-
-      it 'should be the Country for the Location' do
-        expect(json_location[:country][:name]).to eq location.country.name
+      it 'should have the Country of the Area for the Location' do
+        expect(json_location[:area][:country][:name]).to eq location.area.country.name
       end
     end
 

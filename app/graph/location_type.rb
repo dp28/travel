@@ -11,15 +11,11 @@ LocationType = GraphQL::ObjectType.define do
     }
   end
 
-  field :latitude, types.Float
-  field :longitude, types.Float
-  field :accommodation, types.String
-  field :country, CountryType
+  field :latitude, !types.Float
+  field :longitude, !types.Float
+  field :name, !types.String
+  field :type, !types.String
+  field :area, !AreaType
 
   connection :days, DayType.connection_type
-
-  field :placeName do
-    type types.String
-    resolve ->(location, _, _) { location.place_name }
-  end
 end
