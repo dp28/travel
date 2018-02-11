@@ -14,4 +14,5 @@ AreaType = GraphQL::ObjectType.define do
   field :name, !types.String
   field :country, !CountryType
   connection :locations, !LocationType.connection_type
+  connection :days, !DayType.connection_type
 end

@@ -11,4 +11,5 @@ RSpec.describe Area, type: :model do
 
   it { should belong_to :country }
   it { should have_many :locations }
+  it { should have_many(:days).through(:locations) }
 end

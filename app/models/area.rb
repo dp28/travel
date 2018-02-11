@@ -4,5 +4,6 @@ class Area < ApplicationRecord
 
   belongs_to :country
   has_many :locations
+  has_many :days, through: :locations
 
 end

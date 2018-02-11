@@ -36,6 +36,14 @@ QueryType = GraphQL::ObjectType.define do
     }
   end
 
+  connection :areas, AreaType.connection_type do
+    description 'All areas within countries visited during the trip'
+
+    resolve lambda { |_object, _args, _context|
+      Area.all
+    }
+  end
+
   connection :locations, LocationType.connection_type do
     description 'All locations visited during the trip'
 
