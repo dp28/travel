@@ -82,6 +82,10 @@ AREAS = {
   Hanoi: Area.create!(
     name: 'Hanoi',
     country: COUNTRIES[:Vietnam]
+  ),
+  MaiChau: Area.create!(
+    name: 'Mai Chau',
+    country: COUNTRIES[:Vietnam]
   )
 }.freeze
 
@@ -197,6 +201,13 @@ LOCATIONS = {
     latitude: 21.033917,
     longitude: 105.848751,
     area: AREAS[:Hanoi]
+  ),
+  MaiChau: Location.create!(
+    type: Location::Type::ACCOMMODATION,
+    name: 'Mai Chau Sunrise Village',
+    latitude: 20.653927,
+    longitude: 105.066922,
+    area: AREAS[:MaiChau]
   )
 }.freeze
 
@@ -2390,7 +2401,7 @@ with her arms raised we couldn't see her over other people.
   },
   {
     date: '2018-02-09',
-    number: 37,
+    number: 38,
     written: '2018-02-10 07:50',
     locations: [LOCATIONS[:HanoiFirst]],
     expenses: {
@@ -2460,6 +2471,60 @@ from their mouths as they dipped in and out of the water.
 We walked back to the hotel through the weekend night market. We had some
 delicious street food (deep fried noodles and beef) on the recommendation of
 tomorrow'stour operator, finished off a few diary entries and got some sleep.
+)
+  },
+  {
+    date: '2018-02-10',
+    number: 37,
+    written: '2018-02-10 21:50',
+    locations: [LOCATIONS[:MaiChau]],
+    expenses: {
+      FOOD: { drinks: { dong: 50_000 } },
+      ACCOMMODATION: {},
+      LONG_DISTANCE_TRAVEL: {},
+      SHORT_TRAVEL: {},
+      ACTIVITIES: { mai_chau_tour: { dollars: 60 } },
+      OTHER: { table_runner: { dong: 400_000 } }
+    },
+    stats: {
+      walked: 2.6,
+      temperature: 18,
+      altitude: 170,
+      cycled: 9.2
+    },
+    food: [
+      'jam baguette, bacon, orange juice',
+      'rice, sweet fish stew, roast pork, morning glory, egg, vegetables',
+      'prawn crackers, fresh spring rolls, sticky rice, chicken, aubergine, carrot, lettuce, french fries, pineapple, watermelon'
+    ],
+    entry: %(
+Today was our organised, all-inclusive tour to Mai Chau. Mai Chau is a
+mountainous region west of Hanoi with steep cliffs and flat flood plains covered
+in rice paddies. We were picked up by a large tourist bus in the tiny street in
+front of our hotel in Hanoi, then, after three and a half hours, were dropped
+with the rest of the bus load at a hotel in a town in Mai Chau.
+
+We had lunch sitting at a table where everyone else spoke Spanish. We could
+follow quite a lot of what was being said, but it was hard to join in. We then
+checked in and went to our room. It seems as if we've been lucky enough to be
+mistakenly upgraded - we've got a huge room, A/C (not that it's needed), hot
+shower and decent bed when we only paid for a private room with a fan. I'm
+certainly not complaining.
+
+We spent the afternoon on an organised bike tour with the other 21 tourists. It
+was slow going with that many people on mountain bikes that couldn't change gear
+(they had plenty of gears, just no gear shifters). We cycled both on the road
+and on paths between paddies. The frequent pauses to regroup did allow us to
+admire the scenery and for the guide to answer questions. One man was aghast
+that they'd erected electricity pylons in the valley because it spoilt the
+view for tourists. He'd rather they bury the electric cables underneath the
+flooded rice paddies, apparently.
+
+We had a buffet dinner and then watched some local dancing. There were a few
+audience participation dances at the end, one involving drinking rice wine and
+another where several people brought large bamboo poles on the ground together
+and apart while everyone else ried to step through without getting their feet
+caught.
 )
   }
   # tour: $120
