@@ -718,7 +718,12 @@ Funnily enough we didn't need dinner. We had a wander through the night market
 so Rosie could buy some Thai thousers (Thaits?) and - shock horror - it actually
 rained! At least, enough water fell from the sky for two minutes to prompt the
 stall keepers to put out shelters, then the rain promptly stopped.
+
+!(https://lh3.googleusercontent.com/dvIAtHY4Xdll8xrm5Apt3Xig7ytJ6KpvlLuDHIkw90MRQaFKmNV9-vWdmP_lr6xJQyVQm4CwYmRB9At4q3iVzd6yrPsLdEEae34_76Lgwu5mjkkZIEe2hmw8vqCU45v3LKHzdv8doXk)
+!
 )
+
+
   },
   {
     date: '2018-01-12',
@@ -757,6 +762,8 @@ the Anantara hotel with tea, scones, about fifteen different snacks and a
 milkshake each. Admittedly, the milkshake probably works a lot better at the
 more normal temperatures of 25-35 degrees. <R> Afternoon tea was amazing and
 is something I've always wanted to do! </R>
+
+!(https://lh3.googleusercontent.com/5SVRmDVxYyLEmAmTqTW_yrDiwYOA3NRL8m8mZqoo1ZBMXIubcKtm46XPRLNKH4uHwFrcaRnfLBfERBl2YsrCDTXqZUUACA_s1KYz_kVToM8I5y7TlFtO-MBy3hkNWr-zYTzrm6VN2pw)
 )
   },
   {
@@ -813,6 +820,8 @@ Chiang Mai within the last day or two. We met up for dinner today with her and h
 catch up. They'd been travelling for the past two or three months in many of the countries we are
 about to go to, so gave us plenty of tips. We had a great meal swapping stories, then headed back to
 pack up, ready for our bus in the morning.
+
+!(https://lh3.googleusercontent.com/0fHXHtFAPr-sRKvXu1oAvDQTKL_2covgq8INhQQJa6jHCjRpzfUC3_QQvfgd53uuFJU-2s9pCcE-kd8PqPvZ-l7B4zFYViHaTDwJacG8VO_nzSboQyj9oVgW3OFcyJjyNoOI5-MsfrU)
 )
   },
   {
