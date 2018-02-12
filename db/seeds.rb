@@ -208,6 +208,13 @@ LOCATIONS = {
     latitude: 20.653927,
     longitude: 105.066922,
     area: AREAS[:MaiChau]
+  ),
+  HanoiSecond: Location.create!(
+    type: Location::Type::ACCOMMODATION,
+    name: 'Camellia 5 Hotel',
+    latitude: 21.035408,
+    longitude: 105.848992,
+    area: AREAS[:Hanoi]
   )
 }.freeze
 
@@ -1010,8 +1017,10 @@ think they should be used in more places ...
         }
       },
       listening: {
-        finished: 'The Gathering Storm',
-        author: 'Robert Jordan and Brandon Sanderson'
+        finished: {
+          title: 'The Gathering Storm',
+          author: 'Robert Jordan and Brandon Sanderson'
+        }
       }
     },
     food: [
@@ -1063,6 +1072,14 @@ last Wheel of Time book. Only about 80 hours to go!
       temperature: 29,
       altitude: 300,
       laundry_weight: 4
+    },
+    books: {
+      listening: {
+        started: {
+          title: 'Towers of Midnight',
+          author: 'Robert Jordan and Brandon Sanderson'
+        }
+      }
     },
     food: [
       'banana and coconut sticky rice',
@@ -2401,7 +2418,7 @@ with her arms raised we couldn't see her over other people.
   },
   {
     date: '2018-02-09',
-    number: 38,
+    number: 37,
     written: '2018-02-10 07:50',
     locations: [LOCATIONS[:HanoiFirst]],
     expenses: {
@@ -2475,7 +2492,7 @@ tomorrow'stour operator, finished off a few diary entries and got some sleep.
   },
   {
     date: '2018-02-10',
-    number: 37,
+    number: 38,
     written: '2018-02-10 21:50',
     locations: [LOCATIONS[:MaiChau]],
     expenses: {
@@ -2525,6 +2542,68 @@ audience participation dances at the end, one involving drinking rice wine and
 another where several people brought large bamboo poles on the ground together
 and apart while everyone else ried to step through without getting their feet
 caught.
+)
+  },
+  {
+    date: '2018-02-11',
+    number: 39,
+    written: '2018-02-12 08:15',
+    locations: [LOCATIONS[:HanoiSecond]],
+    expenses: {
+      FOOD: { snacks: { dong: 30_000 }, banh_mi: { dong: 70_000 }, cream_puffs: { dong: 93_000 } },
+      ACCOMMODATION: { dong: 310_000 },
+      LONG_DISTANCE_TRAVEL: {},
+      SHORT_TRAVEL: {},
+      ACTIVITIES: { mai_chau_tour: { dollars: 60 } },
+      OTHER: {}
+    },
+    stats: {
+      walked: 3.2,
+      temperature: 17,
+      altitude: 350,
+      cycled: 11.5
+    },
+    books: {
+      listening: {
+        finished: {
+          title: 'Towers of Midnight',
+          author: 'Robert Jordan and Brandon Sanderson'
+        },
+        started: {
+          title: 'A Memory of Light',
+          author: 'Robert Jordan and Brandon Sanderson'
+        }
+      }
+    },
+    food: [
+      'donuts, pancakes and honey, banana',
+      'rice, mushroom soup, cucumber salad, morning glory, vegetables',
+      'bananas, kitkat',
+      'banh mi',
+      'cream puffs'
+    ],
+    entry: %(
+We woke up in our "deluxe" room and had a buffet breakfast of fruit, pancakes
+and plenty of deep-fried rice flour donuts. The activity for the day was
+climbing 1,200 steps up to a limestone cave, so after breakfast about 15 of our
+group cycled into the main town to the base of the steps.
+
+The view as we climbed was impressive - a completely flat valley floor with
+sharp limestone peaks jutting up 400m, fading into cloud. The cave was filled
+with massive stalagmites and smaller stalagtites. Apparently an old man had
+lived there until 2002, when it had been opened to tourists.
+
+After a brief look at the local markets, we cycled back for lunch. We were then
+told that we were actually leaving at 2pm rather than 3pm, so had less than an
+hour of free time. That cut short the time we'd planned to spend cycling by
+ourselves to do a bit more exploring - we only really had time to go to a tour
+office to check the details of our next trip. However, when we arrived back at
+2pm, we ended up sitting at reception until after 3pm. Grumble.
+
+After another four hours on a bus, we were back in Hanoi. We'd managed to just
+finish the second last book of the Wheel of Time and were ready for dinner. We
+ended up with some lacklustre banh mi, but made up for them with more delicious
+cream puffs from the Japanese "beard papa" cream puff stall.
 )
   }
   # tour: $120
