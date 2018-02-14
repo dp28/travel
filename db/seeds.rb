@@ -86,6 +86,10 @@ AREAS = {
   MaiChau: Area.create!(
     name: 'Mai Chau',
     country: COUNTRIES[:Vietnam]
+  ),
+  CatBa: Area.create!(
+    name: 'Cat Ba Island',
+    country: COUNTRIES[:Vietnam]
   )
 }.freeze
 
@@ -215,6 +219,13 @@ LOCATIONS = {
     latitude: 21.035408,
     longitude: 105.848992,
     area: AREAS[:Hanoi]
+  ),
+  CatBa: Location.create!(
+    type: Location::Type::ACCOMMODATION,
+    name: 'Victor Charlie Hostel',
+    latitude: 20.726301,
+    longitude: 107.050335,
+    area: AREAS[:CatBa]
   )
 }.freeze
 
@@ -2605,9 +2616,159 @@ finish the second last book of the Wheel of Time and were ready for dinner. We
 ended up with some lacklustre banh mi, but made up for them with more delicious
 cream puffs from the Japanese "beard papa" cream puff stall.
 )
+  },
+  {
+    date: '2018-02-12',
+    number: 40,
+    written: '2018-02-13 21:40',
+    locations: [LOCATIONS[:CatBa]],
+    expenses: {
+      FOOD: { breakfast: { dong: 50_000 }, lunch: { dong: 250_000 }, water: { dong: 10_000 }, dinner: { dong: 404_000 } },
+      ACCOMMODATION: { dollars: 6.3 },
+      LONG_DISTANCE_TRAVEL: { bus_and_boat: { dong: 1_140_000 / 2 } },
+      SHORT_TRAVEL: {},
+      ACTIVITIES: { cannon_fort: { dong: 80_000 } },
+      OTHER: {}
+    },
+    stats: {
+      walked: 10.4,
+      temperature: 17,
+      altitude: 177,
+      laundry: 3.5
+    },
+    food: [
+      'banh mi',
+      'sweet crackers',
+      'pork fried noodles, banana shake',
+      'fried fish with butter and lemon, fried spring rolls, banana and chocolate crepe'
+    ],
+    entry: %(
+We were only back in Hanoi for a night - this morning we had an early bus out to
+the coast. I tried to get breakfast before the 7.45am bus, leaving our hotel to
+buy bahn mi before 7am. There's one particular tiny bahn mi shop, Bami Bread,
+that we've been back to a few times because the sandwiches are the best.
+Brilliant sauce, perfect pate, an excellent pickle - I may be addicted. I
+actually arrived too early, they hadn't opened yet. It was strange to see the
+roads so empty and the pavements no longer covered in stalls, scooters, and
+people. I came back a little later, got a couple of delicious warm baguettes,
+then caught our bus from our hotel.
+
+The bus was pretty fancy - it had wifi, which is a first for the buses we've had
+here. We had a ticket all the way to Cat Ba island, a large island two buses and
+one boat away from Hanoi. Cat Ba is in an area of huge numbers of limestone
+karsts, shear islands jutting out of jade sea.
+
+Despite the cloud and haze, we got some excellent views of the area from an old
+cannon fort above Cat Ba town, used in both WWII and the Vietnam war. We spent
+the afternoon there and walking between some of the beaches near the town. We
+booked our activities for the next day and had dinner at a rooftop restaurant.
+)
+  },
+  {
+    date: '2018-02-13',
+    number: 41,
+    written: '2018-02-14 15:00',
+    locations: [LOCATIONS[:CatBa]],
+    expenses: {
+      FOOD: { snacks: { dong: 50_000 }, water: { dong: 15_000 }, drinks: { dong: 115_000 }, dinner: { dong: 410_000 } },
+      ACCOMMODATION: { dollars: 6.3 },
+      LONG_DISTANCE_TRAVEL: {},
+      SHORT_TRAVEL: {},
+      ACTIVITIES: { kayak_and_stand_up_paddle_board: { dong: 1_670_000 } },
+      OTHER: {}
+    },
+    stats: {
+      walked: 4.3,
+      temperature: 17,
+      altitude: 1
+    },
+    food: [
+      'baguette and omlette',
+      'banana',
+      'potato, rice, fried spring rolls, battered fish, green papaya salad, banana',
+      'banana shake',
+      'sweet chips with sesame seeds, banana shake, banana and honey pancakes'
+    ],
+    entry: %(
+Today was fantastic. The main reason for coming to Cat Ba was to see the
+limestone karst landscape, which we had ample opportunity to do. Cat Ba is near
+Lan Ha bay, which is a maze of shear-cliffed islands, hidden lagoons and
+floating villages. It's just south of the better-known Halong Bay, but
+apparently the same landscape, less polluted and with fewer tourists.
+
+We had booked a tour with a highly-rated adventure tour company, Asia Outdoors,
+to go kayaking and stand-up paddle boarding. After a short bus journey from
+their office, we piled into a largeish boat (an old junk) along with about 15
+others heading out kayaking and climbing. We chatted with a few people as
+climbers were dropped off and had about an hour's journey to our kayak spot.
+
+We were in a group of five with two guides, almost everyone being from the UK or
+Ireland. There was a father and son from England and an Irish guy who'd just
+quit his job and was travelling before a career change. Our guides seemed like
+seasoned travellers, one of whom was aiming to teach sustainable adventure
+tourism in New Zealand, but struggling with visa regulations. It was a fun
+group as everyone was reasonably laid back.
+
+The scenery was stunning even if there was no sign of the sun and it was a tad
+cold. The tide was really low, so the eroded undersides of all the islands were
+exposed. Each island had an overhang several metres deep all the way around it
+caused both by the sea and the huge numbers of large barnacles visible on the
+rock that would normally be underwater. Along the water's edge were all sorts
+of little caves and archways where the stone had eroded in odd patterns. These
+also occurred on a large scale too - we kayaked under several arches and into
+two lagoons almost invisible from the outside. Once, we got out of the kayaks
+into what could have been the mouth of a cave, except inside there was no
+ceiling, just walls of rock at least 50 metres high on all sides.
+
+It was a brilliant morning. We took it slowly, following our guide and paddling
+between the islands. It's a disorientating landscape - without a guide we would
+easily have become lost. The rocks were sharp, the water often shallow and
+some passages very narrow, so we had to try quite hard to have fine control over
+the motion of the kayak to get in and out of lagoons.
+
+After kayaking, we returned to the boat, which then picked up all the climbers.
+We also dropped off two staff members at "party island" which the staff were
+all disparaging about. It's a group of fairly plush huts and a bar on one of the
+islands, all built on a beach of imported sand. The owners have a deal with the
+tour company to provide some climbing instruction as an activity. The
+instructors end up having to decide whether the people they're helping have had
+too much to drink to be allowed to climb.
+
+The boat crew prepared us a delicious lunch - similar fare to what we'd had in
+Mai Chau, but so much better. Rice, surprisingly good potatos, battered fish
+and great spring rolls (deep-fried, of course). The boat crew were all locals
+and lived on the boat, shouting to each other in Vietnamese. The guides were all
+European, Australian or American, as were the tourists, and the two groups
+seemed to coexist without really interacting except for lunch.
+
+After eating, we headed back out towards where we'd kayaked to do some paddle
+boarding. As we were on our way, the clouds burned off and we got some great
+views of the black and white cliffs against the emerald sea.
+
+We were paddle boarding with the Irish guy we'd kayaked with and a couple from
+Seattle. Our guide was from Edinburgh but had been out here for seven months.
+Paddle boarding in the sun was excellent - it would have been worth coming here
+just for the morning's kayaking, but the paddle boarding was even better. We saw
+hundreds of underwater baskets used to farm oysters in the shallower water. The
+water was so low the we both got our boards' fins caught in the baskets at some
+point, but it was so calm that we could easily rectify the problem. As well as
+enjoying the scenery we also collected some plastic waste that floated past us
+which Asia Outdoors would recycle.
+
+We paddled past plenty of floating homes and floating villages. These are little
+sheds on anchored platforms surrounded by fish farms and often with several dogs
+prowling along the walkways, ready to bark at strangers. There weren't many
+other tourist boats, but some of the local boats were pretty odd. One was made
+from concrete and had been converted into a house with brick walls, anchored
+about 20m off shore.
+
+Having had a terrific day, we got back to Cat Ba town about 5.30pm. We had a bit
+of trouble finding dinner due to Tet (Vietnamese lunar new year), which is in a
+few days. The first restaurant we tried, which had been recommended, was shut.
+The second was only doing pizza and didn't have all the ingredients yet. We
+ended up at an ok place with decent pancakes - a necessity on pancake Tuesday.
+)
   }
-  # tour: $120
-  # cat ba both ways: 1_140_000
 ].freeze
 
 def create_day(config)
