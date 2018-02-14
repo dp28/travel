@@ -1,3 +1,67 @@
 .Map
   width: 100%;
   height: 80vh;
+
+.Area
+  font-family: 'Handlee', cursive;
+  font-size: 1.5em;
+  opacity: 1;
+  position: relative;
+
+  .Area--dot
+    opacity: 0.8;
+    cursor: pointer;
+    z-index: 1;
+    position: relative;
+
+  .Area--centre
+    width: 40px;
+    height: 40px;
+    background: blue;
+    border-radius: 20px;
+
+    &:hover
+      background-color: skyblue
+
+  .DaySelector
+    width: 30px;
+    height: 30px;
+    background: grey;
+    border-radius: 15px;
+    cursor: pointer;
+    position: relative;
+    top: 10px;
+    left: 5px;
+    margin-bottom: 10px;
+    text-align: center;
+    line-height: 30px;
+
+    &:hover
+      background: lightgrey
+
+    a
+      text-decoration: none;
+      color: inherit;
+
+    &.selected
+      background-color: lightgrey;
+      border: 2px solid black;
+
+  .Area--title
+    background: white;
+    opacity: 1;
+    position: absolute;
+    top: 0;
+    left: 50px;
+    padding: 5px;
+    border-radius: 5px;
+    z-index: 1;
+    border: 2px solid black;
+
+  &.selected
+    .Area--dot, .Area--title
+      z-index: 10;
+
+    .Area--centre
+      background: skyblue;
+      border: 2px solid black;

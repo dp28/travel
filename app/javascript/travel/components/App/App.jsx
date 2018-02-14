@@ -17,7 +17,7 @@ export const App = () => (
       <Navigation />
       <Route exact path="/" component={InGrid(Home)}/>
       <Route path="/about" component={InGrid(About)}/>
-      <Route path="/day/:number" component={ConnectedDay}/>
+      <Route path="/days/:number" component={ConnectedDay}/>
     </div>
   </Router>
 )

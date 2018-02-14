@@ -1,6 +1,6 @@
 import React from 'react'
-import { graphql } from 'react-apollo';
-import gql from 'graphql-tag';
+import { graphql } from 'react-apollo'
+import gql from 'graphql-tag'
 import { Row, Col } from 'react-bootstrap'
 
 export const Days = ({ days, loading }) => {

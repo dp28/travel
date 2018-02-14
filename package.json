@@ -14,6 +14,7 @@
     "graphql": "^0.12.3",
     "graphql-tag": "^2.6.1",
     "prop-types": "^15.6.0",
+    "query-string": "^5.1.0",
     "react": "^16.2.0",
     "react-apollo": "^2.0.4",
     "react-bootstrap": "^0.32.1",
@@ -41,8 +42,7 @@
       "./app/javascript/enzymeSetup.js"
     ],
     "moduleNameMapper": {
-      "\\.(jpg|jpeg|png|gif|eot|otf|webp|svg|ttf|woff|woff2|mp4|webm|wav|mp3|m4a|aac|oga)$":
-        "<rootDir>/app/javascript/travel/mocks/fileMock.js",
+      "\\.(jpg|jpeg|png|gif|eot|otf|webp|svg|ttf|woff|woff2|mp4|webm|wav|mp3|m4a|aac|oga)$": "<rootDir>/app/javascript/travel/mocks/fileMock.js",
       "\\.(css|less|scss|sass)$": "<rootDir>/app/javascript/travel/mocks/styleMock.js"
     }
   }

@@ -3,6 +3,8 @@ import { graphql } from 'react-apollo';
 import gql from 'graphql-tag';
 import { Grid, Row, Col } from 'react-bootstrap'
 
+import { ConnectedMap } from '../Map/Map'
+
 export const Day = ({ day, loading }) => {
   if (loading) {
     return <div className="loading">Loading ...</div>
@@ -10,7 +12,10 @@ export const Day = ({ day, loading }) => {
   else {
     return (
       <Grid>
-        <Row key={day.number}>
+        <Row>
+          <Col xs={12}>
+            <ConnectedMap selectedDayNumber={day.number} />
+          </Col>
           <Col xs={12}>
             <h2>Day {day.number} - {day.date}</h2>
             <div dangerouslySetInnerHTML={{__html: day.post}} />
