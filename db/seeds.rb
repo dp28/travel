@@ -2482,7 +2482,7 @@ as the tour operator has a lot of very good reviews.
 
 We spent a while shopping in the various markets filled with silk and
 counterfeit branded clothes. After exercising my very rudimentary haggling
-skills, I ended up with a "North Face" soft shell jacketfor $15, which will be
+skills, I ended up with a "North Face" soft shell jacket for $15, which will be
 useful in Vietnam and South America (assuming it lasts). Unfortunately, Rosie
 didn't see anything she liked, but we'll be back.
 
@@ -2505,7 +2505,7 @@ tomorrow'stour operator, finished off a few diary entries and got some sleep.
     date: '2018-02-10',
     number: 38,
     written: '2018-02-10 21:50',
-    locations: [LOCATIONS[:MaiChau]],
+    locations: [LOCATIONS[:HanoiFirst], LOCATIONS[:MaiChau]],
     expenses: {
       FOOD: { drinks: { dong: 50_000 } },
       ACCOMMODATION: {},
@@ -2559,7 +2559,7 @@ caught.
     date: '2018-02-11',
     number: 39,
     written: '2018-02-12 08:15',
-    locations: [LOCATIONS[:HanoiSecond]],
+    locations: [LOCATIONS[:MaiChau], LOCATIONS[:HanoiSecond]],
     expenses: {
       FOOD: { snacks: { dong: 30_000 }, banh_mi: { dong: 70_000 }, cream_puffs: { dong: 93_000 } },
       ACCOMMODATION: { dong: 310_000 },
@@ -2621,10 +2621,10 @@ cream puffs from the Japanese "beard papa" cream puff stall.
     date: '2018-02-12',
     number: 40,
     written: '2018-02-13 21:40',
-    locations: [LOCATIONS[:CatBa]],
+    locations: [LOCATIONS[:HanoiSecond], LOCATIONS[:CatBa]],
     expenses: {
       FOOD: { breakfast: { dong: 50_000 }, lunch: { dong: 250_000 }, water: { dong: 10_000 }, dinner: { dong: 404_000 } },
-      ACCOMMODATION: { dollars: 6.3 },
+      ACCOMMODATION: { dong: 290_000 / 2 },
       LONG_DISTANCE_TRAVEL: { bus_and_boat: { dong: 1_140_000 / 2 } },
       SHORT_TRAVEL: {},
       ACTIVITIES: { cannon_fort: { dong: 80_000 } },
@@ -2671,7 +2671,7 @@ booked our activities for the next day and had dinner at a rooftop restaurant.
     locations: [LOCATIONS[:CatBa]],
     expenses: {
       FOOD: { snacks: { dong: 50_000 }, water: { dong: 15_000 }, drinks: { dong: 115_000 }, dinner: { dong: 410_000 } },
-      ACCOMMODATION: { dollars: 6.3 },
+      ACCOMMODATION: { dong: 290_000 / 2 },
       LONG_DISTANCE_TRAVEL: {},
       SHORT_TRAVEL: {},
       ACTIVITIES: { kayak_and_stand_up_paddle_board: { dong: 1_670_000 } },
@@ -2767,6 +2767,60 @@ of trouble finding dinner due to Tet (Vietnamese lunar new year), which is in a
 few days. The first restaurant we tried, which had been recommended, was shut.
 The second was only doing pizza and didn't have all the ingredients yet. We
 ended up at an ok place with decent pancakes - a necessity on pancake Tuesday.
+)
+  },
+  {
+    date: '2018-02-14',
+    number: 42,
+    written: '2018-02-14 21:30',
+    locations: [LOCATIONS[:CatBa], LOCATIONS[:HanoiSecond]],
+    expenses: {
+      FOOD: { breakfast: { dong: 115_000 }, shakes: { dong: 80_000 }, cream_puffs: { dong: 108_000 }, roti: { dong: 15_000 }, dinner: { dong: 446_000 } },
+      ACCOMMODATION: { dong: 310_000 },
+      LONG_DISTANCE_TRAVEL: { bus_and_boat: { dong: 1_140_000 / 2 } },
+      SHORT_TRAVEL: {},
+      ACTIVITIES: {},
+      OTHER: { silk_shirt: { dong: 525_000 }, soft_shell_jacket: { dong: 350_000 } }
+    },
+    stats: {
+      walked: 5.7,
+      temperature: 23,
+      altitude: 20
+    },
+    food: [
+      'banana pancake and honey, banana shake',
+      'mango shake',
+      'cream puffs',
+      'vanilla rotiboy (mexican coffee bun)',
+      'pork and egg with caramel sauce, sticky rice, avocado shake'
+    ],
+    entry: %(
+The slight problem with Cat Ba is that there isn't much to do (that we're
+interested in) besides the bay. There's a national park, but it's a scooter ride
+away from town and neither of us were keen to ride one - we'd seen enough people
+with evidence of scooter accidents on them. It would have been a difficult cycle
+on poor quality bikes and the few places that had decent reviews for guided
+tours weren't running any today because of Tet. We therefore changed our bus
+from later in the afternoon to earlier to get a bit more time in Hanoi.
+
+Hanoi was heaving, today is apparently the last normal day before the Tet
+holiday, so everyone is busy buying stuff. We joined in, getting Rosie a soft
+shell jacket (she's jealous of mine). We also had some more cream puffs (I
+need to learn to make choux pastry, it seems like a great way to disguise that
+you're basically just eating cream).
+
+The real high point of today was the food. First, we stumbled upon a stall
+selling freshly baked "rotiboy" - a soft bread bun with a crispy top and
+melted butter on the inside. Apparently they originate from Malaysia, where they
+are called Mexican coffee buns and have a crispy coffee topping. I had a vanilla
+one and it was exquisite.
+
+We managed to find a pub with a range of stouts that Rosie enjoyed, then headed
+to an interesting-looking restaurant which had pork with caramel sauce on the
+menu. I'd heard that this was a Vietnamese dish and was looking forward to
+trying it. It did not disappoint. Slow-cooked meat full of flavour, dripping
+with a small amount of rich, sweet sauce, a few slices of chilli and spring
+onion with several breaded quails' eggs. Different and delicious.
 )
   }
 ].freeze
