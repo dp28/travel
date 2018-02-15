@@ -1,6 +1,7 @@
 import React from 'react'
-import { graphql } from 'react-apollo';
-import gql from 'graphql-tag';
+
+import { LoadFromServer } from '../LoadFromServer/LoadFromServer'
+import { edgesToArray } from '../../mapGraphqlResults'
 
 export const Releases = ({ releases, loading }) => {
   if (loading) {
@@ -24,7 +25,9 @@ export const Releases = ({ releases, loading }) => {
   }
 }
 
-export const ConnectedReleases = graphql(gql`
+export const ConnectedReleases = LoadFromServer({
+  component: Releases,
+  query: `
   query {
     releases {
       edges {
@@ -35,10 +38,9 @@ export const ConnectedReleases = graphql(gql`
       }
     }
   }
-`, {
-  props: ({ data: { releases, loading } }) => ({
-    loading,
-    releases: loading ? [] : releases.edges.map(edge => edge.node)
+`,
+  dataToProps: ({ releases }) => ({
+    releases: edgesToArray(releases)
   })
-})(Releases)
+})
 

@@ -1,10 +1,10 @@
 import React from 'react'
-import { graphql } from 'react-apollo'
-import gql from 'graphql-tag'
 import GoogleMap from 'google-map-react'
 import { Link } from 'react-router-dom'
 import queryString from 'query-string'
 
+import { LoadFromServer } from '../LoadFromServer/LoadFromServer'
+import { edgesToArray } from '../../mapGraphqlResults'
 import './Map.sass'
 
 const DEFAULT_CENTRE = {
@@ -61,10 +61,7 @@ const Area = ({ name, dayNumbers, selectedDayNumber, selected }) => {
 
 
 
-export const Map = ({ areas, loading, selectedDayNumber }) => {
-  if (loading) {
-    return <div>Loading ...</div>
-  }
+export const Map = ({ areas, selectedDayNumber }) => {
   const selectedArea = queryString.parse(location.search)[SELECTED_AREA_PARAM]
   return (
     <div className="Map">
@@ -90,41 +87,38 @@ export const Map = ({ areas, loading, selectedDayNumber }) => {
   )
 }
 
-export const ConnectedMap = graphql(gql`
-  query areas {
-    areas {
-      edges {
-        node {
-          name
-          days {
-            edges {
-              node {
-                number
+export const ConnectedMap = LoadFromServer({
+  component: Map,
+  query: `
+    query areas {
+      areas {
+        edges {
+          node {
+            name
+            days {
+              edges {
+                node {
+                  number
+                }
               }
             }
-          }
-          locations(first: 1) {
-            edges {
-              node {
-                latitude
-                longitude
+            locations(first: 1) {
+              edges {
+                node {
+                  latitude
+                  longitude
+                }
               }
             }
           }
         }
       }
     }
-  }
-`, { props: mapProps })(Map)
-
-function mapProps({ data: { areas, loading } }) {
-  if (loading) {
-    return { loading, areas: [] };
-  }
-  return {
-    loading, areas: edgesToArray(areas).map(parseArea)
-  }
-}
+  `,
+  dataToProps: ({ areas }) => ({
+    areas: edgesToArray(areas).map(parseArea)
+  })
+})
 
 function parseArea({ name, days, locations }) {
   const location = edgesToArray(locations)[0]
@@ -136,9 +130,5 @@ function parseArea({ name, days, locations }) {
       lng: location.longitude
     }
   }
-}
-
-function edgesToArray({ edges }) {
-  return edges.map(({ node }) => node)
 }
 
