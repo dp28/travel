@@ -428,7 +428,6 @@ to really like getting people to queue up. </R>
         caption: 'Bangkok Skyline',
         url: 'https://lh3.googleusercontent.com/zUv6wcLGHYzpzmAGPzF5-f7mYrfehGYlugBPsVVfzmmieeqPTHU3RNo0hLaS42xCGJ2qtmnCpIG0H5nchGWLp74aqUaDfqEFVCLEZy3_dadGVLFqnhcwvCeR0vh-yxxn5ado6wMAFFs'
       }
-
     ],
     entry: %(
 I woke up at 4am Bangkok time, 11am UK time. That was probably jet lag. I've yet
@@ -504,9 +503,6 @@ and the blaring music. The night skyline of Bangkok, however, was spectacular.
       },{
         caption: '',
         url: 'https://lh3.googleusercontent.com/WYurWSvSxu_Aswfm0ZNoPmEIreJVW6dgptn4E6RhUcwa3vJJ9Vfs0skHSwjfESg7pWoVyy_rvmFOyiuM0zLFP9rXiG3R04CMwaAstmFtsm4YrzucA6Z54lsw-sTP7dYoj5SA0E0jwL0'
-      },{
-        caption: '',
-        url: 'https://lh3.googleusercontent.com/zyBDhIuF4YFWXUey2BfeWs2tg0pyB8buRD7oBZA1RWs9Y9GXysXIlPW5zXAast8WoTRCJMZUyPNyZ1YXuP7QGfEdF3ZuRr7kSiW238UPDY-bSgRnJkvxj35R1O9aP721KZNfCmt7FAk'
       },{
         caption: '',
         url: 'https://lh3.googleusercontent.com/zyBDhIuF4YFWXUey2BfeWs2tg0pyB8buRD7oBZA1RWs9Y9GXysXIlPW5zXAast8WoTRCJMZUyPNyZ1YXuP7QGfEdF3ZuRr7kSiW238UPDY-bSgRnJkvxj35R1O9aP721KZNfCmt7FAk'
@@ -1900,7 +1896,15 @@ was 5 days behind ...
       'tapas: lomos de orvo (pork), squid, tomato salad, bread, croquetes, sangria'
     ],
     photos: [
-      '',
+      {
+        favourite: true,
+        caption: 'Kep sunset cocktails',
+        url: 'https://lh3.googleusercontent.com/F_X8iypM5NUhAtBabvkeeficq3mDcoJULuXd7SezhiDQFLbw11rvB8xvpuQ'
+      },
+      {
+        caption: 'Excellent French toast with caremalized banana',
+        url: 'https://lh3.googleusercontent.com/Hce6Xt88CNTfMMpo5l_Ggr9ooSX6UuyMTdXd9okfWccYpUBbGtMKGv8jISgu-0rzaoNi5yKrRV4ER3Ul9CHX5pVWMcCL_7auK8IpKXgeWSYKWeg-IK1LjBSLbEOGJpF4_3o_tzIZTw'
+      }
     ],
     entry: %(
 It turns out our room did have a waterproof roof - at least, this morning's downpour didn't soak us.
@@ -1909,8 +1913,6 @@ Rosie had found us an excellent breakfast restaurant and I had a fantastic meal 
 bananas covered in sugar cane caramel. The baguettes they do here have much softer crusts than a
 French baguette at home and lend themselves really well to French toast. The breakfast shake
 (banana, peanut butter, honey, cinnamon, oats) may have been a bit much, but was interesting.
-
-![Excellent French toast with caremalized banana](https://lh3.googleusercontent.com/Hce6Xt88CNTfMMpo5l_Ggr9ooSX6UuyMTdXd9okfWccYpUBbGtMKGv8jISgu-0rzaoNi5yKrRV4ER3Ul9CHX5pVWMcCL_7auK8IpKXgeWSYKWeg-IK1LjBSLbEOGJpF4_3o_tzIZTw)
 
 Our main activity for the day was getting to Kep, another coastal town 15 - 20 miles away. We hopped
 into a (remarkably comfy) tuk tuk and asked to stop at La Plantation, a pepper farm on the way. At
@@ -1937,8 +1939,6 @@ The water hadn't been working for the previous two days, but was now fixed, and 
 menu wasn't actually available. The food itself was ok, not great, but it was fun to see and
 slightly reminiscent of Fawlty Towers. We also got chatting to an Austrian couple who'd been
 travelling a lot.
-
-![Kep sunset cocktails](https://lh3.googleusercontent.com/F_X8iypM5NUhAtBabvkeeficq3mDcoJULuXd7SezhiDQFLbw11rvB8xvpuQ)
 
 ## Pepper types
 
@@ -3038,6 +3038,7 @@ def create_day(config)
   day = Day.find_or_create_by!(number: config[:number], date: config[:date])
   create_post(day, config[:entry], config[:written])
   create_expenses(day, config[:expenses])
+  create_photos(day, config[:photos])
   link_locations(day, config[:locations])
 end
 
@@ -3081,6 +3082,17 @@ end
 
 def link_locations(day, locations)
   day.locations << locations
+end
+
+def create_photos(day, photos)
+  return if photos.blank?
+  photos.each { |photo| create_photo(day, photo) }
+end
+
+def create_photo(day, photo_config)
+  return if photo_config.blank?
+  photo_config = { url: photo_config } unless photo_config.is_a?(Hash)
+  day.photos.create photo_config
 end
 
 DAYS.each { |day_config| create_day day_config }

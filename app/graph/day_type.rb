@@ -17,4 +17,5 @@ DayType = GraphQL::ObjectType.define do
 
   connection :locations, LocationType.connection_type
   connection :expenses, ExpenseType.connection_type
+  connection :photos, PhotoType.connection_type
 end

@@ -40,6 +40,59 @@ RSpec.describe 'days', type: :request do
       end
     end
 
+    describe 'the "photos" connection' do
+      let(:node_query) { "photos { edges { node { #{photo_query} } } }" }
+      let(:photo_query) { 'url' }
+      let(:json_photos) { json_day[:photos][:edges].map { |e| e[:node] } }
+      before { day }
+
+      context 'when there are no photos for the Day' do
+        it 'should return an empty array' do
+          expect(json_photos).to eq([])
+        end
+      end
+
+      context 'when there are photos for the days' do
+        before { FactoryBot.create_list :photo, 2, day: day }
+        it 'should return a result for each photo' do
+          expect(json_photos.size).to eq(2)
+        end
+      end
+
+      describe 'an individual photo' do
+        let(:json_photo) { json_photos.first }
+        let!(:photo) { FactoryBot.create :photo, day: day }
+
+        describe 'the "url" field' do
+          let(:photo_query) { 'url' }
+          it 'should be the string on the underlying Photo' do
+            expect(json_photo[:url]).to eq(photo.url)
+          end
+        end
+
+        describe 'the "caption" field' do
+          let(:photo_query) { 'caption' }
+          it 'should be the string on the underlying Photo' do
+            expect(json_photo[:caption]).to eq(photo.caption)
+          end
+        end
+
+        describe 'the "isFavourite" field' do
+          let(:photo_query) { 'isFavourite' }
+          it 'should be the boolean on the underlying Photo' do
+            expect(json_photo[:isFavourite]).to eq(photo.favourite?)
+          end
+        end
+
+        describe 'the "day" field' do
+          let(:photo_query) { 'day { number }' }
+          it 'should be a link back to the Day' do
+            expect(json_photo[:day][:number]).to eq(day.number)
+          end
+        end
+      end
+    end
+
     describe 'the "expenses" connection' do
       let(:node_query) { "expenses { edges { node { #{expense_query} } } }" }
       let(:expense_query) { 'category' }
