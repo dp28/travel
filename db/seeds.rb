@@ -255,6 +255,9 @@ DAYS = [
         }
       }
     },
+    photos: [
+      '',
+    ],
     entry: %(
 So, better write this down before I forget it all. I started in Edinburgh,
 finishing moving out of my flat by shoving the last few things into my parents'
@@ -345,6 +348,9 @@ sites at this point. </R>
     food: [
       'two bananas'
     ],
+    photos: [
+      '',
+    ],
     entry: %(
 I woke up feeling slightly worse than when I went to sleep, as expected from
 plane sleep. Once I'm off the plane I connected to the wifi to check that
@@ -408,6 +414,9 @@ to really like getting people to queue up. </R>
       'Mango ice cream with weird coconut coating',
       'Street food (Duck spring rolls, deep fried veggie spring rolls, deep fried noodles, sweet chilli sauce, mushrooms & asparagus wrapped in bacon and fried)'
     ],
+    photos: [
+      'https://lh3.googleusercontent.com/IkR8dNFlOT49EitQNCDEBvRwHx3YI-0w3uSBxfXeGYnFxkZZNIHq5l7iDKBPnMFSe9qX7PagBjowisXrzbWCn0ykT1a0LMjgNsQbU7G6s-g3ipEgUFJzDHdkk1BaGh2N3Z8HHFjjYn8',
+    ],
     entry: %(
 I woke up at 4am Bangkok time, 11am UK time. That was probably jet lag. I've yet
 to experience jet lag particularly badly - I just rolled over, went back to
@@ -450,8 +459,6 @@ tasty asparagus.
 We finished the day with a cocktail each in the rooftop bar of our hotel.
 Apparently it was a pool party but everyone seemed to be ignoring both the pool
 and the blaring music. The night skyline of Bangkok, however, was spectacular.
-
-![Day 1 in Bangkok](https://lh3.googleusercontent.com/IkR8dNFlOT49EitQNCDEBvRwHx3YI-0w3uSBxfXeGYnFxkZZNIHq5l7iDKBPnMFSe9qX7PagBjowisXrzbWCn0ykT1a0LMjgNsQbU7G6s-g3ipEgUFJzDHdkk1BaGh2N3Z8HHFjjYn8)
 )
   },
   {
@@ -476,6 +483,9 @@ and the blaring music. The night skyline of Bangkok, however, was spectacular.
       'hotel breakfast (cornflakes, pineapple, pineapple juice, egg fried rice, pork stew, chicken stew, chilli sauce)',
       'MBK lunch',
       'Street food dinner (deep fried veggie spring rolls, deep fried noodles, sweet chilli sauce, mushrooms & asparagus wrapped in bacon and fried'
+    ],
+     photos: [
+      'https://lh3.googleusercontent.com/0yfzNcsYf1vmCSsG2syPeEmcEo-9cewTl3KxX1indKozkgmdZD_Q2bn-VCsJnn8FpCvJ9lR5Y_ZbwTTi1eO_UqWtUtiyrWwXSbShnATVQVpkykWua3kY3XGRCI8v1eUo9P7C1VTnDJo',
     ],
     entry: %(
 To try and capitalise on our (Rosie's) jet lag, we got up at 6.45am to get out
@@ -511,7 +521,7 @@ the catfish which fought over the food being thrown into the lake by people near
 by. <R> There was also a turtle </R> After a while, we made our way back to the
 hotel on the subway. We finished off the night with street food and chilling in the rooftop bar.
 
-![Bangkok Day 2](https://lh3.googleusercontent.com/0yfzNcsYf1vmCSsG2syPeEmcEo-9cewTl3KxX1indKozkgmdZD_Q2bn-VCsJnn8FpCvJ9lR5Y_ZbwTTi1eO_UqWtUtiyrWwXSbShnATVQVpkykWua3kY3XGRCI8v1eUo9P7C1VTnDJo)
+
 )
   },
   {
@@ -536,6 +546,9 @@ hotel on the subway. We finished off the night with street food and chilling in 
       'hotel breakfast',
       'Paragon lunch (green curry, cashew chicken, chicken satay, mango smoothie, praline & chocolate cookie, almond & brown sugar pastry)',
       'snack dinner on train (crisps & dried mango)'
+    ],
+    photos: [
+      'https://lh3.googleusercontent.com/MATo5E-vXbbBH2evGoCgKmL65DgdDMgjWyJXSaoLnEbdKSKq0xXnA0Jp0Y0wtYeEi-NPyt3jFrL6nqd_000W9ncekYZuCPXeifbeimIfbqNHzjcossPdNoJFE8TMMUx-IQ45ekxhcG8',
     ],
     entry: %(
 Trying to keep the early mornings going, we woke up at 6.45am again. After
@@ -565,7 +578,6 @@ Chiang Mai. As I finish writing this, we've just had our curtained-off semi
 compartment changed from two seats and a table into bunk beds and the air
 conditioning is so strong I'm cold for the first time since I arrived.
 
-![Bangkok Day 3](https://lh3.googleusercontent.com/MATo5E-vXbbBH2evGoCgKmL65DgdDMgjWyJXSaoLnEbdKSKq0xXnA0Jp0Y0wtYeEi-NPyt3jFrL6nqd_000W9ncekYZuCPXeifbeimIfbqNHzjcossPdNoJFE8TMMUx-IQ45ekxhcG8)
 )
   },
   {
@@ -590,6 +602,9 @@ conditioning is so strong I'm cold for the first time since I arrived.
       'deep fried pumpkin, mango & sticky rice',
       'pineapple fried rice',
       'pork teriyaki skewers, banana roti with milo'
+    ],
+    photos: [
+      'https://lh3.googleusercontent.com/QxuT6USFHBaQXId0LIxGCr_0w-tRDidHh6otrBZ_tdawvjApakHraoBmtlhAGtacNPFXI8mNfedYPYTmZr0pG_Ag6z9Jd5viSYjOo0tOr6U7hsnvAYEeT3BPa_c0PNs7RX4HcDjzleU',
     ],
     entry: %(
 We were woken up at about 6.30 am by the conductor announcing over the tannoy
@@ -620,7 +635,7 @@ Milo" - an interpretation of the Indian flatbread roti filled with banana and
 fried, then layered with condensed milk and Milo (a malted chocolate drink
 powder). Definitely something I'll have a go at making!
 
-![Day 1 Chiang Mai](https://lh3.googleusercontent.com/QxuT6USFHBaQXId0LIxGCr_0w-tRDidHh6otrBZ_tdawvjApakHraoBmtlhAGtacNPFXI8mNfedYPYTmZr0pG_Ag6z9Jd5viSYjOo0tOr6U7hsnvAYEeT3BPa_c0PNs7RX4HcDjzleU)
+
 )
   },
   {
@@ -646,6 +661,9 @@ powder). Definitely something I'll have a go at making!
       'Sour chicken soup, chicken cashew curry, pineapple, watermelon',
       'Thai chicken curry noodles, pork leg with rice, sticky rice, coconut slice'
     ],
+    photos: [
+      'https://lh3.googleusercontent.com/L3phJsAEboP0jJE8sU1Tya3nmrERJH5ZYn8w7M63Xm5K0_v-LbkjcepuHYsULiiPQ-FKPofW0bO7Wa93pLh3A5XPNiM7eODRsF9CDVyrAD7VjT6mlLmgoPSHG-GntB-JZUZ6Z3UBvXI',
+    ],
     entry: %(
 Today we went on a tour organised through our hotel. It was an all-in-one kind
 of deal - see a couple of waterfalls, the highest point in Thailand, a couple of
@@ -665,8 +683,6 @@ Some of the sights were impressive, though, particularly the view from the
 chedis (or pagodas). It was interesting to learn that they had been constructed
 by the Thai Air Force, but we were unable to learn why particularly they built
 them, other than in honour of the king and queen's birthdays.
-
-![Day 2 Chiang Mai](https://lh3.googleusercontent.com/L3phJsAEboP0jJE8sU1Tya3nmrERJH5ZYn8w7M63Xm5K0_v-LbkjcepuHYsULiiPQ-FKPofW0bO7Wa93pLh3A5XPNiM7eODRsF9CDVyrAD7VjT6mlLmgoPSHG-GntB-JZUZ6Z3UBvXI)
 )
   },
   {
@@ -696,6 +712,9 @@ them, other than in honour of the king and queen's birthdays.
       'Massaman curry',
       'Deep fried banana'
     ],
+    photos: [
+      'https://lh3.googleusercontent.com/dvIAtHY4Xdll8xrm5Apt3Xig7ytJ6KpvlLuDHIkw90MRQaFKmNV9-vWdmP_lr6xJQyVQm4CwYmRB9At4q3iVzd6yrPsLdEEae34_76Lgwu5mjkkZIEe2hmw8vqCU45v3LKHzdv8doXk',
+    ],
     entry: %(
 This was probably the best day so far. Straight after breakfast we were picked
 up and went to Asia Scenic cooking school. Maybe that breakfast was a bad idea.
@@ -719,8 +738,6 @@ so Rosie could buy some Thai thousers (Thaits?) and - shock horror - it actually
 rained! At least, enough water fell from the sky for two minutes to prompt the
 stall keepers to put out shelters, then the rain promptly stopped.
 
-!(https://lh3.googleusercontent.com/dvIAtHY4Xdll8xrm5Apt3Xig7ytJ6KpvlLuDHIkw90MRQaFKmNV9-vWdmP_lr6xJQyVQm4CwYmRB9At4q3iVzd6yrPsLdEEae34_76Lgwu5mjkkZIEe2hmw8vqCU45v3LKHzdv8doXk)
-!
 )
 
 
@@ -749,6 +766,9 @@ stall keepers to put out shelters, then the rain promptly stopped.
       'fruit shake',
       'afternoon tea (choco banana milkshake, quiche, cakes, tarts, sandwiches, scones, jam)'
     ],
+    photos: [
+      'https://lh3.googleusercontent.com/5SVRmDVxYyLEmAmTqTW_yrDiwYOA3NRL8m8mZqoo1ZBMXIubcKtm46XPRLNKH4uHwFrcaRnfLBfERBl2YsrCDTXqZUUACA_s1KYz_kVToM8I5y7TlFtO-MBy3hkNWr-zYTzrm6VN2pw',
+    ],
     entry: %(
 Today was a bit more chilled out it more ways than one. Primarily we didn't have
 anything booked, but in addition the temperature had dropped to about 18°C.
@@ -762,9 +782,8 @@ the Anantara hotel with tea, scones, about fifteen different snacks and a
 milkshake each. Admittedly, the milkshake probably works a lot better at the
 more normal temperatures of 25-35 degrees. <R> Afternoon tea was amazing and
 is something I've always wanted to do! </R>
-
-!(https://lh3.googleusercontent.com/5SVRmDVxYyLEmAmTqTW_yrDiwYOA3NRL8m8mZqoo1ZBMXIubcKtm46XPRLNKH4uHwFrcaRnfLBfERBl2YsrCDTXqZUUACA_s1KYz_kVToM8I5y7TlFtO-MBy3hkNWr-zYTzrm6VN2pw)
 )
+
   },
   {
     date: '2018-01-13',
@@ -789,6 +808,9 @@ is something I've always wanted to do! </R>
       'rice, potato curry, pineapple, veg, fried chicken',
       'banana milkshake',
       'pesto bacon pizza, three cheese pizza, honey & lime water'
+    ],
+    photos: [
+      'https://lh3.googleusercontent.com/0fHXHtFAPr-sRKvXu1oAvDQTKL_2covgq8INhQQJa6jHCjRpzfUC3_QQvfgd53uuFJU-2s9pCcE-kd8PqPvZ-l7B4zFYViHaTDwJacG8VO_nzSboQyj9oVgW3OFcyJjyNoOI5-MsfrU',
     ],
     entry: %(
 The main activity today was going to meet some elephants. It's a popular thing to do in Chiang Mai
@@ -821,7 +843,7 @@ catch up. They'd been travelling for the past two or three months in many of the
 about to go to, so gave us plenty of tips. We had a great meal swapping stories, then headed back to
 pack up, ready for our bus in the morning.
 
-!(https://lh3.googleusercontent.com/0fHXHtFAPr-sRKvXu1oAvDQTKL_2covgq8INhQQJa6jHCjRpzfUC3_QQvfgd53uuFJU-2s9pCcE-kd8PqPvZ-l7B4zFYViHaTDwJacG8VO_nzSboQyj9oVgW3OFcyJjyNoOI5-MsfrU)
+
 )
   },
   {
@@ -845,6 +867,9 @@ pack up, ready for our bus in the morning.
     food: [
       'crisps, cake, pain au raisins',
       'spring rolls, pork & pineapple fried rice, watermelon juice'
+    ],
+    photos: [
+      '',
     ],
     entry: %(
 I wasn't particularly looking forward to this morning. There's something about a six-hour bus
@@ -893,6 +918,9 @@ river, <R> which was gorgeous </R>.
       'banana pancake & honey',
       'rice, chicken, papaya salad',
       'rice, water spinach, mushrooms, fried chicken, minced pork, tiny oranges'
+    ],
+    photos: [
+      '',
     ],
     entry: %(
 This was the day I was looking forward to most, at least within the first few weeks of our trip. We
@@ -991,6 +1019,9 @@ scared away any interesting animals. I learnt a new game, called "game".
       'rice, chicken, vegetables',
       'pasta, chips, vegetables, aubergine sauce'
     ],
+    photos: [
+      '',
+    ],
     entry: %(
 Sleeping in a treehouse has its ups and downs. Sunset - definite up. Rats and squirrels in the
 night, however, don't improve my sleep. We'd stored all our food in a box, but the giant black
@@ -1049,6 +1080,9 @@ think they should be used in more places ...
       'iced coconut juice',
       'pringles'
     ],
+    photos: [
+      '',
+    ],
     entry: %(
 We woke up to another cloudy morning, leaving an atmospheric (pardon the pun) fog in the valley
 below the treehouse as it burnt off. We packed up, had another great breakfast (bread and tamarind &
@@ -1105,6 +1139,9 @@ last Wheel of Time book. Only about 80 hours to go!
       'banana and coconut sticky rice',
       'mango spring rolls, baked potato with Lao sausage and blue cheese sauce, choco-banana milkshake',
       'pork & vegetable dumplings, sticky jerky covered in sesame seeds, chocolate cinnamon bread, coconut dumplings'
+    ],
+    photos: [
+      '',
     ],
     entry: %(
 We woke up (if you can call the brief spells of unconsciousness the night before "sleep") at 5.30am
@@ -1170,6 +1207,9 @@ dulcet tones of a guitar-playing fellow guest. <R> Literally every other note wa
       'coconut pancake (more like a waffle)',
       'coconut pancake (more like a dumpling)'
     ],
+    photos: [
+      '',
+    ],
     entry: %(
 Sleeping in a bit meant that we had a rushed morning to make our 9am cooking class on time.
 Unfortunately, this one didn't quite live up to our previous experience. The market visit was
@@ -1229,6 +1269,9 @@ definitely need to replicate that if possible.
       'dried friut, apricot pastry, cornetto',
       'laap (herby chicken salad), slow cooked pork with banana leaves, carrot, lemongrass and rice',
       'coconut pancake (more like a dumpling)'
+    ],
+    photos: [
+      '',
     ],
     entry: %(
 After a proper lie in (to 9.15), we got up in time to make proper use of the guesthouse breakfast,
@@ -1295,6 +1338,9 @@ flavours we've been having in local food and cooking with was amazing.
       'salted pistachios, fermented milk drink',
       'spring roll, moneybag, deep fried noodles & tofu, sweet chilli & peanut butter sauce, pork skewers, savoury coconut pancake, chicken satay & pickles, ovaltine milkshake'
     ],
+    photos: [
+      '',
+    ],
     entry: %(
 Today was a travelling day, so not much to report. We were up early (5.30am) to get to the airport
 for about 6.15 for our 7.40 flight. The airport was tiny - there were _maybe_ three other people
@@ -1340,6 +1386,9 @@ sauces here.
       'banana crepe with honey',
       'pork fried rice',
       'chicken satay, chicken massaman curry, banana milkshake'
+    ],
+    photos: [
+      '',
     ],
     entry: %(
 (Today's post has a guest author: Rosie. Daniel cannot be held responsible for the accuracy of the
@@ -1417,6 +1466,9 @@ hour or so we headed to bed.
       'pina colada',
       'pineapple and bacon pizza'
     ],
+    photos: [
+      '',
+    ],
     entry: %(
 This was a pretty chilled, lazy day for a number of reasons. Primarily, most weather forecasts said
 it was going to rain (it didn't). Secondly, we spent a bit of time working out how much we'd been
@@ -1455,6 +1507,9 @@ PS. Shock of the day: Rosie got sunburnt and I didn't!
       'pineapple and bacon pizza, banana and chocolate shake',
       'pork red curry, rice, banana shake',
       'Laap-style dish with strips of grilled pork'
+    ],
+    photos: [
+      '',
     ],
     entry: %(
 Somewhat like the day before, according to most weather forecasts it was supposed to rain quite a
@@ -1495,6 +1550,9 @@ close to where we'd been for dinner the previous day to a Swiss restaurant we'd 
       'biscuits, peanut brittle, banana shake',
       'cashews, ham and pineapple fried rice, banana shake',
       'shrimp spring rolls, sweet chilli sauce, dry red curry, rice, avocado & banana smoothie'
+    ],
+    photos: [
+      '',
     ],
     entry: %(
 This was supposed to be the day with the best weather, but was much the same as the previous few
@@ -1558,6 +1616,9 @@ Luang Prabang.
       'chocolate-filled wafer sticks',
       'duck red curry, thai dessert balls, strawberry shake'
     ],
+    photos: [
+      '',
+    ],
     entry: %(
 We left Koh Mak at 9am from the pier just outside our resort. It was a loud, if uneventful journey.
 The speedboads they use have three pretty huge outboard motors, so it's not that easy to listen to
@@ -1606,6 +1667,9 @@ needed.
       'mac and cheese',
       'croissants, chocolate covered ice cream',
       'Beef lok lak with rice, lucky chicken on french fries'
+    ],
+    photos: [
+      '',
     ],
     entry: %(
 Another travelling day - up at 6am, at Bangkok airport for 7am, flight to Phnom Penh at 9am, arrive
@@ -1673,6 +1737,9 @@ Bertram.</R>
       'hummus & flatbread, salad, falafel, pickle, beef kebab, french fries, onion, mozzarella',
       'banana & nutella milkshake'
     ],
+    photos: [
+      '',
+    ],
     entry: %(
 The combination of only partial walls in our room, nearby people's fondness for techno music and
 a persistent car alarm meant that we lay in until about 9am. I had a massive banana pancake with a
@@ -1725,6 +1792,9 @@ was 5 days behind ...
       'banana shake and Kampot pepper ice cream',
       'salt and pepper popcorn, sunset cocktail',
       'tapas: lomos de orvo (pork), squid, tomato salad, bread, croquetes, sangria'
+    ],
+    photos: [
+      '',
     ],
     entry: %(
 It turns out our room did have a waterproof roof - at least, this morning's downpour didn't soak us.
@@ -1797,6 +1867,9 @@ travelling a lot.
       'cheese & chorizo baguette, bruschetta',
       'fried peanuts, deep water cocktail, crab nachos, olives, shrimp wantons, fritatta, spicy green mango, crab cakes, lime cheese cake, caramelized pineapple, lime sorbet'
     ],
+    photos: [
+      '',
+    ],
     entry: %(
 This morning we got up late (9.30am) and walked a mile or two into Kep, <R> (it was definetly two) </R>
 which seems to have two centres. We had a breakfast of pastries at a French bakery and picked up food
@@ -1862,6 +1935,9 @@ one meal!!</R>
       'mixed meat and seafood fried rice',
       'avocado shake, vanilla ice cream'
     ],
+    photos: [
+      '',
+    ],
     entry: %(
 The day started with a four or five hour bus journey from the peaceful emptiness of Kep to the hive
 of activity that is Phnom Penh. It wasn't bad, pretty similar to our other daytime bus trips,
@@ -1905,6 +1981,9 @@ with a subtle flavour, almost like drinking cream (not like I'd ever do _that_).
       'beef lok lak, carmelized pear and blue cheese salad, banana shake',
       'vanilla milkshake',
       '65 degree egg & chorizo mayo, beef bourginon, chocolate & caramel lava pot'
+    ],
+    photos: [
+      '',
     ],
     entry: %(
 The main event for today was to visit the harrowing Choeung Ek Genocidal Centre
@@ -1950,6 +2029,9 @@ decent restaurant in Edinburgh at almost the same price.
       'banana shake, carrot, pineapple, tomato & rice',
       'chicken bolognese crepe, creme caramel, mango shake'
     ],
+    photos: [
+      '',
+    ],
     entry: %(
 Another bus day. We were up early to get our 7.45am bus to Kratie.
 Unfortunately, Rosie wasn't feeling so well, something a bus journey was
@@ -1992,6 +2074,9 @@ expected.
       'bamboo sticky rice, tiny oranges',
       'banana shake, four cheese pasta, margherita pizza',
       'vegetable spring rolls, honey sesame pork and rice, banana spring rolls'
+    ],
+    photos: [
+      '',
     ],
     entry: %(
 Our reason for coming to Kratie was to see the rare Irrawaddy dolphins. They're
@@ -2073,6 +2158,9 @@ watched the sunset.
       'banana bread, pringles, ice cream, strawberry yoghurt',
       'mango & raspberry shake, prahok and crispy rice, mushroom & brie rice balls with beetroot mayo, duck and pumpkin croquetes with hoisin sauce, mango and pineapple cheesecake with basil lemon sauce'
     ],
+    photos: [
+      '',
+    ],
     entry: %(
 This was probably our longest bus journey yet, starting just after 7.30am and
 arriving just before 5pm with a half an hour stop for lunch. Not too much to
@@ -2112,6 +2200,9 @@ crackers.
       'sugar and lime crepe, banana shake',
       'khmer barbeque and soup',
       'cookie, banana shake'
+    ],
+    photos: [
+      '',
     ],
     entry: %(
 Definitely the weirdest moment of our trip so far - walking into a shop, asking
@@ -2219,6 +2310,9 @@ was great.
       'pork fried rice, fried spring rolls',
       'banana and avocado shake',
       'pork fried rice, beef steak, french fries, assorted khmer sweets, banana shake'
+    ],
+    photos: [
+      '',
     ],
     entry: %(
 Today was a **long** day. We got up at 4.30am, donned helmets and head torches,
