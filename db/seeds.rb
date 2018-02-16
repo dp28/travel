@@ -90,6 +90,10 @@ AREAS = {
   CatBa: Area.create!(
     name: 'Cat Ba Island',
     country: COUNTRIES[:Vietnam]
+  ),
+  HoChiMinh: Area.create!(
+    name: 'Ho Chi Minh City',
+    country: COUNTRIES[:Vietnam]
   )
 }.freeze
 
@@ -223,9 +227,16 @@ LOCATIONS = {
   CatBa: Location.create!(
     type: Location::Type::ACCOMMODATION,
     name: 'Victor Charlie Hostel',
+    latitude: 10.766031,
+    longitude: 106.691628,
+    area: AREAS[:CatBa]
+  ),
+  HoChiMinh: Location.create!(
+    type: Location::Type::ACCOMMODATION,
+    name: 'Ngoc Phu Hotel',
     latitude: 20.726301,
     longitude: 107.050335,
-    area: AREAS[:CatBa]
+    area: AREAS[:HoChiMinh]
   )
 }.freeze
 
@@ -1687,7 +1698,7 @@ the giant clams. These were bright blues or deep reds, often sunken into the san
 looked like a rock so that all I could see was a wavy coloured line, opening and closing.
 
 After snorkelling for a while, we got back on the kayak and headed back to shore. We were able to
-use the hotel's outdoor shower and were sorely tempted by it's pool, which we probably weren't
+use the hotel's outdoor shower and were sorely tempted by its pool, which we probably weren't
 allowed. We finished off the day at a bakery and art hut, which had some pretty decent food and
 several cats. After we ordered, someone was immediately dispatched to buy the ingredients (bananas)
 that they'd run out of. I tried another avocado & banana shake, unfortunately not as smooth as in
@@ -3029,7 +3040,129 @@ to an interesting-looking restaurant which had pork with caramel sauce on the
 menu. I'd heard that this was a Vietnamese dish and was looking forward to
 trying it. It did not disappoint. Slow-cooked meat full of flavour, dripping
 with a small amount of rich, sweet sauce, a few slices of chilli and spring
-onion with several breaded quails' eggs. Different and delicious.
+onion with several braised quails' eggs. Different and delicious.
+)
+  },
+  {
+    date: '2018-02-15',
+    number: 43,
+    written: '2018-02-16 20:50',
+    locations: [LOCATIONS[:HanoiSecond], LOCATIONS[:HoChiMinh]],
+    expenses: {
+      FOOD: { breakfast: { dong: 175_000 }, lunch: { dong: 80_000 }, shake: { dong: 50_000 }, dinner: { dong: 196_000 } },
+      ACCOMMODATION: { dong: 1_360_000 / 4 },
+      LONG_DISTANCE_TRAVEL: { flight: { dollars: 150.96 } },
+      SHORT_TRAVEL: { taxi: { dong: 400_000 }, uber: { dong: 86_000 } },
+      ACTIVITIES: {},
+      OTHER: {}
+    },
+    stats: {
+      walked: 3.8,
+      temperature: 33,
+      altitude: 20
+    },
+    food: [
+      'banana muffin, pan au chocolat',
+      'clay pot caramelized pork, prawn & pork & vegetable pancake',
+      'banana shake',
+      'clay pot caramelized pork, bacon-wrapped vegetables'
+    ],
+    entry: %(
+We both woke up a bit sick today. Rosie's been sick on and off for the last four
+weeks - apparently it's spreading. Either that or it's smog-related - we met a
+few people who said they got sore throats after arriving in Hanoi. Or I could
+be allergic to early mornings as I got up at 6.30am to try and find breakfast
+(and returned empty handed - sadly the rotiboy place wasn't open).
+
+We had an early-ish flight to Ho Chi Minh City, so got a taxi to the airport.
+As we weren't leaving the country it was a pretty smooth experience. Transport
+from the airport, however, was not. It's Tet tomorrow, so lots of things may or
+may not be open or running. The taxi drivers, unsurprisingly, were insistent
+that the buses weren't running. They, however, are pretty notorious for scamming
+tourists and we were reluctant to believe them. There didn't seem to be many
+buses around, but Rosie asked an official who then called a bus company who said
+they were running. After about 30 minutes we saw a bus and waved to hail it. The
+driver waved back and drove on. Sigh. We waited for another 20 minutes, then
+gave up and got an Uber.
+
+It was lucky we ended up in an Uber as our hotel turned out to be in a maze of
+alleyways off one of the main backpacker party streets. If he hadn't called the
+hotel to get directions, it would have taken usages to find.
+
+Once we got there we ended up waiting along with another guy for our rooms to be
+cleaned. He was originally Vietnamese, but lived in Seattle. I was pretty hungry
+by the time we got into our room, so we dropped off our bags and headed out to
+get something to eat.
+
+We chose somewhere nearby and ordered more of the caramelized pork cooked in a
+clay pot. Pretty soon after ordering, a drunken English expat butted into our
+conversation. He was with a (sober) Irish expat, who was clearly embarrassed by
+his friend and jumped into the conversation as damage control after a few
+boorish comments from the first guy. We had an odd meal, learning bits about
+expat life in Vietnam from the Irish guy with occasional drunken additions from
+the English guy, eg claiming he fought in the Vietnam war (which was immediately
+refuted by the Irish guy).
+
+Slightly bemused, we went back to our hotel to try and plan what to do in
+Malaysia, which is still a bit up in the air. We ended up with enough of a plan
+to book flights, but were defeated by Air Asia's website refusing to cooperate.
+
+Today was the last day of the lunar year, so while we had dinner at a small
+restaurant several people playing a drum and dancing in a dragon costume came
+through the alley outside multiple times. Around 11pm, we made our way to a
+bridge to see the New Year fireworks display. We were in a large crowd of people
+and scooters (of course), but managed to get a spot with a decent view. There
+was a spectacular display at midnight for a good 15 minutes, accompanied by
+various members of the crowd lighting sparkler cannons and giant, metre-long
+party poppers filled with bits of golden foil. Spectacular, but there was a huge
+amount of rubbish on the ground as we made our way back to the hotel.
+
+Happy year of the dog!
+)
+  },
+  {
+    date: '2018-02-16',
+    number: 44,
+    written: '2018-02-16 22:10',
+    locations: [LOCATIONS[:HoChiMinh]],
+    expenses: {
+      FOOD: { breakfast: { dong: 163_000 }, lunch: { dong: 450_000 }, dinner: { dong: 447_000 }, water: { dong: 22_000 } },
+      ACCOMMODATION: { dong: 1_360_000 / 4 },
+      LONG_DISTANCE_TRAVEL: {},
+      SHORT_TRAVEL: {},
+      ACTIVITIES: { war_museum: { dong: 80_000 } },
+      OTHER: {}
+    },
+    stats: {
+      walked: 6.7,
+      temperature: 34,
+      altitude: 20
+    },
+    food: [
+      'rice porridge with pork and egg',
+      'chicken fried rice, chicken baguette, condensed milk',
+      'vegetable pakora, paneer, chicken tikka masala, kashmiri naan, banana lassi'
+    ],
+    entry: %(
+After our late night (1am!), we had a late morning lie in (10am). Today was
+pretty relaxed, partly due to not that much being on. We tried to find a decent
+breakfast place, but the recommended ones were shut. I ended up getting a rice
+porridge with pork, which I was intrigued to try but wasn't surprised when it
+wasn't anything special.
+
+After a similar experience at lunch, we went to the War Remnants Museum, one of
+the few places still open. They have a large number of American military
+vehicles on display outside which were used in the war. Inside, it's a
+three-storey building dedicated to Vietnamese independence and unification,
+focusing mainly on the horrific things done to the Vietnamese by the USA (and
+somewhat by the French). It's definitely a one-sided take on events, but the
+photography exhibition coupled with descriptions of how the photographers died
+and the pictures of the genetic defects caused by Agent Orange were terrible
+and sobering. In particular, it'll be hard to forget the picture of the woman
+born without eyeballs.
+
+Having got one side of the story, we spent some time durong and after dinner
+looking up more about the war to try and get more ofa full picture.
 )
   }
 ].freeze
