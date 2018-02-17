@@ -22,6 +22,7 @@ gem 'webpacker'
 gem 'graphiql-rails'
 gem 'graphql'
 
+gem 'fastimage', require: false
 gem 'redcarpet'
 # Use Redis adapter to run Action Cable in production
 # gem 'redis', '~> 4.0'

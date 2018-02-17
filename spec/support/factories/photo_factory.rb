@@ -3,6 +3,8 @@ FactoryBot.define do
   factory :photo do
     url { generate(:photo_url) }
     favourite false
+    width 16
+    height 9
     association :day
   end
 end

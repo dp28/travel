@@ -1,3 +1,5 @@
+require 'fastimage'
+
 Day.all.destroy_all # Makes it easier to correct mistakes - will remove eventually
 Country.all.destroy_all
 Location.all.destroy_all
@@ -267,7 +269,7 @@ DAYS = [
       }
     },
     photos: [
-      '',
+      ''
     ],
     entry: %(
 So, better write this down before I forget it all. I started in Edinburgh,
@@ -360,7 +362,7 @@ sites at this point. </R>
       'two bananas'
     ],
     photos: [
-      '',
+      ''
     ],
     entry: %(
 I woke up feeling slightly worse than when I went to sleep, as expected from
@@ -429,13 +431,16 @@ to really like getting people to queue up. </R>
       {
         caption: 'Did you know there are 7 different smiles in Thailand',
         url: 'https://lh3.googleusercontent.com/q-M5pxgCjZZwn3lKqAXbcmXX9cd4dU3um4HdtqaJHTpahQDJSqJ6WQNoXZCFst6bZh7Xnb3NTWYuSuZzMI_9-5d3OP14akeAm4UUHF2r8Q3dKnCLjc0-ILCD5zl26I6ZWTlPUi3Dql8'
-      },{
+      },
+      {
         caption: 'Tasty street food in Bangkok',
         url: 'https://lh3.googleusercontent.com/zfZOFB3Sa6fNLM-kNT-yRx-tXiPmbo9stFSuovXHFa-Y48ZnllFFtwv6i3WvrzdzmaaEjc0gHb3E7p_BPp-9VjCe2nQhqSy-9ApXU199F5dNAmMRCkZjDwkrfzhVKHLisMN4P5kE2Oc'
-      },{
+      },
+      {
         caption: 'Roof top cocktails',
         url: 'https://lh3.googleusercontent.com/4Qv3RfwFvm4Xlm6S0FFIuzLGgQ3t-v3yzTQYpKrS0IsC8C6ZOVsL0AMTG_RWLg3HMra60vy_LxsM1OiYI40fdP2YE27eDtI_67nojs5fbyeljqLzRMhrG9q32gTZkJOB1AIMHDbtL5g'
-      },{
+      },
+      {
         caption: 'Bangkok Skyline',
         url: 'https://lh3.googleusercontent.com/zUv6wcLGHYzpzmAGPzF5-f7mYrfehGYlugBPsVVfzmmieeqPTHU3RNo0hLaS42xCGJ2qtmnCpIG0H5nchGWLp74aqUaDfqEFVCLEZy3_dadGVLFqnhcwvCeR0vh-yxxn5ado6wMAFFs'
       }
@@ -507,23 +512,28 @@ and the blaring music. The night skyline of Bangkok, however, was spectacular.
       'MBK lunch',
       'Street food dinner (deep fried veggie spring rolls, deep fried noodles, sweet chilli sauce, mushrooms & asparagus wrapped in bacon and fried'
     ],
-     photos: [
+    photos: [
       {
         caption: 'Not all that glitters is gold, but this is!',
         url: 'https://lh3.googleusercontent.com/oQb8xr6X8opO6cQ-dsMtvdn7Sd1zV5x5b53l2M1ItUMp8605f84_lwm2aj00Eu59aDPb6SCWXmvqhIzDJ5xQpxaAQjaogw28WqO7id2dN9GkWTOP9JSWKLz7kwNR8AsLM_BWPdDHu2o'
-      },{
+      },
+      {
         caption: '',
         url: 'https://lh3.googleusercontent.com/WYurWSvSxu_Aswfm0ZNoPmEIreJVW6dgptn4E6RhUcwa3vJJ9Vfs0skHSwjfESg7pWoVyy_rvmFOyiuM0zLFP9rXiG3R04CMwaAstmFtsm4YrzucA6Z54lsw-sTP7dYoj5SA0E0jwL0'
-      },{
+      },
+      {
         caption: '',
         url: 'https://lh3.googleusercontent.com/zyBDhIuF4YFWXUey2BfeWs2tg0pyB8buRD7oBZA1RWs9Y9GXysXIlPW5zXAast8WoTRCJMZUyPNyZ1YXuP7QGfEdF3ZuRr7kSiW238UPDY-bSgRnJkvxj35R1O9aP721KZNfCmt7FAk'
-      },{
+      },
+      {
         caption: 'Golden reclining buddha',
         url: 'https://lh3.googleusercontent.com/JDN9D_fpcAe4lavMxBA0jRd2WSVYG_LGr98S8fxFu3h_pvMyYp7gf7agmJ7qgJv8jbOngCQiy_cPkhra_y4IpwaVDQts3eG9Ya_pIx7s2uh74woji_R5jxveIC_J7cR0I497I5AIPEs'
-      },{
+      },
+      {
         caption: '',
         url: 'https://lh3.googleusercontent.com/_R2uzj2gdWJH3LsYRtrnIg7JhXXD3FZeB_A9ovoA39KGvB4VOQMmJ0zBkdX4v85_Jxwt8gub4xsUSf3BVvP4-cEDHFEBqvb4WwbLkCeznAv2ZZEoilvOyEIur3x-sUeaS35bDu3aEnE'
-      },{
+      },
+      {
         caption: 'Night and day',
         url: 'https://lh3.googleusercontent.com/cfZ9Gp3TRN9i3BCLTf4dQeqUIuUlsM0eBDMyCncoLjrxcsocLX9p_IMCB-owjtpGPoQC7eoul5kYvNiUfvbTViRNeCWYDd3HOfT0Bkv-qo5-dqHT0J-Q5hng0LZC3WgigMNBaTJ9pk4'
       }
@@ -651,19 +661,24 @@ conditioning is so strong I'm cold for the first time since I arrived.
       {
         caption: '',
         url: 'https://lh3.googleusercontent.com/RJNIPBNR6CgyxVZ6YE-5Yq4p-sunCvhX4J04tAsjOwPR7NJGptHLKroPdiHZX9fp_MkVOnNNAhgVjRYBfEyksllekBF2V2E1tnPqq9K8HX5JOu5uLDUrJ7tWoP3tf2wVEwdw0YLEpXc'
-      },{
+      },
+      {
         caption: 'Elephant parade',
         url: 'https://lh3.googleusercontent.com/vawNnV0fhy4Kt_KRjJtzVlk4HPxnr50rkM6DpEkJPES-49zR0Dk3fa3cnSF8W9E63sl2nT9b9_nnn5AKsgzHViHWgdyHlf4ArnW5_7bo2oK-OYXtTesDdjcN_4vEumsLo4kB0IIPa1g'
-      },{
+      },
+      {
         caption: '',
         url: 'https://lh3.googleusercontent.com/Pz0fcm8MDZFJYMlwZ-vXJ2LgaBtMwwjDO-mmfmlATaDio2NjpxM27H-b6DrUZqvfbb7mLN7cku4RmQFCdWQgkrBITxmKbckh8nIQAZ6T4Zr0-5CBzVygUY6Fom3TDzOan8qP2axqVZE'
-      },{
+      },
+      {
         caption: '',
         url: 'https://lh3.googleusercontent.com/2eYfwxavL1GN_6KS0uRPqWlmLFi5EJ5OxtYycPz-bZAH7k-NCDL27CR-vQ5AyuSitJvrrNVigRo6HkX1kRUMNyUNCMoe9scGSshmLrbBhowl5v_o0hFH8TXeC7wWerXvTE6kFYTxASY'
-      },{
+      },
+      {
         caption: '',
         url: 'https://lh3.googleusercontent.com/BI6JOaI3WqRcoRAweVz86nK71q-YbDuU1jqB-DDRIagDTfvbHbVqcqKuAZL0vF3aVfN1QEU05NZhgj3y4XefZ_z2MYXAz7WL_OdrgrxDhiUOUZpSdSYdFxVOtn3lPY-hr8_VSxz_3Io'
-      },{
+      },
+      {
         caption: '',
         url: 'https://lh3.googleusercontent.com/vUwHcFYp0HqDDA3feZmQuhfi9JTosHQHG6eMVDjHiV350ut9mIMS4FlagmQiIIr57XGQ29EEE4665A5uFw24g9C587FJJV_ilsmeApQeJyc73XzgyLUCbHRL8XiMvx-ArsTY9SEqfCI'
       }
@@ -834,8 +849,6 @@ rained! At least, enough water fell from the sky for two minutes to prompt the
 stall keepers to put out shelters, then the rain promptly stopped.
 
 )
-
-
   },
   {
     date: '2018-01-12',
@@ -880,7 +893,7 @@ stall keepers to put out shelters, then the rain promptly stopped.
       },{
         caption: '',
         url: ''
-      },
+      }
     ],
     entry: %(
 Today was a bit more chilled out it more ways than one. Primarily we didn't have
@@ -923,7 +936,7 @@ is something I've always wanted to do! </R>
       'pesto bacon pizza, three cheese pizza, honey & lime water'
     ],
     photos: [
-      'https://lh3.googleusercontent.com/0fHXHtFAPr-sRKvXu1oAvDQTKL_2covgq8INhQQJa6jHCjRpzfUC3_QQvfgd53uuFJU-2s9pCcE-kd8PqPvZ-l7B4zFYViHaTDwJacG8VO_nzSboQyj9oVgW3OFcyJjyNoOI5-MsfrU',
+      'https://lh3.googleusercontent.com/0fHXHtFAPr-sRKvXu1oAvDQTKL_2covgq8INhQQJa6jHCjRpzfUC3_QQvfgd53uuFJU-2s9pCcE-kd8PqPvZ-l7B4zFYViHaTDwJacG8VO_nzSboQyj9oVgW3OFcyJjyNoOI5-MsfrU'
     ],
     entry: %(
 The main activity today was going to meet some elephants. It's a popular thing to do in Chiang Mai
@@ -982,7 +995,7 @@ pack up, ready for our bus in the morning.
       'spring rolls, pork & pineapple fried rice, watermelon juice'
     ],
     photos: [
-      '',
+      ''
     ],
     entry: %(
 I wasn't particularly looking forward to this morning. There's something about a six-hour bus
@@ -1033,7 +1046,7 @@ river, <R> which was gorgeous </R>.
       'rice, water spinach, mushrooms, fried chicken, minced pork, tiny oranges'
     ],
     photos: [
-      '',
+      ''
     ],
     entry: %(
 This was the day I was looking forward to most, at least within the first few weeks of our trip. We
@@ -1133,7 +1146,7 @@ scared away any interesting animals. I learnt a new game, called "game".
       'pasta, chips, vegetables, aubergine sauce'
     ],
     photos: [
-      '',
+      ''
     ],
     entry: %(
 Sleeping in a treehouse has its ups and downs. Sunset - definite up. Rats and squirrels in the
@@ -1194,7 +1207,7 @@ think they should be used in more places ...
       'pringles'
     ],
     photos: [
-      '',
+      ''
     ],
     entry: %(
 We woke up to another cloudy morning, leaving an atmospheric (pardon the pun) fog in the valley
@@ -1254,7 +1267,7 @@ last Wheel of Time book. Only about 80 hours to go!
       'pork & vegetable dumplings, sticky jerky covered in sesame seeds, chocolate cinnamon bread, coconut dumplings'
     ],
     photos: [
-      '',
+      ''
     ],
     entry: %(
 We woke up (if you can call the brief spells of unconsciousness the night before "sleep") at 5.30am
@@ -1321,7 +1334,7 @@ dulcet tones of a guitar-playing fellow guest. <R> Literally every other note wa
       'coconut pancake (more like a dumpling)'
     ],
     photos: [
-      '',
+      ''
     ],
     entry: %(
 Sleeping in a bit meant that we had a rushed morning to make our 9am cooking class on time.
@@ -1384,7 +1397,7 @@ definitely need to replicate that if possible.
       'coconut pancake (more like a dumpling)'
     ],
     photos: [
-      '',
+      ''
     ],
     entry: %(
 After a proper lie in (to 9.15), we got up in time to make proper use of the guesthouse breakfast,
@@ -1452,7 +1465,7 @@ flavours we've been having in local food and cooking with was amazing.
       'spring roll, moneybag, deep fried noodles & tofu, sweet chilli & peanut butter sauce, pork skewers, savoury coconut pancake, chicken satay & pickles, ovaltine milkshake'
     ],
     photos: [
-      '',
+      ''
     ],
     entry: %(
 Today was a travelling day, so not much to report. We were up early (5.30am) to get to the airport
@@ -1501,7 +1514,7 @@ sauces here.
       'chicken satay, chicken massaman curry, banana milkshake'
     ],
     photos: [
-      '',
+      ''
     ],
     entry: %(
 (Today's post has a guest author: Rosie. Daniel cannot be held responsible for the accuracy of the
@@ -1580,7 +1593,7 @@ hour or so we headed to bed.
       'pineapple and bacon pizza'
     ],
     photos: [
-      '',
+      ''
     ],
     entry: %(
 This was a pretty chilled, lazy day for a number of reasons. Primarily, most weather forecasts said
@@ -1622,7 +1635,7 @@ PS. Shock of the day: Rosie got sunburnt and I didn't!
       'Laap-style dish with strips of grilled pork'
     ],
     photos: [
-      '',
+      ''
     ],
     entry: %(
 Somewhat like the day before, according to most weather forecasts it was supposed to rain quite a
@@ -1665,7 +1678,7 @@ close to where we'd been for dinner the previous day to a Swiss restaurant we'd 
       'shrimp spring rolls, sweet chilli sauce, dry red curry, rice, avocado & banana smoothie'
     ],
     photos: [
-      '',
+      ''
     ],
     entry: %(
 This was supposed to be the day with the best weather, but was much the same as the previous few
@@ -1730,7 +1743,7 @@ Luang Prabang.
       'duck red curry, thai dessert balls, strawberry shake'
     ],
     photos: [
-      '',
+      ''
     ],
     entry: %(
 We left Koh Mak at 9am from the pier just outside our resort. It was a loud, if uneventful journey.
@@ -1782,7 +1795,7 @@ needed.
       'Beef lok lak with rice, lucky chicken on french fries'
     ],
     photos: [
-      '',
+      ''
     ],
     entry: %(
 Another travelling day - up at 6am, at Bangkok airport for 7am, flight to Phnom Penh at 9am, arrive
@@ -1851,7 +1864,7 @@ Bertram.</R>
       'banana & nutella milkshake'
     ],
     photos: [
-      '',
+      ''
     ],
     entry: %(
 The combination of only partial walls in our room, nearby people's fondness for techno music and
@@ -1985,7 +1998,7 @@ travelling a lot.
       'fried peanuts, deep water cocktail, crab nachos, olives, shrimp wantons, fritatta, spicy green mango, crab cakes, lime cheese cake, caramelized pineapple, lime sorbet'
     ],
     photos: [
-      '',
+      ''
     ],
     entry: %(
 This morning we got up late (9.30am) and walked a mile or two into Kep, <R> (it was definetly two) </R>
@@ -2053,7 +2066,7 @@ one meal!!</R>
       'avocado shake, vanilla ice cream'
     ],
     photos: [
-      '',
+      ''
     ],
     entry: %(
 The day started with a four or five hour bus journey from the peaceful emptiness of Kep to the hive
@@ -2100,7 +2113,7 @@ with a subtle flavour, almost like drinking cream (not like I'd ever do _that_).
       '65 degree egg & chorizo mayo, beef bourginon, chocolate & caramel lava pot'
     ],
     photos: [
-      '',
+      ''
     ],
     entry: %(
 The main event for today was to visit the harrowing Choeung Ek Genocidal Centre
@@ -2147,7 +2160,7 @@ decent restaurant in Edinburgh at almost the same price.
       'chicken bolognese crepe, creme caramel, mango shake'
     ],
     photos: [
-      '',
+      ''
     ],
     entry: %(
 Another bus day. We were up early to get our 7.45am bus to Kratie.
@@ -2193,7 +2206,7 @@ expected.
       'vegetable spring rolls, honey sesame pork and rice, banana spring rolls'
     ],
     photos: [
-      '',
+      ''
     ],
     entry: %(
 Our reason for coming to Kratie was to see the rare Irrawaddy dolphins. They're
@@ -2276,7 +2289,7 @@ watched the sunset.
       'mango & raspberry shake, prahok and crispy rice, mushroom & brie rice balls with beetroot mayo, duck and pumpkin croquetes with hoisin sauce, mango and pineapple cheesecake with basil lemon sauce'
     ],
     photos: [
-      '',
+      ''
     ],
     entry: %(
 This was probably our longest bus journey yet, starting just after 7.30am and
@@ -2319,7 +2332,7 @@ crackers.
       'cookie, banana shake'
     ],
     photos: [
-      '',
+      ''
     ],
     entry: %(
 Definitely the weirdest moment of our trip so far - walking into a shop, asking
@@ -2429,7 +2442,7 @@ was great.
       'pork fried rice, beef steak, french fries, assorted khmer sweets, banana shake'
     ],
     photos: [
-      '',
+      ''
     ],
     entry: %(
 Today was a **long** day. We got up at 4.30am, donned helmets and head torches,
@@ -3225,6 +3238,10 @@ end
 def create_photo(day, photo_config)
   return if photo_config.blank?
   photo_config = { url: photo_config } unless photo_config.is_a?(Hash)
+  return if photo_config[:url].blank?
+  dimensions = FastImage.size(photo_config[:url])
+  photo_config[:width] = dimensions.first
+  photo_config[:height] = dimensions.second
   day.photos.create photo_config
 end
 

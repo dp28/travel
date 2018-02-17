@@ -77,6 +77,27 @@ RSpec.describe 'days', type: :request do
           end
         end
 
+        describe 'the "width" field' do
+          let(:photo_query) { 'width' }
+          it 'should be the integer on the underlying Photo' do
+            expect(json_photo[:width]).to eq(photo.width)
+          end
+        end
+
+        describe 'the "height" field' do
+          let(:photo_query) { 'height' }
+          it 'should be the integer on the underlying Photo' do
+            expect(json_photo[:height]).to eq(photo.height)
+          end
+        end
+
+        describe 'the "aspectRatio" field' do
+          let(:photo_query) { 'aspectRatio' }
+          it 'should be the float on the underlying Photo' do
+            expect(json_photo[:aspectRatio]).to eq(photo.aspect_ratio)
+          end
+        end
+
         describe 'the "isFavourite" field' do
           let(:photo_query) { 'isFavourite' }
           it 'should be the boolean on the underlying Photo' do
