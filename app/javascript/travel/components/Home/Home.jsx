@@ -1,5 +1,6 @@
 import React from 'react'
 import { Row, Col } from 'react-bootstrap'
+import { Link } from 'react-router-dom'
 
 import { ConnectedMap } from '../Map/Map'
 
@@ -28,7 +29,8 @@ export const Home = () => (
 
       <p>
         The site and its content will hopefully be significantly updated over the coming months as
-        we write more diary entries and add more functionality.
+        we write more diary entries and add more functionality. The diary starts &nbsp;
+        <Link to="/days/1?area=Bangkok">here</Link>.
       </p>
       <div className="Rosie">
         <h2>From Rosie</h2>

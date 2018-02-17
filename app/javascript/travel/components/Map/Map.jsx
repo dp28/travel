@@ -12,7 +12,7 @@ const DEFAULT_CENTRE = {
   lng: 102
 }
 
-const SELECTED_AREA_PARAM = 'area'
+export const SELECTED_AREA_PARAM = 'area'
 
 const QueryParamLink = ({ param, value, children }) =>  {
   const currentPath = window.location.pathname
