@@ -229,15 +229,15 @@ LOCATIONS = {
   CatBa: Location.create!(
     type: Location::Type::ACCOMMODATION,
     name: 'Victor Charlie Hostel',
-    latitude: 10.766031,
-    longitude: 106.691628,
+    latitude: 20.726301,
+    longitude: 107.050335,
     area: AREAS[:CatBa]
   ),
   HoChiMinh: Location.create!(
     type: Location::Type::ACCOMMODATION,
     name: 'Ngoc Phu Hotel',
-    latitude: 20.726301,
-    longitude: 107.050335,
+    latitude: 10.766031,
+    longitude: 106.691628,
     area: AREAS[:HoChiMinh]
   )
 }.freeze
@@ -968,8 +968,6 @@ Chiang Mai within the last day or two. We met up for dinner today with her and h
 catch up. They'd been travelling for the past two or three months in many of the countries we are
 about to go to, so gave us plenty of tips. We had a great meal swapping stories, then headed back to
 pack up, ready for our bus in the morning.
-
-
 )
   },
   {
@@ -3175,7 +3173,57 @@ and sobering. In particular, it'll be hard to forget the picture of the woman
 born without eyeballs.
 
 Having got one side of the story, we spent some time durong and after dinner
-looking up more about the war to try and get more ofa full picture.
+looking up more about the war to try and get more of a full picture.
+)
+  },
+  {
+    date: '2018-02-17',
+    number: 45,
+    written: '2018-02-17 21:30',
+    locations: [LOCATIONS[:HoChiMinh]],
+    expenses: {
+      FOOD: { brunch: { dong: 457_000 }, dinner: { dong: 802_000 }, water_and_ice_cream: { dong: 61_000 } },
+      ACCOMMODATION: { dong: 1_360_000 / 4 },
+      LONG_DISTANCE_TRAVEL: {},
+      SHORT_TRAVEL: {},
+      ACTIVITIES: { flower_garden: { dong: 60_000 } },
+      OTHER: { deoderant: { dong: 41_000 } }
+    },
+    stats: {
+      walked: 7.5,
+      temperature: 34,
+      altitude: 20
+    },
+    food: [
+      'pulled pork grilled cheese sandwich, potato wedges, mango lassi',
+      'pigs\' ears, deep fried chicken cartilage, butter-fried rice with beef & bacon & cranberries, pork belly with crispy rice',
+      'mars bar ice cream'
+    ],
+    entry: %(
+We had a pretty lazy day today, getting up late and going for brunch at a
+sandwich place that had only taken a couple of days off for Tet. We spent the
+afternoon in a large park with impressive flower displays (and some fish in
+tanks?). Unfortunately, similar to yesterday's lunch, attempted to find
+somewhere decent for dinner, were thwarted by Tet opening times and ended up
+somewhere a bit dissapointing for the price.
+
+As we walked through the city throught the day we encountered various different
+groups of people involved in, presumably, Tet-related celebrations. While trying
+to find dinner we found ourselves in a large crowd of people milling around in a
+big square - I'm not really sure what was going on. On our way back from dinner
+we went into an outdoor performance area where someone was singing in Vietnamese
+accompanied by four dancers, then was replaced by a dancing troup singing &
+dancing to "If you're happy and you know it clap your hands" in Vietnamese. All
+the children in the audience were called up beforehand and given basic dance
+moves to do as well.
+
+The best performance we stumbled across was a group of men playing music,
+particularly drums, while holding up a bamboo pole about seven metres high with
+a small bar as a foothold just below the top. Another man in a dragon costume
+climbed the pole and proceeded to dance to the music. Towards the end none of
+his hands or feet were on the pole - he spun himself around, balancing his chest
+on the top of the pole. He did this while wearing a massive dragon costume
+which covered his head and dangled below his feet.
 )
   }
 ].freeze
