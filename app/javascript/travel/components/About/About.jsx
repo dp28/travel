@@ -6,35 +6,29 @@ import { ConnectedReleases } from '../Releases/Releases'
 export const About = () => (
   <Row>
     <Col xs={12} sm={8} md={9}>
-      <h2>From Daniel</h2>
-      <p>
-        If you're here, you probably know me. If not, hi - I'm Daniel Patterson a
-        26 year old software developer currently travelling in South East Asia and
-        South America for six months with my girlfriend, Rosie.
-      </p>
+      <img src='https://lh3.googleusercontent.com/b6vSe_BP5bqZ3Kd_UiIaIVnT67T9DYqcfF7ekZO2QoA-673s4w1z--SudT_oczNNPxGrJjej5xxdA_Km41ibXJO2BgxXEOheBFFHVcKj94aVG2tuDIdeLf6oXNeQu5xQdAKX3GohxKg' />
 
+      <h2>About the trip</h2>
       <p>
-        This site is essentially:
+        This trip has been on the cards for a long time. We were both interested in travelling at
+        some point after leaving university, looking to see some new places and find some delicious
+        food. The rough plan for our six month trip is:
       </p>
-
       <ol>
-        <li>My diary</li>
-        <li>A way of letting friends & family know what I'm up to</li>
-        <li>A way of making sure I don't become too rusty a programmer over the next six months</li>
+        <li>Thailand</li>
+        <li>Laos</li>
+        <li>Cambodia</li>
+        <li>Vietnam</li>
+        <li>Malaysia</li>
+        <li>Indonesia</li>
+        <li>Australia</li>
+        <li>Argentina</li>
+        <li>Chile</li>
+        <li>Bolivia</li>
+        <li>Peru</li>
+        <li>Ecuador</li>
       </ol>
 
-      <p>
-        The site and it's content will hopefully be significantly updated over the coming months as I
-        write more diary entries and add more functionality.
-      </p>
-      <div className="Rosie">
-        <h2>From Rosie</h2>
-        <p>
-          Hi, I'm Rosie and I approve this message.
-        </p>
-      </div>
-        <a href='https://photos.google.com/share/AF1QipNsjkY2kdPB7Aku4xgC0utlq4Uwz1OTlW8VZqLjnWbl_1GRmcFjH9nFvNp4-BtvEA?key=SlpCT3B4ZkhWQi04eHRRRzN4ZHNnZ1lSSEw0eUh3&source=ctrlq.org'><img src='https://lh3.googleusercontent.com/b6vSe_BP5bqZ3Kd_UiIaIVnT67T9DYqcfF7ekZO2QoA-673s4w1z--SudT_oczNNPxGrJjej5xxdA_Km41ibXJO2BgxXEOheBFFHVcKj94aVG2tuDIdeLf6oXNeQu5xQdAKX3GohxKg' /></a>
-         
     </Col>
     <Col xs={12} sm={4} md={3}>
       <ConnectedReleases />
