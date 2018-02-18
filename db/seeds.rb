@@ -630,7 +630,9 @@ european architecture and art.
 We finished the day by picking up our bags and catching the sleeper train to
 Chiang Mai. As I finish writing this, we've just had our curtained-off semi
 compartment changed from two seats and a table into bunk beds and the air
-conditioning is so strong I'm cold for the first time since I arrived.
+conditioning is so strong I'm cold for the first time since I arrived. <R>
+I did not expect to be this cold in Thailand, I almost didn't believe the 
+train guy when he told me to wrap up warm. </R>
 
 )
   },
@@ -686,7 +688,8 @@ conditioning is so strong I'm cold for the first time since I arrived.
     entry: %(
 We were woken up at about 6.30 am by the conductor announcing over the tannoy
 that they needed to change our beds back into seats. We watched the sun rise as
-the train pulled into Chiang Mai station, then packed up and left.
+the train pulled into Chiang Mai station, then packed up and left. <R> Guys they
+had really English Breakfast tea, not just lipton!! </R>
 
 Chiang Mai is significantly smaller and noticeably cooler (at least in the
 morning) than Bangkok. It still has the moat and some of the walls of the
@@ -696,7 +699,8 @@ up for a trip the next day and headed out to see some temples.
 After Bangkok, we both knew we were pretty close to being templed out. However,
 Chiang Mai has a lot of temples, they're mostly free and don't require booking.
 We slowly wandered around as the day got hotter, admiring the architecture and
-several groups of topiary animals.
+several groups of topiary animals. <R> There was also some cool elephant statues
+at the oldest temple in the city. </R>
 
 Everything was cheaper in Chiang Mai, too - from the taxi to the food. The city
 clearly depends on tourism and the museum explaining the history of the area was
@@ -765,11 +769,15 @@ take pictures, then back on the bus. Thrilling.
 
 We both realised this sort of activity isn't really for us. We'd rather see only
 the sites we find interesting (mainly the scenery) and be able to stop at things
-we only glimpsed out the window, like the flower farms. The obligitory market
-stops were no where near as informative a view on local life as the museum
+we only glimpsed out the window, like the flower farms. <R> So apparently at the 
+national park that we went to there is an amazing walk that shows off the regions 
+native rhododendron flower and I really wanted to go to it but we weren't allowed
+to for some reason, which was really sad. </R>The obligitory marketstops were no 
+where near as informative a view on local life as the museum
 yesterday was. The repeated grumblings from the three people in the back seat
 who'd been told incorrectly that they could go swimming didn't really brighten
-the bus journey back.
+the bus journey back. <R> However there were some very very cute puppies so that
+made up for it. </R>
 
 Some of the sights were impressive, though, particularly the view from the
 chedis (or pagodas). It was interesting to learn that they had been constructed
@@ -809,6 +817,9 @@ them, other than in honour of the king and queen's birthdays.
         caption: '',
         url: 'https://lh3.googleusercontent.com/flFv3jcEYx18aTonqHzd2ZgSNrZxpYTrjueJpso5dIIn1O4YHYYriYguJi_vho5ppDSohxtoy7DXGV_5FX7ASf4pLtp6gHfR2hWn5NAjxqiJmfQrWkrENwIxWlCRNBRxUNmqQhbZG94'
       },{
+        caption: 'How spicy do you like your curry?',
+        url: 'https://lh3.googleusercontent.com/VvvsutZwECnIEyi4_XJjPblRszBU5-v2oewt-pEOQHmmH42jVWXq6aHP7WeYmwKPq67ZZgQBLPRj6VFHCe4eS0B6MVF7dE_U4u2MALUCOjbKd9X3xDdjZKLvm0q_bSVkpVEeGe2WshA'
+      },{
         caption: 'Everything ready for cashew chicken',
         url: 'https://lh3.googleusercontent.com/b2rTED9_jkuMIjzydjiH3Q1ln5CjZYjeVas7wkLED-50lYKbVa4aRFzY4zH95CzDtrYO8-RulRqpYOBddheF8Zq6XB7keXUyvSdXFk5n0CFUhSR3bGUlmhXIfWbMcnkvkFXkHnyphdI'
       },{
@@ -817,9 +828,6 @@ them, other than in honour of the king and queen's birthdays.
       },{
         caption: '',
         url: 'https://lh3.googleusercontent.com/Ze4nATNButey5WThBN4tJ9-Sd2WHk-D8zLoEPqjrBZnqaHXqb4fFqR19sOxsSiBIeOWev3zJhhoX073V34uOYQZV0qlLzELCV_XDutrOckbKXyfwSDKU-800opm5-XkXCh6Dr5xKRKY'
-      },{
-        caption: 'How spicy do you like your curry?',
-        url: 'https://lh3.googleusercontent.com/VvvsutZwECnIEyi4_XJjPblRszBU5-v2oewt-pEOQHmmH42jVWXq6aHP7WeYmwKPq67ZZgQBLPRj6VFHCe4eS0B6MVF7dE_U4u2MALUCOjbKd9X3xDdjZKLvm0q_bSVkpVEeGe2WshA'
       },{
         caption: 'Aren\'t our aprons cute',
         url: 'https://lh3.googleusercontent.com/aWiGD5Nwo3OWETDWqX4f7QJLNyjiw6RAJr7dImu14F_ay7eqHP98GjhhPwwjg2zrDsJyqjdBzK-LQG5z8Ijx5sZtH-ntfKv1rPEhZQH617wuBgwnNpezYAY2ZtAyCjEU2hwd2dDC6CM'
@@ -841,12 +849,14 @@ day before, Khaw Soi, and I got quite a bit of two desserts, deep fried banana
 and blue sticky rice with mango. I really enjoy making curry, so it was great to
 get to make and try several curry pastes. Best of all, I'm pretty sure most of
 the ingredients will be available in Edinburgh (somewhere) - I want to learn
-things that I can make at home.
+things that I can make at home. <R> For some reason Daniel decided to make all of 
+his dishes super spicy which meant that he got a more lot of my food than I got 
+of his... suspicious. </R>
 
 Funnily enough we didn't need dinner. We had a wander through the night market
-so Rosie could buy some Thai thousers (Thaits?) and - shock horror - it actually
-rained! At least, enough water fell from the sky for two minutes to prompt the
-stall keepers to put out shelters, then the rain promptly stopped.
+so Rosie could buy some Thai trousers (Thaits? <R> NOPE! </R>) and - shock horror 
+- it actually rained! At least, enough water fell from the sky for two minutes 
+to prompt the stall keepers to put out shelters, then the rain promptly stopped.
 
 )
   },
@@ -876,23 +886,17 @@ stall keepers to put out shelters, then the rain promptly stopped.
     ],
     photos: [
      {
-        caption: '',
-        url: ''
+        caption: 'All the tasty treats',
+        url: 'https://lh3.googleusercontent.com/pyPLRfWXaIwYkn8i2YKJZTdBT0VSb6ackBJXSYgHhVH4UlorlZ-B8Q0hrB_bWGA97dAWnlmFUhBQ4RHSJ_UPUVRx1yaJLjNpcwsCDBifCnZkh7noHQBvARwV2921_z2D68Gnxo9BHvo'
       },{
-        caption: '',
-        url: ''
+        caption: 'Very happy Rosie',
+        url: 'https://lh3.googleusercontent.com/N7jLLWmRSo_N-rg-YLlZfns1NP4-sYSLy8JdNZy0jeQi0ea9-v7fbuU_SBcbR40F1r-FmQBrHoLnOcFVbnI44sI9xhfarrWRl36zZHHrDknSCJ_7MV2hfs_yrjbN-lrnSa_1t5nDvQ8'
       },{
-        caption: '',
-        url: ''
+        caption: 'Afternoon tea by the river',
+        url: 'https://lh3.googleusercontent.com/3MszSxZKFHm0N46v1hPp9QDipTvpeit6MikqZRveQWyVolt4s98QQ15g0JoflECzjCVAGEoqB6pPZWUfKLKCS6Rz7Elll1HDuSG-D0dry-35gY1N1gRaJEHBWPosn6MbTaE1CLxAa8g'
       },{
-        caption: '',
-        url: ''
-      },{
-        caption: '',
-        url: ''
-      },{
-        caption: '',
-        url: ''
+        caption: 'A walk around the walls',
+        url: 'https://lh3.googleusercontent.com/Uw0o1N7Gy3aDBWjx8-f7ByL09-6F5T3ZGLguOHdGaAiVJlNFTRC5l-s2_t8SFKnrFzok2y8Xq-76H2FCoAPjBh85xA31IHBZHVuRyXRgJ8qKPMCrbHMFC3GHVP0wxw66Sy-cVa_KLhI'
       }
     ],
     entry: %(
@@ -936,7 +940,19 @@ is something I've always wanted to do! </R>
       'pesto bacon pizza, three cheese pizza, honey & lime water'
     ],
     photos: [
-      'https://lh3.googleusercontent.com/0fHXHtFAPr-sRKvXu1oAvDQTKL_2covgq8INhQQJa6jHCjRpzfUC3_QQvfgd53uuFJU-2s9pCcE-kd8PqPvZ-l7B4zFYViHaTDwJacG8VO_nzSboQyj9oVgW3OFcyJjyNoOI5-MsfrU'
+      {
+        caption: 'New friend',
+        url: 'https://lh3.googleusercontent.com/06CL8j6qMavGAI57nARr41wKLeBnv8BiZ8pIm46o9-W4fEzbb7PA5-Y5157Oc19uINBSjTyTD7GpB_IFo-rFQawWQW6qV2PAcizTYhITIdXYZWO38ruYjzeKS1d-Bsvb1YyvjYpX510'
+      },{
+        caption: 'Feeding my new friend',
+        url: 'https://lh3.googleusercontent.com/5nWObh96OOHTb1I-7GMISUE0erJrZhSplu6dWyLNgdNNDUcpxK_BllRtUB00E1at7dly10JNGFTRRtVZ5at0ScTIulfXegeNUunLwIZTi-7YwFwlBXqkpeavwkAg5rniYDJzrTKJlQI'
+      },{
+        caption: 'This is Jimmy',
+        url: 'https://lh3.googleusercontent.com/Jj4w1h_BgWLvwYE0cFJOrf83rqsScjdhgyF1lnWgTWinLWYGRsl4IcaPB8LwXedDyuQSSo12daActQyUsdq4kwsIiZU2l87rX5MLFgrlJrFzGMDsTt8GJpQ5MG7ET0I7I2hVc9zfpsY'
+      },{
+        caption: 'The banana shake in a jug',
+        url: 'https://lh3.googleusercontent.com/Nj_tg-jRiiu_hRnIp8mexbR7ruO1tfwQH2rMvMzyEVTSIyF8slGmPR0EXPrMv7O0X_vClCFFiQYkdVP8qykBDuCxe0q631Gxg5-TjAvQhcN9xgBVbxKpfLniOr6GSlV4n--1pHUe1-A'
+      }
     ],
     entry: %(
 The main activity today was going to meet some elephants. It's a popular thing to do in Chiang Mai
@@ -965,7 +981,7 @@ followed up an hour later by a surprisingly large banana milkshake (served in a 
 
 By chance, one of Rosie's friends from our halls in St Andrews, Tara, happened to have arrived in
 Chiang Mai within the last day or two. We met up for dinner today with her and her boyfriend to
-catch up. They'd been travelling for the past two or three months in many of the countries we are
+catch up. They'd been traveling for the past two or three months in many of the countries we are
 about to go to, so gave us plenty of tips. We had a great meal swapping stories, then headed back to
 pack up, ready for our bus in the morning.
 )
@@ -993,7 +1009,16 @@ pack up, ready for our bus in the morning.
       'spring rolls, pork & pineapple fried rice, watermelon juice'
     ],
     photos: [
-      ''
+      {
+        caption: 'A book and a beer = a happy Rosie',
+        url: 'https://lh3.googleusercontent.com/wpVuRKSOXWD6Rb-a-aFsmESNz4q0gezblTNKS0eQ7WGFpjtwus_XXgnZksx6GvtQ43WCHOF4e1Qq49FH9ab6RPeKmG-id7EOGA5wqvP7V29Wn5Rw9FfLnjM2y7cePkRcCD-ZxXofaZs'
+      },{
+        caption: 'Sunset on the Mekong',
+        url: 'https://lh3.googleusercontent.com/Twm6vjVCOmJaLa6sc2SyQ7YbQOVJUv5BcPpjMemwVDzTaa_0TbL_xlazWSZVEHN6wu9-sH7vAldOZqED1rRGwt62wr1qnpDdWd0d6XSwb-BJcBm9duc0J6NW7WcIGfNFE0HKaeSZMxw'
+      },{
+        caption: 'Its a tough life all this travel',
+        url: 'https://lh3.googleusercontent.com/xYUTk_TtbCfliyW_w2yNlgaroGGSHe6X-SLxkI02z1BgB7U86t_QC19GXm3N3bBzuXIHmGpq_2mZ4iU8z1kv9Pr8fpnZUZNfm76ZHiqrtq6GB9wQW9fUC3JyoSEkKI9lYrYsvbRDVdo'
+      }
     ],
     entry: %(
 I wasn't particularly looking forward to this morning. There's something about a six-hour bus
@@ -1008,7 +1033,7 @@ dollar fee & passport photo for a visa, an extra $1 because it's the weekend and
 to the town we're staying in (Huay Xai).
 
 Negotiating the songthaew took quite a long time because we had to do it with the four other
-tourists who had just crossed the border. We all had different anounts of different currencies and
+tourists who had just crossed the border. We all had different amounts of different currencies and
 different ideas of what was a good deal. The driver spoke very little English and kept changing
 between giving prices in Thai baht and Lao kip. After everyone was somewhat happy, we were on our
 way - on the *right* side of the road. In Thailand, they drive on the left.
@@ -1044,7 +1069,19 @@ river, <R> which was gorgeous </R>.
       'rice, water spinach, mushrooms, fried chicken, minced pork, tiny oranges'
     ],
     photos: [
-      ''
+      {
+        caption: 'The treehouses were just soo cool',
+        url: 'https://lh3.googleusercontent.com/yZ2GZCfw3BACKLkgz6cjWB1NQS1a6jsqWQgxR94fnB3jfmBXiVu2yyuvc37wNsTiOFbtj4VWQxf8z3bo2GEwWKrcwsdEvO1BE9LETeTVu_8czJp_rvKC9zzjNMTVnyWE_UKkmjXQKQ0'
+      },{
+        caption: 'On the way to the treehouse',
+        url: 'https://lh3.googleusercontent.com/Ml4PiR5hfBb_HYTggrgg8TWzLopCGM7-f6f3vVI2qd2jJKkWgt_qiZ8WyQqWnwO3uuvCTgqDyeMTFf4YKSsKVVZQMus1HYwImGDLPFeq_na7K3CPX4KjTghoSNfIW1EWh8vmMzLDjLI'
+      },{
+        caption: 'The few from the toilet',
+        url: 'https://lh3.googleusercontent.com/Q0z40fUpjwX5n1Gq_MSQl-ry32VPJotTImoiPArewXX4lsq5S_XA2biyQHZmUfvAA6CLLN6sKpM09_5uNDiJh-b94RneKBNp53pKOG-dr4fJ8oKoMKwk4Toqu_KVICxczjYNlFSQJsc'
+      },{
+        caption: 'Looking for a gibbon or two',
+        url: 'https://lh3.googleusercontent.com/uP1RfmEgbenrSV35d0szDH1hdhwraTxu6-SrxUknVkoq2E-QYajsyhedeFfz-sUGsRWvKTTw1K6GHLX0LCvTsDPzLsW7BiipjfH8ceDVinSd9uk5RuJ6lO5DAFFAumghicKcSg5534k'
+      }
     ],
     entry: %(
 This was the day I was looking forward to most, at least within the first few weeks of our trip. We
@@ -1052,7 +1089,9 @@ had booked the Gibbon Experience - three days spent in the jungle trying to spot
 sleeping in treehouses and ziplining between them. For quite a long time I've had a semi-serious
 running joke that ziplines should be used in more places as a form of transport - I think they lend
 themselves equally well to areas with tall buildings or large hills, plus they are far more
-enjoyable than other means of transport.
+enjoyable than other means of transport. <R> Just for anyone who doesn't know, when Daniel says 
+"semi-serious running joke" he means that every time we are somewhere high he will mention that 
+this would be a great place for a zip-line. Every single time... </R>
 
 Anyway, I'm getting a bit distracted. We dropped off our stuff at the main office, had a rushed
 breakfast, watched a safety video, then crammed into a tiny songthaew with four other people. It
@@ -1144,7 +1183,23 @@ scared away any interesting animals. I learnt a new game, called "game".
       'pasta, chips, vegetables, aubergine sauce'
     ],
     photos: [
-      ''
+      {
+        caption: 'Daniel coming in to land',
+        url: 'https://lh3.googleusercontent.com/e4JS-gcdqthjh-lVVmjyIxHQ6IQi6AxQyjC2BXO9MVROV5_TshnZJztDZsE5AAq6E9hpvHuLJQ2Jz1UDeG7UZZpjdqUIlNKIXuTUXNUHGebQms73TG9OYLOtV4-_n0ncp38XXzCNKyg'
+      },{
+        favourite: true, 
+        caption: 'Treehouse 1',
+        url: 'https://lh3.googleusercontent.com/249yL98C1NQgSsuv0PfVYyXM7dIhj3emZbNUlqdr2muUd1TbMH21MqvHidLTsha2zUf_ELnZYUAkz6ZSiXbHO2PxK_akINmMtB3umpQyBfKD7coJFVG2BHSjgfhyyZZQgA3fnCBnY6w'
+      },{
+        caption: 'Coming home',
+        url: 'https://lh3.googleusercontent.com/6xgqcgWB0-wJpCBZ5saNgPywaHBUTuwf1MTDfXqZu1aFmC8mNdQBlf6fmxb4TGorkwydbd0HNZ_5et7VNTmJSzxH90U04snNEWoUuGtS51ggxV8FOk9ukEi0bqfl0F22rMS46oJrh38'
+      },{
+        caption: '"Snakes can climb trees?!"',
+        url: 'https://lh3.googleusercontent.com/63RRjhmhyH4WeOXo3dBzFAiEhbaitPnGbP78jVTlZujCd7wxMOdkWDWdfdJLR2NMHvMIu1zniEkHa4Hap4AZlQKGg_P0-gpqCBMJDhUQDOkPFtyIJLsGmiGX6Z33qtUvjdp8F6sLsgc'
+      },{
+        caption: 'Home for the day',
+        url: 'https://lh3.googleusercontent.com/uYAd7NHKS2sKw6Sn0fA2t9ZJ3Ze2NSAmtgnO_Di2-DXBUy88gNV5ZHMEDi4oWcGFpaAgBYl9GA18mAtldf4tNeRwI8LmmMtASseqxk4-YMuAfI3wpK1xafzOzlBytRZfLWXtJPiXU64'
+      }
     ],
     entry: %(
 Sleeping in a treehouse has its ups and downs. Sunset - definite up. Rats and squirrels in the
@@ -1205,7 +1260,25 @@ think they should be used in more places ...
       'pringles'
     ],
     photos: [
-      ''
+      {
+        caption: 'atmospheric view in the morning ',
+        url: 'https://lh3.googleusercontent.com/jUcdgIpTGL1aTA9wi49H6bvrbJ22f2413mBASiOxG9UMxSxel0-ft_qHxu7VOJkNVm9xkrruiF5nbRFjy_gouhkdO8W9kV9Lzz-fZPU9aEs1aXhI_DiacZLZls_jMp85tLSezIA63e8'
+      },{
+        caption: '',
+        url: 'https://lh3.googleusercontent.com/oLAZuS-fKO8nIEsghVxawFXFZoVlX-eNiVYYxwu3UTDxGqk8aAVxBpyQSak6YWFmW83TAUBvRdM9YoTdCjUE6_tOWIVRZmAJTEaq87ZSonecou552GuHStKTmzFPGPky-YkL4y9IboY'
+      },{
+        caption: '',
+        url: 'https://lh3.googleusercontent.com/PCfGqVBlsL2I5Bnxl42oKkAQNwKLaqyP7gDx4LGrFA-ka92cog8lYv_xBw8Bnhf01mcj9KAPriz7GGoeT2M_em9pWm4dIDX031JwU1-kGobwJFmQRs80QWY2ucq0G0PfytGOqF401Rg'
+      },{
+        caption: 'Treehouse seven is the coolest',
+        url: 'https://lh3.googleusercontent.com/1ZzrUcHLpTNgyH6Fr_aeZDOpd013aLJBF2_pPEQ3Prb1mLMKd2fEAZleFFgZDJtYvTRed7QFJieyJCYXp-ct0hSI1foACrzEQ8x2vQx7vemBBLxIZ_xJxYPvbKYTh3wWBKQUWpe3e0Y'
+      },{
+        caption: 'I think Daniel is enjoying himself',
+        url: 'https://lh3.googleusercontent.com/_1srobnwEY3cPiyWCuWdza8eG2V7yA0k3UzrEh7O31lBpvjCFrdjaNk_MIiPDAoYLgigyTRe1VeUlzrHfVg1R1iodlxY0Yx2OVPDAdkvfvOXgEE7XOMnB57C599U35PJN_qEWRP-jns'
+      },{
+        caption: 'Such a comfy bed...',
+        url: 'https://lh3.googleusercontent.com/j5ltyI7buYWiSrr5u0YhbbK7L0bKH56T8TtQpsjIMkYGeOIXM1QahL9FJgp4ifiV3fzlkfyzFd0VLfPtixHp-hQ2VnNnyKC2HP8GgXFJUfbUMAtiKFOk2ADQ0FEx4BMM1R2knSEYoHg'
+      }
     ],
     entry: %(
 We woke up to another cloudy morning, leaving an atmospheric (pardon the pun) fog in the valley
@@ -1265,7 +1338,25 @@ last Wheel of Time book. Only about 80 hours to go!
       'pork & vegetable dumplings, sticky jerky covered in sesame seeds, chocolate cinnamon bread, coconut dumplings'
     ],
     photos: [
-      ''
+      {
+        caption: '',
+        url: ''
+      },{
+        caption: '',
+        url: ''
+      },{
+        caption: '',
+        url: ''
+      },{
+        caption: '',
+        url: ''
+      },{
+        caption: '',
+        url: ''
+      },{
+        caption: '',
+        url: ''
+      }
     ],
     entry: %(
 We woke up (if you can call the brief spells of unconsciousness the night before "sleep") at 5.30am
@@ -1404,12 +1495,15 @@ seemed to be _the_ main attraction in Luang Prabang. At least, every time we wal
 or songthaew driver their standard question was simply "Waterfall?".
 
 We wandered up to one of the main places to find tuk tuks, haggling with a few. We knew it was
-cheaper to share the 27km journey with others, so wanted to find drivers with other people heading
+cheaper to share the 27km journey with others, so we wanted to find drivers with other people heading
 that way. After a few minutes, one guy said that he could find us one to share and brought us to his
 friend's almost full Toyota Commuter (not as common as in Thailand, but still _everywhere_). This
 seems to be a common way of doing things in Laos - lots of drivers and stall owners seem to work
 together, sharing business so that the person who can most easily provide the goods or service does
-and presumably the group benefits.
+and presumably the group benefits. <R> I will say that this is the only thing about Laos that I could 
+really think of as communist, despite technically being a communist county its really hard to 
+work out what means in real terms for the people living here. This was a running source of confusion 
+for me through out Laos and Vietnam. </R>
 
 The waterfall was fun and quite impressive, particularly given that we've now seen quite a few in
 quick succession. We walked up to the top, had a go on a swing only just above a pool at the top
@@ -1428,7 +1522,7 @@ main street, specialising in a fusion of French and Lao cuisine. I had laap - a 
 salad made from minced chicken, plenty of herbs, spring onions and fried garlic - followed by slow
 cooked pork belly, rice, banana flower, carrots and lemongrass. Rosie had a trio of dips followed
 by a Thai shrimp bisque. I normally don't like bisque, but the creaminess combined with a lot of the
-flavours we've been having in local food and cooking with was amazing.
+flavours we've been having in local food and cooking with was amazing <R> seriously amazing! </R> 
 )
   },
   {
@@ -1469,7 +1563,7 @@ flavours we've been having in local food and cooking with was amazing.
 Today was a travelling day, so not much to report. We were up early (5.30am) to get to the airport
 for about 6.15 for our 7.40 flight. The airport was tiny - there were _maybe_ three other people
 going through security. The only (minor) excitement was that I found the key to our hotel room in my
-pocket. Damn.
+pocket. Damn. <R> Sigh </R>
 
 We flew back into Bangkok and caught a six hour bus to Trat. We're just spending a night in Trat on
 our way to Koh Mak, an island nearby. We managed to avoid a brief deluge, getting into our guest
@@ -1520,7 +1614,7 @@ information provided, and would actively question some of the opinions presented
 
 <R>
 
-Today was to be an exciting day, we were heading off to the thai island Koh Mak but first we needed
+Today was to be an exciting day, we were heading off to the Thai island Koh Mak but first we needed
 to rectify a small issue of the day before, the fact that we still had the key to our hotel room in
 Luang Prabang, and for that we needed a post office. So we sent off into the town of Trat; before
 tea, before breakfast and accompanied by my ever present sniffles. I was what you might call grumpy,
@@ -1606,7 +1700,7 @@ too. We spent quite a while looking for a good place for dinner, then headed bac
 a game of cards (beanie) which Rosie won (in suspicious circumstances - she dealt half of the hands,
 after all).
 
-PS. Shock of the day: Rosie got sunburnt and I didn't!
+PS. Shock of the day: Rosie got sunburnt and I didn't! <R> NOT true! </R>
 )
   },
   {
@@ -1708,7 +1802,9 @@ robbing Rosie of the chance for a mojito). The most impressive sights, though we
 the giant clams. These were bright blues or deep reds, often sunken into the sand or something that
 looked like a rock so that all I could see was a wavy coloured line, opening and closing.
 
-After snorkelling for a while, we got back on the kayak and headed back to shore. We were able to
+After snorkelling for a while, we got back on the kayak and headed back to shore.  <R> The wind had 
+really picked up by this time and we were kayaking at a funny angle to it so every other stroke we 
+had to try and correct our course, it was exhausting but good fun. </R> We were able to
 use the hotel's outdoor shower and were sorely tempted by its pool, which we probably weren't
 allowed. We finished off the day at a bakery and art hut, which had some pretty decent food and
 several cats. After we ordered, someone was immediately dispatched to buy the ingredients (bananas)
@@ -1744,18 +1840,18 @@ Luang Prabang.
       ''
     ],
     entry: %(
-We left Koh Mak at 9am from the pier just outside our resort. It was a loud, if uneventful journey.
-The speedboads they use have three pretty huge outboard motors, so it's not that easy to listen to
-anything else. I got a decent way through my book, though.
+We left Koh Mak at 9am from the pier just outside our resort. It was a loud, if uneventful journey. 
+<R> With a distinct lack of chickens. </R>The speedboads they use have three pretty huge outboard 
+motors, so it's not that easy to listen to anything else. I got a decent way through my book, though.
 
 Once we got back to the mainland we got a songthaew (with a very low roof - ouch) to the bus station
 and caught the 11am bus to Bangkok. Six hours of the Wheel of Time later, we arrived at a large bus
 station, refusing offers of tuk tuk rides because we knew that the trains in Bangkok were great.
 
-We were wrong. Travelling on Bangkok's public transport at rush hour is nothing like during the day.
-We needed travel two or three miles as the crow flies, which without rucksacks we would have walked.
-There wasn't a direct link, so we needed to go three sides of a square to get there - a skytrain, a
-subway and another skytrain, only a stop or two on each. Each train and station was increasingly
+We were wrong. <R> So so wrong. </R> Travelling on Bangkok's public transport at rush hour is nothing 
+like during the day.We needed travel two or three miles as the crow flies, which without rucksacks we would
+have walked.There wasn't a direct link, so we needed to go three sides of a square to get there - a skytrain,
+a subway and another skytrain, only a stop or two on each. Each train and station was increasingly
 packed full of people. In the second train, there was no room to move. We had to wait in line for
 about half an hour before enough people got off the skytrain for us to (just) fit on.
 
@@ -1764,7 +1860,7 @@ previous hotel in Bangkok, the windows actually opened to the _outside_, not jus
 found an islamic Thai restaurant & bakery and had some decent food, interesting (really sweet) Thai
 sweets and a fantastic strawberry shake - probably just ice blended with loads of fresh strawberries
 and a bit of sugar syrup. After the frustrating journey through Bangkok, the meal was just what we
-needed.
+needed. <R> The strawberry milkshake in particular was on point! </R>
 )
   },
   {
@@ -1821,7 +1917,8 @@ Neither does the road beside the pavement - it's full of cars parked perpendicul
 even though the painted lines are diagonal. You end up walking in the road, into the oncoming sea
 of motorbikes - many of the tuk-tuk-like vehicles here aren't actually a single piece, they're
 just a motorbikes with a detachable trailer. If you want to cross the road you follow the same
-procedure as Thailand, although seemingly fewer people are likely to stop for you.
+procedure as Thailand, although seemingly fewer people are likely to stop for you. <R> There are 
+also a surprising number of Lexuses </R> (Lexi?). 
 
 Driving on larger roads seems to be different, too. Many of the larger roads in Thailand had
 completely separate roads going either direction. Not so in Cambodia. There, it's completely normal
@@ -1833,7 +1930,7 @@ accommodation. It's a slightly bigger box than we've had so far, this time on st
 or may not be waterproof and the walls do not meet the roof - making it somewhat less private than
 Rosie would like while changing. It does have a decent sized mosquito net, however, but with a fair
 few holes. It's even got its own large gecko, patrolling parts of the ceiling. <R> I named him
-Bertram.</R>
+Bertram and he chirped happily through the night.</R>
 )
   },
   {
@@ -1876,9 +1973,9 @@ even saw a few motorbikes by the tracks the previous day. We learnt later in the
 trains but rarely and fairly slow moving.
 
 We wandered about Kampot, seeing the river and some of the odder Roundabout statues (eg, a giant
-durian). We found a bookshop / cafe, which bought some of our finished books off of us. We had
-pineapple pie and kiwi ice cream (the ice cream was better) at one of several "Kampot Pie & Ice
-Cream Palaces" and listened to expats grumble. There seem to be a lot around . Most of the places
+durian <R> bizarre </R>). We found a bookshop / cafe, which bought some of our finished books off of us. 
+We had pineapple pie and kiwi ice cream (the ice cream was better) at one of several "Kampot Pie & Ice
+Cream Palaces" and listened to expats grumble. There seem to be a lot around. Most of the places
 we've been so far have been filled with travellers around our own age, but Kampot (particularly our
 accommodation) seems to have a lot of older single men living here long term.
 
@@ -2176,7 +2273,7 @@ dinner. I had a surprisingly good main - chicken bolognese crepe. I saw it on
 the menus of at least a couple of the restaurants here and it was intriguing.
 Currently, I'm trying to set things up so that Rosie can add photos to this
 site, which, like most programming tasks, is taking a little longer than
-expected.
+expected. <R> I finished my book! </R>
 )
   },
   {
@@ -2237,7 +2334,7 @@ fishing easier, but killed dolphins, too. Now, there is foreign money invested
 to protect the dolphins, which works, but has its own set of problems. People
 on the west of the river resent that the money is spent on the east, where the
 tourists go. People on the east are wary of corruption eats away some money
-they would otherwise have access to.7cd
+they would otherwise have access to.
 
 Next, we kayaked through a flooded forest. This was spectacular - large trees
 dotted sparsely through the river, sometimes close enough together to cause the
@@ -2246,15 +2343,19 @@ visible, making the whole place seem overgrown.
 
 We emerged into a flat expanse with the occasional sand bank and struggled our
 way back to the eastern side against the wind. We got a sense for just how
-strong the wind and currents were. We saw a few local boats with small groups
-of tourists on them, meaning we had arrived at the dolphin pool. Apparently the
-dolphins prefer deep-water fish in that area of the Mekong, which is about 60m
-deep, rather than the rest, which is mainly 10-15m (at the moment).
+strong the wind and currents were. <R> ie. very strong! </R> We saw a few 
+local boats with small groups of tourists on them, meaning we had arrived at the dolphin 
+pool. Apparently the dolphins prefer deep-water fish in that area of the Mekong, which 
+is about 60m deep, rather than the rest, which is mainly 10-15m (at the moment).
 
 We spent a while paddling up stream, then floating down stream looking out for
 dolphins. We saw quite a few, particularly towards the end. We saw the same pod
 of four or five surface quite a few times, sometimes as close as about ten
-metres.
+metres. <R> The dolphins were amazing, it's a real privilege to be able to get 
+that close to that many of such an endangered population. We probably saw about 20% 
+of the total number of Irrawaddy dolphins left in the world. I really hope that 
+all the conservation efforts amount to something because these really are beautiful 
+creatures. </R>
 
 We kayaked a bit further down river, then hauled the kayaks up the bank and
 into the truck. We drove back, had a lacklustre lunch, but a decent dinner.
@@ -2334,7 +2435,7 @@ crackers.
     ],
     entry: %(
 Definitely the weirdest moment of our trip so far - walking into a shop, asking
-to rent their bright pink tandem bicycle for 4.30am the next day and, by the
+to rent their bright pink tandem bicycle for 4.30am the next day and, oh, by the
 way, could they tumble-dry our puppet squirrel?
 
 Explaining the bike is easy enough: tomorrow we're going to cycle around Angkor,
@@ -2346,14 +2447,14 @@ bed. We'd both heard horror stories from other travellers of incredibly itchy
 bed bug bites and how difficult they are to get rid of, so had looked them up to
 make sure we could identify them. I squashed it and, sure enough, quite a bit of
 blood seeped out. Worse, we had a look and within a minute or two had found
-another bug, which we caught as evidence.
+another bug, which we caught as evidence. <R> Gross! </R>
 
 It was after 10pm, we hadn't had the best sleep for the past few nights and
 really wanted one good night's sleep before getting up early to see Angkor.
 Needless to say, this really wasn't what we wanted to deal with. What could we
 do? Try and change room? Change hotel at 10.30pm?
 
-The hotel had one room free, so we packed up our stuff and moved downstairs. We
+The hotel had one other room free, so we packed up our stuff and moved downstairs. We
 piled our stuff on the floor away from walls or furniture and searched the beds
 for signs of bed bugs. There were some marks and black specks that could have
 been signs of them, but we weren't sure. We decided to just go to sleep and hope
@@ -2371,7 +2472,11 @@ booked ourselves into a new hotel across town, left our bags behind the hotel
 desk and went out to explore Siem Reap.
 
 After breakfast and failing to find a bank, we spent part of the day in the
-national musem learning more about the Khmer Empire, Hinduism and Buddhism. We
+national museum learning more about the Khmer Empire, Hinduism and Buddhism. <R> 
+I will readily admit that my knowledge of all three is lacking however the museum,
+while very informative only really added to my confusion. It doesn't help that there 
+is a significant melding of Buddhism and Hinduism within the Khmer Empire but while
+I learned a lot from the museum I'm still just so confused about both religions. </R> We
 returned to our first hotel, picked up our rucksacks and walked a mile or so to
 our new hotel. The guy there was very friendly, but said that unfortunately the
 free bikes that came with the hotel couldn't be used at night, so if we wanted
@@ -2384,7 +2489,12 @@ most of our clothes out of the afflicted room was great. However, a few of our
 things did remain in the room until we left - most notably Rosie's
 [world-traveling squirrel puppet](https://www.instagram.com/travelingtufty/).
 We couldn't really both wash him and take him to Angkor Wat, so needed to find
-a tumble drier - one of the sure-fire ways of killing stowaway bed bugs.
+a tumble drier - one of the sure-fire ways of killing stowaway bed bugs. <R> 
+Unfortunately most laundrettes in Siem Reap air dry the clothes they wash, which
+is good but didn't really help us in this (admittedly niche) situation. Fortunately 
+as we were trying to hire our tandem for the next day I saw that the place we 
+were hiring it from also had a laundry service with a tumble drier. After some confusion
+the squirrel was officially bed bug free and much much warmer. </R>
 
 With our tandem hired and the squirrel cleansed, we set off on the bike to pick up
 the laundry. Until now, I've found the crazy roads here to be strangely relaxing
@@ -2410,7 +2520,10 @@ soup, fat and butter to put on the grill and meat covered in egg and sesame
 seeds to cook. It's also the first place we've been where we were given
 chopsticks and not a fork. It got better as the soup got stronger and one of
 the dipping sauces that we couldn't identify (looked like tahini, but wasn't)
-was great.
+was great. <R> Nothing at this restaurant was in english at all so despite the fact
+that it was all very tasty we're still not sure what we ate. Also the servers 
+couldn't give us any instructions so although I believe the premise of the meal is DIY 
+they ended up a doing a lot of it for us, they were lovely and very patient. </R>
 )
   },
   {
