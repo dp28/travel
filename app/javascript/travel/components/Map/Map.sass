@@ -4,37 +4,42 @@
 
 .Area
   font-family: 'Handlee', cursive;
-  font-size: 1.5em;
   opacity: 1;
   position: relative;
 
+  $point-diameter: 30px;
+
   .Area--dot
+    font-size: 1.3em;
     opacity: 0.8;
     cursor: pointer;
     z-index: 1;
     position: relative;
 
   .Area--centre
-    width: 40px;
-    height: 40px;
+    width: $point-diameter;
+    height: $point-diameter;
     background: blue;
-    border-radius: 20px;
+    border-radius: $point-diameter;
+    top: -$point-diameter / 2;
+    left: -$point-diameter / 2;
 
     &:hover
       background-color: skyblue
 
   .DaySelector
-    width: 30px;
-    height: 30px;
+    $selector-diameter: $point-diameter * 0.7;
+    width: $selector-diameter;
+    height: $selector-diameter;
+    top: -$selector-diameter / 2;
+    left: -$selector-diameter / 2;
     background: grey;
-    border-radius: 15px;
+    border-radius: $selector-diameter;
     cursor: pointer;
     position: relative;
-    top: 10px;
-    left: 5px;
     margin-bottom: 10px;
     text-align: center;
-    line-height: 30px;
+    line-height: $selector-diameter;
 
     &:hover
       background: lightgrey
@@ -48,11 +53,12 @@
       border: 2px solid black;
 
   .Area--title
+    font-size: 1.5em;
     background: white;
     opacity: 1;
     position: absolute;
-    top: 0;
-    left: 50px;
+    top: -$point-diameter / 2;
+    left: $point-diameter / 2 + 5px;
     padding: 5px;
     border-radius: 5px;
     z-index: 1;
