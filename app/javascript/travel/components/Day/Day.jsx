@@ -1,14 +1,20 @@
 import React from 'react'
 import { Grid, Row, Col } from 'react-bootstrap'
-import { Link } from 'react-router-dom'
 import Gallery from 'react-photo-container'
 
-import { ConnectedMap, SELECTED_AREA_PARAM } from '../Map/Map'
+import { ConnectedMap } from '../Map/Map'
+import { ConnectedTimeline } from '../Timeline/Timeline'
+import { DayLink } from '../DayLink/DayLink'
 import { LoadFromServer } from '../LoadFromServer/LoadFromServer'
 import { edgesToArray } from '../../mapGraphqlResults'
 
 export const Day = ({ day, previousLink, nextLink }) => (
   <Grid>
+    <Row>
+      <Col xs={12}>
+        <ConnectedTimeline selectedDay={day.number} />
+      </Col>
+    </Row>
     <Row>
       <Col xs={12} sm={6} md={8}>
         <h2>Day {day.number} - {day.date}</h2>
@@ -107,9 +113,7 @@ export const ConnectedDay = LoadFromServer({
 
 function buildOptionalLink(day, text) {
   if (day) {
-    console.log(day)
-    const area = encodeURIComponent(day.locations.edges[0].node.area.name)
-    return <Link to={`/days/${day.number}?${SELECTED_AREA_PARAM}=${area}`}>{text}</Link>
+    return <DayLink day={day}>{text}</DayLink>
   }
   else {
     return <span>{text}</span>

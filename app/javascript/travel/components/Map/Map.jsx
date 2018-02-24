@@ -1,9 +1,8 @@
 import React from 'react'
 import GoogleMap from 'google-map-react'
-import { Link } from 'react-router-dom'
-import queryString from 'query-string'
 
 import { LoadFromServer } from '../LoadFromServer/LoadFromServer'
+import { QueryParamLink, PathLink, getQueryParamValue } from '../Links/Links'
 import { edgesToArray } from '../../mapGraphqlResults'
 import './Map.sass'
 
@@ -13,19 +12,6 @@ const DEFAULT_CENTRE = {
 }
 
 export const SELECTED_AREA_PARAM = 'area'
-
-const QueryParamLink = ({ param, value, children }) =>  {
-  const currentPath = window.location.pathname
-  return (
-    <Link to={`${currentPath}?${param}=${value}`} >
-      {children}
-    </Link>
-  )
-}
-
-const PathLink = ({ path, children }) => (
-  <Link to={`${path}${window.location.search}`}>{children}</Link>
-)
 
 const Area = ({ name, dayNumbers, selectedDayNumber, selected }) => {
   const title = `${name} (${dayNumbers.length} days)`
@@ -62,7 +48,7 @@ const Area = ({ name, dayNumbers, selectedDayNumber, selected }) => {
 
 
 export const Map = ({ areas, selectedDayNumber }) => {
-  const selectedArea = queryString.parse(location.search)[SELECTED_AREA_PARAM]
+  const selectedArea = getQueryParamValue(SELECTED_AREA_PARAM)
   return (
     <div className="Map">
       <GoogleMap

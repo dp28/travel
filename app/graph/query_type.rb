@@ -24,7 +24,7 @@ QueryType = GraphQL::ObjectType.define do
     description 'All days of the trip so far'
 
     resolve lambda { |_object, _args, _context|
-      Day.all
+      Day.order(:number)
     }
   end
 
