@@ -20,6 +20,19 @@ QueryType = GraphQL::ObjectType.define do
     }
   end
 
+  connection :photos, PhotoType.connection_type do
+    description 'All photographs of the trip so far'
+    argument :isFavourite, types.Boolean
+
+    resolve lambda { |_object, args, _context|
+      if args.key?(:isFavourite)
+        args[:isFavourite] ? Photo.where(favourite: true) : Photo.where(favourite: false)
+      else
+        Photo.all
+      end
+    }
+  end
+
   connection :days, DayType.connection_type do
     description 'All days of the trip so far'
 

@@ -2,6 +2,15 @@ PhotoType = GraphQL::ObjectType.define do
   name 'Photo'
   description 'A photo taken on a specific day of the trip'
 
+  implements GraphQL::Relay::Node.interface
+
+  field :id do
+    type !types.ID
+    resolve lambda { |day, _, _|
+      GraphQL::Schema::UniqueWithinType.encode('Photo', day.id)
+    }
+  end
+
   field :url, !types.String
   field :caption, types.String
   field :day, !DayType

@@ -63,48 +63,6 @@ RSpec.describe 'days', type: :request do
         let(:json_photo) { json_photos.first }
         let!(:photo) { FactoryBot.create :photo, day: day }
 
-        describe 'the "url" field' do
-          let(:photo_query) { 'url' }
-          it 'should be the string on the underlying Photo' do
-            expect(json_photo[:url]).to eq(photo.url)
-          end
-        end
-
-        describe 'the "caption" field' do
-          let(:photo_query) { 'caption' }
-          it 'should be the string on the underlying Photo' do
-            expect(json_photo[:caption]).to eq(photo.caption)
-          end
-        end
-
-        describe 'the "width" field' do
-          let(:photo_query) { 'width' }
-          it 'should be the integer on the underlying Photo' do
-            expect(json_photo[:width]).to eq(photo.width)
-          end
-        end
-
-        describe 'the "height" field' do
-          let(:photo_query) { 'height' }
-          it 'should be the integer on the underlying Photo' do
-            expect(json_photo[:height]).to eq(photo.height)
-          end
-        end
-
-        describe 'the "aspectRatio" field' do
-          let(:photo_query) { 'aspectRatio' }
-          it 'should be the float on the underlying Photo' do
-            expect(json_photo[:aspectRatio]).to eq(photo.aspect_ratio)
-          end
-        end
-
-        describe 'the "isFavourite" field' do
-          let(:photo_query) { 'isFavourite' }
-          it 'should be the boolean on the underlying Photo' do
-            expect(json_photo[:isFavourite]).to eq(photo.favourite?)
-          end
-        end
-
         describe 'the "day" field' do
           let(:photo_query) { 'day { number }' }
           it 'should be a link back to the Day' do

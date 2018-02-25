@@ -1,6 +1,6 @@
 import React from 'react'
 import { Grid, Row, Col } from 'react-bootstrap'
-import Gallery from 'react-photo-container'
+import PhotoContainer from 'react-photo-container'
 
 import { ConnectedMap } from '../Map/Map'
 import { ConnectedTimeline } from '../Timeline/Timeline'
@@ -28,7 +28,7 @@ export const Day = ({ day, previousLink, nextLink }) => (
       </Col>
       <Col xs={12}>
         {day.photos.length === 0 ? null : (
-          <Gallery
+          <PhotoContainer
             photos={
               day.photos.map(({ url, width, height, caption, aspectRatio }) => ({
                 src: url,

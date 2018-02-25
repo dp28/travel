@@ -3,6 +3,7 @@ import { Grid } from 'react-bootstrap'
 import { BrowserRouter as Router, Route } from 'react-router-dom'
 
 import { ConnectedDay } from '../Day/Day'
+import { ConnectedGallery } from '../Gallery/Gallery'
 import { About } from '../About/About'
 import { Home } from '../Home/Home'
 import { Navigation } from '../Navigation/Navigation'
@@ -17,6 +18,7 @@ export const App = () => (
       <Navigation />
       <Route exact path="/" component={InGrid(Home)}/>
       <Route path="/about" component={InGrid(About)}/>
+      <Route path="/gallery" component={ConnectedGallery}/>
       <Route path="/days/:number" component={ConnectedDay}/>
     </div>
   </Router>
