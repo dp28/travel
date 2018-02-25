@@ -52,7 +52,14 @@ class Currency
     exchange_rate_to_dollars: 0.00025
   )
 
-  ALL = [USD, GBP, THB, VND, LAK, KHR].freeze
+  MYR = Currency.new(
+    code: :MYR,
+    name: 'ringgit',
+    symbol: 'RM',
+    exchange_rate_to_dollars: 0.2551
+  )
+
+  ALL = [USD, GBP, THB, VND, LAK, KHR, MYR].freeze
   DEFAULT = USD
 
   def self.find_by_code(code)

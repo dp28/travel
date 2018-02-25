@@ -96,4 +96,15 @@ RSpec.describe Currency do
       let(:exchange_rate_to_dollars) { 0.00025 }
     end
   end
+
+  describe 'Currency::MYR' do
+    subject(:currency) { Currency::MYR }
+
+    it_should_behave_like 'a currency' do
+      let(:code) { :MYR }
+      let(:name) { 'ringgit' }
+      let(:symbol) { 'RM' }
+      let(:exchange_rate_to_dollars) { 0.2551 }
+    end
+  end
 end
