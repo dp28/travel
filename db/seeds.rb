@@ -1,4 +1,3 @@
-require 'fastimage'
 require 'yaml'
 
 Day.all.destroy_all # Makes it easier to correct mistakes - will remove eventually
@@ -347,12 +346,10 @@ def create_photos(day, photos)
 end
 
 def create_photo(day, photo_config)
-  return if photo_config.blank?
-  photo_config = { url: photo_config } unless photo_config.is_a?(Hash)
-  return if photo_config[:url].blank?
-  dimensions = FastImage.size(photo_config[:url])
-  photo_config[:width] = dimensions.first
-  photo_config[:height] = dimensions.second
+  return if photo_config.blank? || photo_config[:url].blank?
+  unless photo_config[:width]
+    raise "Photo missing dimensions - run rails data:update_images .URL: #{photo_config[:url]}"
+  end
   day.photos.create photo_config
 end
 
