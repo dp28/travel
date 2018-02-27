@@ -668,12 +668,12 @@ incredibly cool and not dissimilar to the way that a shepherd communicates with
 a sheepdog... does that make us the sheep? </R>
 
 
-We then briefly went to see a reasonably low-key buddhist shrine, at least, in
+We then briefly went to see a reasonably low-key Buddhist shrine, at least, in
 comparison to the temples the day before. We had lunch in an enormous food court
 and tried to make our way to Jim Thompson's house. Jim Thompson was an American
 architect turned soldier posted to Thailand at the end of WWII who became a silk
 trader and possibly CIA agent. His house was an interesting mix of Thai and
-european architecture and art.
+European architecture and art.
 
 We finished the day by picking up our bags and catching the sleeper train to
 Chiang Mai. As I finish writing this, we've just had our curtained-off semi
@@ -824,7 +824,7 @@ the sites we find interesting (mainly the scenery) and be able to stop at things
 we only glimpsed out the window, like the flower farms. <R> So apparently at the
 national park that we went to there is an amazing walk that shows off the regions
 native rhododendron flower and I really wanted to go to it but we weren't allowed
-to for some reason, which was really sad. </R>The obligitory marketstops were no
+to for some reason, which was really sad. </R>The obligatory market stops were no
 where near as informative a view on local life as the museum
 yesterday was. The repeated grumblings from the three people in the back seat
 who'd been told incorrectly that they could go swimming didn't really brighten
@@ -1026,11 +1026,11 @@ we'd spent some time having a look for one with good reviews that didn't include
 We were picked up by a songthaew at 7am and driven, along with six other tourists, two hours out of
 the city. A songthaew is one of the many adaptations of the Thai pickup truck - in this case, it's a
 standard pickup with a roof over the back and a bench along each wall. I'm sure the breeze in the
-open back is normally both refreshing and exhilirating, but unfortunately the weather wasn't any
+open back is normally both refreshing and exhilarating, but unfortunately the weather wasn't any
 better than yesterday so we were all soon pretty cold.
 
 Once we got to the elephants, the day got better. There were two of them, both very calm but also
-impressive. We fed them sugar cane which allowed them to show their ingeniuity - the male, Jimmy,
+impressive. We fed them sugar cane which allowed them to show their ingenuity - the male, Jimmy,
 stuffed a bit of sugar cane behind his tusk to maximise the amount he could get while storing some
 for later. We then walked for about ten to twenty minutes to a river where we (mainly Rosie) gave
 the elephants a mud bath, covering them in mud, then throwing water at them when they went into the
@@ -1187,7 +1187,7 @@ the wire three times in a row to send a signal to the other side, letting them k
 go.
 
 The final zipline was to our treehouse. It was 25 metres from the ground, or at least, to the bottom
-storey (landing platform, toliet and shower). The middle storey was the largest, with space for four
+storey (landing platform, toilet and shower). The middle storey was the largest, with space for four
 double mattresses & mosquito nets, a large, low table, ten stools and a sink with running drinking
 water. The top storey was about five metres up, a little crow's nest with a single mattress to sit
 on.
@@ -1216,7 +1216,7 @@ scared away any interesting animals. I learnt a new game, called "game".
 * Each player is dealt 4 cards by the dealer
 * One player in each pair looks at their hand, then gives it to their partner
 * The partner chooses any 4 out of the 8 cards they hold to keep, then returns the remaining 4
-* The dealer deals 4 cards face up in the centre of the table, then counts to hree out loud
+* The dealer deals 4 cards face up in the centre of the table, then counts to three out loud
 * All players grab up to two cards that they need to form 4 of a kind, then discard into the middle
 * Once no one wants to swap cards with the middle, the dealer replaces the middle cards & counts
 * Once a player has 4 of a kind, they make the signal to their partner
@@ -1463,7 +1463,7 @@ another songthaew, then boat, to a nearby waterfall. Because it's the dry season
 wasn't particularly impressive, but we were able to have a bit of a (chilly) swim.
 
 Back in Luang Prabang, we waited for the sunset beside the Mekong, then wandered through the night
-market. We weren't massively hungry, but coudn't say no to some street food. By far the best were
+market. We weren't massively hungry, but couldn't say no to some street food. By far the best were
 some small coconut pancakes / dumplings made in large dishes with ladle-sized indents, similar to
 Dutch pancakes but far more moist.
 
@@ -1527,7 +1527,7 @@ categories.
 After that short interval, we tried to catch the sunset from the stupa on the hill in the centre of
 Luang Prabang. The hill is about around 300 steps to the top and has various Buddhist temple
 buildings on it. As we discovered, at sunset it also has  hundreds of people crammed onto the peak.
-We decided to skip the crowds, so wentlower and still got a decent view.
+We decided to skip the crowds, so went lower and still got a decent view.
 
 We returned to the night market and sat in a restaurant near the food part which had its own bakery
 stall outside. We tried black rice wine with and without lime juice - a surprisingly good addition.
@@ -1642,7 +1642,7 @@ flavours we've been having in local food and cooking with was amazing <R> seriou
       ''
     ],
     entry: %(
-Today was a travelling day, so not much to report. We were up early (5.30am) to get to the airport
+Today was a traveling day, so not much to report. We were up early (5.30am) to get to the airport
 for about 6.15 for our 7.40 flight. The airport was tiny - there were _maybe_ three other people
 going through security. The only (minor) excitement was that I found the key to our hotel room in my
 pocket. Damn. <R> Sigh </R>
@@ -1773,7 +1773,7 @@ hour or so we headed to bed.
 This was a pretty chilled, lazy day for a number of reasons. Primarily, most weather forecasts said
 it was going to rain (it didn't). Secondly, we spent a bit of time working out how much we'd been
 spending, which has a tendency to make both of want to spend less. Thirdly, Rosie's cold isn't
-completely gone, so snorkelling isn't really that appealing. Finally, I wanted to get a bit of
+completely gone, so snorkeling isn't really that appealing. Finally, I wanted to get a bit of
 programming done - writing these posts is a bit more useful if I've got a site to put them on.
 
 We spent the day by the beach, reading, programming, swimming and going for a bit of a walk to find
@@ -1818,7 +1818,7 @@ paddling out to (& around) a small island nearby. It wasn't exactly an island - 
 the shore and the island wasn't deep enough to paddle through, so we had to get off for a while. At
 low tide it may be dry land, not that there's much tidal variation.
 
-On the way back we were able to see plenty of leathal-looking, spiky sea urchins and fish, including
+On the way back we were able to see plenty of lethal-looking, spiky sea urchins and fish, including
 little shoals that would repeatedly jump out of the water. We then went for a swim in the still,
 clear water. The threatened rain never materialised - much to Rosie's disappointment. She was
 looking forward to being in the water while it poured down on us.
@@ -1858,7 +1858,7 @@ close to where we'd been for dinner the previous day to a Swiss restaurant we'd 
 This was supposed to be the day with the best weather, but was much the same as the previous few
 days - some cloud, some sun. We walked south to the beach we'd arrived at and rented a sit on top
 kayak and snorkel gear. There were a pair of small islands a couple of kilometres from the hotel we
-rented the kayak from which were supposed to be good for snorkelling.
+rented the kayak from which were supposed to be good for snorkeling.
 
 We headed out towards the islands with small waves slightly against us and to the side - just enough
 to cause us to have to fight a bit to maintain our course, but not too strong. The water remained
@@ -1876,7 +1876,7 @@ The beach on the second island was stunning - a small band of white sand squeeze
 to one side and cliffs on the other, with forest covering the steep hill behind the beach. Not far
 from the beach was a tiny cove cut into the cliff with just enough of a sand bar for a single tree.
 
-We went snorkelling between the beach and the cove and saw loads of life. In addition to the spiky
+We went snorkeling between the beach and the cove and saw loads of life. In addition to the spiky
 black sea urchins, there were plenty of small fish of a variety of colours and some larger, more
 impressive ones - a delicate golden fish that we both initially mistook for a big leaf and a
 leopard-spotted fish (which I think was the same type as was caught by our host a few days before,
@@ -1884,7 +1884,7 @@ robbing Rosie of the chance for a mojito). The most impressive sights, though we
 the giant clams. These were bright blues or deep reds, often sunken into the sand or something that
 looked like a rock so that all I could see was a wavy coloured line, opening and closing.
 
-After snorkelling for a while, we got back on the kayak and headed back to shore.  <R> The wind had
+After snorkeling for a while, we got back on the kayak and headed back to shore.  <R> The wind had
 really picked up by this time and we were kayaking at a funny angle to it so every other stroke we
 had to try and correct our course, it was exhausting but good fun. </R> We were able to
 use the hotel's outdoor shower and were sorely tempted by its pool, which we probably weren't
@@ -1923,14 +1923,14 @@ Luang Prabang.
     ],
     entry: %(
 We left Koh Mak at 9am from the pier just outside our resort. It was a loud, if uneventful journey.
-<R> With a distinct lack of chickens. </R>The speedboads they use have three pretty huge outboard
+<R> With a distinct lack of chickens. </R>The speedboats they use have three pretty huge outboard
 motors, so it's not that easy to listen to anything else. I got a decent way through my book, though.
 
 Once we got back to the mainland we got a songthaew (with a very low roof - ouch) to the bus station
 and caught the 11am bus to Bangkok. Six hours of the Wheel of Time later, we arrived at a large bus
 station, refusing offers of tuk tuk rides because we knew that the trains in Bangkok were great.
 
-We were wrong. <R> So so wrong. </R> Travelling on Bangkok's public transport at rush hour is nothing
+We were wrong. <R> So so wrong. </R> Traveling on Bangkok's public transport at rush hour is nothing
 like during the day.We needed travel two or three miles as the crow flies, which without rucksacks we would
 have walked.There wasn't a direct link, so we needed to go three sides of a square to get there - a skytrain,
 a subway and another skytrain, only a stop or two on each. Each train and station was increasingly
@@ -1939,7 +1939,7 @@ about half an hour before enough people got off the skytrain for us to (just) fi
 
 After close to an hour and a half, we got to our hotel, which was surprisingly nice. Unlike our
 previous hotel in Bangkok, the windows actually opened to the _outside_, not just a fake hedge. We
-found an islamic Thai restaurant & bakery and had some decent food, interesting (really sweet) Thai
+found an Islamic Thai restaurant & bakery and had some decent food, interesting (really sweet) Thai
 sweets and a fantastic strawberry shake - probably just ice blended with loads of fresh strawberries
 and a bit of sugar syrup. After the frustrating journey through Bangkok, the meal was just what we
 needed. <R> The strawberry milkshake in particular was on point! </R>
@@ -1974,17 +1974,17 @@ needed. <R> The strawberry milkshake in particular was on point! </R>
       ''
     ],
     entry: %(
-Another travelling day - up at 6am, at Bangkok airport for 7am, flight to Phnom Penh at 9am, arrive
+Another traveling day - up at 6am, at Bangkok airport for 7am, flight to Phnom Penh at 9am, arrive
 at 11.30am, bus to Kampot at 1.30pm for 3 hours. All in all, a good opportunity to make it
 significantly further through our books and audiobook.
 
 Arriving a Bangkok airport two hours before was a good idea. The place is _huge_ and there were a
 lot of lines we needed to stand in. In addition, the airline we were flying with (Bangkok Airways,
-"Asias Boutique Airline", apparently) has a private lounge for all its customers. Rosie got her free
+"Asia's Boutique Airline", apparently) has a private lounge for all its customers. Rosie got her free
 tea and we both got our fill of free popcorn, pastry, buns and (bizarrely good) curry ham
 sandwiches. They also included a free meal on our one hour flight. Not bad for $80.
 
-We had to get visas on arrval in Phnom Penh, which was probably easier & cheaper than e-visas. We
+We had to get visas on arrival in Phnom Penh, which was probably easier & cheaper than e-visas. We
 caught the public bus from outside the airport for $1 (Cambodia uses its own currency, the riel,
 interchangeably with dollars). Getting off relatively centrally, we made our way to one of the many
 small private bus stations to find a bus (in this case minibus) to Kampot.
@@ -2046,7 +2046,7 @@ Bertram and he chirped happily through the night.</R>
     entry: %(
 The combination of only partial walls in our room, nearby people's fondness for techno music and
 a persistent car alarm meant that we lay in until about 9am. I had a massive banana pancake with a
-generous helping of nutella before heading off towards the main own of Kampot.
+generous helping of Nutella before heading off towards the main own of Kampot.
 
 We're staying across the river from the centre, so crossed back across the railway bridge. The
 bridge itself does have a footpath across it as well as rails, but we needed to walk along a few
@@ -2058,14 +2058,14 @@ We wandered about Kampot, seeing the river and some of the odder Roundabout stat
 durian <R> bizarre </R>). We found a bookshop / cafe, which bought some of our finished books off of us.
 We had pineapple pie and kiwi ice cream (the ice cream was better) at one of several "Kampot Pie & Ice
 Cream Palaces" and listened to expats grumble. There seem to be a lot around. Most of the places
-we've been so far have been filled with travellers around our own age, but Kampot (particularly our
+we've been so far have been filled with travelers around our own age, but Kampot (particularly our
 accommodation) seems to have a lot of older single men living here long term.
 
 We rented a kayak from our guest house, paddling up the river a bit, looking at birds and trying
 (with little success) to pass an under-ripe mango between our paddles. After a cold shower, I tried
 to catch up with this diary, then had a delicious dinner at a Lebanese restaurant. I know we're in
-Cambdodia, but it was highly rated, it's still exploring different tastes, and they both have some
-French influence. Plus I got a banana & nutella shake later (which definitely counts as Cambodian
+Cambodia, but it was highly rated, it's still exploring different tastes, and they both have some
+French influence. Plus I got a banana & Nutella shake later (which definitely counts as Cambodian
 fusion cuisine).
 
 I finally caught up with the diary after dinner. It takes a surprisingly large amount of time and I
@@ -2139,7 +2139,7 @@ hectic for him and the single other member of staff to handle, even with only th
 The water hadn't been working for the previous two days, but was now fixed, and half the food on the
 menu wasn't actually available. The food itself was ok, not great, but it was fun to see and
 slightly reminiscent of Fawlty Towers. We also got chatting to an Austrian couple who'd been
-travelling a lot.
+traveling a lot.
 
 ## Pepper types
 
@@ -2178,7 +2178,7 @@ travelling a lot.
       ''
     ],
     entry: %(
-This morning we got up late (9.30am) and walked a mile or two into Kep, <R> (it was definetly two) </R>
+This morning we got up late (9.30am) and walked a mile or two into Kep, <R> (it was definitely two) </R>
 which seems to have two centres. We had a breakfast of pastries at a French bakery and picked up food
 for lunch. The main activity for the day was to be a walk, so we needed a bit of a picnic.
 
@@ -2509,7 +2509,7 @@ crackers.
     food: [
       'banana and passion fruit vegan pancake with honey, banana shake',
       'sugar and lime crepe, banana shake',
-      'khmer barbeque and soup',
+      'khmer barbecue and soup',
       'cookie, banana shake'
     ],
     photos: [
@@ -2593,7 +2593,7 @@ heat and I was pretty sure we were looking at the end of our relationship. </R>
 
 After two miles of hair-raising cycling, we'd picked up our laundry and dropped
 of our bike at our hotel. We headed out in search of dinner and ended up at a
-Khmer barbeque and soup place definitely aimed at locals. It was slightly
+Khmer barbecue and soup place definitely aimed at locals. It was slightly
 bizarre, with blaring music and a Cambodian-dubbed Chinese film playing in the
 background. We were given a portable gas stove with a large dish on top filled
 with soup. The centre of the dish was a hemisphere rising out of the soup with
@@ -2644,7 +2644,7 @@ Angkor Wat, a huge temple and city, for sunrise. First, we needed to cycle about
 ten miles to the ticket office and the national park.
 
 The cycling was easier than the night before - much less traffic and we were
-more accustomed to the bike. <R> Although not, as we were to learn the hard way 
+more accustomed to the bike. <R> Although not, as we were to learn the hard way
 accustomed to the saddles. </R> We made reasonable time, primarily because we
 didn't need to stop to navigate. Rosie, on the back, could check Maps.Me on her
 phone while I did all the steering. <R> I have to say Daniel is really very good
@@ -2654,7 +2654,7 @@ by 1.3km). It was the capital city of the Khmer Empire and has a huge temple
 at the centre and is stunning at sunrise.
 
 Unfortunately, lots of other tourists also know this. We stayed for the
-spectacular sunrise, <R> being jostled by enthusiastic asian tourists the whole 
+spectacular sunrise, <R> being jostled by enthusiastic asian tourists the whole
 time </R> then hopped back on our bike and continued to another
 ruined city within the park, Angkor Thom, with another incredible temple at its
 centre. Bayon is possibly more impressive than Angkor Wat, with a maze-like
@@ -2667,10 +2667,10 @@ are so many impressive, ruined temples, almost all mobbed by crowds of tourists
 of all varieties. We saw people with cameras on tripods with the umbrella-like
 attachments to modify the camera's flash. We saw plenty of tourists with money
 belts on outside their clothing (how is that useful?) and plenty more dressed to
-the nines for all the photos they were taking. <R> I was particularly impressed 
-by the woman wearing stiletto heels and a bright pick mini skirt through a mostly 
-broken down temple and the people taking their wedding pictures there. </R> We 
-even saw another couple on a bright pink tandem (theirs didn't have flowers on 
+the nines for all the photos they were taking. <R> I was particularly impressed
+by the woman wearing stiletto heels and a bright pick mini skirt through a mostly
+broken down temple and the people taking their wedding pictures there. </R> We
+even saw another couple on a bright pink tandem (theirs didn't have flowers on
 the front, though <R> they were totally jealous of the flowers </R>).
 
 The temples were incredible. We saw one which was essentially an island on a
@@ -2743,11 +2743,11 @@ took a **long** time.
 Despite the wait, everyone seemed to make it through, including both the guy
 who kept trying to cut his way into the line (and being rebuffed by everyone
 else) and the British couple just getting a transfer in Vietnam who were
-forced to buy a $400 visa online before they could check in. <R> That is a very 
+forced to buy a $400 visa online before they could check in. <R> That is a very
 expensive 2 hours. </R>
 
 The flight itself was fine, but I could have lived without the same two songs
-being repeated over and over <R> you just have to embrace the cheesy pop music 
+being repeated over and over <R> you just have to embrace the cheesy pop music
 Daniel </R>. Immigration in Vietnam was a breeze - all the hard
 work had already been done for them. We got a taxi from the airport as tuk tuks
 don't seem to be a thing here. Our hotel is fine, if noisy and a bit cold -
@@ -2807,7 +2807,7 @@ After our booking bonanza, we headed out into Hanoi. We're staying in the Old
 Quarter - a warren of small street packed full of scooters blaring their horns
 and driving faster than they were in the other countries we've been in. Many of
 the streets have a specialism where most of the shops sell a particular set of
-goods, eg shoe street or sweets street. Barbeque chicken street is apparently
+goods, eg shoe street or sweets street. Barbecue chicken street is apparently
 very popular. The streets have completely different names (and don't seem to
 have signs), but you can quickly tell what everyone is selling.
 
@@ -2824,7 +2824,7 @@ war when milk was expensive. <R> Its effectively a heavily beaten custard and wa
 sweet and creamy enough to persuade Daniel to try coffee. </R>
 
 I also had a less pleasant food experience - getting ripped off buying what
-turned out to be not very tasty doughnuts. A woman was selling sweet-looking
+turned out to be not very tasty donuts. A woman was selling sweet-looking
 pastries and I was interested, so she quickly filled a bag, putting in as many
 as she could fit. I'll freely admit that haggling isn't my strong point,
 especially when somewhat rushed by the other person and in a country I've just
@@ -2833,7 +2833,7 @@ should have refused and only bought the amount I wanted and for a lower price.
 Ah well, it was probably $4 - $5 more than it should have been, but it's a
 lesson learnt.
 
-We spent the afternoon at the Womens' Museum and the Confuscian Temple of
+We spent the afternoon at the Womens' Museum and the Confucian Temple of
 Literature. The Womens' Museum was fascinating, giving us an insight into
 modern Vietnamese life, tribal customs, religion, the war, the rise of communism
 and independence from France. The interviews with Hanoi street vendors made me
@@ -2846,10 +2846,10 @@ TripAdvisor, we decided to book one rather than a cooking class as all the
 classes sounded similar to the worse of the two we'd already done.
 
 The food was fantastic and varied. We had pork meatball soup, dried beef salad,
-steamed savoury pancackes, fried food in "Vietnamese KFC without chicken",
+steamed savoury pancakes, fried food in "Vietnamese KFC without chicken",
 noodles, more egg coffee and banh mi, and sticky rice with coconut ice cream.
 Everything was tasty and there was just enough - I wasn't hungry and wasn't
-overly full at the end. We probably ate quite a bit over the three hours. <R> I 
+overly full at the end. We probably ate quite a bit over the three hours. <R> I
 was very full and to this day I don't understand where Daniel puts it all. </R>
 
 Our guide, "Potato", was enthusiastic and informative. We learnt what was in
@@ -2903,7 +2903,7 @@ wide and lined with trees. According to our guide from the day before they were
 built by the French. The mausoleum was imposing, but relatively simple and
 unadorned. We sat outside and happened to see the changing of the guard,
 complete with the slightly ridiculous march that seems to be compulsory for
-guard soldiers outside large public buildings the world over. <R> It was made 
+guard soldiers outside large public buildings the world over. <R> It was made
 even more entertaining by the fact that while 3 of the guards did the funny march
 a fourth stood off to the side in full dress uniform totally not to attention and
 just aimlessly wandering around. </R>
@@ -2966,8 +2966,8 @@ tomorrow's tour operator, finished off a few diary entries and got some sleep.
     ],
     entry: %(
 Today was our organised, all-inclusive tour to Mai Chau. <R> These are not words
-I normally like, but having woken up with yet another case of the sniffles I was 
-pleased to not really have to worry about where we were doing or how we were 
+I normally like, but having woken up with yet another case of the sniffles I was
+pleased to not really have to worry about where we were doing or how we were
 getting there </R>. Mai Chau is a
 mountainous region west of Hanoi with steep cliffs and flat flood plains covered
 in rice paddies. We were picked up by a large tourist bus in the tiny street in
@@ -2975,7 +2975,7 @@ front of our hotel in Hanoi, then, after four and a half hours, were dropped
 with the rest of the bus load at a hotel in a town in Mai Chau.
 
 We had lunch sitting at a table where everyone else spoke Spanish. We could
-follow quite a lot of what was being said, but it was hard to join in. <R> We 
+follow quite a lot of what was being said, but it was hard to join in. <R> We
 did give it our best shot and they were very kind about helping us. </R> We then
 checked in and went to our room. It seems as if we've been lucky enough to be
 mistakenly upgraded - we've got a huge room, A/C (not that it's needed), hot
@@ -2984,23 +2984,23 @@ certainly not complaining.
 
 We spent the afternoon on an organised bike tour with the other 21 tourists. It
 was slow going with that many people on mountain bikes that couldn't change gear
-(they had plenty of gears, just no gear shifters, <R> just why... </R>). 
+(they had plenty of gears, just no gear shifters, <R> just why... </R>).
 We cycled both on the road
 and on paths between paddies. The frequent pauses to regroup did allow us to
 admire the scenery and for the guide to answer questions. One man was aghast
 that they'd erected electricity pylons in the valley because it spoilt the
 view for tourists. He'd rather they bury the electric cables underneath the
 flooded rice paddies, apparently. <R> He later asked if the small hut that we
-stopped at to buy traditional weavings had a card machine, so I'm not convinced 
+stopped at to buy traditional weavings had a card machine, so I'm not convinced
 he really thought things through before he said them. </R>
 
 We had a buffet dinner and then watched some local dancing. There were a few
 audience participation dances at the end, one involving drinking rice wine and
 another where several people brought large bamboo poles on the ground together
 and apart while everyone else tried to step through without getting their feet
-caught. <R> Once again I was quite glad to be on an "all-inclusive" thing, there 
-is no way I could have got Daniel to go to a local dance without it. Also they 
-made me some ginger tea which was just smashed ginger, hot water, and a little 
+caught. <R> Once again I was quite glad to be on an "all-inclusive" thing, there
+is no way I could have got Daniel to go to a local dance without it. Also they
+made me some ginger tea which was just smashed ginger, hot water, and a little
 bit of honey. My sore throat felt so much better, it was amazing.</R>
 )
   },
@@ -3050,7 +3050,7 @@ group cycled into the main town to the base of the steps.
 
 The view as we climbed was impressive - a completely flat valley floor with
 sharp limestone peaks jutting up 400m, fading into cloud. The cave was filled
-with massive stalagmites and smaller stalagtites. Apparently an old man had
+with massive stalagmites and smaller stalactites. Apparently an old man had
 lived there until 2002, when it had been opened to tourists.
 
 After a brief look at the local markets, we cycled back for lunch. We were then
@@ -3094,7 +3094,7 @@ cream puffs from the Japanese "beard papa" cream puff stall.
     entry: %(
 We were only back in Hanoi for a night - this morning we had an early bus out to
 the coast. I tried to get breakfast before the 7.45am bus, leaving our hotel to
-buy bahn mi before 7am. There's one particular tiny bahn mi shop, Bami Bread,
+buy banh mi before 7am. There's one particular tiny banh mi shop, Bami Bread,
 that we've been back to a few times because the sandwiches are the best.
 Brilliant sauce, perfect paté, an excellent pickle - I may be addicted, <R> he is.</R>
 I actually arrived too early, they hadn't opened yet. It was strange to see the
@@ -3102,8 +3102,8 @@ roads so empty and the pavements no longer covered in stalls, scooters, and
 people. I came back a little later, got a couple of delicious warm baguettes,
 then caught our bus from our hotel.
 
-The bus was pretty fancy - it had wifi, <R> (not good wifi, but wifi) </R> 
-which is a first for the buses we've had here. We had a ticket all the way to 
+The bus was pretty fancy - it had wifi, <R> (not good wifi, but wifi) </R>
+which is a first for the buses we've had here. We had a ticket all the way to
 Cat Ba island, a large island two buses and
 one boat away from Hanoi. Cat Ba is in an area of huge numbers of limestone
 karsts, shear islands jutting out of jade sea.
@@ -3133,7 +3133,7 @@ booked our activities for the next day and had dinner at a rooftop restaurant.
       altitude: 1
     },
     food: [
-      'baguette and omlette',
+      'baguette and omelet',
       'banana',
       'potato, rice, fried spring rolls, battered fish, green papaya salad, banana',
       'banana shake',
@@ -3148,14 +3148,14 @@ apparently the same landscape, less polluted and with fewer tourists.
 
 We had booked a tour with a highly-rated adventure tour company, Asia Outdoors,
 to go kayaking and stand-up paddle boarding. After a short bus journey from
-their office, we piled into a largeish boat (an old junk) along with about 15
+their office, we piled into a large-ish boat (an old junk) along with about 15
 others heading out kayaking and climbing. We chatted with a few people as
 climbers were dropped off and had about an hour's journey to our kayak spot.
 
 We were in a group of five with two guides, almost everyone being from the UK or
 Ireland. There was a father and son from England and an Irish guy who'd just
-quit his job and was travelling before a career change. Our guides seemed like
-seasoned travellers, one of whom was aiming to teach sustainable adventure
+quit his job and was traveling before a career change. Our guides seemed like
+seasoned travelers, one of whom was aiming to teach sustainable adventure
 tourism in New Zealand, but struggling with visa regulations. It was a fun
 group as everyone was reasonably laid back.
 
@@ -3260,8 +3260,8 @@ from later in the afternoon to earlier to get a bit more time in Hanoi.
 Hanoi was heaving, today is apparently the last normal day before the Tet
 holiday, so everyone is busy buying stuff. We joined in, getting Rosie a soft
 shell jacket (she's jealous of mine). <R> It just looked so comfy, also where else
-can you get a totally genuine north face jacket for $15. </R>  We also had some more 
-cream puffs (I need to learn to make choux pastry, it seems like a great way to 
+can you get a totally genuine north face jacket for $15. </R>  We also had some more
+cream puffs (I need to learn to make choux pastry, it seems like a great way to
 disguise that you're basically just eating cream).
 
 The real high point of today was the food. First, we stumbled upon a stall
@@ -3325,7 +3325,7 @@ alleyways off one of the main backpacker party streets. If he hadn't called the
 hotel to get directions, it would have taken us ages to find.
 
 Once we got there we ended up waiting along with another guy for our rooms to be
-cleaned. He was originally Vietnamese, but lived in Seattle. <R> He was really 
+cleaned. He was originally Vietnamese, but lived in Seattle. <R> He was really
 interesting to talk to and told us all about his life. It was almost like getting
 a locals perspective on Vietnam although he has lived most of his life in the west
 so I imagined that coloured his view of the country he told us what his family
@@ -3340,9 +3340,9 @@ his friend and jumped into the conversation as damage control after a few
 boorish comments from the first guy. We had an odd meal, learning bits about
 expat life in Vietnam from the Irish guy with occasional drunken additions from
 the English guy, eg claiming he fought in the Vietnam war (which was immediately
-refuted by the Irish guy). <R> I did not like the English guy and decided fairly 
-early on that he didn't like me either (apparently because I said ya instead of yes). 
-He even told Daniel that he shouldn't date me, what a guy. 
+refuted by the Irish guy). <R> I did not like the English guy and decided fairly
+early on that he didn't like me either (apparently because I said ya instead of yes).
+He even told Daniel that he shouldn't date me, what a guy.
 
 Slightly bemused, we went back to our hotel to try and plan what to do in
 Malaysia, which is still a bit up in the air. We ended up with enough of a plan
@@ -3394,7 +3394,7 @@ wasn't anything special.
 After a similar experience at lunch, we went to the War Remnants Museum, one of
 the few places still open. They have a large number of American military
 vehicles on display outside which were used in the war. Inside, it's a
-three-storey building dedicated to Vietnamese independence and unification,
+three-story building dedicated to Vietnamese independence and unification,
 focusing mainly on the horrific things done to the Vietnamese by the USA (and
 somewhat by the French). It's definitely a one-sided take on events, but the
 photography exhibition coupled with descriptions of how the photographers died
@@ -3403,7 +3403,7 @@ and sobering. In particular, it'll be hard to forget the picture of the woman
 born without eyeballs.
 
 Having got one side of the story, we spent some time during and after dinner
-looking up more about the war to try and get more of a full picture. 
+looking up more about the war to try and get more of a full picture.
 )
   },
   {
@@ -3435,9 +3435,9 @@ sandwich place that had only taken a couple of days off for Tet. We spent the
 afternoon in a large park with impressive flower displays (and some fish in
 tanks?). Unfortunately, similar to yesterday's lunch, attempted to find
 somewhere decent for dinner, were thwarted by Tet opening times and ended up
-somewhere a bit dissapointing for the price.
+somewhere a bit disappointing for the price.
 
-As we walked through the city through the day we encountered various different
+As we walked through the city throughout the day we encountered various different
 groups of people involved in, presumably, Tet-related celebrations. While trying
 to find dinner we found ourselves in a large crowd of people milling around in a
 big square - I'm not really sure what was going on. On our way back from dinner
@@ -3504,11 +3504,11 @@ In addition to the tunnels themselves, we watched a Vietnamese propaganda film
 from the sixties about Cu Chi and saw a wide variety of unpleasant traps used to
 maim and kill unwitting enemies. There were even gunshots to be heard in the
 background as there's a shooting range on site where tourists can fire guns from
-the time of the war. <R> The constant sound of gunfire probably made the place 
+the time of the war. <R> The constant sound of gunfire probably made the place
 feel more realistic but was very loud when you were anywhere near the gun range. </R>
 
 At the end, we learnt a bit about the food the Viet Cong ate. I'm sure they had
-some rice, but they also apparently had tapioca / casava, which we were able to
+some rice, but they also apparently had tapioca / cassava, which we were able to
 try. It's pretty tasteless boiled by itself, but we were given sugar and ground
 peanuts to dip it in, which I doubt is authentic. Tasty, though. We were shown
 the chimneys for cookfires, deliberately designed to disperse the smoke to look
@@ -3521,7 +3521,7 @@ Mediterranean food at a busy four-floored restaurant. It was oddly organised,
 with a kitchen on the ground and top floors, bread made downstairs and
 everything else upstairs, forcing the wait staff to spend all their time racing
 up and down the stairs. <R> The poor members of staff must have legs of steel,
-one guy in particular could climb 4 flights of stairs, 2 steps at a time at a 
+one guy in particular could climb 4 flights of stairs, 2 steps at a time at a
 dead run. It was pretty impressive. </R>
 )
   },
@@ -3557,8 +3557,8 @@ This was another traveling day, this time with an early afternoon flight to
 Penang in Malaysia. This could have ended up meaning the morning was a
 write-off, but instead we actually made use of it. It turned out that one of
 Rosie's family friends was getting a boat built in Ho Chi Minh City, so we went
-to see it in the factory. <R> Thanks Bill. </R> We had to be there by 9am, so we 
-grabbed a couple of small banh mi from a street stall - bread rolls 30cm long 
+to see it in the factory. <R> Thanks Bill. </R> We had to be there by 9am, so we
+grabbed a couple of small banh mi from a street stall - bread rolls 30cm long
 and 3cm in diameter filled with paté.
 
 The factory was outside of the centre, so it was lucky it was still Tet -
@@ -3573,7 +3573,7 @@ or so catamarans in one of their warehouses at different stages in the
 production line. It was fascinating to see the two fibreglass halves of the
 boats - the moulds must be huge as the boats are over 40 feet long. We climbed
 into a boat where the top had already been attached to the hull and into another
-where more of the amenities had been installed. 
+where more of the amenities had been installed.
 
 We also learnt quite a bit from Mike about living in Vietnam and how it had
 changed while he had been there. He recommended seeing the country by bike,
@@ -3587,8 +3587,8 @@ tax).
 After our visit, we headed back to our guest house, checked out and found some
 lunch. We took another Grab car (South East Asian Uber) to the airport to get
 our plane (it was much easier to leave Vietnam than enter it). The flight was
-fine, but was fumigated at the end as part of Malaysian regulations. <R> There 
-was also some pretty serious turbulence on the way in. I don't think I've been 
+fine, but was fumigated at the end as part of Malaysian regulations. <R> There
+was also some pretty serious turbulence on the way in. I don't think I've been
 on a flight where multiple people screamed at the same time before. </R> We landed
 on the island of Penang and took a bus to Georgetown. The buses are branded
 "rapidPenang", but don't quite live up to their name.
@@ -3597,7 +3597,7 @@ After checking in (and getting a tiny box room with close to paper walls), we
 headed out for dinner. Both starving, we didn't spend too long looking and
 quickly settled down at a nearby Indian restaurant. As we were right beside
 little India, most of the restaurants were Indian. We had a fantastic meal for
-very little money - great curries, naan, chapati and dosa (spelt tosai here).
+very little money - great curries, naan, chapati and dosa (or "tosai" here).
 All of the bread came with dips, so we were stuffed by the end.
 
 After dinner, we decided to catch a bus to a large Chinese temple recommended by
@@ -3605,7 +3605,7 @@ the guy working at our hotel. Because it was Chinese New Year, the entire
 complex had been covered with lanterns and lights similar to Christmas lights.
 It's up on a hill, so was visible from quite a distance from our bus. The
 traffic near it was so bad that we ended up getting out of the bus and walking.
-We had a whistlestop tour as it was 10.30pm and the buses stopped somewhere
+We had a whistle-stop tour as it was 10.30pm and the buses stopped somewhere
 between 11 and 11.30pm. The temple was spectacular, but mobbed with people.
 Afterwards, we spent quite a while trying to get a bus back, especially as we
 weren't 100% sure which bus we needed. One going our way finally arrived and we
@@ -3644,7 +3644,7 @@ Damn timezones.
       'Sugar cane juice'
     ],
     entry: %(
-Due to our late night, we ended up getting up prety late (10.30am - 11am). We
+Due to our late night, we ended up getting up pretty late (10.30am - 11am). We
 had breakfast at a local bakery (cheese and banana sandwiches are popular here),
 then did some trip admin jobs - post a few things, get some laundry done. By
 midday it was **hot** - it's been 34 degrees elsewhere, but I swear it felt
@@ -3667,7 +3667,7 @@ familiar words, eg "restoran" is restaurant.
 A further difference is the money. So far, all the denominations have been
 pretty huge, eg in Vietnam the smallest note is 1,000 dong and we'd spend over
 a million a day. Malaysian ringgit are only four to the dollar, so we're back
-to having ones and tens. <R> There are even a couple of coins, although i think 
+to having ones and tens. <R> There are even a couple of coins, although i think
 the smallest denomination is 5 sent. </R>
 
 Anyway, back to the day at hand, we followed another recommendation from our
@@ -3699,7 +3699,7 @@ Ridiculous, but impressive.
 
 As we left, it began to rain. By the time we found shelter, it was torrential.
 We were glad to have left when we did, as in the few seconds it took to get into
-the Grab car we ordered we were close to soaked. <R> P.S. Places that offer 
+the Grab car we ordered we were close to soaked. <R> P.S. Places that offer
 free internet with no password, you're the best. </R>
 )
   },
@@ -3743,7 +3743,7 @@ gardens at the base of the hill.
 Along the walks, we came across multiple groups of two different types of
 monkey. One set were dark brown with light patches around their eyes, except
 for a tiny, bright orange baby. They were pretty chilled, sitting at the tops of
-trees eating something, with the occasional wild leap between trees. <R> These 
+trees eating something, with the occasional wild leap between trees. <R> These
 were the nice monkeys and the little ginger one was adorable. </R>
 
 The other monkeys were quite different. Light grey-brown with a ginger tinge to
@@ -3761,7 +3761,7 @@ have Vanilla Coke here) and found another bus.
 
 We had a more expensive dinner - a French-inspired Malaysian restaurant with
 enticing pastries and a great salad. We picked up some of the pastries for
-our breakfast the next day, too. 
+our breakfast the next day, too.
 )
   },
   {
@@ -3792,11 +3792,11 @@ our breakfast the next day, too.
     entry: %(
 After only a couple of nights in Georgetown, we were off again, this time to the
 Cameron Highlands. Famous for its tea production, this was one of the places
-Rosie had been looking forward to in particular. <R> Tea is the best!!</R> 
+Rosie had been looking forward to in particular. <R> Tea is the best!!</R>
 It was another long bus journey, starting out over one of the huge bridges to the
-mainland. Highlight of the morning: at our ten minute mid-trip stop, the cafe in 
-the station served fresh rotiboys (the delicious butter-filled rolls we found in 
-Vietnam). Low point: due to a leak, my small bag was soaked, including my computer 
+mainland. Highlight of the morning: at our ten minute mid-trip stop, the cafe in
+the station served fresh rotiboys (the delicious butter-filled rolls we found in
+Vietnam). Low point: due to a leak, my small bag was soaked, including my computer
 (it was fine after drying for a day or two).
 
 After checking in to our hotel (with an even smaller box room than the previous
@@ -3804,7 +3804,7 @@ place), we went in search of tea. Or rather, Rosie did, and I tagged along for
 some food. In addition to tea, the Cameron Highlands produce a lot of fruit and
 veg, particularly strawberries. Therefore, tea, scones and strawberry jam are
 available from a lot of places. We had tea and scones (and a lassi for me), but
-unfortunately none were quite as good as we were hoping. <R> Unfortunately the 
+unfortunately none were quite as good as we were hoping. <R> Unfortunately the
 scones were just a little bit stale, although they were warm, and the tea tasted
 only slightly better than Tesco own brand tea. </R>
 
@@ -3906,11 +3906,11 @@ Despite now being very very wet we were also very very hungry and so went in
 search of lunch where I sampled some Malaysian Guinness, apparently it’s the
 best Guinness in the world after Ireland. I thought it was good but a bit
 strong. After lunch we headed back to the hotel to shower and try and dry our
-clothes. Its difficult to dry anything in a room that is only just big enough to
-hold two beds and two people especially when quite a lot of Daniels stuff was
-still wet from yesterday but we did our best. After showers Daniel worked on the
-website a bit and then we went for dinner and tried to get a somewhat early
-night. </R>
+clothes. It's difficult to dry anything in a room that is only just big enough
+to hold two beds and two people especially when quite a lot of Daniel's stuff
+was still wet from yesterday but we did our best. After showers Daniel worked
+on the website a bit and then we went for dinner and tried to get a somewhat
+early night. </R>
 )
   },
   {
@@ -3941,9 +3941,10 @@ night. </R>
 <R> Nothing had quite dried when we woke before the sun (5:50am) with the hope
 of seeing the sunrise over the tea plantations. As such I put on slightly wet
 trousers and slightly wet shoes and packed a slightly wet coat into a slightly
-wet backpack. Our guide picked us up outside our hotel and manged to strike a
-difficult balance of being enthusiastic about the morning to come without being
-so chipper as to be annoying. I was impressed, it’s a hard balance to achieve.
+wet backpack. Our guide picked us up outside our </R> (slightly wet) <R>
+hotel and manged to strike a difficult balance of being enthusiastic about the
+morning to come without being so chipper as to be annoying. I was impressed,
+it’s a hard balance to achieve.
 
 He drove us in a slightly beaten up Landrover (in British green no less) up a
 fairly bumpy to a view point where we waited in the steadily retreating darkness
@@ -3966,11 +3967,11 @@ India considers himself Indian.
 Appu dropped us off a great place to get some breakfast after which we were
 picked up by another guide Kali who had a white Landrover this time. After being
 on a couple of disappointing guided tours we once again had been reluctant to
-sign up for this one but you can’t get 340 5 stars reviews on trip adviser
+sign up for this one but you can’t get 340 5 stars reviews on TripAdvisor
 without being somewhat decent and Kali exceeded all expectations. He first took
-us to the BOH tea plantation where he explained the process of making the 4
-different types of tea (Black, Chinese, Green, and White). The process goes as
-follows:
+us to the </R> (Scottish-owned) <R> BOH tea plantation where he explained the
+process of making the 4 different types of tea (Black, Chinese, Green, and
+White). The process goes as follows:
 
 Black, Chinese, and Green tea:
 
@@ -4024,10 +4025,187 @@ The bus was totally uneventful although it was 30 minutes early in to KL which
 is almost unheard of in SEA. The buses as a general rule so far have been no
 earlier than 30 minutes late so we were quite surprised when this one pulled up
 at 7:00pm. After a quick but sweaty walk, we arrived at our hotel and were shown
-to yet another box like hotel room. We dropped our stuff and went out to find
+to yet another box-like hotel room. We dropped our stuff and went out to find
 dinner (yet more Indian food) and ended up with a Dosai bigger than my head.
 After dinner and a quick shower we settled in for an early night in anticipation
 of our 4:00am wake up tomorrow to catch a 7:30am flight to Borneo. </R>
+)
+  },
+  {
+    date: '2018-02-25',
+    number: 53,
+    written: '2018-02-26 20:50',
+    locations: [LOCATIONS[:KualaLumpur], LOCATIONS[:Semporna]],
+    expenses: {
+      FOOD: { corona: { ringgit: 20 }, dinner: { ringgit: 46 } },
+      ACCOMMODATION: { ringgit: 55 },
+      LONG_DISTANCE_TRAVEL: { bus: { ringgit: 24 }, flight: { ringgit: 384 }, minibus: { ringgit: 50 } },
+      SHORT_TRAVEL: {},
+      ACTIVITIES: {},
+      OTHER: {}
+    },
+    stats: {
+      walked: 4.1,
+      temperature: 29,
+      altitude: 1
+    },
+    food: [
+      'cheeseburger, coke float, fried potato, curly fries, toast, baked beans, fried egg, tea',
+      'orange juice, chocolate, peanuts',
+      'barbecue chicken, rice, butter prawns, avocado shake',
+      'corona with kumquat'
+    ],
+    entry: %(
+This was a bit of a roller coaster of a morning. We had to get up at **4am**, to
+get a flight, but it took ages to get to sleep. I woke up when the alarm went
+off and checked my phone - the flight had been delayed by four and a half hours.
+I've never been happier for a delay. The next three hours of sleep weren't
+great, but were very welcome.
+
+We caught a bus just after 8am, getting to the airport with plenty of time. At
+the bag drop desk we were given meal vouchers because of the flight delay and
+could get more in an hour for lunch. However, we soon discovered here was only
+one place they could be redeemed in our terminal which may have been the worst
+fast food place I've ever eaten. The curly fries were ok and the coke float
+(for breakfast?) was too, but the bright yellow paste smeared onto my burger
+was definitely not cheese, not even cheeseburger-worthy cheese. We decided to
+skip the free lunch.
+
+Despite being a cheap flight we had a free meal (not that I ate much) and an
+entertainment system (although I mainly programmed). The airport in Borneo,
+Tawau, was pretty tiny, and we very quickly managed to find a minibus driver
+with two spare seats to take us to Semporna, where we'll stay for two nights. <R>
+It was all surprisingly efficient. </R>
+
+We drove for an hour on decent roads through miles and miles of palm trees,
+presumably farmed for palm oil. We arrived in Semporna, which seems like the
+exact opposite of the natural paradise it could be. At the edge of clear ocean
+dotted with jungle-covered islands, it could be idyllic, but instead it is
+run-down, so filled with litter and the odd open sewer that it's not too far
+away from a tip.
+
+Unfortunately, our ~~hotel~~ accommodation isn't much better. When we arrived in
+Semporna, Rosie immediately went to book snorkeling for the next day before the
+place shut while I checked in, or at least tried to. I took off my shoes
+(standard when entering many buildings in South East Asia), then spent a good
+few minutes wandering through the corridor saying "Hello?" before someone
+eventually came out of a dorm to talk to me. Initially he told me to bring my
+stuff into the dorm, but we'd booked a private room. He took a while to check
+my confirmation email on my phone, then knocked on the door of another room
+where I think another couple had recently checked in. He then had several
+conversations with them and on his phone, then moved them into the (otherwise
+empty?) dorm and gave me the room. Weird.
+
+The room itself is another box and hasn't been cleaned in a **while**.
+Presumably for structural support, there are a few breeze blocks under the bed,
+just back enough from the edge that you can't see them but close enough to stub
+a toe on, as we can both attest to.
+
+We found a restaurant on a jetty (most of the town is on one jetty or another)
+where Rosie had some decent prawns. The place seems to be filled with Chinese
+tourists - some places accept WeChat Pay, which I thought was China-only
+(apparently it's not). We finished he nigh with a cupcake (we were surprised to
+find them) and Rosie had a Corona (with kumquat in it - no limes were
+available). <R> The fact that I put kumquat in my Corona seemed to both shocked and
+amused the bar staff, apparently they had never heard of the process. It's better
+with lime. </R>
+)
+  },
+  {
+    date: '2018-02-26',
+    number: 54,
+    written: '2018-02-27 09:00',
+    locations: [LOCATIONS[:Semporna]],
+    expenses: {
+      FOOD: { breakfast: { ringgit: 10.4 }, dinner: { ringgit: 16.2 } },
+      ACCOMMODATION: { ringgit: 55 },
+      LONG_DISTANCE_TRAVEL: {},
+      SHORT_TRAVEL: {},
+      ACTIVITIES: { snorkeling: { ringgit: 280 } },
+      OTHER: {}
+    },
+    stats: {
+      walked: 3,
+      temperature: 29,
+      altitude: 1
+    },
+    food: [
+      'banana roti and condensed milk, two plain roti, lychee juice, tea',
+      'palas supreme tea, palas afternoon tea, strawberry tart',
+      'masala dosa, chicken korma, roti, strawberry lassi, mango lassi',
+      'plain naan, ghee dosa, butter chicken masala, pineapple mint lassi'
+    ],
+    entry: %(
+We were up at 6.45 - 7am to catch a 7.30am boat. We had a very cheap and tasty
+breakfast of roti at a local Indian restaurant, then made our way to a dive
+shop. Originally, we'd planned to come to Semporna to scuba dive, but I've had
+a cold for the last week and a blocked nose prevents you equalising pressure
+when you dive. Instead we decided to snorkel at a similar place.
+
+The dive shop was heaving, full of activity. We got fins, masks and shorty
+wetsuits, then headed out to a boat with five other tourists. We were going to
+an island called Mabul about 45 minutes from Semporna. The boat journey was
+loud, but scenic. We saw just how much of the small towns in the area were built
+on the water on stilts or jetties and how much rubbish there was in the sea.
+Over the course of the day, the boat had to stop and reverse three times to
+clear out plastic that had become entangled with the propellers.
+
+Once we got to the island, we had a brief stop for the divers to get more kit,
+then headed to the south of the island. The water was incredibly clear, so we
+could see that the island was surrounded by a large shelf of reef, sloping down
+from the beach gradually until reaching four to eight metres, then falling
+away rapidly. The boat stopped quite far out, but not that deep, maybe five or
+six metres. Most of the others with us were diving, but one woman was
+snorkeling with us. The three of us and our guide put on our fins and jumped in.
+
+It was fantastic. The water was fairly warm, the visibility was great (maybe
+thirty metres) and there was so much life. Fish everywhere, coral below us,
+deep blue ocean to our left with the occasional shadowy forms of larger shoals
+or divers. There was a gentle current pulling us along the reef, so for the most
+part we just drifted along, looking at the multitude of fish and colours below
+us.
+
+We didn't only see fish. We'd been hoping to see turtles and we weren't
+disappointed. We saw somewhere between ten and twenty throughout the day, some
+of them massive. We even saw three together and saw another swim up for air. At
+one point we also saw a sea snake, which I hadn't really been hoping for as
+they're venom is potent enough to kill us all multiple times over. It didn't
+seem to fussed by us, though.
+
+The day passed quickly. We had three snorkeling sessions, each about 45 minutes
+to an hour. In between, we stopped on the island, where decent food was
+provided. Many other westerners were staying there at the resort and we talked
+to a couple of Californians. There were plenty more of the local houses on
+stilts - a surprisingly large number, given that the island is so far from the
+coast and so small, maybe about a twenty minute walk in circumference.
+
+Unfortunately, like Semporna, there was a lot of litter. It was particularly
+noticeable during our first swim as we spent a while trying to avoid plastic
+in the water. This decreased over the day, but seemed to be replaced by
+jellyfish. They were small, about the size of a ping pong ball, and in the
+afternoon they were everywhere. Apparently they weren't dangerous, but they
+could definitely sting. We both ended the day with the feeling of pinpricks
+on the exposed parts of our bodies and gratefully accepted some vinegar to rub
+into them. <R> I apparently react to their stings much more than Daniel and even
+now have lots of little red dots all over my forearms and legs. I was very glad
+for the wetsuit and mask which protected most of my body. </R>
+
+Overall, it was an amazing experience. I loved duck diving down to peer into the
+coral, trying to capture it on the GoPro. I did end up taking quite a lot of
+video - I don't envy Rosie trying to edit it.
+
+We took a different boat back to the mainland with a different group of people
+as the people we'd traveled with were staying the night. Back in Semporna, we
+booked a bus for tomorrow and got some dinner. We found a couple of new tasty
+dishes: roti kandar (roti with a curry on top with a fried egg on top of that),
+and roti tissue (roti cooked in a single layer rather than folded, making it
+crispy, then quickly formed into a large cone and drizzled with condensed milk).
+
+Back at our accommodation we had surprisingly decent showers, but spent a long
+time trying to find someone to pay. We left our room several times when we heard
+voices and eventually, after a couple of hours, found someone who claimed to
+work there and paid them. The snorkeling was great, and it was worth coming
+here, but I'll be glad to leave.
 )
   }
 ].freeze
