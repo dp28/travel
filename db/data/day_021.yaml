@@ -1,0 +1,52 @@
+---
+:date: '2018-01-24'
+:number: 21
+:written: 2018-01-28 16:30
+:locations:
+- :KohMak
+:expenses:
+  :FOOD:
+    :drinks:
+      :baht: 160
+    :lunch:
+      :baht: 410
+    :water:
+      :baht: 30
+    :cocktails:
+      :baht: 220
+    :dinner:
+      :baht: 610
+  :ACCOMMODATION:
+    :baht: 800
+  :LONG_DISTANCE_TRAVEL: {}
+  :SHORT_TRAVEL: {}
+  :ACTIVITIES:
+    :stand_up_paddle_board:
+      :baht: 100
+  :OTHER: {}
+:stats:
+  :walked: 8.4
+  :temperature: 27
+  :altitude: 1
+:food:
+- pineapple and bacon pizza, banana and chocolate shake
+- pork red curry, rice, banana shake
+- Laap-style dish with strips of grilled pork
+:photos:
+- ''
+:entry: |2
+
+  Somewhat like the day before, according to most weather forecasts it was supposed to rain quite a
+  bit, but didn't. We took advantage of this in the morning by renting a stand up paddle board and
+  paddling out to (& around) a small island nearby. It wasn't exactly an island - the water between
+  the shore and the island wasn't deep enough to paddle through, so we had to get off for a while. At
+  low tide it may be dry land, not that there's much tidal variation.
+
+  On the way back we were able to see plenty of lethal-looking, spiky sea urchins and fish, including
+  little shoals that would repeatedly jump out of the water. We then went for a swim in the still,
+  clear water. The threatened rain never materialised - much to Rosie's disappointment. She was
+  looking forward to being in the water while it poured down on us.
+
+  We spent the afternoon reading & programming again - I managed to get the site to the point that it
+  could display basic posts and load in all of the ones I had written so far. We then walked back to
+  close to where we'd been for dinner the previous day to a Swiss restaurant we'd booked for dinner.
