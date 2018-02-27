@@ -3,11 +3,45 @@ import { Row, Col } from 'react-bootstrap'
 import { Link } from 'react-router-dom'
 
 import { ConnectedMap } from '../Map/Map'
+import { edgesToArray } from '../../mapGraphqlResults'
+import { LoadFromServer } from '../LoadFromServer/LoadFromServer'
+
+const MapFocusedOnLastDay = LoadFromServer({
+  component: ConnectedMap,
+  query: `
+    query lastDay {
+      days(last: 1) {
+        edges{
+          node {
+            locations {
+              edges {
+                node {
+                  area {
+                    name
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  `,
+  dataToProps: ({ days }) => {
+    const day = edgesToArray(days)[0]
+    if (!day) {
+      return {}
+    }
+    return {
+      centreArea: edgesToArray(day.locations)[0].area.name
+    }
+  }
+})
 
 export const Home = () => (
   <Row>
     <Col xs={12} md={6}>
-      <ConnectedMap />
+      <MapFocusedOnLastDay zoom={4} />
     </Col>
     <Col xs={12} md={6}>
       <h2>From Daniel</h2>

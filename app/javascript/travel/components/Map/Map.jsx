@@ -47,15 +47,16 @@ const Area = ({ name, dayNumbers, selectedDayNumber, selected }) => {
 
 
 
-export const Map = ({ areas, selectedDayNumber }) => {
+export const Map = ({ areas, selectedDayNumber, centreArea, zoom }) => {
   const selectedAreaName = getQueryParamValue(SELECTED_AREA_PARAM)
-  const selectedArea = areas.find(area => area.name === selectedAreaName)
-  const centre = selectedArea ? selectedArea.location : DEFAULT_CENTRE
+  const centreAreaName = selectedAreaName || centreArea
+  const centre = areas.find(area => area.name === centreAreaName)
+  const centreLocation = centre ? centre.location : DEFAULT_CENTRE
   return (
     <div className="Map">
       <GoogleMap
-        center={centre}
-        zoom={5}
+        center={centreLocation}
+        zoom={zoom || 6}
         bootstrapURLKeys={{
           key: 'AIzaSyDymbrPc713fzhSFmB6F2Ap99fW3y_tYos'
         }}>
