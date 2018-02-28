@@ -116,6 +116,10 @@ AREAS = {
   Semporna: Area.create!(
     name: 'Semporna',
     country: COUNTRIES[:Malaysia]
+  ),
+  Sandakan: Area.create!(
+    name: 'Sandakan',
+    country: COUNTRIES[:Malaysia]
   )
 }.freeze
 
@@ -287,6 +291,13 @@ LOCATIONS = {
     latitude: 4.478397,
     longitude: 118.61022,
     area: AREAS[:Semporna]
+  ),
+  Sandakan: Location.create!(
+    type: Location::Type::ACCOMMODATION,
+    name: 'Harbourside Backpackers',
+    latitude: 5.839215,
+    longitude: 118.11963,
+    area: AREAS[:Sandakan]
   )
 }.freeze
 
@@ -296,6 +307,7 @@ def create_day(config)
   create_expenses(day, config[:expenses])
   create_photos(day, config[:photos])
   link_locations(day, config[:locations])
+  print "#{config[:number]} . "
 end
 
 def create_post(day, content, written_at)
@@ -354,6 +366,7 @@ def create_photo(day, photo_config)
 end
 
 Dir[Rails.root.join('db', 'data', '*')]
+  .sort
   .map { |file| YAML.load_file file }
   .each &method(:create_day)
 
