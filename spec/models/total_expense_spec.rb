@@ -51,7 +51,8 @@ RSpec.describe TotalExpense do
       end
 
       describe '#average_price_per_day' do
-        it 'is a CurrencyAmount built from the currency_code and amount divided by the number of days' do
+        it 'is a CurrencyAmount built from the currency_code and amount divided by the number of ' \
+          'days' do
           expect(total.average_price_per_day.currency.code.to_s).to eq(total.currency_code)
           expect(total.average_price_per_day.amount).to eq(total.amount / 2)
         end

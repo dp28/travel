@@ -5,6 +5,6 @@ import { Map } from './Map'
 
 describe('Map', () => {
   it('should render', () => {
-    expect(() => shallow(<Map />)).not.toThrow()
+    expect(() => shallow(<Map areas={[]} />)).not.toThrow()
   })
 })

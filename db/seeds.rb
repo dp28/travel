@@ -306,8 +306,7 @@ def create_day(config)
   create_post(day, config[:entry], config[:written])
   create_expenses(day, config[:expenses])
   create_photos(day, config[:photos])
-  link_locations(day, config[:locations])
-  create_accommodation(day, config[:accommodation])
+  link_locations(day, config)
   print "#{config[:number]} . "
 end
 
@@ -349,8 +348,9 @@ def create_expense(day:, description:, price:, category:)
   )
 end
 
-def link_locations(day, location_symbols)
-  day.locations << location_symbols.map { |symbol| LOCATIONS[symbol] }
+def link_locations(day, config)
+  day.locations << config[:locations].map { |symbol| LOCATIONS[symbol] }
+  create_accommodation(day, config[:accommodation])
 end
 
 def create_photos(day, photos)
@@ -373,6 +373,4 @@ end
 Dir[Rails.root.join('db', 'data', '*')]
   .sort
   .map { |file| YAML.load_file file }
-  .each &method(:create_day)
-
-
+  .each(&method(:create_day))
