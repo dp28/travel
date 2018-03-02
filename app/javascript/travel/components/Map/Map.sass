@@ -1,3 +1,5 @@
+@import '../../styles/colours'
+
 .Map
   width: 100%;
   height: 80vh;
@@ -11,7 +13,7 @@
 
   .Area--dot
     font-size: 1.3em;
-    opacity: 0.8;
+    opacity: 1;
     cursor: pointer;
     z-index: 1;
     position: relative;
@@ -19,13 +21,15 @@
   .Area--centre
     width: $point-diameter;
     height: $point-diameter;
-    background: blue;
+    background: $primary-colour;
     border-radius: $point-diameter;
     top: -$point-diameter / 2;
     left: -$point-diameter / 2;
 
     &:hover
-      background-color: skyblue
+      background-color: $primary-colour-dark
+      opacity: 1
+      z-index: 10
 
   .DaySelector
     $selector-diameter: $point-diameter * 0.7;
@@ -33,7 +37,8 @@
     height: $selector-diameter;
     top: -$selector-diameter / 2;
     left: -$selector-diameter / 2;
-    background: grey;
+    background: $secondary-colour;
+    color: $secondary-colour-text
     border-radius: $selector-diameter;
     cursor: pointer;
     position: relative;
@@ -42,15 +47,20 @@
     line-height: $selector-diameter;
 
     &:hover
-      background: lightgrey
+      background: $secondary-colour-dark
+
+      a
+        color: $secondary-colour-dark-text
 
     a
       text-decoration: none;
-      color: inherit;
+      color: $secondary-colour-text
 
     &.selected
-      background-color: lightgrey;
-      border: 2px solid black;
+      background-color: $secondary-colour-dark;
+
+      a
+        color: $secondary-colour-dark-text
 
   .Area--title
     font-size: 1.5em;
@@ -62,12 +72,12 @@
     padding: 5px;
     border-radius: 5px;
     z-index: 1;
-    border: 2px solid black;
+    border: 2px solid $secondary-colour-dark;
 
   &.selected
     .Area--dot, .Area--title
       z-index: 10;
 
     .Area--centre
-      background: skyblue;
-      border: 2px solid black;
+      background: $secondary-colour-dark;
+      opacity: 1

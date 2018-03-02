@@ -6,7 +6,7 @@ import { ApolloProvider } from 'react-apollo'
 import { App } from './components/App/App'
 import { Client } from './apolloClient'
 
-import './styles.sass'
+import './styles/index.sass'
 
 document.addEventListener('DOMContentLoaded', () => {
   ReactDOM.render(
