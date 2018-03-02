@@ -5,6 +5,7 @@
 :locations:
 - :MaiChau
 - :HanoiSecond
+:accommodation: :HanoiSecond
 :expenses:
   :FOOD:
     :snacks:

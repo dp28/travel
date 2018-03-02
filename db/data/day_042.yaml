@@ -5,6 +5,7 @@
 :locations:
 - :CatBa
 - :HanoiSecond
+:accommodation: :HanoiSecond
 :expenses:
   :FOOD:
     :breakfast:

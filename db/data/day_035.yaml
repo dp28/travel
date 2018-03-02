@@ -5,6 +5,7 @@
 :locations:
 - :SiemReapSecond
 - :HanoiFirst
+:accommodation: :HanoiFirst
 :expenses:
   :FOOD:
     :lunch:

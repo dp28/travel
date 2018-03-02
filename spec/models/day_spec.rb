@@ -12,6 +12,7 @@ RSpec.describe Day do
 
   it { should have_many :expenses }
   it { should have_one :post }
+  it { should have_one :accommodation }
   it { should have_many(:locations).through(:day_locations) }
   it { should have_many(:photos).dependent(:destroy) }
 

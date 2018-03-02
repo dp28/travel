@@ -11,13 +11,15 @@ RSpec.describe Area, type: :model do
 
   it { should belong_to :country }
   it { should have_many :locations }
-  it { should have_many(:days).through(:locations) }
+  it { should have_many(:accommodations).through(:locations) }
+  it { should have_many(:days).through(:accommodations) }
 
   describe '#total_expense' do
     it 'should be a TotalExpense created with the Days for the Area' do
       location = FactoryBot.create :location
+      accommodation = FactoryBot.create :accommodation, location: location
       area = location.area
-      day = FactoryBot.create :day, locations: [location]
+      day = FactoryBot.create :day, accommodation: accommodation
       day_expense = FactoryBot.create :expense, day: day
       FactoryBot.create :expense
 

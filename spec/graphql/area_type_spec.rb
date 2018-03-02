@@ -30,6 +30,9 @@ RSpec.describe 'areas', type: :request do
       before do
         area.locations << [location]
         location.days << days
+        days.each do |day|
+          location.accommodations.create day: day
+        end
       end
 
       it 'should be the Days for the Locations in the Area' do

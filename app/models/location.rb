@@ -19,6 +19,7 @@ class Location < ApplicationRecord
   validates :type, inclusion: { in: Location::Type::ALL }
 
   belongs_to :area
+  has_many :accommodations
   has_many :day_locations
   has_many :days, through: :day_locations
 

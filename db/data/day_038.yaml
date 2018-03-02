@@ -5,6 +5,7 @@
 :locations:
 - :HanoiFirst
 - :MaiChau
+:accommodation: :MaiChau
 :expenses:
   :FOOD:
     :drinks:

@@ -4,6 +4,7 @@
 :written: 2018-02-09 22:00
 :locations:
 - :HanoiFirst
+:accommodation: :HanoiFirst
 :expenses:
   :FOOD:
     :banh_mi:

@@ -307,6 +307,7 @@ def create_day(config)
   create_expenses(day, config[:expenses])
   create_photos(day, config[:photos])
   link_locations(day, config[:locations])
+  create_accommodation(day, config[:accommodation])
   print "#{config[:number]} . "
 end
 
@@ -363,6 +364,10 @@ def create_photo(day, photo_config)
     raise "Photo missing dimensions - run rails data:update_images .URL: #{photo_config[:url]}"
   end
   day.photos.create photo_config
+end
+
+def create_accommodation(day, accommodation_location_name)
+  day.create_accommodation! location: LOCATIONS[accommodation_location_name]
 end
 
 Dir[Rails.root.join('db', 'data', '*')]

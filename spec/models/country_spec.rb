@@ -12,13 +12,14 @@ RSpec.describe Country, type: :model do
   it { should have_db_index(:name).unique }
   it { should have_many :areas }
   it { should have_many(:locations).through(:areas) }
-  it { should have_many(:days).through(:locations) }
+  it { should have_many(:days).through(:areas) }
 
   describe '#total_expense' do
     it 'should be a TotalExpense created with the Days for the Country' do
       location = FactoryBot.create :location
+      accommodation = FactoryBot.create :accommodation, location: location
       country = location.area.country
-      day = FactoryBot.create :day, locations: [location]
+      day = FactoryBot.create :day, accommodation: accommodation
       day_expense = FactoryBot.create :expense, day: day
       FactoryBot.create :expense
 
