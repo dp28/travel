@@ -49,6 +49,13 @@ RSpec.describe TotalExpense do
           expect(total.price.amount).to eq(total.amount)
         end
       end
+
+      describe '#average_price_per_day' do
+        it 'is a CurrencyAmount built from the currency_code and amount divided by the number of days' do
+          expect(total.average_price_per_day.currency.code.to_s).to eq(total.currency_code)
+          expect(total.average_price_per_day.amount).to eq(total.amount / 2)
+        end
+      end
     end
 
     context 'with different currencies' do
@@ -101,8 +108,15 @@ RSpec.describe TotalExpense do
       end
 
       describe '#category' do
-        it 'be the COMBINED category' do
+        it 'should be the COMBINED category' do
           expect(total.category).to eq(TotalExpense::Category::COMBINED)
+        end
+      end
+
+      describe '#within_category' do
+        it 'should return a new TotalExpense using only the specified category' do
+          food = total.within_category(Expense::Category::FOOD)
+          expect(food.price.amount).to eq expenses.first.amount
         end
       end
     end

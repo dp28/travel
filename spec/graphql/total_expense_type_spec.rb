@@ -37,6 +37,15 @@ RSpec.describe 'totalExpense', type: :request do
             }
           }
         }
+        averagePricePerDay {
+          amount
+        }
+
+        food: withinCategory(category: "FOOD") {
+          price {
+            amount
+          }
+        }
       }
     })
   end
@@ -48,12 +57,20 @@ RSpec.describe 'totalExpense', type: :request do
       expect(total[:price][:amount]).to eq(100 + 200)
     end
 
+    it 'should have an average amount that is an average of all the Expenses per day' do
+      expect(total[:averagePricePerDay][:amount]).to eq((100 + 200) / 2)
+    end
+
     it 'should have a Currency' do
       expect(total[:price][:currency][:code]).to eq 'THB'
     end
 
     it 'should have a subnode for each expense' do
-      expect(total[:expenses][:edges].size).to eq(2)
+      expect(total[:expenses][:edges].size).to eq 2
+    end
+
+    it 'should be possible to specify a particular category' do
+      expect(total[:food][:price][:amount]).to eq 100
     end
   end
 
