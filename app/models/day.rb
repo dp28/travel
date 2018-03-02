@@ -9,4 +9,8 @@ class Day < ApplicationRecord
   validates :number, presence: true, numericality: { greater_than: 0 }
   validates :date, presence: true
 
+
+  def total_expense
+    TotalExpense.calculate days: [number]
+  end
 end

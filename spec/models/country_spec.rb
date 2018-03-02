@@ -13,4 +13,16 @@ RSpec.describe Country, type: :model do
   it { should have_many :areas }
   it { should have_many(:locations).through(:areas) }
   it { should have_many(:days).through(:locations) }
+
+  describe '#total_expense' do
+    it 'should be a TotalExpense created with the Days for the Country' do
+      location = FactoryBot.create :location
+      country = location.area.country
+      day = FactoryBot.create :day, locations: [location]
+      day_expense = FactoryBot.create :expense, day: day
+      FactoryBot.create :expense
+
+      expect(country.total_expense.amount).to eq day_expense.amount
+    end
+  end
 end

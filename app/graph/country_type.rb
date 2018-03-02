@@ -13,4 +13,9 @@ CountryType = GraphQL::ObjectType.define do
 
   field :name, !types.String
   connection :areas, !AreaType.connection_type
+
+  field :totalExpense do
+    type !TotalExpenseType
+    resolve ->(country, _, _) { country.total_expense }
+  end
 end

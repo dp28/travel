@@ -49,5 +49,15 @@ RSpec.describe 'areas', type: :request do
         expect(location_names).to eq locations.map(&:name)
       end
     end
+
+    describe 'the "totalExpense" field' do
+      before { area }
+
+      let(:node_query) { 'totalExpense { price { amount } }' }
+
+      it 'should be a TotalExpense type' do
+        expect(json_area[:totalExpense][:price][:amount]).to eq(0)
+      end
+    end
   end
 end

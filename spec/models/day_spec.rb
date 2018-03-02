@@ -14,4 +14,14 @@ RSpec.describe Day do
   it { should have_one :post }
   it { should have_many(:locations).through(:day_locations) }
   it { should have_many(:photos).dependent(:destroy) }
+
+  describe '#total_expense' do
+    it 'should be a TotalExpense created with the Day' do
+      day = FactoryBot.create :day
+      day_expense = FactoryBot.create :expense, day: day
+      FactoryBot.create :expense
+
+      expect(day.total_expense.amount).to eq day_expense.amount
+    end
+  end
 end

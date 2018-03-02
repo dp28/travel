@@ -35,5 +35,15 @@ RSpec.describe 'countries', type: :request do
         end
       end
     end
+
+    describe 'the "totalExpense" field' do
+      before { country }
+
+      let(:node_query) { 'totalExpense { price { amount } }' }
+
+      it 'should be a TotalExpense type' do
+        expect(json_country[:totalExpense][:price][:amount]).to eq(0)
+      end
+    end
   end
 end

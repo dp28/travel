@@ -18,4 +18,9 @@ DayType = GraphQL::ObjectType.define do
   connection :locations, LocationType.connection_type
   connection :expenses, ExpenseType.connection_type
   connection :photos, PhotoType.connection_type
+
+  field :totalExpense do
+    type !TotalExpenseType
+    resolve ->(day, _, _) { day.total_expense }
+  end
 end

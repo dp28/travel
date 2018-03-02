@@ -186,5 +186,15 @@ RSpec.describe 'days', type: :request do
         end
       end
     end
+
+    describe 'the "totalExpense" field' do
+      before { day }
+
+      let(:node_query) { 'totalExpense { price { amount } }' }
+
+      it 'should be a TotalExpense type' do
+        expect(json_day[:totalExpense][:price][:amount]).to eq(0)
+      end
+    end
   end
 end

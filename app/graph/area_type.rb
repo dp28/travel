@@ -15,4 +15,9 @@ AreaType = GraphQL::ObjectType.define do
   field :country, !CountryType
   connection :locations, !LocationType.connection_type
   connection :days, !DayType.connection_type
+
+  field :totalExpense do
+    type !TotalExpenseType
+    resolve ->(area, _, _) { area.total_expense }
+  end
 end
