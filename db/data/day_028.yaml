@@ -35,12 +35,14 @@
 - mixed meat and seafood fried rice
 - avocado shake, vanilla ice cream
 :photos:
-
 - :caption: Sunset in Phnom Penh
   :url: https://lh3.googleusercontent.com/dKttEXbGa6LtIfLgTThvlQ250ohRjS1FFUIFST1Uzn1FufVgHK4iVlm8T0xaRC9cxk1tZ1FrxvyrdGel3P2EQvvBOYwQL2iN6SwioXTqsEvhh-fPt4GUkTqruPekPovoEkyaasynsxE=w2400
- - :caption: Fun fountain 
+  :width: 2400
+  :height: 1800
+- :caption: Fun fountain
   :url: https://lh3.googleusercontent.com/wCtCQRIrwL7-Sr8i6RupkOqwK58QTNZjc1VD9qpEgsOyZNGLtoEbPvcYcscXhZTnGJbmDGvIWTkSH0xAS8fwLSo1yyGcAuet79MVOsfz22kvNBh613fehTTUpSRc5QkCSX0_ptDxmWM=w2400
-
+  :width: 2400
+  :height: 1803
 :entry: |2
 
   The day started with a four or five hour bus journey from the peaceful emptiness of Kep to the hive

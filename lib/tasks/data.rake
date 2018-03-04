@@ -3,7 +3,7 @@ require 'yaml'
 
 namespace :data do
   task update_images: :environment do
-    Dir[Rails.root.join('db', 'data', '*')].each do |file_name|
+    Dir[Rails.root.join('db', 'data', '*')].sort.each do |file_name|
       day = YAML.load_file file_name
       puts day[:number]
       if day[:photos]
