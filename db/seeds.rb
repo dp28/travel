@@ -1,10 +1,13 @@
 require 'yaml'
 
+
+puts 'Clearing the database...'
 Day.all.destroy_all # Makes it easier to correct mistakes - will remove eventually
 Country.all.destroy_all
 Location.all.destroy_all
 Area.all.destroy_all
 
+puts 'Creating countries...'
 COUNTRIES = {
   Scotland: Country.create!(
     name: 'Scotland',
@@ -32,6 +35,7 @@ COUNTRIES = {
   )
 }.freeze
 
+puts 'Creating areas...'
 AREAS = {
   Edinburgh: Area.create!(
     name: 'Edinburgh',
@@ -123,6 +127,7 @@ AREAS = {
   )
 }.freeze
 
+puts 'Creating locations...'
 LOCATIONS = {
   Edinburgh: Location.create!(
     type: Location::Type::ACCOMMODATION,
@@ -285,6 +290,13 @@ LOCATIONS = {
     longitude: 101.679549,
     area: AREAS[:KualaLumpur]
   ),
+  KualaLumpurSecond: Location.create!(
+    type: Location::Type::ACCOMMODATION,
+    name: 'Raizzy\'s Guest House',
+    latitude: 3.143188,
+    longitude: 101.69647,
+    area: AREAS[:KualaLumpur]
+  ),
   Semporna: Location.create!(
     type: Location::Type::ACCOMMODATION,
     name: 'Awys Backpackers',
@@ -370,7 +382,10 @@ def create_accommodation(day, accommodation_location_name)
   day.create_accommodation! location: LOCATIONS[accommodation_location_name]
 end
 
+puts 'Creating days...'
 Dir[Rails.root.join('db', 'data', '*')]
   .sort
   .map { |file| YAML.load_file file }
   .each(&method(:create_day))
+
+puts '... done.'
