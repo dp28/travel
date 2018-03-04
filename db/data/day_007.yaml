@@ -29,15 +29,25 @@
 :photos:
 - :caption: The king waterfall
   :url: https://lh3.googleusercontent.com/nORU5eRn58_8hb9fOa-YnOqBmmDf1BUoX1S8I00fxAEhMwz0UUPYqH0o6bqRt0wmOVohaIvNT9HIgkBbLJSXx1oHwz5fKTI-nl3daLKQbj9kQKzdldieoXK-NcScRvyYdrVPPAin7Qo
+  :width: 384
+  :height: 512
 - :caption: The queen waterfall
   :url: https://lh3.googleusercontent.com/Y7Ysky-gdHlsryZxKGa6mvuOd0reAOBEQrCPMJbYxixxMD30xIdhGUWtQZfv_kVaWexnT05PWTmBWfi5AmFkDb5oPY1pFzdH5aaeRUWxCAXgE9sQJqYh6aKVUPrYT6-if-2RXP0Ts3M
+  :width: 341
+  :height: 512
 - :caption: The King and Queen Pagodas
   :url: https://lh3.googleusercontent.com/N-iu4KC3864tuS5u-lcxYHzvmpncTXjrUTaofrpXpr84HrDBtwzIFcn327R4zrNHZxynee3uJyQttOi-_4Dm0W_eP0UL2_WyU2vYVRJy__9jZ-6W9wCbTbBm6And3mCDkU8QOnGymB4
+  :width: 512
+  :height: 384
 - :caption: They're ok I guess
   :favourite: true  
   :url: https://lh3.googleusercontent.com/TUQFMJ3wFgGHmYABGXemxDEaB5cV3nB3NCzEVkqQFq1HmroOjHmnjx9Z5e6Gic3CqGWn3K01diKdwGbm6RSoRrnKZTJLXTYLLIwOz23WE5MEIhFosm0EcvadGSwGCV6Rw1XLGo57Emk
+  :width: 512
+  :height: 341
 - :caption: But Daniel, these are traditional thai puppies
   :url: https://lh3.googleusercontent.com/Kp9Qh1hCAvsRWlShHs1D8qOn7RL54RIuIZekBbDTZpkn2QXekY4TSw7JVqk56c-GVGOOhqLk7whjmZswfuRaeRh746uXDgnnVBdnuFN4lW4VOqSQ1MEQoOaxjZb4jX8fVW_EYnBEFBE
+  :width: 512
+  :height: 384
 :entry: |2
 
   Today we went on a tour organised through our hotel. It was an all-in-one kind

@@ -33,18 +33,30 @@
 :photos:
 - :caption: ''
   :url: https://lh3.googleusercontent.com/RJNIPBNR6CgyxVZ6YE-5Yq4p-sunCvhX4J04tAsjOwPR7NJGptHLKroPdiHZX9fp_MkVOnNNAhgVjRYBfEyksllekBF2V2E1tnPqq9K8HX5JOu5uLDUrJ7tWoP3tf2wVEwdw0YLEpXc
+  :width: 341
+  :height: 512
 - :caption: Elephant parade
   :url: https://lh3.googleusercontent.com/vawNnV0fhy4Kt_KRjJtzVlk4HPxnr50rkM6DpEkJPES-49zR0Dk3fa3cnSF8W9E63sl2nT9b9_nnn5AKsgzHViHWgdyHlf4ArnW5_7bo2oK-OYXtTesDdjcN_4vEumsLo4kB0IIPa1g
 - :caption: Elephants 
-  :favourite: true  
+  :favourite: true 
+  :width: 512
+  :height: 341 
   :url: https://lh3.googleusercontent.com/Pz0fcm8MDZFJYMlwZ-vXJ2LgaBtMwwjDO-mmfmlATaDio2NjpxM27H-b6DrUZqvfbb7mLN7cku4RmQFCdWQgkrBITxmKbckh8nIQAZ6T4Zr0-5CBzVygUY6Fom3TDzOan8qP2axqVZE
 - :caption: Oldest temple in Chiang Mai
-  :favourite: true  
+  :favourite: true 
+  :width: 512
+  :height: 341 
   :url: https://lh3.googleusercontent.com/2eYfwxavL1GN_6KS0uRPqWlmLFi5EJ5OxtYycPz-bZAH7k-NCDL27CR-vQ5AyuSitJvrrNVigRo6HkX1kRUMNyUNCMoe9scGSshmLrbBhowl5v_o0hFH8TXeC7wWerXvTE6kFYTxASY
+  :width: 512
+  :height: 341
 - :caption: ''
   :url: https://lh3.googleusercontent.com/BI6JOaI3WqRcoRAweVz86nK71q-YbDuU1jqB-DDRIagDTfvbHbVqcqKuAZL0vF3aVfN1QEU05NZhgj3y4XefZ_z2MYXAz7WL_OdrgrxDhiUOUZpSdSYdFxVOtn3lPY-hr8_VSxz_3Io
+  :width: 512
+  :height: 341
 - :caption: ''
   :url: https://lh3.googleusercontent.com/vUwHcFYp0HqDDA3feZmQuhfi9JTosHQHG6eMVDjHiV350ut9mIMS4FlagmQiIIr57XGQ29EEE4665A5uFw24g9C587FJJV_ilsmeApQeJyc73XzgyLUCbHRL8XiMvx-ArsTY9SEqfCI
+  :width: 384
+  :height: 512
 :entry: |2+
 
   We were woken up at about 6.30 am by the conductor announcing over the tannoy

@@ -26,15 +26,25 @@
 :photos:
 - :caption: Daniel coming in to land
   :url: https://lh3.googleusercontent.com/e4JS-gcdqthjh-lVVmjyIxHQ6IQi6AxQyjC2BXO9MVROV5_TshnZJztDZsE5AAq6E9hpvHuLJQ2Jz1UDeG7UZZpjdqUIlNKIXuTUXNUHGebQms73TG9OYLOtV4-_n0ncp38XXzCNKyg
+  :width: 384
+  :height: 512
 - :favourite: true
   :caption: Treehouse 1
   :url: https://lh3.googleusercontent.com/249yL98C1NQgSsuv0PfVYyXM7dIhj3emZbNUlqdr2muUd1TbMH21MqvHidLTsha2zUf_ELnZYUAkz6ZSiXbHO2PxK_akINmMtB3umpQyBfKD7coJFVG2BHSjgfhyyZZQgA3fnCBnY6w
+  :width: 512
+  :height: 288
 - :caption: Coming home
   :url: https://lh3.googleusercontent.com/6xgqcgWB0-wJpCBZ5saNgPywaHBUTuwf1MTDfXqZu1aFmC8mNdQBlf6fmxb4TGorkwydbd0HNZ_5et7VNTmJSzxH90U04snNEWoUuGtS51ggxV8FOk9ukEi0bqfl0F22rMS46oJrh38
+  :width: 512
+  :height: 288
 - :caption: '"Snakes can climb trees?!"'
   :url: https://lh3.googleusercontent.com/63RRjhmhyH4WeOXo3dBzFAiEhbaitPnGbP78jVTlZujCd7wxMOdkWDWdfdJLR2NMHvMIu1zniEkHa4Hap4AZlQKGg_P0-gpqCBMJDhUQDOkPFtyIJLsGmiGX6Z33qtUvjdp8F6sLsgc
+  :width: 512
+  :height: 341
 - :caption: Home for the day
   :url: https://lh3.googleusercontent.com/uYAd7NHKS2sKw6Sn0fA2t9ZJ3Ze2NSAmtgnO_Di2-DXBUy88gNV5ZHMEDi4oWcGFpaAgBYl9GA18mAtldf4tNeRwI8LmmMtASseqxk4-YMuAfI3wpK1xafzOzlBytRZfLWXtJPiXU64
+  :width: 512
+  :height: 288
 :entry: |2
 
   Sleeping in a treehouse has its ups and downs. Sunset - definite up. Rats and squirrels in the

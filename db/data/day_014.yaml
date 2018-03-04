@@ -41,16 +41,28 @@
 :photos:
 - :caption: 'atmospheric view in the morning'
   :url: https://lh3.googleusercontent.com/jUcdgIpTGL1aTA9wi49H6bvrbJ22f2413mBASiOxG9UMxSxel0-ft_qHxu7VOJkNVm9xkrruiF5nbRFjy_gouhkdO8W9kV9Lzz-fZPU9aEs1aXhI_DiacZLZls_jMp85tLSezIA63e8
+  :width: 512
+  :height: 384
 - :caption: ''
   :url: https://lh3.googleusercontent.com/oLAZuS-fKO8nIEsghVxawFXFZoVlX-eNiVYYxwu3UTDxGqk8aAVxBpyQSak6YWFmW83TAUBvRdM9YoTdCjUE6_tOWIVRZmAJTEaq87ZSonecou552GuHStKTmzFPGPky-YkL4y9IboY
+  :width: 384
+  :height: 512
 - :caption: ''
   :url: https://lh3.googleusercontent.com/PCfGqVBlsL2I5Bnxl42oKkAQNwKLaqyP7gDx4LGrFA-ka92cog8lYv_xBw8Bnhf01mcj9KAPriz7GGoeT2M_em9pWm4dIDX031JwU1-kGobwJFmQRs80QWY2ucq0G0PfytGOqF401Rg
+  :width: 384
+  :height: 512
 - :caption: Treehouse seven is the coolest
   :url: https://lh3.googleusercontent.com/1ZzrUcHLpTNgyH6Fr_aeZDOpd013aLJBF2_pPEQ3Prb1mLMKd2fEAZleFFgZDJtYvTRed7QFJieyJCYXp-ct0hSI1foACrzEQ8x2vQx7vemBBLxIZ_xJxYPvbKYTh3wWBKQUWpe3e0Y
+  :width: 512
+  :height: 384
 - :caption: I think Daniel is enjoying himself
   :url: https://lh3.googleusercontent.com/_1srobnwEY3cPiyWCuWdza8eG2V7yA0k3UzrEh7O31lBpvjCFrdjaNk_MIiPDAoYLgigyTRe1VeUlzrHfVg1R1iodlxY0Yx2OVPDAdkvfvOXgEE7XOMnB57C599U35PJN_qEWRP-jns
+  :width: 512
+  :height: 341
 - :caption: Such a comfy bed...
   :url: https://lh3.googleusercontent.com/j5ltyI7buYWiSrr5u0YhbbK7L0bKH56T8TtQpsjIMkYGeOIXM1QahL9FJgp4ifiV3fzlkfyzFd0VLfPtixHp-hQ2VnNnyKC2HP8GgXFJUfbUMAtiKFOk2ADQ0FEx4BMM1R2knSEYoHg
+  :width: 512
+  :height: 288
 :entry: |2
 
   We woke up to another cloudy morning, leaving an atmospheric (pardon the pun) fog in the valley

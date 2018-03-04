@@ -39,8 +39,12 @@
 :photos:
 - :caption: Not all that glitters is gold, but this is!
   :url: https://lh3.googleusercontent.com/oQb8xr6X8opO6cQ-dsMtvdn7Sd1zV5x5b53l2M1ItUMp8605f84_lwm2aj00Eu59aDPb6SCWXmvqhIzDJ5xQpxaAQjaogw28WqO7id2dN9GkWTOP9JSWKLz7kwNR8AsLM_BWPdDHu2o
+  :width: 512
+  :height: 512
 - :caption: ''
   :url: https://lh3.googleusercontent.com/WYurWSvSxu_Aswfm0ZNoPmEIreJVW6dgptn4E6RhUcwa3vJJ9Vfs0skHSwjfESg7pWoVyy_rvmFOyiuM0zLFP9rXiG3R04CMwaAstmFtsm4YrzucA6Z54lsw-sTP7dYoj5SA0E0jwL0
+  :width: 512
+  :height: 288
 - :caption: ''
   :url: https://lh3.googleusercontent.com/zyBDhIuF4YFWXUey2BfeWs2tg0pyB8buRD7oBZA1RWs9Y9GXysXIlPW5zXAast8WoTRCJMZUyPNyZ1YXuP7QGfEdF3ZuRr7kSiW238UPDY-bSgRnJkvxj35R1O9aP721KZNfCmt7FAk
 - :caption: Oh hey there 
@@ -48,8 +52,12 @@
   :url: https://lh3.googleusercontent.com/_R2uzj2gdWJH3LsYRtrnIg7JhXXD3FZeB_A9ovoA39KGvB4VOQMmJ0zBkdX4v85_Jxwt8gub4xsUSf3BVvP4-cEDHFEBqvb4WwbLkCeznAv2ZZEoilvOyEIur3x-sUeaS35bDu3aEnE
 - :caption: Golden reclining buddha
   :url: https://lh3.googleusercontent.com/JDN9D_fpcAe4lavMxBA0jRd2WSVYG_LGr98S8fxFu3h_pvMyYp7gf7agmJ7qgJv8jbOngCQiy_cPkhra_y4IpwaVDQts3eG9Ya_pIx7s2uh74woji_R5jxveIC_J7cR0I497I5AIPEs
+  :width: 512
+  :height: 341
 - :caption: Night and day
   :url: https://lh3.googleusercontent.com/cfZ9Gp3TRN9i3BCLTf4dQeqUIuUlsM0eBDMyCncoLjrxcsocLX9p_IMCB-owjtpGPoQC7eoul5kYvNiUfvbTViRNeCWYDd3HOfT0Bkv-qo5-dqHT0J-Q5hng0LZC3WgigMNBaTJ9pk4
+  :width: 384
+  :height: 512
 :entry: |2+
 
   To try and capitalise on our (Rosie's) jet lag, we got up at 6.45am to get out

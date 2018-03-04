@@ -1,4 +1,3 @@
-require 'fastimage'
 require 'yaml'
 
 Day.all.destroy_all # Makes it easier to correct mistakes - will remove eventually
@@ -116,6 +115,10 @@ AREAS = {
   ),
   Semporna: Area.create!(
     name: 'Semporna',
+    country: COUNTRIES[:Malaysia]
+  ),
+  Sandakan: Area.create!(
+    name: 'Sandakan',
     country: COUNTRIES[:Malaysia]
   )
 }.freeze
@@ -288,6 +291,13 @@ LOCATIONS = {
     latitude: 4.478397,
     longitude: 118.61022,
     area: AREAS[:Semporna]
+  ),
+  Sandakan: Location.create!(
+    type: Location::Type::ACCOMMODATION,
+    name: 'Harbourside Backpackers',
+    latitude: 5.839215,
+    longitude: 118.11963,
+    area: AREAS[:Sandakan]
   )
 }.freeze
 
@@ -297,6 +307,7 @@ def create_day(config)
   create_expenses(day, config[:expenses])
   create_photos(day, config[:photos])
   link_locations(day, config[:locations])
+  print "#{config[:number]} . "
 end
 
 def create_post(day, content, written_at)
@@ -347,16 +358,15 @@ def create_photos(day, photos)
 end
 
 def create_photo(day, photo_config)
-  return if photo_config.blank?
-  photo_config = { url: photo_config } unless photo_config.is_a?(Hash)
-  return if photo_config[:url].blank?
-  dimensions = FastImage.size(photo_config[:url])
-  photo_config[:width] = dimensions.first
-  photo_config[:height] = dimensions.second
+  return if photo_config.blank? || photo_config[:url].blank?
+  unless photo_config[:width]
+    raise "Photo missing dimensions - run rails data:update_images .URL: #{photo_config[:url]}"
+  end
   day.photos.create photo_config
 end
 
 Dir[Rails.root.join('db', 'data', '*')]
+  .sort
   .map { |file| YAML.load_file file }
   .each &method(:create_day)
 
