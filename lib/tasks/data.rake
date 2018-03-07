@@ -3,7 +3,7 @@ require 'yaml'
 
 namespace :data do
   task update_images: :environment do
-    Dir[Rails.root.join('db', 'data', '*')].sort.each do |file_name|
+    day_files.each do |file_name|
       day = YAML.load_file file_name
       puts day[:number]
       if day[:photos]
@@ -11,6 +11,34 @@ namespace :data do
         File.write file_name, YAML.dump(day)
       end
     end
+  end
+
+  task create_next_day: :environment do
+    last_day_file_path = day_files.last
+    next_day = YAML.load_file last_day_file_path
+    next_day[:number] += 1
+    next_day[:date] = (Date.parse(next_day[:date]) + 1).to_s
+    next_day[:written] = "#{Date.today} #{stub_text}"
+    next_day[:entry] = "|2\n#{stub_text}"
+    next_day[:stats][:walked] = stub_text
+    next_file_path = last_day_file_path.gsub(
+      to_file_name(next_day[:number] - 1),
+      to_file_name(next_day[:number]
+    )
+    File.write next_file_path, YAML.dump(next_day)
+    puts "Created stub day file at #{next_file_path}"
+  end
+
+  def day_files
+    Dir[Rails.root.join('db', 'data', '*')].sort
+  end
+
+  def stub_text
+    'FILL THIS IN'
+  end
+
+  def to_file_name(day_number)
+    day_number.to_s.rjust 3, '0'
   end
 
   def append_dimensions(photo_config)
