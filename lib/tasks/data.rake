@@ -34,7 +34,7 @@ namespace :data do
   end
 
   def stub_text
-    'FILL THIS IN'
+    'FILL_THIS_IN'
   end
 
   def to_file_name(day_number)

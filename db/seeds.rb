@@ -124,6 +124,10 @@ AREAS = {
   Sandakan: Area.create!(
     name: 'Sandakan',
     country: COUNTRIES[:Malaysia]
+  ),
+  TamanNegara: Area.create!(
+    name: 'Taman Negara',
+    country: COUNTRIES[:Malaysia]
   )
 }.freeze
 
@@ -310,6 +314,13 @@ LOCATIONS = {
     latitude: 5.839215,
     longitude: 118.11963,
     area: AREAS[:Sandakan]
+  ),
+  TamanNegara: Location.create!(
+    type: Location::Type::ACCOMMODATION,
+    name: 'Fatehah Inn',
+    latitude: 4.382994,
+    longitude: 102.403846,
+    area: AREAS[:TamanNegara]
   )
 }.freeze
 
