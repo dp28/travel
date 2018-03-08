@@ -23,7 +23,7 @@ namespace :data do
     next_day[:stats][:walked] = stub_text
     next_file_path = last_day_file_path.gsub(
       to_file_name(next_day[:number] - 1),
-      to_file_name(next_day[:number]
+      to_file_name(next_day[:number])
     )
     File.write next_file_path, YAML.dump(next_day)
     puts "Created stub day file at #{next_file_path}"

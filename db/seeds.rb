@@ -1,5 +1,21 @@
 require 'yaml'
 
+def load_days
+  puts 'Loading day files ...'
+  Dir[Rails.root.join('db', 'data', '*')]
+    .sort
+    .map(&method(:parse_day_file))
+end
+
+def parse_day_file(file_name)
+  YAML.load_file(file_name).tap do |day|
+    if day.to_s.include? 'FILL_THIS_IN'
+      raise "Day #{day[:number]} has incomplete information (found 'FILL_THIS_IN')"
+    end
+  end
+end
+
+DAYS = load_days
 
 puts 'Clearing the database...'
 Day.all.destroy_all # Makes it easier to correct mistakes - will remove eventually
@@ -394,9 +410,6 @@ def create_accommodation(day, accommodation_location_name)
 end
 
 puts 'Creating days...'
-Dir[Rails.root.join('db', 'data', '*')]
-  .sort
-  .map { |file| YAML.load_file file }
-  .each(&method(:create_day))
+DAYS.each(&method(:create_day))
 
 puts '... done.'
