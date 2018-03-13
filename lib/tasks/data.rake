@@ -21,6 +21,7 @@ namespace :data do
     next_day[:written] = "#{Date.today} #{stub_text}"
     next_day[:entry] = "|2\n#{stub_text}"
     next_day[:stats][:walked] = stub_text
+    next_day[:photos] = [{ caption: '', url: '' }]
     next_file_path = last_day_file_path.gsub(
       to_file_name(next_day[:number] - 1),
       to_file_name(next_day[:number])

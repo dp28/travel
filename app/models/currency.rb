@@ -59,7 +59,21 @@ class Currency
     exchange_rate_to_dollars: 0.2551
   )
 
-  ALL = [USD, GBP, THB, VND, LAK, KHR, MYR].freeze
+  SGD = Currency.new(
+    code: :SGD,
+    name: 'Singapore dollars',
+    symbol: 'S$',
+    exchange_rate_to_dollars: 0.759529
+  )
+
+  IDR = Currency.new(
+    code: :IDR,
+    name: 'rupiah',
+    symbol: 'Rp',
+    exchange_rate_to_dollars: 0.0000726904
+  )
+
+  ALL = [USD, GBP, THB, VND, LAK, KHR, MYR, SGD, IDR].freeze
   DEFAULT = USD
 
   def self.find_by_code(code)

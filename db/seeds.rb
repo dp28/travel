@@ -48,6 +48,14 @@ COUNTRIES = {
   Malaysia: Country.create!(
     name: 'Malaysia',
     currency_code: Currency::MYR.code
+  ),
+  Singapore: Country.create!(
+    name: 'Singapore',
+    currency_code: Currency::SGD.code
+  ),
+  Indonesia: Country.create!(
+    name: 'Indonesia',
+    currency_code: Currency::IDR.code
   )
 }.freeze
 
@@ -144,6 +152,14 @@ AREAS = {
   TamanNegara: Area.create!(
     name: 'Taman Negara',
     country: COUNTRIES[:Malaysia]
+  ),
+  Singapore: Area.create!(
+    name: 'Singapore',
+    country: COUNTRIES[:Singapore]
+  ),
+  Lombok: Area.create!(
+    name: 'Lombok',
+    country: COUNTRIES[:Indonesia]
   )
 }.freeze
 
@@ -317,6 +333,13 @@ LOCATIONS = {
     longitude: 101.69647,
     area: AREAS[:KualaLumpur]
   ),
+  KualaLumpurThird: Location.create!(
+    type: Location::Type::ACCOMMODATION,
+    name: 'Euro Life Hotel',
+    latitude: 3.13195,
+    longitude: 101.687865,
+    area: AREAS[:KualaLumpur]
+  ),
   Semporna: Location.create!(
     type: Location::Type::ACCOMMODATION,
     name: 'Awys Backpackers',
@@ -337,6 +360,20 @@ LOCATIONS = {
     latitude: 4.382994,
     longitude: 102.403846,
     area: AREAS[:TamanNegara]
+  ),
+  Singapore: Location.create!(
+    type: Location::Type::ACCOMMODATION,
+    name: 'Santa Grand Hotel Little India',
+    latitude: 1.307732,
+    longitude: 103.853054,
+    area: AREAS[:Singapore]
+  ),
+  Lombok: Location.create!(
+    type: Location::Type::ACCOMMODATION,
+    name: 'Kuta Lodge Homestay',
+    latitude: -8.885301,
+    longitude: 116.278112,
+    area: AREAS[:Lombok]
   )
 }.freeze
 
@@ -370,7 +407,7 @@ def create_expenses_for_category(day, category, expenses)
 end
 
 CURRENCY_NAMES_TO_CODES = Currency::ALL.each_with_object({}) do |currency, result|
-  result[currency.name.to_sym] = currency.code.to_s
+  result[currency.name.parameterize(separator: '_').to_sym] = currency.code.to_s
 end
 
 def price?(hash)

@@ -107,4 +107,26 @@ RSpec.describe Currency do
       let(:exchange_rate_to_dollars) { 0.2551 }
     end
   end
+
+  describe 'Currency::SGD' do
+    subject(:currency) { Currency::SGD }
+
+    it_should_behave_like 'a currency' do
+      let(:code) { :SGD }
+      let(:name) { 'Singapore dollars' }
+      let(:symbol) { 'S$' }
+      let(:exchange_rate_to_dollars) { 0.759529 }
+    end
+  end
+
+  describe 'Currency::IDR' do
+    subject(:currency) { Currency::IDR }
+
+    it_should_behave_like 'a currency' do
+      let(:code) { :IDR }
+      let(:name) { 'rupiah' }
+      let(:symbol) { 'Rp' }
+      let(:exchange_rate_to_dollars) { 0.0000726904 }
+    end
+  end
 end

@@ -1,0 +1,134 @@
+---
+:date: '2018-03-11'
+:number: 67
+:written: 2018-03-13 17:30
+:locations:
+- :Singapore
+:accommodation: :Singapore
+:expenses:
+  :FOOD:
+    :breakfast:
+      :singapore_dollars: 10.1
+    :water:
+      :singapore_dollars: 1.6
+    :dinner:
+      :singapore_dollars: 16.5
+    :drinks:
+      :singapore_dollars: 44
+  :ACCOMMODATION:
+    :singapore_dollars: 90
+  :LONG_DISTANCE_TRAVEL: {}
+  :SHORT_TRAVEL:
+    :metro:
+      :singapore_dollars: 6.2
+  :ACTIVITIES:
+    :gardens_at_the_bay:
+      :singapore_dollars: 56
+  :OTHER:
+    :deoderant:
+      :singapore_dollars: 3.9
+:stats:
+  :walked: 13.7
+  :temperature: 28
+  :altitude: 1
+:food:
+- kaya toast, partially boiled eggs, french toast, tea, iced coffee
+- beetroot slaw, mulitseed rice, sweet potato, baked falafel, mint and yoghurt
+- popiah, chicken satay, beef satay, plain prata, curry gravy, chocolate and banana
+  prata
+- stout, singapore sling
+:photos:
+- :caption: Gardens by the bay
+  :url: https://lh3.googleusercontent.com/yEK13t8eeKPmYGfFff_WclRo9Bqo6TbQajYDjuMPNSix5vD8MFXko7w0Wo-uYeTwy69rJqZdWlHsH2qHjCFySW1Gm4ljHGphu5Hr-WYb-iAf4cu7hcnzeIXhPqNCh9t6p-mIejSvZ7w=w2400
+  :width: 2400
+  :height: 3207
+- :caption: Rosie and the orchids
+  :url: https://lh3.googleusercontent.com/vmI6EhKbgDlXTcuf6S-BlTbgPMbIw8tInoBDO2LM2wt8g5FQl_ySgNBRhH1PWvaBC1Zy8amTXc_mdoPxAzCL3uL7LvR8mAWhez6ooTGJRwZtTYOsAafbS4LPkkCue9TsQ8-MoSbnMlU=w2400
+  :width: 2400
+  :height: 1600
+- :caption: Beautiful orchids
+  :favourite: true
+  :url: https://lh3.googleusercontent.com/Lj0dqeBh0ABifWuG7i__mP9SgI3-5QlOvwV4HXb7UOh99QzNJorD6B7FO0mShbM9CveQQ7p9QKJaONPlrad7YD7lQVj4lRZXjPfK-DXjXh8F7lENHuZYd8zcarkSqlRRZXl4WNks86Q=w2400
+  :width: 2400
+  :height: 3600
+- :caption: Lego pitcher plants
+  :url: https://lh3.googleusercontent.com/xcXwkeH-Qe0VcqbRdbACVeVpsAsSBRKPoYn1Hxp2CSuSliSh74DLpntoVF8EElGxR1wUNiQSlatvcT2ZZbbWzfw-DIG6fypiUtN7ECKq-8_Pl-XYvgbH-k06TG9fMXIjgE16SOrzh5A=w2400
+  :width: 2400
+  :height: 3600
+- :caption: Through the waterfall
+  :url: https://lh3.googleusercontent.com/bYKmcBnmpjBXPRaRlDT81imILnYAohBQ_ZOvnx89I8i1wnbfp-lNZs5-jR5kAKHqA1bucQjpqZdIJ1u9lN0Xiw7c9sBWc-JG1piYGZ3WXEpjRFTtWz1h1h6U0gixHicrWQjJfB-1V2o=w2400
+  :width: 2400
+  :height: 1600
+- :caption: Dragon!
+  :url: https://lh3.googleusercontent.com/5D6rMGM8EaD-cK7S01YBiiSLRH3_5RS2MO-OosOlxuCTQi1KGJa1vEIX9GrtKMDfmB6ydvaaqrJRPiGQ-eobL0RiBuidz7dSpWJHGqcn3px6Z8JP7jDdjcpS31hpRbiBk4L8h0Cimm8=w2400
+  :width: 2400
+  :height: 1600
+- :caption: Suculants
+  :url: https://lh3.googleusercontent.com/7iBDdgDiXVH59X3IPeyf4kH_IDzPFxvDG5850CBYqrpcrKC_GcH_WaYlkLSl6pxIZXXFCbMlqgW64rQlOCeOP-OB1Q3Fb3WpbS4TzGB_8g7mm69kTJNOsDDgwgQLa4bIygl0AaAjmG8=w2400
+  :width: 2400
+  :height: 1600
+- :caption: His and Hers
+  :url: https://lh3.googleusercontent.com/3we7Ar5-c0WR9nXRam_99bYkZSXfi1EBia2VUKAcJt-n4wtEcC8gbCR8-382SnuNRKOhgvlJFqArF-j27i9G2pT-HuXaVJwexhQ9rCOjyImX5kY7lJ-YsFmfdjKHHjesNEeJtxFvfCw=w2400
+  :width: 2400
+  :height: 1350
+- :caption: Living the high life
+  :url: https://lh3.googleusercontent.com/0Z75x6nG3bxNePxSbCD37HLgDpQrFN2kpA5RvUEPRrZWH0IbWIrurGZGpJcvjTF-MxDjwyuB3BXdP7XCpXhanvi22IZ7moxlex4l6pfH_96-PQuHvo-YGDnLJwoPgPoayIt4ORGpu3c=w2400
+  :width: 2400
+  :height: 1800
+
+:entry: |2
+  Our time in Singapore was brief - this was our second and last full day there.
+  We went for a traditional breakfast of kaya toast, which was surprisingly
+  good. Kaya is a jam made from coconut, egg and sugar and better than it
+  sounds. It's spread on toast with a huge chunk of butter (maybe half the width
+  and thickness of the toast), then dipped into partially-boiled eggs.
+
+  We then had our own walking tour, based off our own reseach and some
+  recommendations from Rosie's friend from St Andrews, Laura, who'd lived here
+  for a while. We started at the Buddha's tooth temple, which, unsurprisingly,
+  housed a tooth believed to have been from the Buddha (surrounded by gold).
+
+  We spent most of the rest of the day in and around the Gardens by the Bay.
+  There were loads of signs around saying what to do if you encountered an
+  otter, so we hoped to spot one, but failed to.  <R> Sad </R> We walked through the gardens
+  in the heat and up to a large water reserve with a good view of the skyline
+  and plenty of locals flying impressive kites. We then made our way to the paid
+  parts of the gardens - two huge glass domes.
+
+  The first was the cloud forest, a huge structure with plants from many cloud
+  forests around the world at different levels. It had a lift to the top, then
+  a walkway down, around and through the structure. It also, kind of
+  ludicrously, claims to have the world's highest indoor waterfall. 
+
+  It was crowded, but impressive. Just after we arrived, lots of small hoses
+  started letting out streams of mist all over the place. There were plenty of
+  strange plants, including the carniverous ones. The carniverous pitcher plants
+  and venus fly traps were right at the top, interspersed with larger Lego
+  reconstructions of the plants themselves. <R> There was
+  also a beautiful collection of many many orchids and a some what sobering 
+  video and exhibit on climate change and the effect of humanity on nature. I 
+  really hope that the many locals watching the video saw and were moved by it,
+  the level of single use plastic in SEA is rediculous. I can't even count how 
+  many times I've told someone I do not need a plastic bag. </R>
+
+  We then went to the flower dome - a bit smaller and currently focusing on
+  mediterannean climates. There were cool baobab trees and several plants we
+  recognised from our gardens at home, especially as one of the four regions
+  being shown was California. Unfortunately, the display was in the process of
+  being changed, so some plants (mainly the cherry trees) were not in flower.
+
+  We went back to Satay by the Bay to verify that popiah were just as good there
+  as in the other hawker court (they were). We then went to a rooftop bar called
+  Level 33 (guess what floor it's on ...) with a view of the bay and the light
+  shows. The drink prices were exorbitant, but it felt like we might as well go
+  for a Singapore sling while we're here. The sneaky bar didn't include the
+  10% service charge or 7% GST in their menu prices. However, the view, once we
+  got a table by the edge, was great.
+
+  The only real downpoint was losing a bit of money on the subway. There's a
+  prepaid card you can buy for $5 which significantly reduces the price of
+  tickets, but only lets you travel if it has over about $2.50 on it. That means
+  it costs about $7.50, which is worth it for about 10 or more journeys, but not
+  quite for our 5. Ah well, we'll be more skeptical in the future. <R> However 
+  when you consider the amount of money we lost on the subway tickets compared 
+  with what we spent on the drinks it is really a very small amount. </R>
