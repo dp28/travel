@@ -1,0 +1,153 @@
+---
+:date: '2018-03-20'
+:number: 76
+:written: 2018-03-21 18:00
+:locations:
+- :Flores
+:accommodation: :Flores
+:expenses:
+  :FOOD:
+    :dinner:
+      :rupiah: 286000
+  :ACCOMMODATION:
+    :rupiah: 360000
+  :LONG_DISTANCE_TRAVEL: {}
+  :SHORT_TRAVEL: {}
+  :ACTIVITIES:
+    :snorkeling:
+      :rupiah: 1460000
+  :OTHER: {}
+:stats:
+  :walked: 2.9
+  :temperature: 28
+  :altitude: 20
+:food:
+- banana pancakes, watermelon, tea
+- lime iced tea
+- banana, cake, tea
+- chicken curry, rice, biscuits, banana
+- spicy bean dip and tortilla chips, fish tacos, rice, roasted veg burrito, banana
+  pina colada, soho (ginger, gin, lime, mint, tonic)
+:photos:
+- :caption: This was my cup of tea
+  :favourite: true
+  :url: https://lh3.googleusercontent.com/ybRWI-aUqBMAtUKlbwl40tnz2UHrKtdgctP4O5QQ9lwjdZLUNxY6izdfhGgCHGVZLJbOJf1jP2q-tqAHFfctSgLXzIIk6k_fgKJsLSwQK8YPebJvPg06ZbvVBBWKHwUF8hM39EN9KmY=w2400
+  :width: 1805
+  :height: 1587
+- :caption: There is just something about paradise
+  :favourite: true
+  :url: https://lh3.googleusercontent.com/6NGbTdQVzicLzG7n6j1KH7xvWNg1vNAAr-JCNZIDv1_BvDZwmUXpb3V9ee8WP0KExPy9VhdV3oyskeo_Mrs0-U4_BqkNlb9jeEWEuP8pO31C_THdvDyfvU324ajud0HsvfG8OWArg-4=w2400
+  :width: 2400
+  :height: 1800
+- :caption: Look at this stud
+  :url: https://lh3.googleusercontent.com/p-uYpxeXvIEmY1LUDN7W__o6GKkOeiMbj4lRdCDydZq3uUX3NpMcmS-JId9XkYHWDx4r142z8GWQUb90vVyJn4LLXCJo9iZ7nP76EF7pRpaioDsTp4HzlyxDkpO76cft3ib0W65UYWA=w2400
+  :width: 2400
+  :height: 1800
+- :caption: That horizon is just so funny
+  :url: https://lh3.googleusercontent.com/AD2xFkV4aqr_a-PlJAwwQ4Wlv1YpWmcxnJVRrjShFjCMftXifBvpIJ7Wf_QyJJnvEkQM8gSr3UvNmkWy9BhMWFLliC9F-Me0xXyXT5BCezXCYVUpFFjwfY3xzQnSWw5m_6jaz0t6wU8=w2400
+  :width: 2400
+  :height: 1800
+- :caption: Look at the fat fish!
+  :url: https://lh3.googleusercontent.com/_3g1NjM2rEpWbC3Tzs04w83AwCSKSvipxnyrCYReUWtN-GaQ1-ZIGY9BScdM6ZZD88dOTmZz_AyJpnvb-kclFCJxdxXeHZRiWOk1l1aoGkBEbmbi2hHIOvlKvLAgNq8W2gstH787X4Y=w2400
+  :width: 2399
+  :height: 1579
+- :caption: Look a wild Daniel
+  :url: https://lh3.googleusercontent.com/igG4hBzwzW42wyC5iT_hpYqvtOALl_o4ynOiDCf9yeQBsgUuRzEhVZcTueq1W1XPwxEX_1EbMUDrfZQvIQP4SVvDUtytXH-WPArBICTZuLAA1zzX9s3zLNy73NVfzGJbxaOwBpZo1nE=w2400
+  :width: 2400
+  :height: 1800
+- :caption: Oh good, he is okay
+  :url: https://lh3.googleusercontent.com/gOEHxQCksWWPNV3yb2b0H3mzadRDCWnmb3ZiT17ABXzL7E_Tu0tGQXhoPYFvZaIwTBbQMmTb4i6js6aM7vOwPhEdWHRMl3yx7I51qGi7U4GDMg2CnF3kHHWmxFjRCX1RgmCyXG876Ss=w2400
+  :width: 2400
+  :height: 1800
+- :caption: These guys are my favourite
+  :url: https://lh3.googleusercontent.com/RaD7DeKZpNJo7syGEqLBUcXYX_vendWR1RVUg34s9-y7sB_wr8905L0vaDXthU-nl9K1EliVGCNyMNeE1CELe1WzU7e8uihFueJ8_4mWeRKBqcYvScbRC7ENuMl72vnhrkQrMw3Nm3o=w2400
+  :favourite: true
+  :width: 2400
+  :height: 1800
+- :caption: Look at all the coral
+  :url: https://lh3.googleusercontent.com/fPT34I_Je89ivi6-6C_iZGUESfVOyHGXaoqj7OdRUYYBpBLbUqT_0W2GE0toi9ljMMZMIVdPDmzXe-d5ItoW-iD5P7SKxgchqfY1w3lxYZrQqA5dtZBCHbynvd44uKy8URDT9R2CV54=w2400
+  :width: 2399
+  :height: 1658
+- :caption: Beautiful blue starfish
+  :url: https://lh3.googleusercontent.com/imjL1lq95k0fyFEtopX2bAowYqTsu5yAP7taJm4gGlQNNZ3CSNaHb93IQUc20iRNtjUrm-rqzsu8QaxZMk-ZljjVOo_w1qUh6NnRKIiLVmpp2F4dgWC5mtn5aU9dk-H46Kj78ubts9s=w2400
+  :width: 2400
+  :height: 1800
+- :caption: Yellow fish
+  :url: https://lh3.googleusercontent.com/TqPP8M9gAYQcSNxplZqyBKJUMSdzspfukxNk-lq_T0qKp82b8KSqJ4bu2xy2pVnrC33gJuD-tK1Xithth971z17w_6gWpMyegBUcZdAYpaX--tajFVBwIwigB-uBGQ78bVWJ3rdXbsw=w2400
+  :width: 2399
+  :height: 1684
+- :caption: Look Daniel, a fish!
+  :url: https://lh3.googleusercontent.com/yJZCXWnPsQU98uCSiVFU79xJZMxPbwSVVWfAAr9qih7bL4FinT2Zdz9FYiHoZrNcHzBoVlFXoL1GZeqWFNHwxutKktYGJozdSV1-Kksk1In-aQbTLzEBm1tCPmKemjTdWNvEO4jIGrQ=w2400
+  :width: 2400
+  :height: 1800
+- :caption: Tiny stripy fish
+  :url: https://lh3.googleusercontent.com/3U9UxJ7VhOuIep8S0F48A7sWSX60SrzIuSKVa8SvK4SCCM_hS3kGsJjD3Czq-L2iWg5KO2kxGqF_fuImZMIb1WSmFpYB-1T8pHzWeYcOP8KGLSfjJxz1Hx8FSV25w5Dx2gGV6VVYcSU=w2400
+  :width: 2356
+  :height: 2377
+- :caption: Sundowners in the harbour
+  :url: https://lh3.googleusercontent.com/IFARCA6pNcsEkbWGXD61ajEV1gjYj-h89XIqkulE9Yu31jA8Z2y1NHistP22NnzlYV68Fte7yQNpeR3AneJTHyqlQdbNC8Dkkp6sDjoOay8bc3lSTgpiNYGBCirldEqt779hVXpaSeE=w2400
+  :width: 2400
+  :height: 1800
+- :caption: Beautiful sunset
+  :url: https://lh3.googleusercontent.com/fQ6I3fu6wvGphnlSvb6dVUOEEOI5q_j7ae9n6aZLagsduxWE2nBYpA7C8UI2_p938bs5VV1EJkoZHYY_BORdZeg3GPdXM_kNJuM-_rAxrdxfcZpsdRHrlY3Y720X3xYj9FbjrLlx2sQ=w2400
+  :width: 2400
+  :height: 1800
+:entry: |2
+  We had another tour booked for today, but starting at the more civilised time
+  of 8.30am. When we arrived we were greeted with a lime iced tea at their
+  restaurant and told that no one else had booked today, so we had the boat to
+  ourselves.
+
+  Like the day before, we walked down to the harbour, but this time got a small
+  boat out to where our boat was moored (rather than wedged into the press of
+  boats at the jetty). Today's trip was double yesterday's in cost (excluding the
+  park fees, which were large), and it showed on the boat. It was the same type,
+  but well painted and more comfortable - a larger table, longer benches and
+  bean bags towards the back. Like yesterday, there was tea, coffee and water
+  provided. In addition, there was a big bunch of ripe green bananas. We didn't
+  make much of a dent in them despite my attempts - there's only so many bananas
+  one person can eat and for some reason Rosie didn't want any.
+
+  We had three separate destinations, all for snorkeling and all to the north
+  rather than the east, so not in the national park. Our first was around a
+  jetty off an island, where we saw plenty of fish of many different kinds. I
+  had a bit of difficulty with my mask fogging, but not as bad as yesterday.
+  After a while it began to get cold, so we headed back to the boat. Right at
+  the jetty we spotted a black moray eel poking out from a crack in the rock
+  which (hopefully) we got some half-decent footage of (I was goProing at the
+  time).
+
+  Our next stop was a tiny little island with a shelf of rock and sandy beach
+  with one other boat already there. We snorkeled part way around the island,
+  spending most of our time at the wall where the reef descended sharply into
+  deeper water. As we were getting in the water Rosie spotted a small shark and
+  shot off to film it. After some time swimming around and duck diving down to
+  get closer to the coral, we began to get cold again and headed towards the
+  boat. The water began to heat up a bit, so we spent a bit more time closer to
+  shore, then went back to the boat.
+
+  We were served a delicious chicken and coconut milk curry with rice for lunch
+  with little biscuits to follow. We had a bit of a lie down on the bean bags
+  afterwards as two of the three crew members had a bit of a snooze.
+
+  Our last stop was just off another island, this one just large enough to host
+  a small hut and apparently some chickens given the frequent cock-a-doodle-doos
+  we heard. There was a line of buoys out to prevent boats going into a
+  particular area which we discovered hosted plenty of wire frames with coral
+  attached, presumably as an attempt to regrow some of the reef. One of the
+  crew members had said that the reef at our first spot used to be better, but
+  hadn't had the protection of being in the national park. The coral on the
+  frames did seem more vibrant, at least in colour, than elsewhere and was
+  covered with fish. I really enjoyed diving down beside the wall and looking
+  under the frames to see the large fish there and the tiny ones among the
+  coral.
+
+  As we finished snorkeling, a party boat (maybe a liveaboard for divers?)
+  pulled up near by, blaring music. We slowly made our way away from them and
+  back to Labuan Bajo. Back at port, we said goodbye, showered back at the
+  hotel, and went back into town. Rosie was craving some tacos (taco Tuesday -
+  I'm impressed I know what day it is), so we went to the town's taqueria.
+  Despite quite a tasty papaya salsa, it didn't quite live up to expecctations.
+
+  I finished off the day with a bit of diary writing, but didn't quite get up to
+  date.

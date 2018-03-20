@@ -160,6 +160,14 @@ AREAS = {
   Lombok: Area.create!(
     name: 'Lombok',
     country: COUNTRIES[:Indonesia]
+  ),
+  Bali: Area.create!(
+    name: 'Bali',
+    country: COUNTRIES[:Indonesia]
+  ),
+  Flores: Area.create!(
+    name: 'Flores',
+    country: COUNTRIES[:Indonesia]
   )
 }.freeze
 
@@ -374,6 +382,20 @@ LOCATIONS = {
     latitude: -8.885301,
     longitude: 116.278112,
     area: AREAS[:Lombok]
+  ),
+  Bali: Location.create!(
+    type: Location::Type::ACCOMMODATION,
+    name: "Denise's house",
+    latitude: -8.502663,
+    longitude: 115.26914,
+    area: AREAS[:Bali]
+  ),
+  Flores: Location.create!(
+    type: Location::Type::ACCOMMODATION,
+    name: 'Hotel Kasuwari',
+    latitude: -8.499457,
+    longitude: 119.883976,
+    area: AREAS[:Flores]
   )
 }.freeze
 

@@ -13,11 +13,11 @@
     :snack:
       :rupiah: 26000
     :dinner:
-      :singapore_dollars: 235000
+      :rupiah: 235000
     :water:
-      :singapore_dollars: 5300
+      :rupiah: 5300
   :ACCOMMODATION:
-    :singapore_dollars: 100000
+    :rupiah: 100000
   :LONG_DISTANCE_TRAVEL:
     :flights:
       :pounds: 166.44
@@ -25,13 +25,16 @@
     :metro:
       :singapore_dollars: 4.4
     :grab:
-      :singapore_dollars: 55000
+      :rupiah: 55000
   :ACTIVITIES: {}
-  :OTHER: {}
+  :OTHER:
+    :laundry:
+      :rupiah: 20000
 :stats:
   :walked: 4.7
   :temperature: 30
   :altitude: 1
+  :laundry: 2
 :food:
 - kaya toast, butter and sugar toast, peanut butter toast, bagel, tea
 - chocolate straws, chocolate bun
@@ -70,7 +73,7 @@
   get to terminal 1. There didn't seem to be any signs, but an official
   pointed us to the skytrain. This is outside the building and not as frequent
   as we would have liked - every 15 minutes in each direction, and we **just**
-  missed one. Twenty five minutes later we were at terminal 1, or rather
+  missed one. <R> Actually panicing now. </R>  Twenty five minutes later we were at terminal 1, or rather
   terminal 1B. Our tickets didn't say which part of terminal 1 we needed. We
   tried to go in, but were told to go to terminal 1C, a few minutes' trolley-run
   behind us. <R> AHHHHHH!!! </R>
@@ -83,8 +86,8 @@
   our line. Eventually, someone realised we needed to get through quickly and
   so the woman at the desk processed us alongside the two guys ahead of us,
   taking our passports, running out of the departure hall and returing with
-  boarding passes (maybe her printer was out of paper? Not sure). <R> By this 
-  point we were somewhere between very nervous and very fed up. It often feels 
+  boarding passes (maybe her printer was out of paper? Not sure). <R> By this
+  point we were somewhere between very nervous and very fed up. It often feels
   like no one in SEA really knows what is going on. </R>
 
   We ran out of the departure hall, taking the escalator steps two at a time.
@@ -96,7 +99,7 @@
   another connection. This was the only place we'd had time to consider lunch,
   but there was only a tiny little shop. The smells earlier of the Rotiboy
   bakeries had been so enticing as we'd run past, but the chocolate bun I bought
-  didn't live up to them at all. 
+  didn't live up to them at all.
 
   The flight, once we got on it, was surprisingly good. It was only 110 minutes,
   but we got a reasonable meal and entertainment - I hadn't seen Antz in years.
@@ -115,8 +118,8 @@
   Unlike most Grab drivers, our driver was pretty chatty - at least, to me. He
   didn't ever try and engage Rosie in conversation, only ever asking me
   questions about her. I assumed this was due to the fact that we're now in the
-  largest Islamic country in the world, but it was still pretty weird. <R> This 
-  did nothing to improve my mood. I am all for differences in culture but I did 
+  largest Islamic country in the world, but it was still pretty weird. <R> This
+  did nothing to improve my mood. I am all for differences in culture but I did
   not appriciate being ignored in this way. It is rude. </R>
 
 
