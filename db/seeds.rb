@@ -390,6 +390,13 @@ LOCATIONS = {
     longitude: 115.26914,
     area: AREAS[:Bali]
   ),
+  BaliSecond: Location.create!(
+    type: Location::Type::ACCOMMODATION,
+    name: 'Pondok Mimba',
+    latitude: -8.538427,
+    longitude: 115.504396,
+    area: AREAS[:Bali]
+  ),
   Flores: Location.create!(
     type: Location::Type::ACCOMMODATION,
     name: 'Hotel Kasuwari',
