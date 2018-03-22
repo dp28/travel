@@ -46,7 +46,7 @@ export const Home = ({ firstDay, mostRecentDay }) => (
         <div className="Rosie">
           <h2>From Rosie</h2>
           <p>
-            Hi, I'm Rosie and I approve this message.
+            {introduceRosie()}
           </p>
           <p>
             I'm in charge of sarcastic comments, <Link to="/gallery">photos</Link> and <Link to="/videos">videos</Link>.
@@ -95,3 +95,18 @@ export const ConnectedHome = LoadFromServer({
     }
   }
 })
+
+
+const RosieIntros = [
+  ' and I approve this message',
+  ': PhD student by day, PhD student by night',
+  ': world traveller by day, hopefully asleep by night',
+  ', a tea loving girl currently trying to survive off Lipton',
+  ', currently somewhere between a caffeine addiction and insomnia'
+]
+
+function introduceRosie() {
+  const introIndex = Math.floor(Math.random() * RosieIntros.length)
+  const intro = RosieIntros[introIndex]
+  return `Hi, I'm Rosie${intro}.`
+}
