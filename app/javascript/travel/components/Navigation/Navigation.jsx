@@ -34,6 +34,11 @@ export const Navigation = () => (
           Gallery
         </NavItem>
       </IndexLinkContainer>
+      <IndexLinkContainer to="/videos">
+        <NavItem eventKey={3}>
+          Videos
+        </NavItem>
+      </IndexLinkContainer>
     </Nav>
   </Navbar.Collapse>
 </Navbar>

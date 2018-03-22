@@ -1,5 +1,6 @@
 import React from 'react'
 import { Grid, Row, Col } from 'react-bootstrap'
+import { Link } from 'react-router-dom'
 
 import { ConnectedMap } from '../Map/Map'
 import { DayLink } from '../DayLink/DayLink'
@@ -46,6 +47,9 @@ export const Home = ({ firstDay, mostRecentDay }) => (
           <h2>From Rosie</h2>
           <p>
             Hi, I'm Rosie and I approve this message.
+          </p>
+          <p>
+            I'm in charge of sarcastic comments, <Link to="/gallery">photos</Link> and <Link to="/videos">videos</Link>.
           </p>
         </div>
       </Col>

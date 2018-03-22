@@ -7,7 +7,7 @@ Rails.application.config.content_security_policy do |p|
   p.font_src    :self, :https, :data
   p.img_src     :self, :https, :data
   p.object_src  :none
-  p.script_src  :self, :https, :unsafe_inline
+  p.script_src  :self, :https, :unsafe_inline, 'http://www.youtube.com/iframe_api'
   p.style_src   :self, :https, :unsafe_inline
 
   # Specify URI for violation reports
