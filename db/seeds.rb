@@ -168,6 +168,10 @@ AREAS = {
   Flores: Area.create!(
     name: 'Flores',
     country: COUNTRIES[:Indonesia]
+  ),
+  Gili: Area.create!(
+    name: 'Gili',
+    country: COUNTRIES[:Indonesia]
   )
 }.freeze
 
@@ -403,6 +407,13 @@ LOCATIONS = {
     latitude: -8.499457,
     longitude: 119.883976,
     area: AREAS[:Flores]
+  ),
+  Gili: Location.create!(
+    type: Location::Type::ACCOMMODATION,
+    name: 'Putri Home Stay',
+    latitude: -8.352181,
+    longitude: 116.05728,
+    area: AREAS[:Gili]
   )
 }.freeze
 
