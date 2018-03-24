@@ -15,7 +15,7 @@
   :ACCOMMODATION:
     :rupiah: 150000
   :LONG_DISTANCE_TRAVEL:
-    :flight:
+    :boat:
       :rupiah: 700000
   :SHORT_TRAVEL: {}
   :ACTIVITIES: {}
@@ -27,7 +27,7 @@
   :laundry: 5.5
 :food:
 - banana pancake, watermelon, melon, pineapple, tea, toast, eggs
-- drtagonfruit shake
+- dragonfruit shake
 - margherita pizza
 - green salad, balsamic vinegar, veg pizza, chocolate lava cake
 :photos:
