@@ -2,7 +2,7 @@ import React from 'react'
 
 import { LoadFromServer } from '../LoadFromServer/LoadFromServer'
 import { edgesToArray } from '../../mapGraphqlResults'
-import { DayLink } from '../DayLink/DayLink'
+import { DayLink, LinkableDayFragment } from '../DayLink/DayLink'
 import { QueryParamLink, getQueryParamValue } from '../Links/Links'
 import { onMobile, onTablet, onSmallDesktop } from '../../screenSize'
 import './Timeline.sass'
@@ -66,21 +66,14 @@ export const Timeline = ({ days, selectedDay }) => {
 export const ConnectedTimeline = LoadFromServer({
   component: Timeline,
   query: `
+    ${LinkableDayFragment}
+
     query days {
       days {
         edges {
           node {
-            number
             date
-            locations(first: 1) {
-              edges {
-                node {
-                  area {
-                    name
-                  }
-                }
-              }
-            }
+            ...LinkableDay
           }
         }
       }

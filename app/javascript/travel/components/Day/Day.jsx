@@ -4,7 +4,7 @@ import PhotoContainer from 'react-photo-container'
 
 import { ConnectedMap } from '../Map/Map'
 import { ConnectedTimeline } from '../Timeline/Timeline'
-import { DayLink } from '../DayLink/DayLink'
+import { DayLink, LinkableDayFragment } from '../DayLink/DayLink'
 import { LoadFromServer } from '../LoadFromServer/LoadFromServer'
 import { edgesToArray } from '../../mapGraphqlResults'
 
@@ -46,6 +46,8 @@ export const Day = ({ day, previousLink, nextLink }) => (
 export const ConnectedDay = LoadFromServer({
   component: Day,
   query: `
+    ${LinkableDayFragment}
+
     query day($dayNumber: Int, $previous: Int, $next: Int) {
       day(number: $dayNumber) {
         number
@@ -66,28 +68,10 @@ export const ConnectedDay = LoadFromServer({
         }
       }
       previous: day(number: $previous) {
-        number
-        locations(first: 1) {
-          edges {
-            node {
-              area {
-                name
-              }
-            }
-          }
-        }
+        ...LinkableDay
       }
       next: day(number: $next) {
-        number
-        locations(first: 1) {
-          edges {
-            node {
-              area {
-                name
-              }
-            }
-          }
-        }
+        ...LinkableDay
       }
     }
   `,

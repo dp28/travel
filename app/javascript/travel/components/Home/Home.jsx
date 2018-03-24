@@ -3,7 +3,7 @@ import { Grid, Row, Col } from 'react-bootstrap'
 import { Link } from 'react-router-dom'
 
 import { ConnectedMap } from '../Map/Map'
-import { DayLink } from '../DayLink/DayLink'
+import { DayLink, LinkableDayFragment } from '../DayLink/DayLink'
 import { edgesToArray } from '../../mapGraphqlResults'
 import { LoadFromServer } from '../LoadFromServer/LoadFromServer'
 
@@ -60,26 +60,16 @@ export const Home = ({ firstDay, mostRecentDay }) => (
 export const ConnectedHome = LoadFromServer({
   component: Home,
   query: `
-    fragment DayFirstLocation on Day {
-      number
-      locations(first: 1) {
-        edges {
-          node {
-            area {
-              name
-            }
-          }
-        }
-      }
-    }
+    ${LinkableDayFragment}
+
     query {
       firstDay: day(number: 1) {
-        ...DayFirstLocation
+        ...LinkableDay
       }
       mostRecentDays: days(last: 1) {
         edges{
           node {
-            ...DayFirstLocation
+            ...LinkableDay
           }
         }
       }
