@@ -7,7 +7,7 @@
 :accommodation: :Flores
 :expenses:
   :FOOD:
-   :dinner:
+    :dinner:
       :rupiah: 277000
   :ACCOMMODATION:
     :rupiah: 360000
@@ -28,8 +28,8 @@
 - rice, noodles, grean beans, aubergine, chilli, fried egg
 - tomato and basil gnocchi, salmon sushi rolls, tuna and mango sushi rolls
 :photos:
-- :caption:
-  :url:
+- :caption: 
+  :url: 
 - :caption: On top of Padar island
   :url: https://lh3.googleusercontent.com/De3wD-0PRXX6XRenAOdwwU__Xrc5516bwF7aJPqvJRBpcQLLs_8637PLUyLPUESAiF0Cl9ZauguwqPREYG59Ex-4PYctfplMaUAHhlLvADiyRADooUhSFpK7txHOYVvpB1f7OTafL54=w2400
   :width: 2400
@@ -70,7 +70,7 @@
   :url: https://lh3.googleusercontent.com/AMPqdRXfEBtj8EYKvG1Ym_HcK0WRgz4c7MRG5j2wWNeOUrGG__oES24hkPBnvEvrpL0lN9FTxuv6a9oF-ZothNoI__cMsdq-oDIViW7-3taVVdrx6haeh2rofV397fbNfjVOcjDzOQo=w2400
   :width: 1805
   :height: 1587
-:entry: |2
+:entry: |
   Today had an **early** start - 4.30am. Thankfully, our hotel provided us with
   breakfast and was happy to do so at 4.50am (prearranged), so we had a
   surprisingly tasty omelette and fruit.
@@ -142,4 +142,3 @@
   than the food from the Italian place the night before. We decided on how and
   where we wanted to go on the Gili islands, our next place, and booked most of
   that.
-
