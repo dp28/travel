@@ -414,6 +414,13 @@ LOCATIONS = {
     latitude: -8.352181,
     longitude: 116.05728,
     area: AREAS[:Gili]
+  ),
+  GiliSecond: Location.create!(
+    type: Location::Type::ACCOMMODATION,
+    name: 'ii Bungalow',
+    latitude: -8.353573,
+    longitude: 116.060538,
+    area: AREAS[:Gili]
   )
 }.freeze
 
