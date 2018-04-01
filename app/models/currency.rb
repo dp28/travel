@@ -73,7 +73,14 @@ class Currency
     exchange_rate_to_dollars: 0.0000726904
   )
 
-  ALL = [USD, GBP, THB, VND, LAK, KHR, MYR, SGD, IDR].freeze
+  AUD = Currency.new(
+    code: :AUD,
+    name: 'Australian dollars',
+    symbol: 'A$',
+    exchange_rate_to_dollars: 0.768527
+  )
+
+  ALL = [USD, GBP, THB, VND, LAK, KHR, MYR, SGD, IDR, AUD].freeze
   DEFAULT = USD
 
   def self.find_by_code(code)

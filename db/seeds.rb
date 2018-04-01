@@ -56,6 +56,10 @@ COUNTRIES = {
   Indonesia: Country.create!(
     name: 'Indonesia',
     currency_code: Currency::IDR.code
+  ),
+  Australia: Country.create!(
+    name: 'Australia',
+    currency_code: Currency::AUD.code
   )
 }.freeze
 
@@ -172,6 +176,10 @@ AREAS = {
   Gili: Area.create!(
     name: 'Gili',
     country: COUNTRIES[:Indonesia]
+  ),
+  Sydney: Area.create!(
+    name: 'Sydney',
+    country: COUNTRIES[:Australia]
   )
 }.freeze
 
@@ -421,6 +429,13 @@ LOCATIONS = {
     latitude: -8.353573,
     longitude: 116.060538,
     area: AREAS[:Gili]
+  ),
+  Sydney: Location.create!(
+    type: Location::Type::ACCOMMODATION,
+    name: 'Airbnb',
+    latitude: -33.890417,
+    longitude: 151.19522,
+    area: AREAS[:Sydney]
   )
 }.freeze
 

@@ -129,4 +129,15 @@ RSpec.describe Currency do
       let(:exchange_rate_to_dollars) { 0.0000726904 }
     end
   end
+
+  describe 'Currency::AUD' do
+    subject(:currency) { Currency::AUD }
+
+    it_should_behave_like 'a currency' do
+      let(:code) { :AUD }
+      let(:name) { 'Australian dollars' }
+      let(:symbol) { 'A$' }
+      let(:exchange_rate_to_dollars) { 0.768527 }
+    end
+  end
 end
