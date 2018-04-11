@@ -492,6 +492,7 @@ def price?(hash)
 end
 
 def create_expense(day:, description:, price:, category:)
+  return if category.to_sym == :INTERCONTINENTAL_FLIGHTS
   Expense.find_or_create_by!(
     day: day,
     description: description,
