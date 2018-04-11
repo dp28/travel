@@ -80,7 +80,14 @@ class Currency
     exchange_rate_to_dollars: 0.768527
   )
 
-  ALL = [USD, GBP, THB, VND, LAK, KHR, MYR, SGD, IDR, AUD].freeze
+  ARS = Currency.new(
+    code: :ARS,
+    name: 'Argentinian pesos',
+    symbol: 'ARS $',
+    exchange_rate_to_dollars: 0.0496560
+  )
+
+  ALL = [USD, GBP, THB, VND, LAK, KHR, MYR, SGD, IDR, AUD, ARS].freeze
   DEFAULT = USD
 
   def self.find_by_code(code)

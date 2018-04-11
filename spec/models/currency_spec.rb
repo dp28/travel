@@ -140,4 +140,15 @@ RSpec.describe Currency do
       let(:exchange_rate_to_dollars) { 0.768527 }
     end
   end
+
+  describe 'Currency::ARS' do
+    subject(:currency) { Currency::ARS }
+
+    it_should_behave_like 'a currency' do
+      let(:code) { :ARS }
+      let(:name) { 'Argentinian pesos' }
+      let(:symbol) { 'ARS $' }
+      let(:exchange_rate_to_dollars) { 0.0496560 }
+    end
+  end
 end

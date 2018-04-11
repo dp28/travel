@@ -60,6 +60,10 @@ COUNTRIES = {
   Australia: Country.create!(
     name: 'Australia',
     currency_code: Currency::AUD.code
+  ),
+  Argentina: Country.create!(
+    name: 'Argentina',
+    currency_code: Currency::ARS.code
   )
 }.freeze
 
@@ -180,6 +184,10 @@ AREAS = {
   Sydney: Area.create!(
     name: 'Sydney',
     country: COUNTRIES[:Australia]
+  ),
+  BuenosAires: Area.create!(
+    name: 'Buenos Aires',
+    country: COUNTRIES[:Argentina]
   )
 }.freeze
 
@@ -436,6 +444,13 @@ LOCATIONS = {
     latitude: -33.890417,
     longitude: 151.19522,
     area: AREAS[:Sydney]
+  ),
+  BuenosAires: Location.create!(
+    type: Location::Type::ACCOMMODATION,
+    name: 'Hotel Boutique Bonito Buenos Aires',
+    latitude: -34.616654,
+    longitude: -58.387578,
+    area: AREAS[:BuenosAires]
   )
 }.freeze
 
