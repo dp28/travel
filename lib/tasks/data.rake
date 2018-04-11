@@ -2,13 +2,15 @@ require 'fastimage'
 require 'yaml'
 
 namespace :data do
-  task update_images: :environment do
+  task update_photos: :environment do
     day_files.each do |file_name|
       day = YAML.load_file file_name
-      puts day[:number]
-      if day[:photos]
-        day[:photos].each(&method(:append_dimensions))
-        File.write file_name, YAML.dump(day)
+      original_day = YAML.dump day
+      update_photos day
+      updated_day = YAML.dump day
+      unless updated_day == original_day
+        File.write file_name, updated_day
+        puts ' saved changes'
       end
     end
   end
@@ -40,6 +42,13 @@ namespace :data do
 
   def to_file_name(day_number)
     day_number.to_s.rjust 3, '0'
+  end
+
+  def update_photos(day)
+    puts day[:number]
+    if day[:photos]
+      day[:photos].each(&method(:append_dimensions))
+    end
   end
 
   def append_dimensions(photo_config)
