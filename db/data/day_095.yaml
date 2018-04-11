@@ -1,0 +1,156 @@
+---
+:date: '2018-04-08'
+:number: 95
+:written: 2018-04-09 15:30
+:locations:
+- :Mendoza
+:accommodation: :Mendoza
+:expenses:
+  :FOOD: {}
+  :ACCOMMODATION:
+    :dollars: 30
+  :LONG_DISTANCE_TRAVEL: {}
+  :SHORT_TRAVEL: {}
+  :ACTIVITIES:
+    :wine_tour:
+      :dollars: 370
+  :OTHER: {}
+:stats:
+  :walked: 1.9
+  :temperature: 26
+  :altitude: 1300
+:food:
+- tea, toast, jam, croissants, muffins
+- crackers, white wine, red wine
+- crackers, cheese, white wine, red wine
+- white wine, red wine, bread, oil, malbec salt, empanada, goats cheese and apple
+  and avocado salad, gazpacho, pepper sauce, veg, pasta with cherry tomatoes and parmesan,
+  beef with carrot cream and onion and veg, chardonay and pear granite, cheese and
+  bread, raspberry ice cream and chocolate
+:photos:
+- :caption: The vines of Domaine Bousquet
+  :url: https://lh3.googleusercontent.com/L6sjwupqYuemdZmUBsQ2dFCIbsDcaQ9EnRfkUJLdAR2yiNNw7PKvgG248yQkRCXHNUVyFhYBRN3xOmMtQ9k9xBbbKRVRtY6SA_Ll1HWGVOvuBgn1gpTSsZ-70w4fXChaqRbqVlsePkc=w2400
+  :width: 2400
+  :height: 1350
+- :caption: A bathtub of wine!
+  :url: https://lh3.googleusercontent.com/olNQczsDTni_bAsl3vk7tfZ5MgDwKIQU0tyWZBKyxea3qT_NGsjyVXy1-ez-MM1btJtFoejiIhqQE20zFsOmfrMy0BD-OQGMYLGRSwlBzVMmcoCwqAd2m2lFwyB22oC6XhjsRAsGTms=w2400
+  :width: 2400
+  :height: 1800
+- :caption: The ageing process
+  :url: https://lh3.googleusercontent.com/6uh07SVCi5hjLSLfbF3lSVsoHm3ugiK2hPaRx61FZAfcLnj1lEWGl7htJo-e5httkFdWhK5v04vK3NBQn2Y05FmbI1Cnkyd5J5NiogWK6fckDlxIYNJaoYH7--NPffe20g1Ykz2J1F4=w2400
+  :width: 2400
+  :height: 1350
+- :caption: Our first tasting
+  :url: https://lh3.googleusercontent.com/9dq4fW7qPb_bNAjjInEQplqZR3Qcf051Z1VUKlEP-aCrzn-lGZATz3wH34aI39qidSZnz4smy0FmuOqO7xff_asImZZSI7s6KHIoq9xcsZIQO7T_E_fuT9keosnn8pHVArUoPbBvE5M=w2400
+  :width: 2400
+  :height: 1350
+- :caption: At Solo Contigo
+  :url: https://lh3.googleusercontent.com/sQILlDCM1XFZecw4Uf3OJO5vB14z7J9SwV9sxQa5AnwmOP-5fWcJVwH_suNYePqw92hICUjk_S-6jvdI7jQSVVztt1E-Gt4q2iF0gDm5CnBSQAF4VtppWQkNTYbblPWsApdn_RKGc_k=w2400
+  :width: 2400
+  :height: 1350
+- :caption: Malbec
+  :url: https://lh3.googleusercontent.com/B89urmPs8w-TkeSzQ-UuE2mrDWr9EBVENpfULKAnrhoybgcBdkDAn__FHoQvgBDLxj3P9jPMdSqHgNOz9TUky-Qccm981u7y-k9szrufGbgghu3cmlAkviq-e07j4nGAmXPWcQcYwfY=w2400
+  :width: 2400
+  :height: 1350
+- :caption: A perfect pairing
+  :favourite: true
+  :url: https://lh3.googleusercontent.com/lTF777GAmAc9GCb0MLG19xGQxPMKm6QgjiT4nGtxwif8W9OX6oi6BawlV1oYt2fftcXDe-_spAmENuBhfLRaFuY8qEwQmg3C3CynXxgG2Dylo4Ps7FZjS1pN2EVa_UgVEtQRrqgtQkw=w2400
+  :width: 2400
+  :height: 1800
+- :caption: Starters at DiamAndes
+  :url: https://lh3.googleusercontent.com/4g9z-y47Li08coE7bxIatooXlrJCYOSxdyQxBeWI4By7LgLpSesfeuTTQuHx7OlANkPdlAxTkemrAsvZv7v24TaLQqnQt08hhhdWFw8YjxOR1nDebqPf0wdJqcgvOvyXQ7G328B90vo=w2400
+  :width: 2400
+  :height: 1350
+- :caption: When in Argentina
+  :url: https://lh3.googleusercontent.com/WcIw6jA2O8w49gsJ4MKdeEH8f79W0dr4NSPQ8Mlrzzx5wlIYKfedW6vmwgCOwEC1QFfCm3_Uve6CUmU975IUiD6tmOP_uB5hX1haz_M2WzCcgf6ad8A2U4U4JUb7TaIJ43ylVBQ5f_M=w2400
+  :width: 2400
+  :height: 1350
+- :caption: Delicious dessert
+  :url: https://lh3.googleusercontent.com/pa89ngQDva9QDlV_qdcZWLaISueGM2HfXv1MyC9_Fjc5i9ZeEIx2gSY86UZ-nY9maCR5OqsS2nV3m4uMi-Yi21W39acv20fM6DKVccs2Ea4cciuzMqui-AO_V6RlIDYB3J-HlANdbZI=w2400
+  :width: 2400
+  :height: 4267
+- :caption: The fermentation tanks
+  :url: https://lh3.googleusercontent.com/7S2WApSMMNRlIlOCXw5A6ULPhSDo7il6lKqR1HNIabIlD5eRB8YAW0WQNsNq2sLdPHIR_vTM7U3CS-PeB-K7zNpggfw0RkACOOETg51f5jrlW1NrtuRrCnyBIGdDUEIF_H_n7qwA4ic=w2400
+  :width: 2400
+  :height: 1350
+:entry: |
+  One of the main things Mendoza is known for is for its vineyards and
+  particularly its Malbec. We'd booked a tour of Valle de Uco, one of the more
+  famous wine-producing areas. It's about an hour south of Mendoza, so we needed
+  some form of transport and renting a car for wine tasting didn't seem like a
+  great idea.
+
+  We had a rushed breakfast, then were picked up in a minibus by Ampora tours.
+  There was a driver and a young tour guide along with a group of three
+  Americans. They turned out to work for Disney as salespeople and event
+  managers in Argentina for events to promote the opening of a new part of
+  Disneyworld. It turned out there was another guy on our tour, close to passed
+  out on the back seat, having been out last night and not having slept.
+
+  Our first bodega (a winery here) was picturesque, surrounded by vines and
+  within sight of the snow-capped Andes. It is owned by a French family who had
+  made wine in southern France, then sold their vineyards to buy land here. A
+  guide from the bodega showed us the resevoir that fed the irrigation for the
+  vines, then led us into the winery itself. She showed us the steel tanks,
+  concrete tanks and French oak casks used to ferment the wine (cheaper wines in
+  steel or concrete, more expensive in oak). She then took us below to the
+  basement to see the oak barrels that the wines were aged in (the more
+  expensive the wine, the longer the time it spends in barrels and the newer the
+  barrels). Finally, she showed us the bottled wine, stored standing up if
+  closed with a fake cork or screw cap, stored lying down if corked (so that the
+  cork doesn't dry out, shrink and let in some air). <R> My favourite part was
+  watching them mix the wine by pumping the liquid from the bottom of the tank
+  through a massive sieve in a bathtub and then pumping it up over the top of
+  the tank. This causes the grape solids to mix with the liquid as apparently
+  they float after a while. </R>
+
+  Our tasting was also in the basement. We had one white and three reds, not too
+  much, but I could feel it by the end. We learnt that you should be able to
+  tell a Malbec solely by its colour (slightly violet at the edges rather than
+  red) and that Chardonnay is often disliked by people who dislike bananas.
+
+  We had about a 30 minute drive to the next winery and learnt that our guide,
+  Alecio, had only been at the company for a week and a half. He seems to have
+  had loads of other jobs though, despite being 24, and spent a year travelling
+  through South America.
+
+  Our second winery was actually the owners' house, with the wine production
+  in a huge room off the side of the house and the wine stored in the cellar.
+  The building was impressive, open and airy with lots of mirrors and local art
+  (including a picture of Mickey Mouse that the Disney guys loved). It was
+  closer to the Andes and our tasting was outside with a stunning view.
+
+  Our third winery was even closer to the Andes. Apparently the work of the same
+  architect as the previous one, but much larger. This was less of a tour as it
+  was primarily a six course lunch with wine pairings. I don't remember as much
+  about the wines here as I was more focused on the food and the conversation
+  (now significantly loosened by the wine). The food was decent, the steak was
+  large but not obscene and the raspberry "foam" (ice cream) was delicious.
+
+  I'll admit I fell asleep for about an hour of the two-hour drive home - I
+  think only Rosie, Alecio and the driver remained awake for the whole time. It
+  was a fun day with great people, and unsurprisingly we didn't end up getting
+  dinner.
+
+  # Bodegas & wine tastings
+
+  I preferred the ones in **bold**.
+
+  ## Domaine Bousquet
+  1. Premium Blend Torrontes Chardonnay
+  2. Reserva Pinot Noir
+  3. **Gaia Red Blend** (Malbec/Shiraz/Cabernet Sauvignon, 50/45/5)
+  4. Grande Reserve Malbec
+
+  ## Solo Contigo
+  1. Primera Amante Torrontes
+  2. Primera Amante Malbec
+  3. **Affaire Malbec**
+  4. Coleccion Blend (Malbec/Shiraz)
+  5. Ten (Malbec)
+
+  ## DiamAndes
+  1. Viognier DiamAndes de Uco
+  2. Chardonnay Grande Reserve
+  3. Malbec DiamAndes de Uco
+  4. Blend Grande Reserve

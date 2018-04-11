@@ -46,9 +46,7 @@ namespace :data do
 
   def update_photos(day)
     puts day[:number]
-    if day[:photos]
-      day[:photos].each(&method(:append_dimensions))
-    end
+    day[:photos]&.each(&method(:append_dimensions))
   end
 
   def append_dimensions(photo_config)

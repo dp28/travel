@@ -1,0 +1,179 @@
+---
+:date: '2018-04-10'
+:number: 97
+:written: 2018-04-11 23:20
+:locations:
+- :Mendoza
+:accommodation: :Mendoza
+:expenses:
+  :FOOD:
+    :lunch:
+      :argentinian_pesos: 3410
+    :jar_tasting:
+      :argentinian_pesos: 50
+  :ACCOMMODATION:
+    :dollars: 30
+  :LONG_DISTANCE_TRAVEL: {}
+  :SHORT_TRAVEL: {}
+  :ACTIVITIES:
+    :bikes:
+      :argentinian_pesos: 600
+  :OTHER:
+    :shampoo:
+      :argentinian_pesos: 91
+    :wine:
+      :argentinian_pesos: 540
+    :big_pinguino:
+      :argentinian_pesos: 265
+    :small_pinguino:
+      :argentinian_pesos: 153
+:stats:
+  :walked: 6.9
+  :temperature: 29
+  :altitude: 750
+  :cycled: 10.3
+:food:
+- tea, toast, croissants, muffin, empanadas, grapes
+- white wine, red wine, sparkling wine, bread, oil, tomato salad, basil, goats cheese,
+  basil ice cream, ham crums, bread crums, prawns, courgette, red pepper ice cream,
+  saffron cream, mushroom mouse, focaccia, glasswort, steak, balsamic tomato, roasted
+  potatoes, herby sauce, malbec salt, melon sorbet with mate and mint, strawberry
+  sorbet, melon balls, peach tartlet, spiced creme anglais, peach marmelade, ice cream,
+  almond praline
+- plum chutney, bread,, raspberry vinegar, aubergine paste, olive and garlic spread,
+  olive and blue cheese spread, chocolate dulce de leche, hazelnut dulce de leche,
+  whiskey and walnut dulce de leche, apple and malbec marmalade, chardonnay reduction,
+  gluvine, dulce de leche liqueur
+:photos:
+- :caption: The first course
+  :url: https://lh3.googleusercontent.com/MCfLkEFuqS7tBtDF8QKrcm4-2mIqDRrAT6nDxJ2POP7Z6FWYBmlkZHP6XdxgtXo4rzuksDjWJ1y1vElNbtSy2yJoFTARzEOkset4i03peXjjoJWMmKDdO2tVzQwkxMqkt6S3iR9_a1M=w2400
+  :width: 2400
+  :height: 1350
+- :caption: The third course
+  :url: https://lh3.googleusercontent.com/rfMDP7QWOyoLmxWy7vjWVgprp1FdzKqWzLQPoFTcMeZoJ_sz8AS0Cj_f2-Zy8juuWGVZ6kt5DWJRY0lzW59yY00xooQ9mK3NRnuWJyoFrfDSJO1ax91YiBHLLja6T4dzm-tKnP3k69s=w2400
+  :width: 2400
+  :height: 1350
+- :caption: They do like their steak here
+  :url: https://lh3.googleusercontent.com/cIfhQ7B6gyb3ZiZcYZ4jMMsX8ETZ6z9szONNVyJmfVVS8IpO1kQOt52_2nxymBQMk4Jz9WUPkKQYQHl1xVjrMwxcrezqQhezXDSnvUv1QCTFXbI6aSyaO6enwFO3ajGeShVeBbB_zaY=w2400
+  :width: 2400
+  :height: 1350
+- :caption: The wines!
+  :url: https://lh3.googleusercontent.com/mpbNOoaTOb7C0b7k5Q5CiRboNmF-lEWjqIIUo3liu40ktGdaPtUpaxT4tYkCPCWTw0c9dTlVhOBBHZjoZbNsxCXjGOyhPJDNCSVndQ3T3dZ3tBs3rIlFGpb_ZJhZz5EF3DrGrbIQhU0=w2400
+  :width: 2400
+  :height: 1350
+- :caption: The pudding
+  :url: https://lh3.googleusercontent.com/vu2KWBBC9DGff7Cxyn9pPjxxIx9Enn2m53HhdlTzJza3Vc8CbQT_ZClQyM6UmqbvLdyvHwxP97HaeQ7nzw9TeJbXutlbgKF7uCpycWBBcknIsFGpsO26FDFRViNlQvDqBZc9djOjoo8=w2400
+  :width: 2400
+  :height: 1350
+- :caption: Lagarde fermenting barrels
+  :url: https://lh3.googleusercontent.com/MwjmWcLINb-gWgWhC_xsZBGuLwrmYeMBy1D8W7ku1_42JNpTvjK3wzaytkJVmHK57bpGCZMUmrkEWrhnhnyvCIM94IWsUHTS7WCBJwgejD51x48MlQ_rgFQgftWYWlPClgZ705cX9sE=w2400
+  :width: 2400
+  :height: 1350
+- :caption: Dan and the vines
+  :url: https://lh3.googleusercontent.com/R1sXp2HsQ3ULSPhMClzQmuBOOP-ROSJdJkyEvZLx1aHh_G1D2dPLlrXTbkS-u2SLGcW-1g3LJR9kFqed1ChFGVAkd6tPBkyfxDIxDeTn43rZYbSDZ8FeEtUxMfDOEbbrpHY8DvgOsko=w2400
+  :width: 2400
+  :height: 1600
+- :caption: Here are some grapes
+  :url: https://lh3.googleusercontent.com/5jaoVht0QJyZ5LbOGwxTLOIXD_fFiR4rMXWQAS1qYFywBDWsCANKbluuYSbKv3An5WV0yj7KJHLHf-eVZZxXvCCOLr5ahm5iuXNhtbQU0RRxc8joy2cO1QC2qQ6PI8LuAPdhEhpXeJs=w2400
+  :width: 2400
+  :height: 1600
+- :caption: The grapes of Lagarde
+  :url: https://lh3.googleusercontent.com/0UufHdGj0GHefwKL4M6BYmSzNSk6ywBUWsulw5CUMbbGj_KOT_18Va4GWi9OhXKJdFcD7Ik7ePByuMPoWM1rj9lLX4a0ggn2wccW_a_ORKfCLSazosmlr6iUq5nYp7S1pwoiydZHyOQ=w2400
+  :width: 2400
+  :height: 1600
+- :caption: This was a fantastic day
+  :favourite: true
+  :url: https://lh3.googleusercontent.com/G2Wv1kfccM09FReP6Dw6FhNPQDzjAa6hne0AuwIzrtsZFpvyJgcLbBvuTvCeTAwauee_IBkxCTjBRq9MlNmXvD7lsw3lNsMuolEIZerJqVtAW7XiE4Y0x4N032xjV8UjW0mAwseAW-A=w2400
+  :width: 2400
+  :height: 2400
+:entry: |
+  We visited another couple of wineries today, this time in an area called
+  Luyan de Cuyo. We'd both separately found recommendations to hire bikes from
+  the well named Baccus Bikes who gave us a map, recommendations for where to go
+  and even booked lunch for us.
+
+  Luyan de Cuyo is a little bit south of central Mendoza, so we needed to get a
+  bus. We walked to one bus stop and immediately gave up as the road was blocked
+  off for work. We walked to another stop and waited for 45 minutes before
+  giving up. The bus system here is a bit odd - all buses have a big number for
+  the rough area they're going to and a small number for the exact route. This
+  means that from a distance many buses look like your bus, but end up not being
+  so. After two or three buses hadn't shown up that were supposed to, we walked
+  to the next bus stop and finally caught one.
+
+  After picking up our somewhat expensive bikes, we headed to the first
+  recommendation - Carmelo Patti's winery. Apparently, Carmelo Patti is a
+  stalwart of the wine scene here and he had the newspaper cutouts to display
+  reviews of him and his wine from across the world. His place was quite
+  different to all the others we'd been to. It wasn't at a vineyard (although I
+  think he has at least one), but at a warehouse where he stores the bottles. He
+  also buys other people's grapes and creates blends there, too. In addition, at
+  most of the places we've been so far the wine has at most a year in the bottle
+  before it is sold. Carmelo stores his for four to eight years so that people
+  who buy it don't have to do so in their own wine cellars (according to him).
+
+  We had a quick tour with three others who had also rented bikes from Baccus.
+  Carmelo only speaks Spanish, so it was a bit of a test, but we got most of it.
+  He showed us that he stores the bottles in cardboard boxes and keeps the
+  bottles upside down so that the cork doesn't dry out and the wine doesn't
+  oxidise. He told us that if we buy wine and plan on keeping it for more than a
+  few months, we should take off the wrapper around the neck to inspect the
+  cork. If there is obvious discolouration in a line down the height of the
+  cork, the wine will oxidise and should be drunk soon. Otherwise, the wine can
+  be stored for twenty years on its side (out of light).
+
+  We tasted three of his wines, giving him a chance to give us another tip.
+  Apparently it can be hard to open older bottles of wine, but if you warn the
+  neck of the bottle with a lighter, the cork should become easier to remove.
+  The wines we tasted were a Malbec which had been bottled four years ago, a
+  Cabernet Sauvignon bottled eight years ago and a blend of Malbec, Cabernet
+  Sav, Merlot and Cabernet Franc. They were all quite nice, but the wines I've
+  liked most so far were all younger.
+
+  His place was really busy, with people there before and after us. He seemed to
+  really enjoy teaching people about wine and in having so many guests from all
+  over the world - he was particularly proud of his eleven large guest books
+  where everyone wrote something after their visit. There was no charge for our
+  visit, either, and not even a sign outside his property saying where it was.
+
+  We didn't have far to the next winery and went with the three women we'd had
+  the tour with. I could very slightly feel the wine, but we cycled on the hard
+  shoulder most of the way.
+
+  This winery, Lagarde, came highly recommended by Bridget who had been here a
+  few months ago. It's one of the older vineyards at around 110 year old. We had
+  missed the scheduled our but it was also the place we had booked lunch. Like a
+  few days ago, lunch was a six course menu with paired wines (a Viogner,
+  Chardonnay, Merlot, Malbec, and a sparkling blend). The food was delicious and
+  inventive, but would be difficult to replicate. Two of the starters contained
+  ice cream - one basil, the other red pepper. The steak portion in the main
+  course was absolutely massive, I couldn't quite finish it. Luckily, there was
+  space in the pudding stomach for the peach tart and almond praline that
+  followed.
+
+  Throughout our meal, there was a group of people at a nearby table who had
+  appeared with their own photographer and videographer. It was a bit weird
+  seeing how much of their meal was split up with posing for one or the other,
+  but we never really worked out who they were or what was going on.
+
+  After our meal, despite not finishing most of my (generous) tasting glasses, I
+  could feel the wine. We spent quite a long time wandering through the
+  vineyards and gardens where some of the veg we'd eaten had been grown. We saw
+  plenty of olive trees dotted among the vines and flocks of birds flew between
+  them. We saw some of the irrigation channels being filled to water lines of
+  vines.
+
+  After a good while, we cycled to our last stop, a little shop called A La
+  Antigua selling homemade preserves, savoury spreads and liqueurs. They also
+  let us taste many of these - including a few olive spreads, a raspberry
+  vinegar and some flavoured dulce de leches. We wanted to buy something, but
+  apparently the border crossing to Chile is very strict. Instead, we gave them
+  a little bit of money.
+
+  We left back the bikes and caught a bus back to Mendoza. Completely stuffed,
+  we did not need dinner. We spent the evening searching for a pinguino in a
+  few tourist shops. Literally meaning "penguin", pinguinos are ceramic penguins
+  used to hold and pour wine which we'd seen in Buenos Aires and Rosie was
+  endeared with. We found what we were looking for and went back to the hostel.
+  I finally added the diary entries from Australia to the site and ended up
+  going to sleep pretty late (around 1am).

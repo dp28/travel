@@ -188,6 +188,10 @@ AREAS = {
   BuenosAires: Area.create!(
     name: 'Buenos Aires',
     country: COUNTRIES[:Argentina]
+  ),
+  Mendoza: Area.create!(
+    name: 'Mendoza',
+    country: COUNTRIES[:Argentina]
   )
 }.freeze
 
@@ -451,6 +455,13 @@ LOCATIONS = {
     latitude: -34.616654,
     longitude: -58.387578,
     area: AREAS[:BuenosAires]
+  ),
+  Mendoza: Location.create!(
+    type: Location::Type::ACCOMMODATION,
+    name: 'Hostel Estacion Mendoza',
+    latitude: -32.897173,
+    longitude: -68.840075,
+    area: AREAS[:Mendoza]
   )
 }.freeze
 

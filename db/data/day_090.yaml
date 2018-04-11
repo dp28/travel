@@ -33,14 +33,39 @@
   :altitude: 20
   :laundry: 6
 :food:
-- tea, toast, fruit salad, cream cheese, scrambled eggs, cheese, ham, dulce de leche, butter
-- bondiola (bacon sandwich), choripan (sausage sandwich), onion, tomato, bell pepper, parmesan sauce
-- roquefort empanada, chicken and onion and cheese empanada, beef empanada, caprese empanada, lemon tart cake, red wine, alfajor (dulce de leche cake)
+- tea, toast, fruit salad, cream cheese, scrambled eggs, cheese, ham, dulce de leche,
+  butter
+- bondiola (bacon sandwich), choripan (sausage sandwich), onion, tomato, bell pepper,
+  parmesan sauce
+- roquefort empanada, chicken and onion and cheese empanada, beef empanada, caprese
+  empanada, lemon tart cake, red wine, alfajor (dulce de leche cake)
 - dairy milk, red wine
 :photos:
-- :caption: ''
-  :url: ''
-:entry: |2
+- :caption: The bridge of women, a triubte to the amazing women of Argentina
+  :url: https://lh3.googleusercontent.com/uIyVP7GbuCz9Jy8Wrzv6rnC79qIMQr_bIdQlpKyjpKTx7TbEeyIr5_jNLWNQcBDoTvf2ztebF6brl56Hf_Ht4IE2P71FAilVtVOxAbjNp_L3CmHyOY835TgmUJwWySph6m0y1B0yktg=w2400
+  :width: 2400
+  :height: 1803
+- :caption: The mounment to the Malvinas war
+  :url: https://lh3.googleusercontent.com/B0xT3QubbYySaXyXttCBfMUMbT3S6po68kZ7WJz7P8jR45T_ZXeuH3KLQ_lZLijebMyHoX6vSGqNlYPc1klmD1BX0bxI8hjuC7k4CFbU-1N6N6fdkR9oDoQlDlQmjZGADClQBw3LgIA=w2400
+  :width: 2400
+  :height: 1350
+- :caption: I really liked this wall
+  :url: https://lh3.googleusercontent.com/zPvnle2kWXsMotD13wETrmwemZfx-Y1dYvzzhF65DC8vdjBzuu7F3vbZPOqh1-A83RqTzu4bBgZ3k-AD2avyPE7esaqIMv-9UsN2mzlDwzlNbM_qMxf8qSGAl84m0L7N6bN4cYrGatE=w2400
+  :width: 2400
+  :height: 3200
+- :caption: Apprently this was done by an Irish artist
+  :url: https://lh3.googleusercontent.com/lKy8EgGt2dmuJU9vHbrFrXPrncjapnGohtU-ysiQzSBRghmtAlz2lH-etZomEpkS4YilPRMtxJ-0ftn7rP3SzJcFmscswA08BdqKFKVAzARS5gz535oZZoJZHT5XAAvgAt5EJL42iyY=w2400
+  :width: 2400
+  :height: 1350
+- :caption: Atlas holding up the oldest tree in the city
+  :url: https://lh3.googleusercontent.com/Rf2jy063UHRFqu9yzJyLKTaPJjP6d96T9WkMDf2CF7dxWbqJANGcCikgAAYgSoT9Tbl0EzGJ0n35OdNwOpDTKw8ZQksQDwHQ8nhAkbHMTnC88cBHE1eagdNPuu08NUKlel9e7hi5MxQ=w2400
+  :width: 2400
+  :height: 3200
+- :caption: Daniel's pudding
+  :url: https://lh3.googleusercontent.com/-7_29qDk3yucKY9C5SJmKKgU1mMxAdzEKesTyjcLL1sCQMWf6MfRE7I27VqBeZIqd7DJquBXax7zAwEKZJpFwmygAAdh2e4tBQsHf5Jtnf3yVWL6-_k5V58tMOp2HtRaDkm5cGyvH2w=w2400
+  :width: 2400
+  :height: 3200
+:entry: |
   We were given a decent breakfast by the hotel, including dulce de leche as a
   spread to put on our toast. Buenos Aires seems to be crazy for this stuff -
   it's in about half of their desserts.
