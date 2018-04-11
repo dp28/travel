@@ -8,7 +8,7 @@
 :expenses:
   :FOOD:
     :snack:
-      :australian_dollars: 36.40
+      :australian_dollars: 36.4
     :lunch:
       :australian_dollars: 6.91
     :dinner:
@@ -27,20 +27,28 @@
   :altitude: 1000
 :food:
 - sourghdough toast, toasted banana sandwich, dairy milk square, tea
-- egg and bacon sourghdough sandwich, tea, hazelnut hot chocolate, marshmallows, salted caramel chocolate cake, whipped cream
+- egg and bacon sourghdough sandwich, tea, hazelnut hot chocolate, marshmallows, salted
+  caramel chocolate cake, whipped cream
 - bananas, crackers, goats cheese
 - goats cheese pizza, chips, sweet potato chips, white wine
 :photos:
 - :caption: In the blue mountains
   :url: https://lh3.googleusercontent.com/S0PC_wHsUBUMhJ0eSitgyv7RwCYJwQ2O5gLjuegviwFhk5RUwvlSaas5Ju-Ur392oa2zlzDQRTxgAaVKa9JXRcrGnRQyieoFEorRwzkTUay_ANIH21c_YU1kWn4EeY0Y4HbozNbbJU4=w2400
+  :width: 2400
+  :height: 1350
 - :caption: These three sisters were turned to stone.
   :url: https://lh3.googleusercontent.com/NWwyIwMp3OmAT2Amg1ipZ5sJ68TAawwz69snKMuQmMoF0WTqNblfkYbmN1OJxk7T0BdFCYSWcCrUQnPoE2ECniJI2Q9h4jsgXAffYdZlCLbIrvKtrChHUVvsdCIDcTZTpkwoLswx_so=w2400
+  :width: 2400
+  :height: 1350
 - :caption: The team
   :url: https://lh3.googleusercontent.com/Z0_knzo7mADPtppU5z_LViMLuv24e9tOSsgO2A5rDnp06xBEfSzsM7DtvTcH_FrdZkB6WG2umdMJAb9_0_vKpEpS3D1UT7VFlYN3VcgNuCN1EJtPaBGJXcuUnVU9CeEAGZDTRR5iASk=w2400
+  :width: 750
+  :height: 544
 - :caption: I have stolen this photo from Marianne's instagram
   :url: https://lh3.googleusercontent.com/WK5TXK31cuYuj5hNRkdY8o90O77ExA_WDZOBRhnAvXO3iNPdSfxKLYqUeZdMdRV3-SB4kPtC5k1DeyT8DcaTwPgQh_phclqGYBeHwki1MHu5XAMwsI-8QEgU7IUHFqjL2mVQXIV9FO0=w2400
- 
-:entry: |2
+  :width: 750
+  :height: 560
+:entry: |
   We had an earlier morning, up at 7.15am, to catch a train out of the city to
   the Blue Mountains for the day. The Blue mountains are two hours (and, due to
   discounts, about £1.50/$2) from Sydney and apparently sometimes look blue due
