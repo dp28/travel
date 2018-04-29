@@ -94,7 +94,14 @@ class Currency
     exchange_rate_to_dollars: 0.00167581
   )
 
-  ALL = [USD, GBP, THB, VND, LAK, KHR, MYR, SGD, IDR, AUD, ARS, CLP].freeze
+  BOB = Currency.new(
+    code: :BOB,
+    name: 'Bolivianos',
+    symbol: 'B$',
+    exchange_rate_to_dollars: 0.144196
+  )
+
+  ALL = [USD, GBP, THB, VND, LAK, KHR, MYR, SGD, IDR, AUD, ARS, CLP, BOB].freeze
   DEFAULT = USD
 
   def self.find_by_code(code)

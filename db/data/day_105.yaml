@@ -1,0 +1,105 @@
+---
+:date: '2018-04-18'
+:number: 105
+:written: 2018-04-29 12:30
+:locations:
+- :Atacama
+:accommodation: :Atacama
+:expenses:
+  :FOOD: {}
+  :ACCOMMODATION: {}
+  :LONG_DISTANCE_TRAVEL: {}
+  :SHORT_TRAVEL: {}
+  :ACTIVITIES: {}
+  :OTHER: {}
+:stats:
+  :walked: 7.5
+  :temperature: 24
+  :altitude: 4100
+:food:
+- Muesli, milk, fruit, yogurt, chocolate chip muffin, toast and butter, tea
+- Cream of vegetable soup, chicken soup 
+- pork, mashed potato, quince, terremoto, white wine, pisco sour, shrimp, avocado,
+  palm hearts, lettuce, potato 
+:photos:
+- :caption: flamingoes in the Lagoon
+  :url: https://lh3.googleusercontent.com/O--cAL233UUfloGm_4NO0r30zM-pUXbNixzeQlAKSczcvJX-V9zbY4eGEks7Zsx2REpM24HHJetjyYJf5yet_58S2hEPObWTlpsx16H0_uPP0FRgOYXDWw1uRdRjCEzjX-BvefXU46c=w2400
+  :width: 2400
+  :height: 1600
+- :caption: Flamingo reflection
+  :url: https://lh3.googleusercontent.com/hhwxvTqyP7Oh3JfF5wM5kUYgmYog1sNzOLDqZzCWC6hCUij4Xtld224dnqExplFsfgwxJD_Tu-0TJ11Wso-xdxrxdZndgEM1BoW9imrd6KsZ4UvT9t5XGEHK8ATDRrK7VY7fY7bB_Gs=w2400
+  :width: 2400
+  :height: 1600
+- :caption: The shrimp the flamingoes eat
+  :url: https://lh3.googleusercontent.com/q5J1PuZf1aoYB6B4KJZCsHXmsIK1krXePFkmw1xg064lftZ9Px6-nhCwY0YXFjn7LNUC7UeeLbE-GuIvTAIZ8Hv-r_uRG2-EIPIsbg9TXbzGRB2s22tgw7fkN9ne4fvEkt9fXD4STPw=w2400
+  :width: 2400
+  :height: 1800
+- :caption: The team
+  :url: https://lh3.googleusercontent.com/tLrLFSbsvT3pV-6pIt_vLkKr8ru6MidZ_aJY70w4cNhTUaYl3wKwdSis6CtectC9T4FAAjZi43vox0EOeWJtkIQs3n2lgkPDFzU8a0NAK4YfnXnUwnV7JFiPL6P64MIowMFcOu2BOvA=w2400
+  :width: 2400
+  :height: 1600
+- :caption: Vicuna Mattata
+  :url: https://lh3.googleusercontent.com/qtiLIX_xz6oHGVDTnBFk9XGP2M4zDYmucS2oRyju3xHheh-mkPjlqu7PjZbvBdifhJCdwc3X4W9Bp07Md5oJVSYRBty3fWaHphlx_wgn-9rZgE1g1wahQnmVUu9fnkBWkqlfZojbwQc=w2400
+  :width: 2400
+  :height: 1600
+- :caption: Baby andean fox
+  :url: https://lh3.googleusercontent.com/e46bP1bnS7U-AoJS69hXXX-0QnoRUlUM-rDWq1SqJNzNqSB-yqQ3x2C8q1G0b9ISvYT8z9oZn7-TxHZfhHZjiDIIhETaEBQyihe_x4SegwS7CYqjVez53LVKWHqR9AWqD4Ea7Y8jRC0=w2400
+  :width: 2400
+  :height: 1600
+- :caption: The falcon
+  :url: https://lh3.googleusercontent.com/xBtRVC6_Pt2dZFMqsql1vYgn6JdTBuKruuKxx_VmSNfQBNlcjGH6gaqFpZIFBcni1kLVFpDpqpkUW-ivOwqiY5FaMAUaLHyGsK0PAHAubOnfYoY95FEamIYMf2mA5app0M8Qbplc9Xw=w2400
+  :width: 2400
+  :height: 1600
+- :caption: Sunset photography
+  :favourite: true
+  :url: https://lh3.googleusercontent.com/X-1ftuAWpXG5OHr1DZ_sKIQ0js7htgIcpjIufHEwAqvSdAg6luUz1Y5i3s-brfj1dnZsoQDZ2GROI2lFdlEi4MG-M0XIg0SnCHtBM9qKmPUX7iGbndPqtShzdFN7UZ2b8gqOYVMHNnI=w2400
+  :width: 2400
+  :height: 4267
+- :caption: The most beautiful dinner
+  :url: https://lh3.googleusercontent.com/naQeKhJ5Q5NwkK7-8f5sIfBZPecq-S67Ij5enJ7h57wB4CONn7J6S0rtSwR7jsV3MAkv8XCFXmyK_7wfqwCq4DYnthhnrRKwshm_bXA1oQtDxiNK5fXHtJZ0hSeHkvd2zYCMqZtW5Q8=w2400
+  :width: 2400
+  :height: 3200
+- :caption: Flamingoes in flight
+  :url: https://lh3.googleusercontent.com/Wj88fXYzZNVLcR0m-ioUyzPEEQ5aohXTtqwVHEJL1impOMPwEXuTbyHcQkBu_GNejmJP-2BRDwOPQnJn6v2yzM1nIcDwRvy3LHB_F2nS8olrJsvXx-SQFQ1A2-S13yRl3aWiG1nZg74=w2400
+  :width: 2400
+  :height: 1600
+:entry: |
+  Despite the fact that it was offered, I resisted the temptation of lemon
+  meringue pie for breakfast, opting for yoghurt and muesli instead.
+
+  After breakfast we drove out of town to one of the salt flats around an hour
+  away. As we approached, the cry, desert landscape suddenly was covered in
+  green scrub before giving way to a barren, white landscape. Near where we
+  parked was a shallow brine lake with quite a few birds including several
+  species of flamingoes. We walked alongside the lake, taking pictures of the
+  birds and occasionally the tiny white lizards that weren't afraid of us at
+  all.
+
+  We continued into the desert, stopping further down the salt flats to have a
+  bit of a walk and saw several wild mules or donkeys along with evidence of
+  something burrowing into the sand.
+
+  We drove on towards the mountains, stopping at a small village for a lunch of
+  soup. We drove higher, probably reaching over 4,000 metres, stopping at a pair
+  of lagoons. We could definitely feel the altitude, making it necessary to
+  breathe more deeply. We saw quite a few vicuna, like llamas but thinner and
+  not domesticated. What they were eating was hard to determine - they seemed to
+  avoid the clumps of grass and found something edible in the gravel.
+
+  Driving back down we saw a lot more than on the way up. We saw red-tinged
+  cacti that we'd missed before and a big group of ostrich-like rhea walking
+  through them. Near by, we saw a desert fox and its cub, not shy of our car at
+  all. We stopped for a walk in a canyon before the village we'd had lunch
+  where Rosie got a few great shots of a falcon, then we got a brief sighting of
+  a condor on the way back to the tower.
+
+  The drive back was long, allowing us to fully appreciate the scale of the
+  desert. The slope down from the mountains was gradual, leading onto a massive
+  plain bounded only on the horizon by another set of mountains. We stopped at
+  the salt flats where we'd seen flamingoes to catch the incredible sunset on
+  the brine lake.
+
+  We had a great dinner where I tried a Chilean cocktail that I wouldn't really
+  recommend - a terremoto or "earthquake". It consists of bad, cheap browny
+  white wine (sold in 5 litre bottles) with pineapple ice cream and fernet.
+  Sweet, sickly and pretty weird.

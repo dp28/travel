@@ -162,4 +162,15 @@ RSpec.describe Currency do
       let(:exchange_rate_to_dollars) { 0.00167581 }
     end
   end
+
+  describe 'Currency::BOB' do
+    subject(:currency) { Currency::BOB }
+
+    it_should_behave_like 'a currency' do
+      let(:code) { :BOB }
+      let(:name) { 'Bolivianos' }
+      let(:symbol) { 'B$' }
+      let(:exchange_rate_to_dollars) { 0.144196 }
+    end
+  end
 end

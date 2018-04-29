@@ -68,6 +68,10 @@ COUNTRIES = {
   Chile: Country.create!(
     name: 'Chile',
     currency_code: Currency::CLP.code
+  ),
+  Bolivia: Country.create!(
+    name: 'Bolivia',
+    currency_code: Currency::CLP.code
   )
 }.freeze
 
@@ -208,6 +212,26 @@ AREAS = {
   Atacama: Area.create!(
     name: 'Atacama desert',
     country: COUNTRIES[:Chile]
+  ),
+  VillaMar: Area.create!(
+    name: 'Villa Mar',
+    country: COUNTRIES[:Bolivia]
+  ),
+  SaltFlats: Area.create!(
+    name: 'Uyuni salt flats',
+    country: COUNTRIES[:Bolivia]
+  ),
+  Uyuni: Area.create!(
+    name: 'Uyuni',
+    country: COUNTRIES[:Bolivia]
+  ),
+  Sucre: Area.create!(
+    name: 'Sucre',
+    country: COUNTRIES[:Bolivia]
+  ),
+  SantaCruz: Area.create!(
+    name: 'SantaCruz',
+    country: COUNTRIES[:Bolivia]
   )
 }.freeze
 
@@ -506,6 +530,55 @@ LOCATIONS = {
     latitude: -22.909497,
     longitude: -68.195061,
     area: AREAS[:Atacama]
+  ),
+  AtacamaSecond: Location.create!(
+    type: Location::Type::ACCOMMODATION,
+    name: 'Altiplanico Atacama',
+    latitude: -22.904205,
+    longitude: -68.205377,
+    area: AREAS[:Atacama]
+  ),
+  AtacamaThird: Location.create!(
+    type: Location::Type::ACCOMMODATION,
+    name: 'Toconao 648',
+    latitude: -22.916321,
+    longitude: -68.199071,
+    area: AREAS[:Atacama]
+  ),
+  VillaMar: Location.create!(
+    type: Location::Type::ACCOMMODATION,
+    name: 'Villa Mar',
+    latitude: -21.756447,
+    longitude: -67.480899,
+    area: AREAS[:VillaMar]
+  ),
+  SaltHotel: Location.create!(
+    type: Location::Type::ACCOMMODATION,
+    name: 'Salt Hotel (Guessed location)',
+    latitude: -20.911945,
+    longitude: -67.566671,
+    area: AREAS[:SaltFlats]
+  ),
+  Uyuni: Location.create!(
+    type: Location::Type::ACCOMMODATION,
+    name: 'Uyuni bus office',
+    latitude: -20.460873,
+    longitude: -66.826226,
+    area: AREAS[:Uyuni]
+  ),
+  Sucre: Location.create!(
+    type: Location::Type::ACCOMMODATION,
+    name: 'Family Hostel',
+    latitude: -19.043193,
+    longitude: -65.263635,
+    area: AREAS[:Sucre]
+  ),
+  SantaCruz: Location.create!(
+    type: Location::Type::ACCOMMODATION,
+    name: 'Residencial Ikandire II',
+    latitude: -17.775915,
+    longitude: -63.174975,
+    area: AREAS[:SantaCruz]
   )
 }.freeze
 
