@@ -151,4 +151,15 @@ RSpec.describe Currency do
       let(:exchange_rate_to_dollars) { 0.0496560 }
     end
   end
+
+  describe 'Currency::CLP' do
+    subject(:currency) { Currency::CLP }
+
+    it_should_behave_like 'a currency' do
+      let(:code) { :CLP }
+      let(:name) { 'Chilean pesos' }
+      let(:symbol) { 'CLP $' }
+      let(:exchange_rate_to_dollars) { 0.00167581 }
+    end
+  end
 end

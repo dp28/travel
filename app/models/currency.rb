@@ -87,7 +87,14 @@ class Currency
     exchange_rate_to_dollars: 0.0496560
   )
 
-  ALL = [USD, GBP, THB, VND, LAK, KHR, MYR, SGD, IDR, AUD, ARS].freeze
+  CLP = Currency.new(
+    code: :CLP,
+    name: 'Chilean pesos',
+    symbol: 'CLP $',
+    exchange_rate_to_dollars: 0.00167581
+  )
+
+  ALL = [USD, GBP, THB, VND, LAK, KHR, MYR, SGD, IDR, AUD, ARS, CLP].freeze
   DEFAULT = USD
 
   def self.find_by_code(code)

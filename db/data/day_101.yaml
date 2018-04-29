@@ -1,0 +1,105 @@
+---
+:date: '2018-04-14'
+:number: 101
+:written: 2018-04-28 16:20
+:locations:
+- :SantiagoSecond
+:accommodation: :SantiagoSecond
+:expenses:
+  :FOOD: {}
+  :ACCOMMODATION: {}
+  :LONG_DISTANCE_TRAVEL: {}
+  :SHORT_TRAVEL: {}
+  :ACTIVITIES: {}
+  :OTHER: {}
+:stats:
+  :walked: 6.9
+  :temperature: 26
+  :altitude: 570
+:food:
+- banana, fruit salad, granola and yoghurt, tea, orange juice, bread and butter, hot
+  chocolate, fried eggs, omelette
+- white wine, red wine, grapes
+- pastel de choclo, pino empanada
+- gin and tonic, red wine, white wine, 16 courses
+:photos:
+- :caption: Cycling and wine
+  :url: https://lh3.googleusercontent.com/TjfRHEA15hhgG7Ri-tC1vQC_QeNQZpXbK0SO00Cfs6-gs8K446H_H4MrzWOXlhDfRoVt0F-ewcIQQvg70qvoVdfbg4niptvIQNOKFHUB6lOsCoDM7uRzxrv8ojpzqCk1NrMMTxC0w5Q=w2400
+  :width: 2400
+  :height: 1800
+- :caption: A nice Pinot Gris
+  :url: https://lh3.googleusercontent.com/XUQ-m99J5D97y6eygC_3Yq-y9dkkMERYbRYsFtTm4ojWYY8V9YvK96wyYaHhIAdncjXQrcqTfQBgjLUZerNKnW_9fT4tm6O4JD-q7cFxn1nRzX-LXfHRNG9MBKoYgPMMNx-uLuTWoaE=w2400
+  :width: 2400
+  :height: 3200
+- :caption: The magic grapes
+  :url: https://lh3.googleusercontent.com/KNR1FgrxyQAiXfcG6XWZtsshKvYq0labeGhnuuyBYNJQxdjhceowKm8y9TTo6-TO5dKKtaqa6AQK7rDPludG9bx2R4RRPp3d61heU5R6UhHOCtpLpDoInBtCffY_iaQ56k67lMTMfDI=w2400
+  :width: 2400
+  :height: 1800
+- :caption: The barrels for ageing
+  :url: https://lh3.googleusercontent.com/3sxp6vDh6-UesVniMEsbfm1U-4fItguppM8D4Pgopd9yAzMUV0z_4ngYHCnJzPuKbzRmeBuh8WM6XU-Wj5bTTy0vYK47J3RkfxPH8c0ooO1IT4XBqNhfSu74RGd-_xcBfG1cTDFpbKI=w2400
+  :width: 2400
+  :height: 3200
+- :caption: The view from the top of the hill
+  :url: https://lh3.googleusercontent.com/jqNnXdA7Qqx4eezN36Teatd5pUV67G5dKdZZfKbtw9zsg22qrJy53KAIxTnnDa3rPhEQEZ7XE7CoWOMW-coO2B5FjWj8LZGOzeyhjxbI_QP2ZNPlgoCQFz2u492XF1l0rfWQEL2JTQg=w2400
+  :width: 2400
+  :height: 1350
+- :caption: Welcome Drinks
+  :url: https://lh3.googleusercontent.com/hawHwOIC7KjWVdeRXoLvdsjujf_HeW7k3KVbHwUSKV60S4BwfOW2I0lI_gSbN-qugzEgwzP03gvyjvmw6oaYPF2phyXkCQrw8wliqqxYTpFwdk9UN9EeSusZ86fsv8mnGAkvTJzRJz4=w2400
+  :width: 2400
+  :height: 1800
+- :caption: Course 4 was served in a horn
+  :url: https://lh3.googleusercontent.com/Sdlf1605vmcruIELroeX7CpmzgBcHD7orNz2uNy3NJIHvPomE5V26CbRBawODT9bCz2dtEVYY2vN_flyxcw4VG3Q-l4ibKuCeafW_nQjS0Mr_cLAYzKFIQqJODVsXHkfqiwSdQJxGhA=w2400
+  :width: 2320
+  :height: 3088
+- :caption: My favourite course
+  :url: https://lh3.googleusercontent.com/M533QiU-0l5QKd-h5qjpx0jIC_o5lY7gVdkfuuIGI19aqB6gttXNL9hmajUi-Hvf71-WQpSRnQPYRV3OndOy385JHShESMFGXWH0krvB4xI6VoqYydPzwgQhGy5cbsrv9_oTRLB1Fjw=w2400
+  :width: 2400
+  :height: 1800
+- :caption: The surprise course which was rather cold.
+  :url: https://lh3.googleusercontent.com/OLA_qVV9aWwh2q8G4v3RfFNMn2cu8IQ3c_87iNkp-vS6Z2CA9MWdeg5rTU59Lb5AeF9__hiOEJe1dGz_RqFtzPkpfmBLAoTF4NtF2E7QPtTLH-nYeyCKITvewNV0Btk8UEhMh4J-imI=w2400
+  :width: 2400
+  :height: 3200
+- :caption: The menu
+  :url: https://lh3.googleusercontent.com/f6vpT_7o6uuN-QTRFNWUzmve3v87vos48nZfbrET0TzGYPETDAthObJjs1u1MaU-rEH40K7ShAK-yxwklpq-J8a2CQyVuwPzAKERF5ZEVEbSlBdIfmEydX1C3TIrDz-TdIjdf4ydj1M=w2400
+  :width: 2400
+  :height: 2400
+:entry: |2
+  Today started with a **huge** breakfast. We were asked what kind of eggs we
+  would like, then served a fruit salad, granola in yoghurt and tiny crepes with
+  dulce de leche. My omelette was served with bread and I'd opted for a hot
+  chocolate. Needless to say, the banana I'd had before breakfast turned out to
+  be a mistake.
+
+  The main event of the day was a tour of the only winery within the city bounds
+  of Santiago, sandwiched between the city and the Andes. We got there by taxi
+  and metro (with a load of football fans in the metro), then picked up bikes
+  and joined a tour.
+
+  Unlike our winery tours in Mendoza, here we were guided through the vineyards
+  and allowed to taste the grapes. We had Sauvignon Blanc, Merlot and Cabernet
+  Sauvignon. They were all pretty sweet and juicy, smaller and rounder than
+  grapes for eating. Many had shrivelled on the vines, leaving slightly juicy
+  raisins. I kept some to try alongside the wines made from them, but it was
+  hard to try and taste the specific flavours the grape varieties directly gave
+  to the wines.
+
+  We got an Uber back to where we'd ended our walking tour yesterday and ate at
+  a traditional Chilean restaurant. I had something simmilar to a cottage pie,
+  but much sweeter as the topping was corn rather than potatao and has sugar
+  scattered over it. Probably not something I'll have again.
+
+  Afterwards, we headed up the hill nearby to get a view over the entire city.
+  It had a church at the top with a wedding going on and a large statue of Mary.
+  The view was fantastic and the free water fountains were definitely
+  appreciated.
+
+  Dinner was more of an event than a meal. We went to a very upmarket restaurant
+  called Borago and had a sixteen course tasting menu with seven paired wines.
+  The food was primarily made from Chilean ingredients and, unsurprisingly given
+  the number of courses, the portions were small. None of it was like food you
+  would replicate at home - we had the Chilean national flower with a single
+  translucent dot of flavour placed on each petal, drank a seafood soup from a
+  bull's horn and cracked a sugary sheel of a cold creme brulee like desert made
+  to look like part of the stone it was served on, and each of those were only
+  parts of courses. It was a pretty surreal take on food, a bit like an extreme
+  version of the few tasting menus I've had in Edinburgh.

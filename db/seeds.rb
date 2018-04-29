@@ -64,6 +64,10 @@ COUNTRIES = {
   Argentina: Country.create!(
     name: 'Argentina',
     currency_code: Currency::ARS.code
+  ),
+  Chile: Country.create!(
+    name: 'Chile',
+    currency_code: Currency::CLP.code
   )
 }.freeze
 
@@ -192,6 +196,18 @@ AREAS = {
   Mendoza: Area.create!(
     name: 'Mendoza',
     country: COUNTRIES[:Argentina]
+  ),
+  Santiago: Area.create!(
+    name: 'Santiago',
+    country: COUNTRIES[:Chile]
+  ),
+  Valparaiso: Area.create!(
+    name: 'Valparaiso',
+    country: COUNTRIES[:Chile]
+  ),
+  Atacama: Area.create!(
+    name: 'Atacama desert',
+    country: COUNTRIES[:Chile]
   )
 }.freeze
 
@@ -462,6 +478,34 @@ LOCATIONS = {
     latitude: -32.897173,
     longitude: -68.840075,
     area: AREAS[:Mendoza]
+  ),
+  Santiago: Location.create!(
+    type: Location::Type::ACCOMMODATION,
+    name: 'Shared apartment',
+    latitude: -33.447338,
+    longitude: -70.635695,
+    area: AREAS[:Santiago]
+  ),
+  SantiagoSecond: Location.create!(
+    type: Location::Type::ACCOMMODATION,
+    name: 'CasaSur Charming Hotel',
+    latitude: -33.447833,
+    longitude: -70.629255,
+    area: AREAS[:Santiago]
+  ),
+  Valparaiso: Location.create!(
+    type: Location::Type::ACCOMMODATION,
+    name: 'Hotel Boutique 17',
+    latitude: -33.041894,
+    longitude: -71.626433,
+    area: AREAS[:Valparaiso]
+  ),
+  Atacama: Location.create!(
+    type: Location::Type::ACCOMMODATION,
+    name: 'Hostal Pueblo de Tierra',
+    latitude: -22.909497,
+    longitude: -68.195061,
+    area: AREAS[:Atacama]
   )
 }.freeze
 
