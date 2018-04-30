@@ -72,6 +72,10 @@ COUNTRIES = {
   Bolivia: Country.create!(
     name: 'Bolivia',
     currency_code: Currency::CLP.code
+  ),
+  Peru: Country.create!(
+    name: 'Peru',
+    currency_code: Currency::PEN.code
   )
 }.freeze
 
@@ -230,8 +234,20 @@ AREAS = {
     country: COUNTRIES[:Bolivia]
   ),
   SantaCruz: Area.create!(
-    name: 'SantaCruz',
+    name: 'Santa Cruz',
     country: COUNTRIES[:Bolivia]
+  ),
+  LaPaz: Area.create!(
+    name: 'La Paz',
+    country: COUNTRIES[:Bolivia]
+  ),
+  Copacabana: Area.create!(
+    name: 'Copacabana',
+    country: COUNTRIES[:Bolivia]
+  ),
+  Puno: Area.create!(
+    name: 'Puno',
+    country: COUNTRIES[:Peru]
   )
 }.freeze
 
@@ -579,6 +595,27 @@ LOCATIONS = {
     latitude: -17.775915,
     longitude: -63.174975,
     area: AREAS[:SantaCruz]
+  ),
+  LaPaz: Location.create!(
+    type: Location::Type::ACCOMMODATION,
+    name: 'Casa Skyways B&B',
+    latitude: -16.512846,
+    longitude: -68.125695,
+    area: AREAS[:LaPaz]
+  ),
+  Copacabana: Location.create!(
+    type: Location::Type::ACCOMMODATION,
+    name: 'Hostal Puerto Alegre',
+    latitude: -16.167429,
+    longitude: -69.08524,
+    area: AREAS[:Copacabana]
+  ),
+  Puno: Location.create!(
+    type: Location::Type::ACCOMMODATION,
+    name: 'Ururi Stay Puno',
+    latitude: -15.838337,
+    longitude: -70.0281,
+    area: AREAS[:Puno]
   )
 }.freeze
 

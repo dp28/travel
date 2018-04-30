@@ -101,7 +101,14 @@ class Currency
     exchange_rate_to_dollars: 0.144196
   )
 
-  ALL = [USD, GBP, THB, VND, LAK, KHR, MYR, SGD, IDR, AUD, ARS, CLP, BOB].freeze
+  PEN = Currency.new(
+    code: :PEN,
+    name: 'Soles',
+    symbol: 'S/.',
+    exchange_rate_to_dollars: 0.305979
+  )
+
+  ALL = [USD, GBP, THB, VND, LAK, KHR, MYR, SGD, IDR, AUD, ARS, CLP, BOB, PEN].freeze
   DEFAULT = USD
 
   def self.find_by_code(code)

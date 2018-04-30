@@ -173,4 +173,15 @@ RSpec.describe Currency do
       let(:exchange_rate_to_dollars) { 0.144196 }
     end
   end
+
+  describe 'Currency::PEN' do
+    subject(:currency) { Currency::PEN }
+
+    it_should_behave_like 'a currency' do
+      let(:code) { :PEN }
+      let(:name) { 'Soles' }
+      let(:symbol) { 'S/.' }
+      let(:exchange_rate_to_dollars) { 0.305979 }
+    end
+  end
 end

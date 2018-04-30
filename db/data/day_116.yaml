@@ -7,6 +7,8 @@
 :accommodation: :SantaCruz
 :expenses:
   :FOOD:
+    :breakfast:
+      :bolivianos: 14
     :water:
       :bolivianos: 6
     :dinner:
@@ -22,7 +24,7 @@
   :temperature: 30
   :altitude: 400
 :food:
-- Saltenas, tea
+- Salteñas, cinnamon tea
 - chocolate, cookies
 - Cheeseburger with chimmichurri, burger with tomato and nachos and avocado,
   french fries
