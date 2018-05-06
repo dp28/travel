@@ -45,5 +45,15 @@ RSpec.describe 'countries', type: :request do
         expect(json_country[:totalExpense][:price][:amount]).to eq(0)
       end
     end
+
+    describe 'the "foodOccurrences" field' do
+      before { country }
+
+      let(:node_query) { 'foodOccurrences { name }' }
+
+      it 'should be a FoodOccurrences type' do
+        expect(json_country[:foodOccurrences].size).to eq(0)
+      end
+    end
   end
 end

@@ -20,4 +20,9 @@ AreaType = GraphQL::ObjectType.define do
     type !TotalExpenseType
     resolve ->(area, _, _) { area.total_expense }
   end
+
+  field :foodOccurrences do
+    type !types[FoodOccurrenceType]
+    resolve ->(area, _, _) { area.food_occurrences }
+  end
 end

@@ -18,4 +18,9 @@ CountryType = GraphQL::ObjectType.define do
     type !TotalExpenseType
     resolve ->(country, _, _) { country.total_expense }
   end
+
+  field :foodOccurrences do
+    type !types[FoodOccurrenceType]
+    resolve ->(country, _, _) { country.food_occurrences }
+  end
 end

@@ -83,4 +83,12 @@ QueryType = GraphQL::ObjectType.define do
       Day.find_by(number: args[:number])
     }
   end
+
+  field :foodOccurrences do
+    type types[FoodOccurrenceType]
+
+    resolve lambda { |_object, _args, _context|
+      FoodOccurrences.new(day_numbers: Day.all.pluck(:number)).occurrences
+    }
+  end
 end
