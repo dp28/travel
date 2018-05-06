@@ -22,6 +22,7 @@ Day.all.destroy_all # Makes it easier to correct mistakes - will remove eventual
 Country.all.destroy_all
 Location.all.destroy_all
 Area.all.destroy_all
+Food.all.destroy_all
 
 puts 'Creating countries...'
 COUNTRIES = {
@@ -633,10 +634,15 @@ LOCATIONS = {
 def create_day(config)
   day = Day.find_or_create_by!(number: config[:number], date: config[:date])
   create_post(day, config[:entry], config[:written])
-  create_expenses(day, config[:expenses])
-  create_photos(day, config[:photos])
+  create_sub_models(day, config)
   link_locations(day, config)
   print "#{config[:number]} . "
+end
+
+def create_sub_models(day, config)
+  create_expenses(day, config[:expenses])
+  create_photos(day, config[:photos])
+  create_meals(day, config[:food])
 end
 
 def create_post(day, content, written_at)
@@ -698,6 +704,19 @@ end
 
 def create_accommodation(day, accommodation_location_name)
   day.create_accommodation! location: LOCATIONS[accommodation_location_name]
+end
+
+def create_meals(day, meals_config)
+  meals_config.each_with_index do |meal_config, ordering|
+    create_meal(day, meal_config, ordering)
+  end
+end
+
+def create_meal(day, meal_config, ordering)
+  food_names = meal_config.split(',').map { |f| f.strip.downcase.singularize }.reject(&:blank?)
+  foods = food_names.map { |name| Food.find_or_create_by! name: name }
+  meal = day.meals.create! ordering: ordering
+  meal.foods << foods
 end
 
 puts 'Creating days...'
