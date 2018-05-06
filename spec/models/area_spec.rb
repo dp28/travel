@@ -26,4 +26,19 @@ RSpec.describe Area, type: :model do
       expect(area.total_expense.amount).to eq day_expense.amount
     end
   end
+
+  describe '#food_occurrences' do
+    it 'should be FoodOccurrences created with the Days for the Area' do
+      location = FactoryBot.create :location
+      accommodation = FactoryBot.create :accommodation, location: location
+      area = location.area
+      day = FactoryBot.create :day, accommodation: accommodation
+      day_meal = FactoryBot.create :meal, day: day
+      food = FactoryBot.create :food
+      day_meal.foods << food
+      FactoryBot.create :food
+
+      expect(area.food_occurrences.first.name).to eq food.name
+    end
+  end
 end
