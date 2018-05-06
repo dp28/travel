@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2018_03_02_034802) do
+ActiveRecord::Schema.define(version: 2018_05_06_105456) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -69,6 +69,13 @@ ActiveRecord::Schema.define(version: 2018_03_02_034802) do
     t.index ["day_id"], name: "index_expenses_on_day_id"
   end
 
+  create_table "foods", force: :cascade do |t|
+    t.string "name", null: false
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.index ["name"], name: "index_foods_on_name", unique: true
+  end
+
   create_table "locations", force: :cascade do |t|
     t.string "name", null: false
     t.float "latitude", null: false
@@ -78,6 +85,24 @@ ActiveRecord::Schema.define(version: 2018_03_02_034802) do
     t.bigint "area_id", null: false
     t.string "type", null: false
     t.index ["area_id"], name: "index_locations_on_area_id"
+  end
+
+  create_table "meal_foods", force: :cascade do |t|
+    t.bigint "meal_id", null: false
+    t.bigint "food_id", null: false
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.index ["food_id"], name: "index_meal_foods_on_food_id"
+    t.index ["meal_id"], name: "index_meal_foods_on_meal_id"
+  end
+
+  create_table "meals", force: :cascade do |t|
+    t.bigint "day_id", null: false
+    t.integer "ordering", null: false
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.index ["day_id", "ordering"], name: "index_meals_on_day_id_and_ordering", unique: true
+    t.index ["day_id"], name: "index_meals_on_day_id"
   end
 
   create_table "photos", force: :cascade do |t|
