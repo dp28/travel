@@ -6,6 +6,7 @@ class Day < ApplicationRecord
   has_one :accommodation, dependent: :destroy
   has_many :day_locations
   has_many :locations, through: :day_locations
+  has_many :meals, dependent: :destroy
 
   validates :number, presence: true, numericality: { greater_than: 0 }
   validates :date, presence: true

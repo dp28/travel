@@ -15,6 +15,7 @@ RSpec.describe Day do
   it { should have_one :accommodation }
   it { should have_many(:locations).through(:day_locations) }
   it { should have_many(:photos).dependent(:destroy) }
+  it { should have_many(:meals).dependent(:destroy) }
 
   describe '#total_expense' do
     it 'should be a TotalExpense created with the Day' do
