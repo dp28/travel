@@ -3,7 +3,6 @@ import { Grid, Row, Col } from 'react-bootstrap'
 import { Link } from 'react-router-dom'
 
 import { ConnectedMap } from '../Map/Map'
-import { ConnectedFoodCloud } from '../FoodCloud/FoodCloud'
 import { DayLink, LinkableDayFragment } from '../DayLink/DayLink'
 import { edgesToArray } from '../../mapGraphqlResults'
 import { LoadFromServer } from '../LoadFromServer/LoadFromServer'
@@ -53,9 +52,6 @@ export const Home = ({ firstDay, mostRecentDay }) => (
             I'm in charge of sarcastic comments, <Link to="/gallery">photos</Link> and <Link to="/videos">videos</Link>.
           </p>
         </div>
-      </Col>
-      <Col xs={12}>
-        <ConnectedFoodCloud />
       </Col>
     </Row>
   </Grid>
