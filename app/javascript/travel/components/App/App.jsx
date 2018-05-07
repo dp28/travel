@@ -3,6 +3,7 @@ import { Grid } from 'react-bootstrap'
 import { BrowserRouter as Router, Route } from 'react-router-dom'
 
 import { ConnectedDay } from '../Day/Day'
+import { ConnectedCountry } from '../Country/Country'
 import { ConnectedGallery } from '../Gallery/Gallery'
 import { Food } from '../Food/Food'
 import { Videos } from '../Videos/Videos'
@@ -26,6 +27,7 @@ export const App = () => (
       <Route path="/cost" component={ConnectedCost}/>
       <Route path="/food" component={Food}/>
       <Route path="/days/:number" component={ConnectedDay}/>
+      <Route path="/countries/:countryName" component={ConnectedCountry}/>
     </div>
   </Router>
 )
