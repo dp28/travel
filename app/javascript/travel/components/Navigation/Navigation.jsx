@@ -5,6 +5,14 @@ import { Link } from 'react-router-dom'
 
 import './Navigation.sass'
 
+const Links = {
+  '': 'Diary',
+  about: 'About',
+  gallery: 'Gallery',
+  videos: 'Videos',
+  food: 'Food'
+}
+
 export const Navigation = () => (
   <Navbar inverse collapseOnSelect>
   <Navbar.Header>
@@ -19,26 +27,15 @@ export const Navigation = () => (
   </Navbar.Header>
   <Navbar.Collapse>
     <Nav pullRight>
-      <IndexLinkContainer to="/">
-        <NavItem eventKey={1}>
-          Diary
-        </NavItem>
-      </IndexLinkContainer>
-      <IndexLinkContainer to="/about">
-        <NavItem eventKey={2}>
-          About
-        </NavItem>
-      </IndexLinkContainer>
-      <IndexLinkContainer to="/gallery">
-        <NavItem eventKey={3}>
-          Gallery
-        </NavItem>
-      </IndexLinkContainer>
-      <IndexLinkContainer to="/videos">
-        <NavItem eventKey={3}>
-          Videos
-        </NavItem>
-      </IndexLinkContainer>
+      {
+        Object.entries(Links).map(([route, name], index) => (
+          <IndexLinkContainer to={`/${route}`}>
+            <NavItem eventKey={index + 1}>
+              {name}
+            </NavItem>
+          </IndexLinkContainer>
+        ))
+      }
     </Nav>
   </Navbar.Collapse>
 </Navbar>
