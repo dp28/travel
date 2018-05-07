@@ -248,6 +248,10 @@ AREAS = {
   Puno: Area.create!(
     name: 'Puno',
     country: COUNTRIES[:Peru]
+  ),
+  Arequipa: Area.create!(
+    name: 'Arequipa',
+    country: COUNTRIES[:Peru]
   )
 }.freeze
 
@@ -616,6 +620,13 @@ LOCATIONS = {
     latitude: -15.838337,
     longitude: -70.0281,
     area: AREAS[:Puno]
+  ),
+  Arequipa: Location.create!(
+    type: Location::Type::ACCOMMODATION,
+    name: 'Yes Arequipa Hostel',
+    latitude: -16.400837,
+    longitude: -71.541574,
+    area: AREAS[:Arequipa]
   )
 }.freeze
 
