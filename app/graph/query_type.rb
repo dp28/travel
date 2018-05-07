@@ -91,4 +91,13 @@ QueryType = GraphQL::ObjectType.define do
       FoodOccurrences.new(day_numbers: Day.all.pluck(:number)).occurrences
     }
   end
+
+  field :country do
+    type CountryType
+    argument :name, types.String
+
+    resolve lambda { |_object, args, _context|
+      Country.find_by(name: args[:name])
+    }
+  end
 end

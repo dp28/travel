@@ -29,7 +29,7 @@ export const Navigation = () => (
     <Nav pullRight>
       {
         Object.entries(Links).map(([route, name], index) => (
-          <IndexLinkContainer to={`/${route}`}>
+          <IndexLinkContainer to={`/${route}`} key={name}>
             <NavItem eventKey={index + 1}>
               {name}
             </NavItem>
