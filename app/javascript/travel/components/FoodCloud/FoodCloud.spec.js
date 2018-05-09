@@ -5,6 +5,7 @@ import { FoodCloud } from './FoodCloud'
 
 describe('FoodCloud', () => {
   it('should render', () => {
+    global.matchMedia = () => true
     expect(() => shallow(<FoodCloud />)).not.toThrow()
   })
 })

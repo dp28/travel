@@ -228,7 +228,7 @@ describe('presentAllDayCosts', () => {
 describe('presentSingleDayCosts', () => {
   it('should assign the amount in dollars and width in percent to each expense category for a day', () => {
     const result = presentSingleDayCosts(mockDay())
-    expect(result).toEqual({
+    expect(result.costs).toEqual({
       total: { dollars: 60, widthInPercent: 600 },
       food: { dollars: 10, widthInPercent: 100 },
       accommodation: { dollars: 10, widthInPercent: 100 },
@@ -241,7 +241,7 @@ describe('presentSingleDayCosts', () => {
 
   it('should scale the width in percentages to be relative to the largest individual cost, apart from the total', () => {
     const result = presentSingleDayCosts(mockDay({ food: 50, price: 100 }))
-    expect(result).toEqual({
+    expect(result.costs).toEqual({
       total: { dollars: 100, widthInPercent: 200 },
       food: { dollars: 50, widthInPercent: 100 },
       accommodation: { dollars: 10, widthInPercent: 20 },
