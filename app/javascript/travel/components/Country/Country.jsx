@@ -11,7 +11,9 @@ export const Country = ({ country }) => (
     <Row>
       <Col xs={12} sm={6} md={4}>
         <h2>{country.name}</h2>
-        <ConnectedMap />
+      </Col>
+      <Col xs={12} sm={6} md={4}>
+        <ConnectedMap filterCountry={country.name} />
       </Col>
     </Row>
   </Grid>

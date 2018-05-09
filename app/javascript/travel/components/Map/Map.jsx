@@ -6,11 +6,6 @@ import { QueryParamLink, PathLink, getQueryParamValue } from '../Links/Links'
 import { edgesToArray } from '../../mapGraphqlResults'
 import './Map.sass'
 
-const DEFAULT_CENTRE = {
-  lat: 15,
-  lng: 102
-}
-
 export const SELECTED_AREA_PARAM = 'area'
 
 const Area = ({ name, dayNumbers, selectedDayNumber, selected }) => {
@@ -47,11 +42,10 @@ const Area = ({ name, dayNumbers, selectedDayNumber, selected }) => {
 
 
 
-export const Map = ({ areas, selectedDayNumber, centreArea, zoom }) => {
+export const Map = ({ areas, selectedDayNumber, centreArea, zoom, filterCountry }) => {
+  const areasToPlot = filterAreasToPlot(areas, filterCountry)
   const selectedAreaName = getQueryParamValue(SELECTED_AREA_PARAM)
-  const centreAreaName = selectedAreaName || centreArea
-  const centre = areas.find(area => area.name === centreAreaName)
-  const centreLocation = centre ? centre.location : DEFAULT_CENTRE
+  const centreLocation = calculateCentreLocation(areasToPlot, selectedAreaName, centreArea)
   return (
     <div className="Map">
       <GoogleMap
@@ -61,7 +55,7 @@ export const Map = ({ areas, selectedDayNumber, centreArea, zoom }) => {
           key: 'AIzaSyDymbrPc713fzhSFmB6F2Ap99fW3y_tYos'
         }}>
         {
-          (areas || []).map(area => (
+          (areasToPlot || []).map(area => (
             <Area
               key={area.name}
               {...area}
@@ -84,6 +78,9 @@ export const ConnectedMap = LoadFromServer({
         edges {
           node {
             name
+            country {
+              name
+            }
             days {
               edges {
                 node {
@@ -109,15 +106,37 @@ export const ConnectedMap = LoadFromServer({
   })
 })
 
-function parseArea({ name, days, locations }) {
+function parseArea({ name, country, days, locations }) {
   const location = edgesToArray(locations)[0]
   return {
     name,
+    countryName: country.name,
     dayNumbers: edgesToArray(days).map(day => day.number).sort((a, b) => a - b),
     location: {
       lat: location.latitude,
       lng: location.longitude
     }
+  }
+}
+
+function filterAreasToPlot(areas = [], filterCountry) {
+  return filterCountry ? areas.filter(area => area.countryName === filterCountry) : areas
+}
+
+function calculateCentreLocation(areas, selectedAreaName, centreAreaName) {
+  const selectedName = selectedAreaName || centreAreaName
+  const selectedCentre = selectedName && areas.find(area => area.name === selectedName)
+  return selectedCentre ? selectedCentre.location : calculateMeanLocation(areas)
+}
+
+function calculateMeanLocation(areas) {
+  const locationSum = areas.reduce(
+    ({ lat, lng }, { location }) => ({ lat: lat + location.lat, lng: lng + location.lng }),
+    { lat: 0, lng: 0 }
+  )
+  return {
+    lat: locationSum.lat / areas.length,
+    lng: locationSum.lng / areas.length
   }
 }
 
