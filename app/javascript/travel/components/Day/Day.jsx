@@ -1,6 +1,7 @@
 import React from 'react'
 import { Grid, Row, Col } from 'react-bootstrap'
 import PhotoContainer from 'react-photo-container'
+import { Link } from 'react-router-dom'
 
 import { ConnectedMap } from '../Map/Map'
 import { ConnectedTimeline } from '../Timeline/Timeline'
@@ -20,6 +21,18 @@ export const Day = ({ day, previousLink, nextLink }) => (
         <h2>Day {day.number} - {day.date}</h2>
         <p>
           {previousLink} - {nextLink}
+        </p>
+        <p>
+          {day.countryNames.length > 1 ? 'Countries: ' : 'Country: '}
+          {
+            day.countryNames.map(countryName => (
+              <span style={{ paddingRight: '5px'}} key={countryName}>
+                <Link to={`/countries/${countryName}`}>
+                  {countryName}
+                </Link>
+              </span>
+            ))
+          }
         </p>
         <div dangerouslySetInnerHTML={{__html: day.post}} />
       </Col>
@@ -52,9 +65,23 @@ export const ConnectedDay = LoadFromServer({
       day(number: $dayNumber) {
         number
         date
+
         post {
           content
         }
+
+        locations {
+          edges {
+            node {
+              area {
+                country {
+                  name
+                }
+              }
+            }
+          }
+        }
+
         photos {
           edges {
             node {
@@ -88,7 +115,8 @@ export const ConnectedDay = LoadFromServer({
       number: day.number,
       date: new Date(day.date).toString().substring(0, 15),
       post: day.post.content,
-      photos: edgesToArray(day.photos)
+      photos: edgesToArray(day.photos),
+      countryNames: edgesToArray(day.locations).map(location => location.area.country.name)
     },
     previousLink: buildOptionalLink(previous, 'Previous'),
     nextLink: buildOptionalLink(next, 'Next')
