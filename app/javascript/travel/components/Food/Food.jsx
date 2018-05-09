@@ -13,7 +13,7 @@ export const Food = () => (
           here is a bit of an overview of the kind of things we've been eating
           and drinking (and how often).
         </p>
-        <ConnectedFoodCloud fontScales={{ xs: 1.2, sm: 2.5, md: 3, lg: 3.5 }} />
+        <ConnectedFoodCloud fontScales={{ xs: 1, sm: 2.5, md: 3, lg: 3.5 }} />
       </Col>
     </Row>
   </Grid>
