@@ -28,18 +28,20 @@ export const ConnectedFoodCloud = LoadFromServer({
       }
     }
   `,
-  dataToProps: ({ foodOccurrences }) => {
-    if (!foodOccurrences) {
-      return []
-    }
-    return {
-      occurrences: foodOccurrences.map(({ name, count }) => ({
-        text: name,
-        value: count
-      }))
-    }
-  }
+  dataToProps: ({ foodOccurrences }) => ({
+    occurrences: parseFoodOccurrences(foodOccurrences)
+  })
 })
+
+export function parseFoodOccurrences(foodOccurrences) {
+  if (!foodOccurrences) {
+      return []
+  }
+  return foodOccurrences.map(({ name, count }) => ({
+    text: name,
+    value: count
+  }))
+}
 
 function selectFontScale({ xs, sm, md, lg }) {
   if (onMobile())

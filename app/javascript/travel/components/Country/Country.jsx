@@ -3,6 +3,7 @@ import { Grid, Row, Col } from 'react-bootstrap'
 import PhotoContainer from 'react-photo-container'
 
 import { ConnectedMap } from '../Map/Map'
+import { FoodCloud, parseFoodOccurrences } from '../FoodCloud/FoodCloud'
 import { LinkableDayFragment, DayLink } from '../DayLink/DayLink'
 import { LoadFromServer } from '../LoadFromServer/LoadFromServer'
 import { edgesToArray } from '../../mapGraphqlResults'
@@ -32,6 +33,15 @@ export const Country = ({ country }) => {
         </Col>
         <Col xs={12} sm={6} md={4}>
           <ConnectedMap filterCountry={country.name} />
+        </Col>
+      </Row>
+      <Row>
+        <Col xs={12}>
+          <h3>Food</h3>
+          <FoodCloud
+            occurrences={country.foodOccurrences}
+            fontScales={{ xs: 4, sm: 6, md: 7, lg: 9 }}
+          />
         </Col>
       </Row>
     </Grid>
@@ -69,7 +79,8 @@ export const ConnectedCountry = LoadFromServer({
     return {
       country: {
         ...country,
-        days: edgesToArray(country.days)
+        days: edgesToArray(country.days),
+        foodOccurrences: parseFoodOccurrences(country.foodOccurrences)
       }
     }
   }
