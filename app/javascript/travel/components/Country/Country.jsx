@@ -28,7 +28,7 @@ export const Country = ({ country }) => {
   return (
     <Grid>
       <Row>
-        <Col xs={12} sm={6} md={4}>
+        <Col xs={12} sm={6}>
           <h2>{country.name} ({country.days.length} days)</h2>
 
           <DayLink day={country.days[0]}>First Day</DayLink>
@@ -44,7 +44,7 @@ export const Country = ({ country }) => {
             </div>
           </div>
         </Col>
-        <Col xs={12} sm={6} md={4}>
+        <Col xs={12} sm={6}>
           <ConnectedMap filterCountry={country.name} />
         </Col>
       </Row>
@@ -55,6 +55,23 @@ export const Country = ({ country }) => {
             occurrences={country.foodOccurrences}
             fontScales={{ xs: 4, sm: 6, md: 7, lg: 9 }}
           />
+        </Col>
+      </Row>
+      <Row>
+
+        <Col xs={12}>
+          <h3>Favourite photos</h3>
+          {country.photos.length === 0 ? null : (
+            <PhotoContainer
+              photos={
+                country.photos.map(({ url, width, height, caption, aspectRatio }) => ({
+                  src: url,
+                  width,
+                  height,
+                  aspectRatio,
+                  lightboxImage: { src: url, caption }
+              }))} />
+          )}
         </Col>
       </Row>
     </Grid>
@@ -82,6 +99,18 @@ export const ConnectedCountry = LoadFromServer({
           edges {
             node {
               ...LinkableDay
+              photos {
+                edges {
+                  node {
+                    url
+                    width
+                    height
+                    aspectRatio
+                    caption
+                    isFavourite
+                  }
+                }
+              }
             }
           }
         }
@@ -121,10 +150,17 @@ export const ConnectedCountry = LoadFromServer({
   dataToProps: ({ country }) => {
     if (!country)
       return null
+
+    const days = edgesToArray(country.days)
+    const photos = days.reduce(
+      (allPhotos, day) => allPhotos.concat(edgesToArray(day.photos).filter(p => p.isFavourite)),
+      []
+    )
     return {
       country: {
         ...country,
-        days: edgesToArray(country.days),
+        days,
+        photos,
         foodOccurrences: parseFoodOccurrences(country.foodOccurrences),
         averageCosts: presentGroupedCosts(country.averageCosts)
       }
