@@ -13,6 +13,7 @@ CountryType = GraphQL::ObjectType.define do
 
   field :name, !types.String
   connection :areas, !AreaType.connection_type
+  connection :days, !DayType.connection_type
 
   field :totalExpense do
     type !TotalExpenseType

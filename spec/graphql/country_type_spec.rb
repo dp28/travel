@@ -55,5 +55,26 @@ RSpec.describe 'countries', type: :request do
         expect(json_country[:foodOccurrences].size).to eq(0)
       end
     end
+
+    describe 'the "days" connection' do
+      let(:node_query) { 'days { edges { node { number } } }' }
+      let(:days) { FactoryBot.create_list :day, 2 }
+      let(:location) { FactoryBot.create :location }
+      let(:area) { FactoryBot.create :area }
+
+      before do
+        country.areas << area
+        area.locations << location
+        location.days << days
+        days.each do |day|
+          location.accommodations.create day: day
+        end
+      end
+
+      it 'should be the Days for the Locations in the Areas in the Country' do
+        day_numbers = json_country[:days][:edges].map { |e| e[:node][:number] }.sort
+        expect(day_numbers).to eq days.map(&:number).sort
+      end
+    end
   end
 end
