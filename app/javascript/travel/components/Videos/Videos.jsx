@@ -2,7 +2,7 @@ import React from 'react'
 import { Grid, Row, Col } from 'react-bootstrap'
 import YouTube from 'react-youtube'
 
-const VideoIds = ['PjMru8mq0z0', '4LVJa0bon3A', '1EecWT70ycI']
+const VideoIds = ['PjMru8mq0z0', '4LVJa0bon3A', '1EecWT70ycI', 'YkGeKMfFZ8I']
 
 export const Videos = () => (
   <Grid>
