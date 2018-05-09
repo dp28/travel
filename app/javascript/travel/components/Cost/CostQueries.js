@@ -53,40 +53,6 @@ export const AllDayCosts = `
   }
 `
 
-export const AverageDayCosts = `
-  fragment AverageDollarPrice on TotalExpense {
-    price: averagePricePerDay {
-      dollars: convertTo(code: "USD") {
-        amount
-      }
-    }
-  }
-
-  query {
-    averages: totalExpense {
-      ...AverageDollarPrice
-      food: withinCategory(category: "FOOD") {
-        ...AverageDollarPrice
-      }
-      accommodation: withinCategory(category: "ACCOMMODATION") {
-        ...AverageDollarPrice
-      }
-      activities: withinCategory(category: "ACTIVITIES") {
-        ...AverageDollarPrice
-      }
-      shortTravel: withinCategory(category: "SHORT_TRAVEL") {
-        ...AverageDollarPrice
-      }
-      longTravel: withinCategory(category: "LONG_DISTANCE_TRAVEL") {
-        ...AverageDollarPrice
-      }
-      other: withinCategory(category: "OTHER") {
-        ...AverageDollarPrice
-      }
-    }
-  }
-`
-
 export const SingleDayCosts = `
   ${DayCostFragment}
   ${LinkableDayFragment}

@@ -21,21 +21,20 @@ export function presentAllDayCosts({ days }) {
   }
 }
 
-export function presentSingleDayCosts(day) {
-  const maxIndividualCost = calculateMaxCostForSingleDay(day)
+export function presentGroupedCosts(groupedCosts) {
+  const maxIndividualCost = calculateMaxCostForGroupedCosts(groupedCosts)
   const scaleCostToPercent = cost => (100 * cost) / maxIndividualCost
-  const costs = presentCosts(day.totalExpense, scaleCostToPercent)
-  return { ...day, costs }
+  return presentCosts(groupedCosts, scaleCostToPercent)
 }
 
-function calculateMaxCostForSingleDay({ totalExpense }) {
+function calculateMaxCostForGroupedCosts(groupedCosts) {
   const costs = [
-    totalExpense.food,
-    totalExpense.accommodation,
-    totalExpense.activities,
-    totalExpense.shortTravel,
-    totalExpense.longTravel,
-    totalExpense.other
+    groupedCosts.food,
+    groupedCosts.accommodation,
+    groupedCosts.activities,
+    groupedCosts.shortTravel,
+    groupedCosts.longTravel,
+    groupedCosts.other
   ]
   return Math.max(...costs.map(toDollars))
 }
