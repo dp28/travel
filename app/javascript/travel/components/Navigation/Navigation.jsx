@@ -8,6 +8,7 @@ import './Navigation.sass'
 const Links = {
   '': 'Diary',
   about: 'About',
+  countries: 'Countries',
   gallery: 'Gallery',
   videos: 'Videos',
   food: 'Food'

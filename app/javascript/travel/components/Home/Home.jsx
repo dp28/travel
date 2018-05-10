@@ -39,9 +39,13 @@ export const Home = ({ firstDay, mostRecentDay }) => (
           &nbsp;
           <DayLink day={firstDay}>the start</DayLink>
           &nbsp;
-          or skip to
+          , skip to
           &nbsp;
-          <DayLink day={mostRecentDay}>the most recently added day</DayLink>.
+          <DayLink day={mostRecentDay}>the most recently added day</DayLink>
+          &nbsp;
+          or just look at an individual
+          &nbsp;
+          <Link to="/countries">country</Link>.
         </p>
         <div className="Rosie">
           <h2>From Rosie</h2>
