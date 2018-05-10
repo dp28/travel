@@ -1,2 +1,12 @@
 <%= stylesheet_pack_tag 'travel' %>
 <%= javascript_pack_tag 'travel' %>
+
+
+<script type="text/javascript">
+  window.onmessage = message => {
+    if (message === 'location') {
+      return location.url
+    }
+  }
+
+</script>

@@ -1,0 +1,138 @@
+<style>
+  html, body {
+    height: 100%;
+    overflow: hidden;
+  }
+
+  iframe {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: calc(100% - 50px);
+    border: none;
+  }
+
+  .versionSelector {
+    position: absolute;
+    bottom: 0;
+    height: 50px;
+    width: 100%;
+    background-color: #00838F;
+    color: white;
+    padding: 5px;
+    text-align: center;
+  }
+
+  .field {
+    margin-left: 20px;
+    display: inline-block;
+    text-align: center;
+  }
+
+  .label {
+    font-size: 0.9em
+    font-weight: normal;
+    display: block;
+  }
+
+  .value {
+    font-size: 1.2em;
+    font-weight: bold;
+  }
+
+  .button {
+    text-decoration: none;
+    color: white;
+    height: 100%;
+    padding: 10px;
+    cursor: pointer;
+  }
+
+  .button:hover {
+    text-decoration: none;
+    background: #00BCD4;
+    font-weight: bold;
+    color: black;
+  }
+
+  .button[disabled] {
+    background-color: #B2EBF2;
+    color: grey;
+    cursor: not-allowed;
+  }
+
+  #previous {
+    float: left;
+  }
+
+  #next {
+    float: right;
+  }
+</style>
+
+<div class="versionSelector">
+
+  <a class="button" id="previous">
+    <
+  </a>
+
+  <span class="field">
+    <span class="label">Release number: </span>
+    <span class="value" id="releaseNumber" ></span>
+  </span>
+
+  <span class="field">
+    <span class="label">Released on: </span>
+    <span class="value" id="releaseDate" ></span>
+  </span>
+
+  <a class="button" id="next">
+    >
+  </a>
+</div>
+
+<script type="text/javascript">
+  const Releases = <%== @json_releases %>;
+  const CurrentRelease = Releases[Releases.length - 1];
+
+  const ReleaseNumberElement = document.getElementById('releaseNumber');
+  const ReleaseDateElement = document.getElementById('releaseDate');
+  const PreviousButton = document.getElementById('previous');
+  const NextButton = document.getElementById('next');
+
+  function selectRelease(releaseNumber) {
+    const release = Releases.find(release => release.number == releaseNumber);
+
+    ReleaseNumberElement.innerHTML = release.number;
+    ReleaseDateElement.innerHTML = release.time;
+
+    if (release.number > 0) {
+      PreviousButton.removeAttribute('disabled');
+      PreviousButton.onclick = event => {
+        event.preventDefault();
+        selectRelease(release.number - 1);
+      }
+    } else {
+      PreviousButton.setAttribute('disabled', true);
+    }
+
+    if (release.number < CurrentRelease.number) {
+      NextButton.removeAttribute('disabled');
+      NextButton.onclick = event => {
+        event.preventDefault();
+        selectRelease(release.number + 1);
+      }
+    } else {
+      NextButton.setAttribute('disabled', true);
+    }
+
+    const app = document.getElementById('app');
+    if (app) {
+      app.src = `/versions/${release.version}`;
+    }
+  }
+
+  selectRelease(CurrentRelease.number);
+</script>
+
+<iframe id="app" src="/" />
