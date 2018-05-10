@@ -15,7 +15,20 @@ export const Countries = ({ countries }) => (
             <div key={country.name}>
               <h3>
                 <Link to={`/countries/${country.name}`}>
-                  {country.name}
+                  <span
+                    style={{
+                      display: 'inline-block',
+                      width: '50px',
+                      height: '50px',
+                      border: '1px solid #444',
+                      borderRadius: '100px',
+                      background: `url('/flags/${country.name}.svg') no-repeat center`,
+                      backgroundSize: '90px',
+                      verticalAlign: 'middle',
+                      marginRight: '5px'
+                    }}
+                  />
+                  <span style={{ verticalAlign: 'middle' }}>{country.name}</span>
                 </Link>
               </h3>
               {

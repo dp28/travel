@@ -29,7 +29,24 @@ export const Country = ({ country }) => {
     <Grid>
       <Row>
         <Col xs={12} sm={6}>
-          <h2>{country.name} ({country.days.length} days)</h2>
+          <h2>
+            <span
+              style={{
+                display: 'inline-block',
+                width: '50px',
+                height: '50px',
+                border: '1px solid #444',
+                borderRadius: '100px',
+                background: `url('/flags/${country.name}.svg') no-repeat center`,
+                backgroundSize: '90px',
+                verticalAlign: 'middle',
+                marginRight: '5px'
+              }}
+            />
+            <span style={{ verticalAlign: 'middle' }}>
+              {country.name} ({country.days.length} days)
+            </span>
+          </h2>
 
           <DayLink day={country.days[0]}>First Day</DayLink>
           &nbsp;-&nbsp;
