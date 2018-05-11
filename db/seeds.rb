@@ -253,6 +253,10 @@ AREAS = {
   Arequipa: Area.create!(
     name: 'Arequipa',
     country: COUNTRIES[:Peru]
+  ),
+  Cusco: Area.create!(
+    name: 'Cusco',
+    country: COUNTRIES[:Peru]
   )
 }.freeze
 
@@ -628,6 +632,13 @@ LOCATIONS = {
     latitude: -16.400837,
     longitude: -71.541574,
     area: AREAS[:Arequipa]
+  ),
+  Cusco: Location.create!(
+    type: Location::Type::ACCOMMODATION,
+    name: 'Barrio Inka',
+    latitude: -13.517419,
+    longitude: -71.986444,
+    area: AREAS[:Cusco]
   )
 }.freeze
 
