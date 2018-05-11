@@ -23,14 +23,8 @@
     text-align: center;
   }
 
-  .field {
-    margin-left: 20px;
-    display: inline-block;
-    text-align: center;
-  }
-
-  .label {
-    font-size: 0.9em
+  .field-label {
+    font-size: 0.9em;
     font-weight: normal;
     display: block;
   }
@@ -40,12 +34,16 @@
     font-weight: bold;
   }
 
-  .button {
+  .button, .button:visited {
     text-decoration: none;
     color: white;
     height: 100%;
     padding: 10px;
     cursor: pointer;
+  }
+
+  .button:focus {
+    text-decoration: none;
   }
 
   .button:hover {
@@ -61,6 +59,13 @@
     cursor: not-allowed;
   }
 
+  .field {
+    margin-left: 20px;
+    padding: 0;
+    display: inline-block;
+    text-align: center;
+  }
+
   #previous {
     float: left;
   }
@@ -68,27 +73,41 @@
   #next {
     float: right;
   }
+
+  #descriptionPopup {
+    position: absolute;
+    bottom: 75px;
+    width: 400px;
+    height: auto;
+    padding: 15px;
+    border: 1px solid #444;
+    z-index: 100;
+    background-color: white;
+    left: calc(50% - 200px);
+    box-shadow: 3px 3px 10px #444;
+  }
 </style>
 
 <div class="versionSelector">
 
-  <a class="button" id="previous">
+  <div class="button" id="previous">
     <
-  </a>
+  </div>
 
-  <span class="field">
-    <span class="label">Release number: </span>
+  <div class="field button" id="description">
+    <span class="field-label">Release number </span>
     <span class="value" id="releaseNumber" ></span>
-  </span>
+  </div>
 
-  <span class="field">
-    <span class="label">Released on: </span>
-    <span class="value" id="releaseDate" ></span>
-  </span>
-
-  <a class="button" id="next">
+  <div class="button" id="next">
     >
-  </a>
+  </div>
+
+</div>
+
+<div id="descriptionPopup" style="display: none;">
+  <div id="time"></div>
+  <div id="descriptionBody"></div>
 </div>
 
 <script type="text/javascript">
@@ -96,15 +115,24 @@
   const CurrentRelease = Releases[Releases.length - 1];
 
   const ReleaseNumberElement = document.getElementById('releaseNumber');
-  const ReleaseDateElement = document.getElementById('releaseDate');
   const PreviousButton = document.getElementById('previous');
   const NextButton = document.getElementById('next');
+  const DescriptionButton = document.getElementById('description');
+  const DescriptionPopup = document.getElementById('descriptionPopup');
+  const DescriptionBodyElement = document.getElementById('descriptionBody');
+  const ReleaseTimeElement = document.getElementById('time');
 
   function selectRelease(releaseNumber) {
     const release = Releases.find(release => release.number == releaseNumber);
 
+    ReleaseTimeElement.innerHTML = release.time;
+    DescriptionBodyElement.innerHTML = release.description;
     ReleaseNumberElement.innerHTML = release.number;
-    ReleaseDateElement.innerHTML = release.time;
+
+    DescriptionButton.onclick = event => {
+      event.preventDefault();
+      toggleDescription();
+    }
 
     if (release.number > 0) {
       PreviousButton.removeAttribute('disabled');
@@ -129,6 +157,14 @@
     const app = document.getElementById('app');
     if (app) {
       app.src = `/versions/${release.version}`;
+    }
+  }
+
+  function toggleDescription() {
+    if (DescriptionPopup.style.display === 'none') {
+      DescriptionPopup.style.display = 'block';
+    } else {
+      DescriptionPopup.style.display = 'none';
     }
   }
 

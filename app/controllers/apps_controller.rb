@@ -21,7 +21,7 @@ private
     releases.reverse.map.with_index do |release, index|
       {
         version: release.version,
-        time: release.time.to_s[0..9],
+        time: release.time.to_s[0..15],
         number: index + 1,
         description: render_markdown(release.description)
       }
