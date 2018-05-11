@@ -6,7 +6,6 @@ import { Link } from 'react-router-dom'
 import './Navigation.sass'
 
 const Links = {
-  '': 'Diary',
   about: 'About',
   countries: 'Countries',
   gallery: 'Gallery',
@@ -37,6 +36,9 @@ export const Navigation = () => (
           </IndexLinkContainer>
         ))
       }
+      <NavItem eventKey={Object.entries(Links).length} href="/history">
+        History
+      </NavItem>
     </Nav>
   </Navbar.Collapse>
 </Navbar>

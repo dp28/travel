@@ -5,6 +5,6 @@ import { Countries } from './Countries'
 
 describe('Countries', () => {
   it('should render', () => {
-    expect(() => shallow(<Countries countries={[]]} />)).not.toThrow()
+    expect(() => shallow(<Countries countries={[]} />)).not.toThrow()
   })
 })
