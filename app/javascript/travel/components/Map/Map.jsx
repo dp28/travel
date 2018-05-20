@@ -9,7 +9,7 @@ import './Map.sass'
 export const SELECTED_AREA_PARAM = 'area'
 
 const Area = ({ name, dayNumbers, selectedDayNumber, selected }) => {
-  const title = `${name} (${dayNumbers.length} days)`
+  const title = buildTitle(name, dayNumbers.length)
   if (selected) {
     return (
       <div className="Area selected">
@@ -140,3 +140,7 @@ function calculateMeanLocation(areas) {
   }
 }
 
+function buildTitle(name, numberOfDays) {
+  const days = numberOfDays === 1 ? '1 day' : `${numberOfDays} days`
+  return `${name} (${days})`
+}
