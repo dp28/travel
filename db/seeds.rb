@@ -257,6 +257,22 @@ AREAS = {
   Cusco: Area.create!(
     name: 'Cusco',
     country: COUNTRIES[:Peru]
+  ),
+  Soraypampa: Area.create!(
+    name: 'Soraypampa',
+    country: COUNTRIES[:Peru]
+  ),
+  Colcapampa: Area.create!(
+    name: 'Colcapampa',
+    country: COUNTRIES[:Peru]
+  ),
+  LaPlaya: Area.create!(
+    name: 'La Playa',
+    country: COUNTRIES[:Peru]
+  ),
+  MachuPicchu: Area.create!(
+    name: 'Machu Picchu',
+    country: COUNTRIES[:Peru]
   )
 }.freeze
 
@@ -639,6 +655,48 @@ LOCATIONS = {
     latitude: -13.517419,
     longitude: -71.986444,
     area: AREAS[:Cusco]
+  ),
+  CuscoSecond: Location.create!(
+    type: Location::Type::ACCOMMODATION,
+    name: 'Hostal 512391',
+    latitude: -13.517419,
+    longitude: -71.983813,
+    area: AREAS[:Cusco]
+  ),
+  Soraypampa: Location.create!(
+    type: Location::Type::ACCOMMODATION,
+    name: 'Soraypampa',
+    latitude: -13.391586,
+    longitude: -72.574476,
+    area: AREAS[:Soraypampa]
+  ),
+  Colcapampa: Location.create!(
+    type: Location::Type::ACCOMMODATION,
+    name: 'Colcapampa',
+    latitude: -13.31823,
+    longitude: -72.669405,
+    area: AREAS[:Colcapampa]
+  ),
+  LaPlaya: Location.create!(
+    type: Location::Type::ACCOMMODATION,
+    name: 'La Playa',
+    latitude: -13.233895,
+    longitude: -72.632143,
+    area: AREAS[:LaPlaya]
+  ),
+  MachuPicchu: Location.create!(
+    type: Location::Type::ACCOMMODATION,
+    name: 'Machu Picchu',
+    latitude: -13.154377,
+    longitude: -72.527057,
+    area: AREAS[:MachuPicchu]
+  ),
+  MachuPicchuSecond: Location.create!(
+    type: Location::Type::ACCOMMODATION,
+    name: 'Sol de Oro Hostel',
+    latitude: -13.156156,
+    longitude: -72.523039,
+    area: AREAS[:MachuPicchu]
   )
 }.freeze
 
