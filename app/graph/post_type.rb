@@ -7,7 +7,7 @@ module MarkdownRenderer
   def self.engine
     @engine ||= begin
       renderer = Redcarpet::Render::HTML.new
-      Redcarpet::Markdown.new renderer
+      Redcarpet::Markdown.new renderer, strikethrough: true
     end
   end
 
