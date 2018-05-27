@@ -273,6 +273,18 @@ AREAS = {
   MachuPicchu: Area.create!(
     name: 'Machu Picchu',
     country: COUNTRIES[:Peru]
+  ),
+  Nazca: Area.create!(
+    name: 'Nazca',
+    country: COUNTRIES[:Peru]
+  ),
+  Lima: Area.create!(
+    name: 'Lima',
+    country: COUNTRIES[:Peru]
+  ),
+  Huaraz: Area.create!(
+    name: 'Huaraz',
+    country: COUNTRIES[:Peru]
   )
 }.freeze
 
@@ -697,6 +709,27 @@ LOCATIONS = {
     latitude: -13.156156,
     longitude: -72.523039,
     area: AREAS[:MachuPicchu]
+  ),
+  Nazca: Location.create!(
+    type: Location::Type::ACCOMMODATION,
+    name: 'Cruz del Sur bus station',
+    latitude: -14.828343,
+    longitude: -74.942874,
+    area: AREAS[:Nazca]
+  ),
+  Lima: Location.create!(
+    type: Location::Type::ACCOMMODATION,
+    name: 'Zig Zag Hostel',
+    latitude: -12.110665,
+    longitude: -77.031785,
+    area: AREAS[:Lima]
+  ),
+  Huaraz: Location.create!(
+    type: Location::Type::ACCOMMODATION,
+    name: 'Alojamiento Huaraz',
+    latitude: -9.5276,
+    longitude: -77.522557,
+    area: AREAS[:Huaraz]
   )
 }.freeze
 
