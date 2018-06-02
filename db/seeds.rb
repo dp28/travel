@@ -285,6 +285,18 @@ AREAS = {
   Huaraz: Area.create!(
     name: 'Huaraz',
     country: COUNTRIES[:Peru]
+  ),
+  Huaripampa: Area.create!(
+    name: 'Huaripampa',
+    country: COUNTRIES[:Peru]
+  ),
+  Taullipampa: Area.create!(
+    name: 'Taullipampa',
+    country: COUNTRIES[:Peru]
+  ),
+  Llamacorral: Area.create!(
+    name: 'Llamacorral',
+    country: COUNTRIES[:Peru]
   )
 }.freeze
 
@@ -730,6 +742,27 @@ LOCATIONS = {
     latitude: -9.5276,
     longitude: -77.522557,
     area: AREAS[:Huaraz]
+  ),
+  Huaripampa: Location.create!(
+    type: Location::Type::ACCOMMODATION,
+    name: 'Huaripampa',
+    latitude: -8.99162,
+    longitude: -77.544384,
+    area: AREAS[:Huaripampa]
+  ),
+  Taullipampa: Location.create!(
+    type: Location::Type::ACCOMMODATION,
+    name: 'Taullipampa',
+    latitude: -8.918329,
+    longitude: -77.60483,
+    area: AREAS[:Taullipampa]
+  ),
+  Llamacorral: Location.create!(
+    type: Location::Type::ACCOMMODATION,
+    name: 'Llamacorral',
+    latitude: -8.945963,
+    longitude: -77.701644,
+    area: AREAS[:Llamacorral]
   )
 }.freeze
 

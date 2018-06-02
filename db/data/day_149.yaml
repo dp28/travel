@@ -1,0 +1,40 @@
+---
+:date: '2018-06-01'
+:number: 149
+:written: 2018-06-02 FILL_THIS_IN
+:locations:
+- :HuarazSecond
+- :LimaSecond
+:accommodation: :LimaSecond
+:expenses:
+  :FOOD:
+    :doritos:
+      :soles: 7.5
+    :dinner:
+      :soles: 104
+    :kroughnuts:
+      :soles: 17
+  :ACCOMMODATION:
+    soles: 53
+  :LONG_DISTANCE_TRAVEL:
+    :bus:
+      soles: 184
+  :SHORT_TRAVEL:
+    :taxi:
+      :soles: 25
+  :ACTIVITIES: {}
+  :OTHER: {}
+:stats:
+  :walked: FILL_THIS_IN
+  :temperature: 20
+  :altitude: 3000
+:food:
+- cereal, yoghurt, tea
+- ham and cheese sandwich, orange, sweets, chocolate bar
+- corn, chicken, beans, potatoes
+- pizza, caprese salad, balsamic reduction, garlic bread, red wine
+:photos:
+- :caption: ''
+  :url: ''
+:entry: |2
+  FILL_THIS_IN

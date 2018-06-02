@@ -1,0 +1,40 @@
+---
+:date: '2018-05-28'
+:number: 145
+:written: 2018-06-02 FILL_THIS_IN
+:locations:
+- :HuarazSecond
+- :Huaripampa
+:accommodation: :Huaripampa
+:expenses:
+  :FOOD:
+    :breakfast:
+      :soles: 21
+  :ACCOMMODATION: {}
+  :LONG_DISTANCE_TRAVEL: {}
+  :SHORT_TRAVEL: {}
+  :ACTIVITIES:
+    :santa_cruz_trek:
+      :dollars: 120
+  :OTHER:
+    :sleeping_bag:
+      :soles: 40
+:stats:
+  :walked: FILL_THIS_IN
+  :temperature: 20
+  :altitude: 3800
+:food:
+- Tea,coca tea, banana, sausage sandwich, egg sandwich, bread, dulce de leche
+- Sweets, chocolate bar, biscuits, pear
+- Rice, avocado, coca tea, chilli sauce
+- Lemon tea, hot chocolate, popcorn
+- Veg soup, trout, rice, cucumber, tomatoes, rice, lettuce, cake
+:photos:
+- :caption: ''
+  :url: ''
+:entry: |2
+  Up at 5
+  Bus,bfast same as yesterday, bus
+  Start walk 
+  Brilliant svenery, slow 
+  President, dinner, sleep

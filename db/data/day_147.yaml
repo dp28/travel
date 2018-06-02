@@ -1,0 +1,34 @@
+---
+:date: '2018-05-30'
+:number: 147
+:written: 2018-06-02 FILL_THIS_IN
+:locations:
+- :Taullipampa
+- :Llamacorral
+:accommodation: :Llamacorral
+:expenses:
+  :FOOD: {}
+  :ACCOMMODATION: {}
+  :LONG_DISTANCE_TRAVEL: {}
+  :SHORT_TRAVEL: {}
+  :ACTIVITIES:
+    :santa_cruz_trek:
+      :dollars: 120
+  :OTHER:
+    :sleeping_bag:
+      :soles: 40
+:stats:
+  :walked: FILL_THIS_IN
+  :temperature: 20
+  :altitude: 4250
+:food:
+- Pancakes, tea, jam, dulce de leche, coca tea
+- Apple, chocolate bar, sweets, oreos
+- Chocolate raisins, granola bar, chocolate bar
+- causa, coca tea
+- pizza, veg soup with egg, spaghetti bolognese, hot wine
+:photos:
+- :caption: ''
+  :url: ''
+:entry: |2
+  FILL_THIS_IN

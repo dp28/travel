@@ -1,0 +1,37 @@
+---
+:date: '2018-05-29'
+:number: 146
+:written: 2018-06-02 FILL_THIS_IN
+:locations:
+- :Huaripampa
+- :Taullipampa
+:accommodation: :Taullipampa
+:expenses:
+  :FOOD: {}
+  :ACCOMMODATION: {}
+  :LONG_DISTANCE_TRAVEL: {}
+  :SHORT_TRAVEL: {}
+  :ACTIVITIES:
+    :santa_cruz_trek:
+      :dollars: 120
+  :OTHER:
+    :sleeping_bag:
+      :soles: 40
+:stats:
+  :walked: FILL_THIS_IN
+  :temperature: 20
+  :altitude: 4650
+:food:
+- Coca tea, Porridge, omelette, bread, tea
+- Granadilla, chocolate bar, sweets, cheese crackers
+- Stuffed pepper, potato, coca tea
+- Wantons, hot chocolate, guacamole, sweet popcorn, rice, chicken, ham, carrots,
+  jelly
+:photos:
+- :caption: ''
+  :url: ''
+:entry: |2
+  Up at 6
+  Walk to pass, slow, sprained ankle
+  Little rain, snow, walk down
+  Tea time, president, beanie, cold, sleep
