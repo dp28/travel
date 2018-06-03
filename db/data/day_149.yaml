@@ -15,10 +15,10 @@
     :kroughnuts:
       :soles: 17
   :ACCOMMODATION:
-    soles: 53
+    :soles: 53
   :LONG_DISTANCE_TRAVEL:
     :bus:
-      soles: 184
+      :soles: 184
   :SHORT_TRAVEL:
     :taxi:
       :soles: 25

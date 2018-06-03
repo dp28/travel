@@ -736,11 +736,25 @@ LOCATIONS = {
     longitude: -77.031785,
     area: AREAS[:Lima]
   ),
+  LimaSecond: Location.create!(
+    type: Location::Type::ACCOMMODATION,
+    name: 'Casa Hualpa Hostel',
+    latitude: -12.11713,
+    longitude: -77.034785,
+    area: AREAS[:Lima]
+  ),
   Huaraz: Location.create!(
     type: Location::Type::ACCOMMODATION,
     name: 'Alojamiento Huaraz',
     latitude: -9.5276,
     longitude: -77.522557,
+    area: AREAS[:Huaraz]
+  ),
+  HuarazSecond: Location.create!(
+    type: Location::Type::ACCOMMODATION,
+    name: 'Casa de Ana',
+    latitude: -9.518276,
+    longitude: -77.531617,
     area: AREAS[:Huaraz]
   ),
   Paria: Location.create!(

@@ -23,7 +23,7 @@
       :soles: 80
   :OTHER: {}
 :stats:
-  :walked: FILL_THIS_IN
+  :walked: 13
   :temperature: 20
   :altitude: 4600
 :food:
