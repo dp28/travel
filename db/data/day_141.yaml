@@ -41,18 +41,27 @@
 :photos:
 - :caption: Tiny Plane
   :url: https://lh3.googleusercontent.com/L5fE-kmHqo5851yc0pBMuSggOtbFqlP8_2Df0nBW1t40XEcqEbhfzG4yU0zvRlKM4eZ7eQU9TpZh8wGvcki7L79OWew-5C5HkAACqiH4ZYnSPI9H_aCLi6Z3SvyWab3MkBm26jsA5V4=w2400
+  :width: 2400
+  :height: 1803
 - :caption: We were pretty excited, and slightly delirious
   :url: https://lh3.googleusercontent.com/fRRTM6LZf4k5GLsD0Uy0bphL0UuEx8t5Sx90R-o9HhGIgUzYOwsLKDvEZVTHLJ0U4CJ61dIAbSUBNUP3Ie_ZKfnnURWWOynZzsCeCBGNpKvSIG6pSpVrnCCcnCWGOH3aBwYiVJ42Tyo=w2400
+  :width: 2400
+  :height: 1803
 - :caption: The monkey!
   :favourite: true
   :url: https://lh3.googleusercontent.com/O96GOqlVPoOxioUt0BxvTMmJzQ2aAOblez2sRfUxSOoSYA8I6yeXjGQiBxeYxUVMwL2NTc5OsA9-kXIvy0JqryiZi3IatN5U91XHCLBEaeJyUkTan0vp6Pi_OtK6_5Ay8SrcOEECo14=w2400
+  :width: 2400
+  :height: 1350
 - :caption: The hummingbird is my favourite
   :favourite: true
   :url: https://lh3.googleusercontent.com/J3R5J2nbmsdf1B_nKkpaePilkA3M1R9wC9j8wKN6UjAfdQt2DYOkWY1K65EVZnnSiL_OxVhI8NFchx8iIHt2hed98vMDTDlmOoWMYSwqGnOt9K82IdLu91RTH5AhksCQplsn0BJZpxY=w2400
+  :width: 2400
+  :height: 1800
 - :caption: I think this one was called the condor
   :url: https://lh3.googleusercontent.com/xF_ip15B4iTcuaFct68sHk3cGwq5m5cdHLKBPAPmr4CDTAApR1gQncvFCGIgWP3aK9vliQ7ht4PhBGeL01HgDKQmO7iLTK7XBawGqwboZW6Ww4HorQ0WjKFOWxwMn2Lcp4EbzzKTJPc=w2400
-
-:entry: |2
+  :width: 2400
+  :height: 1800
+:entry: |
   The vast majority of today was spent on buses. I'm currently pretty much over
   long distance bus travel, but it's the easiest way to see quite a bit of South
   America ...

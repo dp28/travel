@@ -15,7 +15,7 @@
   :ACCOMMODATION: {}
   :LONG_DISTANCE_TRAVEL:
     :bus:
-      :pounds: 63.30
+      :pounds: 63.3
   :SHORT_TRAVEL:
     :taxi:
       :soles: 10
@@ -34,17 +34,22 @@
 :food:
 - Tea, chocolate danish, banana
 - Chocolate, chocolate tea, hot chocolate 
-- Passionfruit pisco sours, tiradito, quinoa crusted alpaca steak, potatoes,
-  chimmichurri, red wine reduction, goldenberry, quinoa creme brulee
+- Passionfruit pisco sours, tiradito, quinoa crusted alpaca steak, potatoes, chimmichurri,
+  red wine reduction, goldenberry, quinoa creme brulee
 :photos:
 - :caption: I think it looked pretty good, tasted better
   :url: https://lh3.googleusercontent.com/CPftxoEPUBh3Qtcawz-86U8lKVnk9FqpbMrQ-izyz6xgcdnkmklvEmbPfO368QqeGWMg1zLXwD_9o-mhx1mLMYhkihx0n73lKOPs0BSlL7SJV0JhK9k_R6qlPXfh15Pg_i0LICnfoUs=w2400
+  :width: 2400
+  :height: 1800
 - :caption: Main course
   :url: https://lh3.googleusercontent.com/34PGMhHTjw-mnHdIVnO2mS_8t-4vSAXvyFWlHdt8KMm5A-Xlfew266GB3Nwh0d6fs9_MK4iscTLK3jaL8eX5ux6iX2mM-ZCIephHL6nWTiDZRQATKMzWruU9FULnsGtKQKr7Q21rUgc=w2400
+  :width: 2400
+  :height: 3200
 - :caption: Pudding
   :url: https://lh3.googleusercontent.com/T5rKdFiKNICXVF1XpuDasjN0MkyVDWWm2DAd0n88fPFY7wslJfRo7AABjP5OFY8JyzRriqLytO4xF0hajJFH9eUZw2gBQbRARN2bzpHvT8eHR1teU3QCQRip39PRAS0Y0AP6D-O7mPs=w2400
-
-:entry: |2
+  :width: 2400
+  :height: 3200
+:entry: |
   We left Cusco today, but didn't quite realise that our hotel's checkout time
   was 9am ... they seemed us ok with actually checking out at 10am, though.
 
