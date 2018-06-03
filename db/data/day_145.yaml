@@ -4,8 +4,8 @@
 :written: 2018-06-02 16:30
 :locations:
 - :HuarazSecond
-- :Huaripampa
-:accommodation: :Huaripampa
+- :Paria
+:accommodation: :Paria
 :expenses:
   :FOOD:
     :breakfast:
@@ -20,7 +20,7 @@
     :sleeping_bag:
       :soles: 40
 :stats:
-  :walked: FILL_THIS_IN
+  :walked: 6.5
   :temperature: 20
   :altitude: 3800
 :food:

@@ -286,8 +286,8 @@ AREAS = {
     name: 'Huaraz',
     country: COUNTRIES[:Peru]
   ),
-  Huaripampa: Area.create!(
-    name: 'Huaripampa',
+  Paria: Area.create!(
+    name: 'Paria',
     country: COUNTRIES[:Peru]
   ),
   Taullipampa: Area.create!(
@@ -743,12 +743,12 @@ LOCATIONS = {
     longitude: -77.522557,
     area: AREAS[:Huaraz]
   ),
-  Huaripampa: Location.create!(
+  Paria: Location.create!(
     type: Location::Type::ACCOMMODATION,
-    name: 'Huaripampa',
-    latitude: -8.99162,
-    longitude: -77.544384,
-    area: AREAS[:Huaripampa]
+    name: 'Paria',
+    latitude: -8.951421,
+    longitude: -77.562607,
+    area: AREAS[:Paria]
   ),
   Taullipampa: Location.create!(
     type: Location::Type::ACCOMMODATION,
