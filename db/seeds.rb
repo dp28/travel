@@ -77,6 +77,14 @@ COUNTRIES = {
   Peru: Country.create!(
     name: 'Peru',
     currency_code: Currency::PEN.code
+  ),
+  Ecuador: Country.create!(
+    name: 'Ecuador',
+    currency_code: Currency::USD.code
+  ),
+  USA: Country.create!(
+    name: 'USA',
+    currency_code: Currency::USD.code
   )
 }.freeze
 
@@ -297,6 +305,18 @@ AREAS = {
   Llamacorral: Area.create!(
     name: 'Llamacorral',
     country: COUNTRIES[:Peru]
+  ),
+  Mindo: Area.create!(
+    name: 'Mindo',
+    country: COUNTRIES[:Ecuador]
+  ),
+  Quito: Area.create!(
+    name: 'Quito',
+    country: COUNTRIES[:Ecuador]
+  ),
+  DelMar: Area.create!(
+    name: 'Del Mar',
+    country: COUNTRIES[:USA]
   )
 }.freeze
 
@@ -777,6 +797,27 @@ LOCATIONS = {
     latitude: -8.945963,
     longitude: -77.701644,
     area: AREAS[:Llamacorral]
+  ),
+  Mindo: Location.create!(
+    type: Location::Type::ACCOMMODATION,
+    name: 'La Bicok EcoLodge',
+    latitude: -0.049639,
+    longitude: -78.77403,
+    area: AREAS[:Mindo]
+  ),
+  Quito: Location.create!(
+    type: Location::Type::ACCOMMODATION,
+    name: 'La Rosario',
+    latitude: -0.216946,
+    longitude: -78.502995,
+    area: AREAS[:Quito]
+  ),
+  DelMar: Location.create!(
+    type: Location::Type::ACCOMMODATION,
+    name: 'Rosie\'s parents\' house',
+    latitude: 32.938499,
+    longitude: -117.261958,
+    area: AREAS[:DelMar]
   )
 }.freeze
 
