@@ -4,12 +4,9 @@ class GraphqlController < ApplicationController
 
   def resolve
     query_variables = params[:variables] || {}
-    result = Schema.execute(
-      params[:query],
-      variables: query_variables,
-      context: {}
-    )
-    render json: result
+    uri = URI('http://www.rndtravels.com/graphql')
+    res = Net::HTTP.post(uri, params.to_json, "Content-Type" => "application/json")
+    render json: JSON.parse(res.body)
   end
 
 end
