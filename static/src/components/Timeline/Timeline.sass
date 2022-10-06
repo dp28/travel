@@ -1,0 +1,44 @@
+@import '../../styles/colours'
+
+.Timeline
+  width: 100%
+  height: 50px
+  font-family: 'Handlee', cursive
+  font-size: 1em
+  position: relative
+  overflow-x: auto
+  text-align: center
+
+  .Timeline--point
+
+    a
+      cursor: pointer
+      position: relative
+      width: 30px
+      height: 25px
+      background: $primary-colour
+      color: $primary-colour-text
+      border-right: 1px solid white
+      display: inline-block
+      text-align: center
+      text-decoration: none
+
+      &:hover
+        background-color: $primary-colour-dark
+        color: $primary-colour-dark-text
+
+      &[disabled]
+        background: $primary-colour-faded
+        color: $primary-colour-faded-text
+        cursor: initial
+
+        &:hover
+          background: $primary-colour-faded
+          color: $primary-colour-faded-text
+
+    &.selected
+      a
+        background-color: $primary-colour-dark
+        color: $primary-colour-dark-text
+
+

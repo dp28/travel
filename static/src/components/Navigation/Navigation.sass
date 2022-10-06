@@ -1,0 +1,42 @@
+@import '../../styles/colours'
+
+.navbar, .navbar-inverse
+  background-color: $primary-colour-dark
+  color: $primary-colour-dark-text
+  border: none
+  border-radius: 0
+
+  .navbar-brand, .navbar-nav > li > a
+    color: $primary-colour-dark-text
+
+    &:hover
+      background-color: $primary-colour
+      color: $primary-colour-text
+
+  .navbar-nav > .active > a
+    background-color: $primary-colour
+    color: $primary-colour-text
+
+    &:focus, &:hover
+      background-color: $primary-colour
+      color: $primary-colour-text
+
+  .navbar-collapse
+    border-color: $primary-colour
+
+  .navbar-toggle
+    border-color: $primary-colour
+    background-color: $primary-colour
+
+    &:focus
+      background-color: $primary-colour
+
+    &.collapsed
+      background-color: $primary-colour-dark
+
+      &:hover
+        background-color: $primary-colour
+
+
+
+
